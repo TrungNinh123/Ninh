@@ -15,7 +15,7 @@
 | **AI điền sẵn từ Google Maps** (tên, địa chỉ, giờ, sao, SĐT) | Có | Có | Có | Có |
 | **Ảnh lookbook** (AI tự cắt khung, chỉnh sáng khi tải lên, không đổi màu móng) | 12 | 12 | 24 | 24, đội chọn |
 | **Bộ sưu tập 8 dịp** (ảnh mẫu Nailmark) | Không | Có | Có | Có, ưu tiên ảnh thật |
-| **Bảng giá** (anh Ninh duyệt 25/11: cả 3 gói) | AI đọc từ ảnh, tiệm kiểm lại | AI đọc từ ảnh, tiệm kiểm lại | AI đọc từ ảnh, tiệm kiểm lại | Đội nhập |
+| **Bảng giá** (anh Ninh duyệt 25/11: AI đọc ảnh cho cả 3 gói) | Gõ theo mẫu. AI đọc ảnh: **sắp có** (chờ Kyma) | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Đội nhập |
 | **Đặt lịch Zalo + QR quầy** | Có | Có | Có | Có |
 | **Mô tả Google Maps** | Mẫu điền chỗ trống | AI viết sẵn, tiệm tự dán | AI viết sẵn, tiệm tự dán | Đội cập nhật (tiệm cấp quyền) |
 | **Mẫu trả lời đánh giá** | 3 | 10 | 10 | 10 |

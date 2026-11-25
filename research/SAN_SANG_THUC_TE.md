@@ -24,7 +24,10 @@
 | Bộ sưu tập 8 dịp | **Chạy được** (ảnh mẫu Nailmark) | Ảnh ghép bằng `anh_tang_khach.py` từ ảnh Pexels. Chưa dùng ảnh thật của tiệm |
 | Bộ Tết 2027 (nội dung, lịch 10 tuần, tin Zalo) | **Chạy được** (nội dung) | Artifact bộ Tết. Tiệm phải tự đăng |
 | Ảnh quà tặng AI cho khách | **Làm tay được** | `anh_tang_khach.py` chạy bằng lệnh. Chất lượng chưa đều (từng bị mờ viền tay; có cơ chế dự phòng). Cần khách đồng ý |
-| 4 video hướng dẫn tạo web, 8 video vận hành | **Chưa có** | Mới có kịch bản. Chưa quay, chưa thử giọng đọc tiếng Việt |
+| Video hướng dẫn | **Một phần** (25/11) | Đã có 1 video tổng 4 bước (30 giây, quay từ app thật, có chú thích, chưa có giọng đọc). Video từng bước và 8 video vận hành: mới có kịch bản |
+| 4 công cụ quà miễn phí trên trình duyệt (QR, poster Tết, bảng giá, chỉnh ảnh) | **Chạy được** (25/11) | `nailmark/cong-cu.html`; QR đã quét thử |
+| Kiểm tra chất lượng web tự động | **Chạy được** (25/11) | `scripts/kiem_tra_web.py`, 8 mục |
+| Đếm lượt bấm đặt lịch | **Chưa có** | Cần hosting để gắn bộ đếm |
 | Trợ lý AI 24/7 trên Zalo | **Chưa có** | Có bộ câu trả lời mẫu. Cần Zalo OA và Kyma key |
 | Zalo tự nhắc ngày 1, 3, 7 | **Chưa có** | Cần Zalo OA |
 | Hỏi đáp trực tuyến 1 buổi/tuần | **Chưa có** | Cần người chủ trì và chốt giờ (đề xuất Thứ Hai 21:15) |

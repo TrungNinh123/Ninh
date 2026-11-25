@@ -8,7 +8,7 @@
 1. **Điều kiện để đăng:** ô "Dán link Google Maps → nhận quà" phải chạy thật trên trang Nailmark trước ngày đăng bài 1. Nếu chưa chạy, **dời cả chuỗi**, không đăng CTA dẫn vào trang chưa có.
 2. **Không hứa số khách, doanh thu, thứ hạng Google.** Chỉ hứa những gì đo được (lượt bấm đặt lịch).
 3. **Sản phẩm đang chạy thử, sắp mở đăng ký.** Mọi bài nói về gói và giá ghi "giá ra mắt" và "khi mở đăng ký". Không bài nào kêu chuyển khoản. Không có nút "Mua ngay".
-4. **Chỉ nói tính năng đã chạy.** Đã chạy: lấy thông tin từ Google Maps, web mẫu mang tên tiệm, poster Tết có QR Zalo, thẻ QR A6 (đã quét thử), video 12 giây, chỉnh sáng ảnh giữ màu móng, app 4 bước (trên máy chạy thử). **Chưa có:** hosting công khai, đăng nhập, thanh toán, AI đọc bảng giá từ ảnh, video hướng dẫn (mới có kịch bản), trợ lý AI trên Zalo, Zalo OA, buổi hỏi đáp hằng tuần, nhắc lịch, nhận cọc, báo cáo lịch hẹn, tên miền tự gắn.
+4. **Chỉ nói tính năng đã chạy.** Đã chạy: lấy thông tin từ Google Maps, web mẫu mang tên tiệm, poster Tết có QR Zalo, thẻ QR A6 (đã quét thử), video 12 giây, chỉnh sáng ảnh giữ màu móng, app 4 bước (trên máy chạy thử). **Chưa có:** hosting công khai, đăng nhập, thanh toán, AI đọc bảng giá từ ảnh, bộ video hướng dẫn đầy đủ (mới có 1 video tổng quan 4 bước quay từ app thật; các video từng bước mới có kịch bản), trợ lý AI trên Zalo, Zalo OA, buổi hỏi đáp hằng tuần, nhắc lịch, nhận cọc, báo cáo lịch hẹn, tên miền tự gắn.
 5. **Số liệu luôn ghi nhãn:** **[VN]** là số Việt Nam (gồm dữ liệu Nailmark tự quét), **[Nước ngoài]** ghi rõ nước và nguồn. Số của nhà bán phần mềm (Phorest, Fresha, Boulevard…) không được nói như số Việt Nam.
 6. **Quà ghi rõ:** ảnh móng trong quà là **ảnh minh hoạ**, chưa phải ảnh của tiệm. Web mẫu chỉ gửi riêng cho chủ tiệm, không đăng công khai.
 7. **Kênh:** Facebook (trang Nailmark), TikTok, Zalo. **Zalo OA của Nailmark chưa có**: bài kênh Zalo đăng ở nhật ký Zalo của tài khoản Nailmark cho đến khi có OA. Đăng vào **nhóm chủ tiệm nail** chỉ khi anh Ninh duyệt từng nhóm và đọc nội quy nhóm.
@@ -261,7 +261,7 @@
   >
   > **Chưa có:**
   > – Thanh toán, đăng nhập, chỗ đăng web công khai.
-  > – Video hướng dẫn (mới có kịch bản).
+  > – Bộ video hướng dẫn từng bước (mới có 1 video tổng quan 4 bước).
   > – Trợ lý AI trên Zalo, nhắc lịch, nhận cọc.
   > – AI đọc bảng giá từ ảnh chụp.
   >
@@ -487,7 +487,7 @@
   >
   > Điều Nailmark làm được:
   > – Làm đúng phạm vi đã ghi.
-  > – Đo số lượt khách bấm đặt lịch trên web.
+  > – Đo số lượt khách bấm đặt lịch trên web (phần đếm này đang được gắn, chưa chạy).
   > – Báo số đó cho tiệm, để chị tự đánh giá.
   >
   > Khi có tiệm đồng ý chia sẻ, Nailmark sẽ công bố số trước và sau, kể cả khi số không đẹp.
