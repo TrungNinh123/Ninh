@@ -44,7 +44,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
   8. Tự làm bộ sưu tập cho mùa lễ.
 
   Câu hỏi ngoài video: trợ lý AI trả lời. Không có người hỗ trợ.
-- **Sửa ngoài gói** (Chuẩn và Đẳng cấp): 200.000 đ/lần.
+- **Sửa ngoài gói:** tiệm tự sửa theo video. Muốn có người làm hộ thì dùng gói Làm hộ, từ 5 triệu.
 - **Lên mức cao hơn:** chỉ trả phần chênh lệch.
 
 ### 2b. Gói bán thêm
@@ -61,19 +61,18 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 - Mức Khởi đầu giữ những tiệm nhỏ, ít tiền vẫn ở lại trong phễu thay vì bỏ đi.
 - Cả 3 mức đều tự thanh toán và tự bàn giao. Anh Ninh không phải bán đơn nào.
 
-### 2c. Nguyên tắc: muốn có web hoàn chỉnh thì chỉ có hai đường
-1. **Chuyển giao (tự làm).** Nailmark trao video hướng dẫn chi tiết, mẫu và công cụ AI. Tiệm tự hoàn thiện, không có nhân sự hỗ trợ. Đây là gói Khởi đầu.
-2. **Trả nhiều tiền hơn (làm trọn).** Nailmark làm toàn bộ. Đây là các gói Chuẩn, Đẳng cấp và Đồng hành AI.
+### 2c. Nguyên tắc: có nội dung hỗ trợ, nhưng làm hộ phải từ 5 triệu (anh Ninh chốt 25/11/2026)
+- **Mọi gói đều có nội dung hỗ trợ:** video hướng dẫn chi tiết, mẫu dùng sẵn, trợ lý AI trả lời câu hỏi.
+- **Gói 999k, 1,99 triệu, 2,99 triệu:** AI dựng web, AI sửa qua form, tiệm tự hoàn thiện theo video. **Không có người làm hộ.**
+- **Làm hộ trọn gói (có người làm): từ 5.000.000 đ (≈ $192).** Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
+  - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền, tối ưu Google Maps, chỉnh sửa trong 30 ngày.
+  - Phạm vi cụ thể chờ anh duyệt.
+- **Đồng hành AI (2,49 triệu/tháng):** trả trước theo quý là 7,47 triệu, nên mỗi lần thu vẫn trên ngưỡng 5 triệu.
+- **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì gói làm hộ từ 5 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
 
-**Không có đường thứ ba** kiểu trả giá thấp mà vẫn được người làm hộ. Mọi yêu cầu nằm ngoài gói đều được trả lời bằng một trong hai lựa chọn trên. Trợ lý AI và trang bán hàng ghi sẵn câu trả lời này.
-
-**Đề xuất thêm, chờ anh duyệt: gói Chuyển giao cho nhân viên.** Khoảng 4.990.000 đ (≈ $192) một lần. Gồm:
-- Khoá video để một nhân viên của tiệm tự làm nội dung hằng tháng: ảnh, bài đăng, trả lời đánh giá, bộ sưu tập theo mùa.
-- Bộ mẫu và câu lệnh AI dùng sẵn.
-- Bài kiểm tra do AI chấm.
-- Đạt yêu cầu thì tiệm được dùng dấu "Đạt chuẩn Nailmark".
-
-Gói này vẫn không có người hỗ trợ trực tiếp. Gói dành cho tiệm muốn tự chủ, thay vì trả Đồng hành AI hằng tháng.
+**Đề xuất thêm, chờ anh duyệt: gói Chuyển giao cho nhân viên, khoảng 4.990.000 đ.**
+- Gồm: khoá video cho một nhân viên của tiệm, bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm, dấu "Đạt chuẩn Nailmark".
+- Đây là đào tạo, không phải làm hộ. Nếu anh muốn giữ đúng ngưỡng 5 triệu thì đặt giá 5.000.000 đ.
 
 ## 3. Phễu 6 bước (tự động từ đầu đến cuối)
 1. **Thu hút.**
