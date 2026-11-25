@@ -60,6 +60,19 @@ a{color:var(--accent)}
 .facts div{padding:18px;font-size:13px;color:#f1d9c8;border-left:1px solid rgba(245,238,227,.18)}.facts div:first-child{border-left:0}
 .facts b{display:block;font-family:"Noto Serif Display",serif;font-size:clamp(28px,3.2vw,40px);color:var(--trung);line-height:1.1}
 
+/* bộ sưu tập theo dịp */
+.bst{background:radial-gradient(90% 80% at 20% 30%,#2a1a16,var(--den));color:var(--trung)}
+.bgrid{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:56px;align-items:center}
+.bview{position:relative;max-width:460px;width:100%;justify-self:center}
+.bview img{width:100%;height:auto;aspect-ratio:4/5;object-fit:cover;border-radius:22px;box-shadow:0 40px 70px rgba(0,0,0,.5);transition:opacity .45s,transform .45s}
+.bview img.fade{opacity:0;transform:scale(.97)}
+.btag{position:absolute;left:-14px;top:24px;background:var(--vang);color:var(--den);font-weight:700;padding:8px 16px;border-radius:999px;box-shadow:0 10px 20px rgba(0,0,0,.35)}
+.blist{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:26px}
+.blist button{display:flex;gap:12px;align-items:center;text-align:left;font:inherit;color:var(--trung);background:rgba(255,255,255,.04);border:1px solid rgba(233,201,119,.22);border-radius:16px;padding:10px 12px;cursor:pointer;transition:all .25s}
+.blist button:hover{border-color:var(--vang);transform:translateY(-2px)}
+.blist button[aria-pressed=true]{background:rgba(201,161,74,.16);border-color:var(--vang2)}
+.blist img{width:46px;height:58px;object-fit:cover;border-radius:12px 12px 6px 6px;flex:none}
+.blist b{display:block;font-size:15px}.blist span{font-size:12px;color:#bcae9f}
 /* băng ảnh chạy */
 .marq{background:var(--den);padding:22px 0;overflow:hidden}
 .track{display:flex;gap:14px;width:max-content;animation:slide 60s linear infinite}
@@ -173,13 +186,13 @@ footer .logo{justify-content:center;font-size:30px;margin-bottom:6px}
 footer p{font-size:13px;max-width:70ch;margin:8px auto 0}
 
 @media(max-width:1000px){.pains{grid-template-columns:repeat(2,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}.links a:not(.cta-s){display:none}}
-@media(max-width:860px){.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.hphoto{width:min(78%,360px)}.leak,.quiz,.about .in{grid-template-columns:1fr}.leak .ph{max-width:420px}.ways,.tpl{grid-template-columns:1fr}.wc{min-height:340px}.quiz .qp{min-height:300px}.quiz .qp:after{background:linear-gradient(180deg,transparent 40%,rgba(23,16,14,.9))}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div:nth-child(3){border-left:0}}
-@media(max-width:600px){.pains{grid-template-columns:1fr}.pc{min-height:300px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}.pr{grid-template-columns:1fr}.leak .ph .badge{right:10px}.opts button{padding:12px 4px;font-size:14px}.sealh svg{width:80px;height:80px}}
+@media(max-width:860px){.bgrid{grid-template-columns:1fr;gap:28px}.bview{max-width:340px}.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.hphoto{width:min(78%,360px)}.leak,.quiz,.about .in{grid-template-columns:1fr}.leak .ph{max-width:420px}.ways,.tpl{grid-template-columns:1fr}.wc{min-height:340px}.quiz .qp{min-height:300px}.quiz .qp:after{background:linear-gradient(180deg,transparent 40%,rgba(23,16,14,.9))}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div:nth-child(3){border-left:0}}
+@media(max-width:600px){.blist{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:76%;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:8px}.blist button{scroll-snap-align:start}.pains{grid-template-columns:1fr}.pc{min-height:300px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}.pr{grid-template-columns:1fr}.leak .ph .badge{right:10px}.opts button{padding:12px 4px;font-size:14px}.sealh svg{width:80px;height:80px}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 
 <header class=nav><div class=in><a class=logo href="#top"><svg width=26 height=34 viewBox="0 0 30 38" aria-hidden=true><path d="M2 36V15C2 7 8 2 15 2s13 5 13 13v21Z" fill="#c4231f"/><path d="M6 33V16c0-5 4-9 9-9s9 4 9 9v17Z" fill="none" stroke="#f5eee3" stroke-width="1.4"/><text x="15" y="27" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="13" fill="#f5eee3">N</text></svg>Nailmark</a>
-<nav class=links><a href="#van-de">Vấn đề</a><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#lam-cung">Làm cùng</a><a href="#ve">Về Nailmark</a><a class=cta-s href="#tu-cham">Tự chấm điểm</a></nav></div></header>
+<nav class=links><a href="#bo-suu-tap">Bộ sưu tập</a><a href="#van-de">Vấn đề</a><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#lam-cung">Làm cùng</a><a href="#ve">Về Nailmark</a><a class=cta-s href="#tu-cham">Tự chấm điểm</a></nav></div></header>
 
 <section class="hero band" id=top>
 <svg class=egg id=egg aria-hidden=true></svg>
@@ -192,6 +205,15 @@ footer p{font-size:13px;max-width:70ch;margin:8px auto 0}
 </div></div>
 <div class=facts><div><b>17</b>chuỗi nail được chấm</div><div><b>9</b>quốc gia</div><div><b>8</b>tiêu chuẩn</div><div><b>0 đ</b>tự chấm điểm</div></div>
 </section>
+
+<section class="band bst" id=bo-suu-tap><div class=in>
+<div class=bgrid>
+<div class=bview><img id=bimg src="img/bst-tet.jpg" alt="Bộ móng Tết trong khung vòm đỏ son" width=720 height=900><span class=btag id=btag>Tết</span></div>
+<div><div class=eyebrow style="color:var(--vang2)">Bộ sưu tập theo dịp</div>
+<h2>Một tiệm, <em>tám phong cách</em></h2>
+<p class=lead style="color:#cbbcab">Dành cho chị em 25–40 tuổi đi làm, có thu nhập riêng: tám ngày vui và sẵn sàng chi nhất năm. Mỗi dịp một bộ mẫu, một bộ ảnh tặng khách mang về.</p>
+<div class=blist id=blist></div></div>
+</div></div></section>
 
 <div class=marq aria-hidden=true><div class=track id=track></div><div class=ticker id=ticker></div></div>
 
@@ -276,6 +298,12 @@ f+=`<circle cx=300 cy=470 r=26 fill="#c9a14a" stroke="#7a5a1c" stroke-width=3 />
 document.getElementById("fan").innerHTML=f;
 const seal=c=>`<g transform="translate(80 80) scale(1.1) rotate(-8)"><rect x=-62 y=-62 width=124 height=124 rx=14 fill="${c}"/><rect x=-52 y=-52 width=104 height=104 rx=8 fill=none stroke="#f5eee3" stroke-width=3 /><path d="M-18 30V-6C-18-24-9-34 0-34S18-24 18-6V30Z" fill="#f5eee3"/><text x=0 y=-38 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=13 fill="#f5eee3" letter-spacing="2">NAILMARK</text><text x=0 y=48 text-anchor=middle font-family="Be Vietnam Pro,sans-serif" font-weight=700 font-size=12 fill="#f5eee3">ĐẠT CHUẨN</text><text x=0 y=14 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=22 fill="${c}">N</text></g>`;
 ["hseal","seal1","ok","seal2"].forEach(id=>document.getElementById(id).innerHTML=seal(id=="seal1"?"#a3161a":"#c4231f"));
+const B=[["tet","Tết","Vừa nhận thưởng Tết, đẹp nhất năm"],["cuoi-nam","Tiệc cuối năm & Noel","Tất niên công ty, mùa thưởng"],["thang-chuc","Ngày thăng chức","Lên chức, ký hợp đồng, khai trương"],["sinh-nhat","Sinh nhật của nàng","Tự thưởng cho bản thân"],["cuoi","Mùa cưới","Cô dâu, phù dâu, khách dự tiệc"],["valentine","Valentine 14/2","Được tặng: bán thẻ quà tặng"],["8-3","Ngày 8/3","Được tặng: bán thẻ quà tặng"],["20-10","Ngày 20/10","Được tặng: bán thẻ quà tặng"]];
+const bl=document.getElementById("blist"),bimg=document.getElementById("bimg"),btag=document.getElementById("btag");let bi=0,auto=true;
+bl.innerHTML=B.map((b,i)=>`<button type=button data-i=${i} aria-pressed=${i==0}><img src="img/bst-${b[0]}.jpg" alt="" width=46 height=58><span><b>${b[1]}</b>${b[2]}</span></button>`).join("");
+const pick=i=>{bi=i;bimg.classList.add("fade");setTimeout(()=>{bimg.src=`img/bst-${B[i][0]}.jpg`;bimg.alt="Bộ móng "+B[i][1];btag.textContent=B[i][1];bimg.classList.remove("fade")},250);bl.querySelectorAll("button").forEach((x,j)=>x.setAttribute("aria-pressed",j==i));};
+bl.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;auto=false;pick(+b.dataset.i);});
+if(!matchMedia("(prefers-reduced-motion: reduce)").matches)setInterval(()=>{if(auto)pick((bi+1)%B.length)},4000);
 const m=[0,1,2,3,4,5,6,7,8,9].map(i=>`<img src="img/m${i}.jpg" alt="" width=330 height=440>`).join("");
 document.getElementById("track").innerHTML=m+m;
 const tk=["Menu mẫu đánh số","Một nút đặt lịch","Mẫu của tháng","Thành viên minh bạch","Đánh giá Google dày","Video quy trình","Chuẩn hoá để nhân bản","Vệ sinh thấy được"].map(t=>`<span>${t}</span>`).join("");
