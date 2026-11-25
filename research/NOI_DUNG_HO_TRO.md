@@ -2,22 +2,33 @@
 
 **Mục đích:** cả 3 gói tự làm (999k, 1,99 tr, 2,99 tr) tự vận hành bằng video và trợ lý AI, **không có người làm hộ**. AI soạn toàn bộ tài liệu này. Video là quay màn hình kèm giọng đọc AI, mỗi video 2–4 phút.
 
-## A0. Bộ video tạo web (anh Ninh bổ sung 25/11/2026)
-Ngoài 8 video vận hành ở mục A, có thêm **nhóm video hướng dẫn tạo web từ đầu**. Thời gian thực tế để tạo xong web là **1–2 buổi tự làm**, không phải 30 phút.
+## A0. Một đường duy nhất: 4 bước, 4 video (bản đơn giản nhất, 25/11/2026)
+**Yêu cầu của anh Ninh:** đơn giản hết mức, chỉ cần làm theo là xong. Chỉ có video hướng dẫn, không có người làm hộ. Ngoài ra có 1 buổi hỏi đáp chung mỗi tuần.
 
-| # | Video tạo web | Dài | Buổi |
+**Bản chạy thử:** `nailmark/tu-lam.html`, đã đăng thành artifact riêng tư "Nailmark Tự làm".
+
+| Bước | Chủ tiệm chỉ làm | AI làm sẵn | Video |
 |---|---|---|---|
-| A1 | Mở tài khoản, dán link Google Maps của tiệm | 2 phút | Buổi 1 |
-| A2 | Kiểm và sửa thông tin AI đã điền sẵn (tên, địa chỉ, giờ, SĐT) | 3 phút | Buổi 1 |
-| A3 | Chụp 12 ảnh móng đúng chuẩn (chính là video 1 ở mục A) | 3 phút | Buổi 1 |
-| A4 | Tải ảnh, đánh số lookbook, chọn mức Đơn giản / Vừa / Cầu kỳ | 3 phút | Buổi 1 |
-| A5 | Bảng giá: gõ tay, hoặc chụp ảnh để AI đọc rồi kiểm lại | 3 phút | Buổi 2 |
-| A6 | Gắn Zalo, bấm thử nút đặt lịch | 2 phút | Buổi 2 |
-| A7 | Xem trước trên điện thoại, sửa lỗi, bấm "Xuất bản" | 3 phút | Buổi 2 |
+| 1 | Dán link Google Maps, bấm "Đúng rồi" | Điền tên, địa chỉ, giờ mở cửa, số sao, SĐT | 1 phút |
+| 2 | Chụp 12 ảnh móng | Cắt khung, chỉnh sáng, đánh số 01–12. Không đổi màu móng | 3 phút |
+| 3 | Chụp ảnh bảng giá treo ở tiệm, sửa số nếu sai | Đọc bảng giá thành chữ | 1 phút |
+| 4 | Gõ số Zalo, bấm "Xuất bản" | Tạo web, link, mã QR | 1 phút |
 
-- **Buổi 1 (khoảng 1–2 giờ, phần lớn là chụp ảnh):** có web nháp với ảnh thật.
-- **Buổi 2 (khoảng 1 giờ):** web hoàn chỉnh, xuất bản, có mã QR.
-- **Sau khi xuất bản:** làm tiếp 5 video đưa web ra ngoài (nhóm B), là các video 5–8 ở mục A cộng video trả lời đánh giá. Phần này làm dần, không bắt buộc ngay.
+**Tổng cộng:** khoảng 6 phút video. Thời gian làm thật là 1–2 buổi, chủ yếu để chọn mẫu đẹp và chụp ảnh.
+
+**8 quy tắc để không thể làm sai:**
+1. **Một màn hình, một việc, một video.** Video nằm ngay đầu bước, không phải đi tìm.
+2. **Không có lựa chọn thiết kế.** Không chọn mẫu, màu hay phông chữ. Tất cả đã chuẩn Nailmark.
+3. **Không phải gõ chữ dài.** Chỉ chụp ảnh và bấm nút. Ô gõ duy nhất là số Zalo.
+4. **Chưa đủ thì chưa cho đi tiếp.** Ví dụ chưa đủ 12 ảnh, hoặc số Zalo chưa đủ 10 chữ số, thì nút "Tiếp" còn mờ.
+5. **Tự lưu.** Bỏ dở thì lần sau mở lại đúng bước đang làm.
+6. **Làm trọn trên điện thoại.** Không cần máy tính.
+7. **Máy nhắc thay người.** Zalo OA nhắc vào ngày 1, ngày 3 và ngày 7, kèm đúng video của bước còn thiếu.
+8. **Kẹt thì có ba chỗ hỏi, theo thứ tự:** xem lại video, hỏi trợ lý AI, rồi mang câu hỏi vào buổi hỏi đáp hằng tuần.
+
+**Đề xuất chờ anh duyệt:** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, tên miền, số ảnh, số cơ sở và bộ Tết.
+
+**Sau khi web lên:** các video đưa web ra ngoài (mã QR, Google Maps, đánh giá, bộ sưu tập mùa lễ) là phần làm thêm, không bắt buộc.
 
 ## A. Kịch bản 8 video
 

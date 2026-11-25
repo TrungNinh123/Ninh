@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Nailmark Tự làm</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,700;1,600&family=Be+Vietnam+Pro:wght@400;600;700&display=swap">
+<style>
+/* Bản chạy thử: chủ tiệm tự tạo web theo 4 bước, mỗi bước 1 màn hình, 1 việc, 1 video */
+:root{color-scheme:light dark;--son:#a3161a;--son2:#7d0f13;--den:#17100e;--vang:#c9a14a;--vang2:#e9c977;--trung:#f5eee3;
+--bg:light-dark(#fbf7f1,#120c0b);--card:light-dark(#ffffff,#1d1513);--ink:light-dark(#1c1210,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e8dccd,#3a2c26);--accent:light-dark(#a3161a,#ff6b5e)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+img{display:block;max-width:100%}
+.wrap{max-width:560px;margin:0 auto;padding:0 max(16px,env(safe-area-inset-left,0px)) 40px max(16px,env(safe-area-inset-right,0px))}
+header{position:sticky;top:0;z-index:5;background:var(--bg);padding:calc(env(safe-area-inset-top,0px) + 12px) 0 10px;border-bottom:1px solid var(--line)}
+.brand{display:flex;align-items:center;gap:10px;font-family:"Noto Serif Display",serif;font-weight:700;font-size:20px}
+.brand svg{width:30px;height:30px}
+.bar{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:10px}
+.bar i{height:6px;border-radius:9px;background:var(--line)}.bar i.on{background:var(--son)}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--mut);margin-top:6px}
+h1{font-family:"Noto Serif Display",serif;font-size:clamp(28px,7vw,36px);line-height:1.12;margin:22px 0 6px}
+.lead{color:var(--mut);margin:0 0 16px}
+.video{position:relative;aspect-ratio:16/9;border-radius:18px;overflow:hidden;background:var(--den);margin-bottom:18px}
+.video img{width:100%;height:100%;object-fit:cover;opacity:.55}
+.video .pl{position:absolute;inset:0;display:grid;place-items:center;align-content:center;gap:8px;color:var(--trung);text-align:center}
+.video .pl b{width:64px;height:64px;border-radius:50%;background:var(--vang);color:var(--den);display:grid;place-items:center;font-size:24px}
+.video .pl span{font-size:14px;background:rgba(0,0,0,.45);padding:3px 10px;border-radius:999px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px}
+.row{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-bottom:1px solid var(--line)}.row:last-child{border-bottom:0}
+.row span{color:var(--mut);font-size:14px}.row b{text-align:right}
+.ai{display:inline-block;background:var(--vang2);color:var(--den);font-size:12px;font-weight:700;border-radius:999px;padding:2px 10px;margin-bottom:10px}
+input[type=text],input[type=tel],input[type=url]{font:inherit;font-size:17px;width:100%;padding:14px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+input:focus{outline:2px solid var(--accent);outline-offset:1px}
+.btn{display:block;width:100%;font:inherit;font-weight:700;font-size:17px;border:0;border-radius:999px;padding:16px;margin-top:16px;cursor:pointer;background:var(--son);color:#fff}
+.btn:disabled{opacity:.35;cursor:not-allowed}
+.btn.g{background:transparent;color:var(--accent);border:1.5px solid var(--line);margin-top:10px;font-weight:600;font-size:15px;padding:12px}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;margin-top:12px}
+.grid div{aspect-ratio:3/4;border-radius:12px;overflow:hidden;background:var(--line);position:relative;display:grid;place-items:center;color:var(--mut);font-weight:700}
+.grid img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0}
+.grid em{position:absolute;left:6px;bottom:4px;font-style:normal;font-family:"Noto Serif Display",serif;color:var(--vang2);text-shadow:0 1px 6px #000;z-index:1}
+.pick{display:block;text-align:center;border:2px dashed var(--vang);border-radius:16px;padding:18px;font-weight:700;cursor:pointer}
+.pick input{display:none}
+table{width:100%;border-collapse:collapse}td{padding:6px 0;border-bottom:1px solid var(--line)}td:last-child{text-align:right}
+td input{width:120px;text-align:right;padding:8px;font-size:16px}
+.hint{font-size:13px;color:var(--mut);margin-top:8px}
+.done{text-align:center}.done svg{width:120px;margin:10px auto}
+.qr{width:150px;height:150px;margin:12px auto;background:#fff;border-radius:12px;padding:10px}
+.step{display:none}.step.on{display:block;animation:in .35s ease}
+@keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+@media (prefers-reduced-motion:reduce){.step.on{animation:none}}
+.note{background:var(--vang2);color:var(--den);font-size:12.5px;text-align:center;padding:6px 12px}
+</style>
+</head>
+<body>
+<div class=note>Bản chạy thử của Nailmark. Video là khung giữ chỗ, dữ liệu là tiệm mẫu, chưa xuất bản thật.</div>
+<div class=wrap>
+<header>
+  <div class=brand><svg viewBox="0 0 30 34" aria-hidden="true"><path d="M3 32V15C3 7 8 2 15 2s12 5 12 13v17Z" fill="#a3161a"/><path d="M9 26V12l12 14V12" fill="none" stroke="#f5eee3" stroke-width="2.4"/></svg>Tự làm web</div>
+  <div class=bar id=bar><i></i><i></i><i></i><i></i></div>
+  <div class=meta><span id=lbl>Bước 1/4</span><span>Làm trên điện thoại · tự lưu</span></div>
+</header>
+
+<section class="step" data-s=1>
+  <h1>Dán link Google Maps của tiệm</h1>
+  <p class=lead>AI tự điền tên, địa chỉ, giờ mở cửa, số sao. Chị chỉ cần kiểm lại.</p>
+  <div class=video><img src="img/m3.jpg" alt=""><div class=pl><b>▶</b><span>Video 1 · 1 phút</span></div></div>
+  <input type=url id=maps placeholder="Dán link Google Maps vào đây" aria-label="Link Google Maps">
+  <div class=card id=filled hidden style="margin-top:12px">
+    <span class=ai>AI đã điền sẵn</span>
+    <div class=row><span>Tên tiệm</span><b>Sơn Mài Nail</b></div>
+    <div class=row><span>Địa chỉ</span><b>Quận 1, TP.HCM</b></div>
+    <div class=row><span>Giờ mở cửa</span><b>09:30–20:30 mỗi ngày</b></div>
+    <div class=row><span>Google</span><b>4,9★ · 1.250 đánh giá</b></div>
+  </div>
+  <button class=btn id=b1 disabled>Đúng rồi, tiếp</button>
+  <button class="btn g" id=demo1>Chưa có link? Dùng tiệm mẫu để xem thử</button>
+</section>
+
+<section class="step" data-s=2>
+  <h1>Chụp 12 ảnh móng đẹp nhất</h1>
+  <p class=lead>Gần cửa sổ, nền vải trơn, không flash, không bộ lọc. AI tự chỉnh sáng, không đổi màu móng.</p>
+  <div class=video><img src="img/m6.jpg" alt=""><div class=pl><b>▶</b><span>Video 2 · 3 phút</span></div></div>
+  <label class=pick>📷 Chụp hoặc chọn ảnh<input type=file id=imgs accept="image/*" multiple></label>
+  <div class=grid id=grid></div>
+  <p class=hint id=cnt>0/12 ảnh</p>
+  <button class=btn id=b2 disabled>Đủ ảnh rồi, tiếp</button>
+  <button class="btn g" id=demo2>Dùng 12 ảnh mẫu để xem thử</button>
+</section>
+
+<section class="step" data-s=3>
+  <h1>Chụp bảng giá của tiệm</h1>
+  <p class=lead>AI đọc thành chữ. Chị chỉ sửa số nếu sai.</p>
+  <div class=video><img src="img/m1.jpg" alt=""><div class=pl><b>▶</b><span>Video 3 · 1 phút</span></div></div>
+  <label class=pick>📄 Chụp bảng giá<input type=file id=price accept="image/*"></label>
+  <div class=card id=ptab hidden style="margin-top:12px"><span class=ai>AI đã đọc</span>
+    <table><tbody>
+      <tr><td>Sơn gel</td><td><input type=text value="150.000đ" aria-label="Giá sơn gel"></td></tr>
+      <tr><td>Đắp gel, nối móng</td><td><input type=text value="350.000đ" aria-label="Giá đắp gel"></td></tr>
+      <tr><td>Nail art (mỗi ngón)</td><td><input type=text value="20.000đ" aria-label="Giá nail art"></td></tr>
+      <tr><td>Chăm sóc chân</td><td><input type=text value="120.000đ" aria-label="Giá chăm sóc chân"></td></tr>
+    </tbody></table>
+  </div>
+  <button class=btn id=b3 disabled>Giá đúng rồi, tiếp</button>
+  <button class="btn g" id=demo3>Dùng bảng giá mẫu để xem thử</button>
+</section>
+
+<section class="step" data-s=4>
+  <h1>Số Zalo nhận đặt lịch</h1>
+  <p class=lead>Khách bấm "Đặt lịch" trên web là tin nhắn về thẳng Zalo này.</p>
+  <div class=video><img src="img/m8.jpg" alt=""><div class=pl><b>▶</b><span>Video 4 · 1 phút</span></div></div>
+  <input type=tel id=zalo inputmode=numeric placeholder="Ví dụ 0900 000 000" aria-label="Số Zalo">
+  <p class=hint>Số gồm 10 chữ số.</p>
+  <button class=btn id=b4 disabled>Xuất bản web</button>
+</section>
+
+<section class="step done" data-s=5>
+  <svg viewBox="0 0 120 120" aria-hidden="true"><circle cx=60 cy=60 r=54 fill="#a3161a"/><path d="M36 62l16 16 32-36" fill="none" stroke="#f5eee3" stroke-width=9 stroke-linecap=round stroke-linejoin=round /></svg>
+  <h1>Web của tiệm đã lên</h1>
+  <p class=lead>In mã QR đặt ở quầy. Gắn link vào Google Maps theo video 5.</p>
+  <svg class=qr viewBox="0 0 21 21" aria-label="Mã QR minh hoạ"><path fill="#17100e" d="M0 0h7v7H0zM14 0h7v7h-7zM0 14h7v7H0zM2 2v3h3V2zM16 2v3h3V2zM2 16v3h3v-3zM9 0h2v2H9zM9 4h3v2H9zM8 8h5v1H8zM14 9h3v2h-3zM9 11h2v3H9zM12 13h3v2h-3zM16 13h2v4h-2zM10 16h3v2h-3zM14 18h3v3h-3zM19 15h2v2h-2zM8 19h2v2H8z"/></svg>
+  <a class=btn href="https://claude.ai/artifact/T82anw1ZKUfFqurT7UtcKu" target=_blank rel=noopener style="text-decoration:none">Xem web mẫu</a>
+  <button class="btn g" id=again>Làm lại từ đầu</button>
+</section>
+</div>
+<script>
+(()=>{
+  const $=id=>document.getElementById(id);
+  const st={s:1,maps:false,imgs:0,price:false};
+  const save=()=>{try{localStorage.setItem("nm_tulam",JSON.stringify({s:st.s}))}catch(e){}};
+  const show=n=>{st.s=n;document.querySelectorAll(".step").forEach(x=>x.classList.toggle("on",+x.dataset.s===n));
+    document.querySelectorAll("#bar i").forEach((x,i)=>x.classList.toggle("on",i<Math.min(n,4)));
+    $("lbl").textContent=n>4?"Hoàn tất":`Bước ${n}/4`;scrollTo({top:0,behavior:"smooth"});save();};
+  // Bước 1
+  const fill=()=>{$("filled").hidden=false;$("b1").disabled=false;};
+  $("maps").addEventListener("input",e=>{if(/google\.|goo\.gl|maps/.test(e.target.value))fill();});
+  $("demo1").onclick=()=>{$("maps").value="https://maps.google.com/?q=Son+Mai+Nail";fill();};
+  $("b1").onclick=()=>show(2);
+  // Bước 2
+  const grid=$("grid");
+  const draw=srcs=>{grid.innerHTML="";for(let i=0;i<12;i++){const d=document.createElement("div");
+    if(srcs[i]){const im=new Image();im.src=srcs[i];im.alt="Mẫu "+(i+1);d.appendChild(im);}
+    const em=document.createElement("em");em.textContent=String(i+1).padStart(2,"0");d.appendChild(em);grid.appendChild(d);}
+    st.imgs=Math.min(srcs.length,12);$("cnt").textContent=`${st.imgs}/12 ảnh`;$("b2").disabled=st.imgs<12;};
+  draw([]);
+  $("imgs").addEventListener("change",e=>draw([...e.target.files].slice(0,12).map(f=>URL.createObjectURL(f))));
+  $("demo2").onclick=()=>draw(["s1","m0","m1","m2","m3","m4","m5","m6","m7","m8","s3","s4"].map(k=>`img/${k}.jpg`));
+  $("b2").onclick=()=>show(3);
+  // Bước 3
+  const pr=()=>{$("ptab").hidden=false;$("b3").disabled=false;};
+  $("price").addEventListener("change",pr);$("demo3").onclick=pr;$("b3").onclick=()=>show(4);
+  // Bước 4
+  $("zalo").addEventListener("input",e=>{$("b4").disabled=e.target.value.replace(/\D/g,"").length!==10;});
+  $("b4").onclick=()=>show(5);
+  $("again").onclick=()=>{location.reload();try{localStorage.removeItem("nm_tulam")}catch(e){}};
+  show(1);
+})();
+</script>
+</body>
+</html>
