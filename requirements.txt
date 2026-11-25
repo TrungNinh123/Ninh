@@ -1,4 +1,5 @@
 flask==3.0.3
 segno==1.6.1
+pillow-heif==0.18.0
 Pillow
 numpy

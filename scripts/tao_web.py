@@ -21,7 +21,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from scan_vn import khong_dau  # noqa: E402
 from web_tiem import ROOT, DIP, tao  # noqa: E402
 
-DUOI = {".jpg", ".jpeg", ".png", ".webp"}
+DUOI = {".jpg", ".jpeg", ".png", ".webp", ".heic", ".heif"}
+try:  # ảnh iPhone mặc định là HEIC
+    import pillow_heif
+    pillow_heif.register_heif_opener()
+except ImportError:
+    pass
+GIA_SO = re.compile(r"^(.*?)[\s:\-–|]+((?:từ\s*)?[\d.,]+\s*(?:k|K|đ|vnđ|VNĐ|nghìn|ngàn|tr|triệu)?\S*)\s*$")
 
 
 def chinh_anh(src, dst, w=900, h=1200, sang_muc_tieu=0.52):
@@ -38,6 +44,31 @@ def chinh_anh(src, dst, w=900, h=1200, sang_muc_tieu=0.52):
     out = np.clip(a * kk, 0, 1)
     Image.fromarray((out * 255 + 0.5).astype(np.uint8)).save(dst, "JPEG", quality=86, optimize=True, progressive=True)
     return k
+
+
+def tach_gia(dong):
+    """'Sơn gel | 150.000đ', 'Sơn gel: 150k', 'Sơn gel - 150.000đ', 'Sơn gel 150k' -> (tên, giá). Không đọc được -> None."""
+    dong = dong.strip()
+    if not dong:
+        return None
+    if "|" in dong:
+        a, b = [x.strip() for x in dong.split("|", 1)]
+        return (a, b) if a and b else None
+    m = re.match(r"^(.*?)[\s:\-–]+(miễn phí|free|liên hệ|tặng kèm)\s*$", dong, re.I)
+    if m and m.group(1).strip():
+        return (m.group(1).strip(), m.group(2).strip().capitalize())
+    m = GIA_SO.match(dong)
+    return (m.group(1).strip(), m.group(2).strip()) if m and m.group(1).strip() else None
+
+
+def doc_gia_chu(text):
+    """Trả về (danh sách giá, các dòng không đọc được)."""
+    ds, hong = [], []
+    for d in text.splitlines():
+        if d.strip():
+            x = tach_gia(d)
+            (ds.append(x) if x else hong.append(d.strip()))
+    return ds, hong
 
 
 def doc_gia(path):
@@ -74,13 +105,25 @@ def tao_tu_dau(t, anh, gia, so, demo=False, cam_ket=False, url=None):
     t["nguon_anh"] = "Ảnh móng: của tiệm"
     t["cam_ket"] = bool(cam_ket)
     t["ghi_chu"] = "Bản demo Nailmark, chưa phải trang chính thức." if demo else ""
-    slug = re.sub(r"[^a-z0-9]+", "-", khong_dau(t["ten"])).strip("-")[:40] or "tiem"
+    goc = re.sub(r"[^a-z0-9]+", "-", khong_dau(t["ten"])).strip("-")[:40] or "tiem"
+    slug, n = goc, 1
+    while (ROOT / "nailmark" / "tiem" / slug / "chu.txt").exists() and \
+            (ROOT / "nailmark" / "tiem" / slug / "chu.txt").read_text().strip() != so:
+        n += 1
+        slug = f"{goc}-{n}"  # cùng tên nhưng khác chủ (khác số Zalo) -> đường dẫn riêng, không ghi đè
     out = ROOT / "nailmark" / "tiem" / slug
+    moi = not out.exists()
     (out / "img").mkdir(parents=True, exist_ok=True)
+    (out / "chu.txt").write_text(so)
     he_so, t["anh"] = [], []
     for i, p in enumerate(anh[:12], 1):
         ten = f"img/mau-{i:02d}.jpg"
-        he_so.append(chinh_anh(p, out / ten))
+        try:
+            he_so.append(chinh_anh(p, out / ten))
+        except Exception:
+            if moi:
+                shutil.rmtree(out, ignore_errors=True)  # không để lại thư mục dở dang
+            raise ValueError(f"Ảnh số {i} bị hỏng hoặc không phải ảnh. Chị chụp lại hoặc chọn ảnh khác.")
         t["anh"].append(ten)
     for k, _ in DIP:  # bộ sưu tập theo dịp: hiện vẫn là ảnh mẫu Nailmark
         shutil.copy(ROOT / "nailmark" / "img" / f"bst-{k}.jpg", out / "img" / f"bst-{k}.jpg")

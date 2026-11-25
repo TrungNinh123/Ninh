@@ -16,7 +16,7 @@ from pathlib import Path
 from flask import Flask, jsonify, request, send_from_directory
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from tao_web import DUOI, tao_tu_dau  # noqa: E402
+from tao_web import DUOI, doc_gia_chu, tao_tu_dau  # noqa: E402
 from web_tiem import ROOT  # noqa: E402
 
 app = Flask(__name__)
@@ -61,8 +61,9 @@ def xuat_ban():
     ten = f.get("ten", "").strip()
     if not ten:
         return jsonify(loi="Thiếu tên tiệm."), 400
-    gia = [tuple(x.strip() for x in d.split("|", 1)) for d in f.get("gia", "").splitlines() if "|" in d]
-    gia = [(a, b) for a, b in gia if a and b]
+    gia, hong = doc_gia_chu(f.get("gia", ""))
+    if hong:
+        return jsonify(loi="Chưa đọc được giá ở dòng: " + "; ".join(hong[:3]) + ". Mỗi dòng ghi tên rồi giá, ví dụ: Sơn gel | 150.000đ"), 400
     so = re.sub(r"\D", "", f.get("zalo", ""))
     t = dict(ten=ten, khau_hieu=f.get("khau_hieu") or "Móng đẹp chuẩn Nailmark", dia_chi=[f.get("dia_chi", "")],
              gio=f.get("gio") or "Giờ mở cửa: tiệm bổ sung", sao=f.get("sao", ""), danh_gia=f.get("danh_gia", ""),
@@ -71,14 +72,18 @@ def xuat_ban():
         anh = []
         for i, fs in enumerate(request.files.getlist("anh")[:12]):
             duoi = Path(fs.filename or "").suffix.lower()
-            if duoi in DUOI:
-                p = Path(tmp) / f"{i:02d}{duoi}"
-                fs.save(p)
-                anh.append(p)
+            if duoi not in DUOI:
+                return jsonify(loi=f"Ảnh số {i + 1} có định dạng {duoi or 'lạ'}, chưa nhận. Chị chọn ảnh JPG, PNG hoặc ảnh iPhone."), 400
+            p = Path(tmp) / f"{i:02d}{duoi}"
+            fs.save(p)
+            anh.append(p)
         try:
             kq = tao_tu_dau(t, anh, gia, so, demo=True)
         except ValueError as e:
             return jsonify(loi=str(e)), 400
+        except Exception:
+            app.logger.exception("xuat-ban")
+            return jsonify(loi="Có lỗi khi tạo web. Chị thử lại; nếu vẫn lỗi, gửi câu hỏi vào buổi hỏi đáp tuần này."), 500
     kq["link"] = f"/tiem/{kq['slug']}/"
     kq["qr_svg"] = f"/tiem/{kq['slug']}/qr-dat-lich.svg"
     return jsonify(kq)
