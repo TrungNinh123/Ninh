@@ -2,137 +2,190 @@
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;800&display=swap">
 <style>
-/* VOICE work: bộ tiêu chuẩn ngành, giọng một tổ chức chuẩn hoá
-   IDEA bảng màu sơn móng: mỗi chuỗi là một thanh sơn, đầu tròn như móng
-   PICTURE bảng xếp hạng 17 chuỗi ở 11 nước, tô theo vùng, điểm ở đầu thanh
-   COLOUR nền trắng, mực đen nâu, đỏ sơn mài dẫn (Đông Nam Á), mận (Đông Á), xám đá (toàn cầu), nude phụ
+/* VOICE work: bộ tiêu chuẩn ngành, nói với chủ tiệm nail nhỏ
+   IDEA bảng màu sơn móng: mỗi số liệu là một thanh sơn, đầu tròn như móng
+   PICTURE "15 tiệm Quận 1 mất khách ở đâu": 6 thanh sơn đỏ, mỗi thanh là số tiệm mắc lỗi
+   COLOUR nền trắng, mực đen nâu, đỏ sơn mài dẫn, mận và xám đá phụ, nude cho số thứ tự
    TYPE Be Vietnam Pro 800 cho tiêu đề, 400 cho chữ
-   LAYOUT laptop: tiêu đề + 3 con số trên, bảng xếp hạng ngang toàn chiều rộng; điện thoại xếp dọc */
+   LAYOUT laptop: tiêu đề và câu giới thiệu trái, biểu đồ lỗi phải; điện thoại: tiêu đề, biểu đồ, nút */
 :root{color-scheme:light dark;--bg:light-dark(#ffffff,#141012);--soft:light-dark(#f7efec,#1f1719);--ink:light-dark(#1d1416,#f4ecee);--mut:light-dark(#6e6064,#b8aaae);--line:light-dark(#ece3e0,#33292c);--red:light-dark(#c3122f,#ff5c73);--plum:light-dark(#6b2a5c,#d58bc4);--slate:light-dark(#7a8590,#9aa6b2);--nude:light-dark(#e9cdbf,#5a4339)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
 body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
 .band{padding-block:clamp(28px,5vw,64px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
 .in{max-width:1180px;margin:0 auto}
-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-top:calc(env(safe-area-inset-top,0px) + 18px);padding-bottom:0}
+nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap;padding-top:calc(env(safe-area-inset-top,0px) + 18px)!important;padding-bottom:0!important}
 .logo{font-weight:800;font-size:20px;letter-spacing:-.02em}.logo i{display:inline-block;width:12px;height:18px;border-radius:6px 6px 3px 3px;background:var(--red);margin-right:8px;vertical-align:-2px}
-nav a{color:var(--ink);text-decoration:none;font-size:15px;margin-left:16px}
-h1{font-weight:800;font-size:clamp(34px,5.4vw,56px);line-height:1.05;letter-spacing:-.025em;margin:0 0 14px;max-width:18ch}
+nav div:last-child{display:flex;flex-wrap:wrap;gap:4px 16px}nav a{color:var(--ink);text-decoration:none;font-size:15px}
+h1{font-weight:800;font-size:clamp(34px,5vw,54px);line-height:1.06;letter-spacing:-.025em;margin:0 0 14px}
 h2{font-weight:800;font-size:clamp(26px,3.4vw,36px);line-height:1.1;letter-spacing:-.02em;margin:0 0 10px}
 h3{font-weight:600;font-size:18px;line-height:1.3;margin:0 0 6px}
 .lead{font-size:18px;max-width:60ch;margin:0;color:var(--mut)}.m{color:var(--mut);font-size:14px}a{color:var(--red)}
-.top{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:32px;align-items:end}
-.nums{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-.nums div{border-top:3px solid var(--ink);padding-top:8px;font-size:14px;color:var(--mut)}.nums b{display:block;font-size:clamp(28px,3.6vw,40px);font-weight:800;color:var(--ink);line-height:1.1}
-.btn{display:inline-block;background:var(--red);color:#fff;border-radius:999px;padding:12px 22px;font-weight:600;text-decoration:none;margin-top:18px}
-.rank{margin-top:28px;border-top:1px solid var(--line)}
-.r{display:grid;grid-template-columns:minmax(0,13em) minmax(0,1fr) 3.2em;gap:12px;align-items:center;padding:6px 0;border-bottom:1px solid var(--line)}
-.r .n{font-size:15px;line-height:1.25}.r .n span{display:block;font-size:12px;color:var(--mut)}
-.bar{height:16px;border-radius:2px 10px 10px 2px}.r .v{font-weight:800;text-align:right;font-variant-numeric:tabular-nums}
-.k{display:flex;flex-wrap:wrap;gap:16px;font-size:14px;color:var(--mut);margin-top:12px}.k i{display:inline-block;width:18px;height:10px;border-radius:2px 6px 6px 2px;margin-right:6px}
-.c1{background:var(--red)}.c2{background:var(--plum)}.c3{background:var(--slate)}
+.hero{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:40px;align-items:center}
+.who{font-size:17px;margin:0 0 18px;max-width:52ch}
+.btns{display:flex;flex-wrap:wrap;gap:10px;margin-top:8px}
+.btn{display:inline-block;background:var(--red);color:#fff;border-radius:999px;padding:12px 22px;font-weight:600;text-decoration:none}
+.btn.o{background:transparent;color:var(--ink);border:1px solid var(--ink)}
+.fig{background:var(--soft);border-radius:18px;padding:22px}
+.fig h3{font-size:17px;margin-bottom:12px}
+.r{display:grid;grid-template-columns:minmax(0,1fr) 3.4em;gap:4px 10px;align-items:center;padding:7px 0}
+.r .n{font-size:15px;line-height:1.3;grid-column:1/-1}
+.bar{height:14px;border-radius:2px 10px 10px 2px;background:var(--red)}.bar.g{background:var(--line)}
+.track{position:relative;height:14px;border-radius:2px 10px 10px 2px;background:var(--line)}.track .bar{position:absolute;inset:0 auto 0 0}
+.r .v{font-weight:800;text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 .soft{background:var(--soft)}
-.crit{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px;margin-top:18px}
-.crit div{background:var(--bg);border-radius:12px;padding:14px}.crit b{display:block;font-size:28px;font-weight:800;color:var(--red)}
+.pains{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
+.p{background:var(--bg);border-radius:14px;padding:18px;display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px}
+.p .stat{grid-row:span 3;font-weight:800;font-size:30px;line-height:1;color:var(--red);min-width:3.2em}
+.p .stat small{display:block;font-size:12px;font-weight:500;color:var(--mut);margin-top:4px;max-width:7em}
+.p p{margin:0;font-size:15px}.p .fix{font-size:15px}.p .fix b{color:var(--red)}.src{font-size:13px;color:var(--mut)}.src a{color:var(--mut)}
+.cmp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.cmp div{border:1px solid var(--line);border-radius:14px;padding:16px}.cmp p{margin:0;font-size:15px}
 .std{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:20px}
 .s{border:1px solid var(--line);border-radius:14px;padding:18px;display:grid;grid-template-columns:2.4em minmax(0,1fr);gap:4px 12px}
 .s .no{grid-row:span 3;width:2.2em;height:3em;border-radius:1.1em 1.1em .5em .5em;background:var(--nude);display:grid;place-items:center;font-weight:800}
-.s p{margin:0;font-size:15px}.s .ev{font-size:14px;color:var(--mut)}.s .vn{font-size:15px}.s .vn b{color:var(--red)}
+.s p{margin:0;font-size:15px}.s .ev{font-size:14px;color:var(--mut)}.s .vn b{color:var(--red)}
+.rank{margin-top:14px}.rk{display:grid;grid-template-columns:minmax(0,11em) minmax(0,1fr) 2.6em;gap:10px;align-items:center;padding:4px 0;border-bottom:1px solid var(--line);font-size:14px}
+.rk .bar{height:10px}.c2{background:var(--plum)!important}.c3{background:var(--slate)!important}
+.k{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--mut);margin-top:10px}.k i{display:inline-block;width:16px;height:9px;border-radius:2px 6px 6px 2px;margin-right:6px;background:var(--red)}
 .quiz{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:24px;align-items:start;margin-top:16px}
-.q{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px}
+.q{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;flex-wrap:wrap}
 .seg{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none}
 .seg button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--ink);padding:8px 12px;min-height:40px;cursor:pointer}
 .seg button[aria-pressed=true]{background:var(--ink);color:var(--bg)}
-.res{position:sticky;top:16px;background:var(--soft);border-radius:16px;padding:20px}
+.res{position:sticky;top:16px;background:var(--bg);border-radius:16px;padding:20px}
 .res .big{font-size:64px;font-weight:800;line-height:1;letter-spacing:-.03em}
 .meter{height:14px;border-radius:2px 10px 10px 2px;background:var(--line);position:relative;margin:14px 0}
 .meter i{position:absolute;inset:0 auto 0 0;border-radius:2px 10px 10px 2px;background:var(--red)}.meter s{position:absolute;left:90%;top:-6px;bottom:-6px;border-left:2px dashed var(--ink)}
+.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
+.way{border:1px solid var(--line);border-radius:16px;padding:20px;display:flex;flex-direction:column;gap:8px}.way.hi{border:2px solid var(--red)}
+.way .tag{font-size:13px;color:var(--red);font-weight:600}.way ul{margin:0;padding-left:18px;font-size:15px}.way p{margin:0}
 .lib{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:18px}
 .lib div{border:1px solid var(--line);border-radius:14px;padding:16px}.lib p{margin:0;font-size:15px}
 .cal{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px;margin-top:8px}.cal span{background:var(--soft);border-radius:8px;padding:8px;font-size:13px;line-height:1.3}.cal b{display:block;font-size:15px}
+.about{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,1fr);gap:32px}
+.about ol{margin:0;padding-left:20px}.about li{margin-bottom:8px}
 .scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--line)}th{color:var(--mut);font-weight:600;font-size:13px}td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
+details summary{cursor:pointer;font-weight:600;margin-top:14px}
 footer{border-top:1px solid var(--line)}
-@media(max-width:900px){.top,.quiz{grid-template-columns:1fr}.crit{grid-template-columns:repeat(2,minmax(0,1fr))}.lib{grid-template-columns:1fr}.cal{grid-template-columns:repeat(3,minmax(0,1fr))}.res{position:static}}
-@media(max-width:640px){.std{grid-template-columns:1fr}.r{grid-template-columns:minmax(0,8.5em) minmax(0,1fr) 2.6em}nav a{margin-left:10px;font-size:14px}table{font-size:13px}.hide-s{display:none}}
+@media(max-width:900px){.hero,.quiz,.about{grid-template-columns:1fr}.cmp,.ways,.lib{grid-template-columns:1fr}.cal{grid-template-columns:repeat(3,minmax(0,1fr))}.res{position:static}}
+@media(max-width:640px){.pains,.std{grid-template-columns:1fr}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}nav a{font-size:14px}table{font-size:13px}.hide-s{display:none}}
 </style>
 
-<nav class=band><div class=logo><i></i>Nailmark</div><div><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#tu-cham">Tự chấm điểm</a><a href="#thu-vien">Thư viện</a></div></nav>
+<nav class=band><div class=logo><i></i>Nailmark</div><div><a href="#van-de">Vấn đề</a><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#tu-cham">Tự chấm điểm</a><a href="#lam-cung">Làm cùng</a><a href="#ve-chung-toi">Về chúng tôi</a></div></nav>
 
-<section class=band style="padding-top:24px"><div class=in>
-<div class=top><div>
-<h1>Bộ tiêu chuẩn thế giới cho tiệm nail</h1>
-<p class=lead>Chọn từ 17 chuỗi nail ở 9 nước theo 5 tiêu chí đo được: doanh thu, số cửa hàng, hợp khách châu Á, hợp khí hậu Đông Nam Á, hiện diện số. Rút ra 8 tiêu chuẩn mà tiệm nhỏ ở Việt Nam làm theo được ngay. Miễn phí.</p>
-<a class=btn href="#tu-cham">Tự chấm điểm tiệm của bạn</a></div>
-<div class=nums><div><b>17</b>chuỗi được chấm</div><div><b>9</b>quốc gia</div><div><b>8</b>tiêu chuẩn</div></div></div>
-<div class=k><span><i class=c1></i>Đông Nam Á</span><span><i class=c2></i>Đông Á</span><span><i class=c3></i>Mỹ, Anh, Trung Đông</span></div>
-<div class=rank id=rank></div>
-<p class=m>Điểm trên 100. FASTNAIL đứng đầu vì là chuỗi châu Á duy nhất có doanh thu được công bố trong báo cáo của công ty niêm yết. Chuỗi Mỹ, Anh doanh thu lớn nhưng thấp điểm về độ hợp với khách và khí hậu Đông Nam Á.</p>
+<section class=band style="padding-top:28px"><div class="in hero">
+<div>
+<h1>Tay nghề tốt chưa đủ. Khách phải tìm thấy, đặt được và quay lại.</h1>
+<p class=who><b>Nailmark</b> là bộ tiêu chuẩn mở giúp tiệm nail nhỏ vận hành chuyên nghiệp như các chuỗi hàng đầu thế giới: từ Google Maps, đặt lịch, menu giá, đến chăm khách cũ. Khởi đầu tại TP.HCM. Tiêu chuẩn và công cụ tự chấm điểm miễn phí.</p>
+<div class=btns><a class=btn href="#tu-cham">Tự chấm điểm tiệm (2 phút)</a><a class="btn o" href="#van-de">Tiệm nail đang mất khách ở đâu?</a></div>
+</div>
+<div class=fig><h3>15 tiệm nail Quận 1 đánh giá 4,8–5★ vẫn để mất khách ở 6 chỗ</h3><div id=leak></div>
+<p class=m style="margin:10px 0 0">Nailmark khám 11 kênh của 15 tiệm, 25/11/2026. Số tiệm mắc lỗi trên 15.</p></div>
 </div></section>
 
-<section class="band soft"><div class=in>
-<h2>Cách chọn: 5 tiêu chí, mỗi tiêu chí 20 điểm</h2>
-<p class=lead>Tiêu chí được chốt trước khi thu số liệu. Số không có nguồn được chấm 0, không đoán.</p>
-<div class=crit>
-<div><b>20</b>Doanh thu: hạng trong vùng</div><div><b>20</b>Số cửa hàng: từ 2 đến hơn 500</div><div><b>20</b>Hợp khách châu Á</div><div><b>20</b>Hợp khí hậu nóng ẩm Đông Nam Á</div><div><b>20</b>Hiện diện số: đặt lịch, menu giá, thành viên, đánh giá</div></div>
+<section class="band soft" id=van-de><div class=in>
+<h2>Chủ tiệm nail đang vướng 6 việc</h2>
+<p class=lead>Mỗi việc có số liệu, và một cách giải đã có sẵn trong bộ tiêu chuẩn.</p>
+<div class=pains id=pains></div>
 </div></section>
 
-<section class=band id=tieu-chuan><div class=in>
+<section class=band><div class=in>
+<h2>Khách phàn nàn gì về tiệm nail</h2>
+<p class=lead>Đây cũng là lý do khách đổi tiệm. Tiệm nào xử lý được thì giữ khách.</p>
+<div class=cmp>
+<div><h3>Vệ sinh dụng cụ</h3><p>Dùng chung kềm có thể gây nấm móng, chín mé, viêm gan. Quên khử trùng "vẫn thường xảy ra".</p><p class=src><a href="https://vnexpress.net/cac-benh-thuong-gap-khi-lam-mong-3276161.html" target=_blank rel=noopener>VnExpress</a> · <a href="https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban" target=_blank rel=noopener>Vietcetera</a></p></div>
+<div><h3>Giá phát sinh, chèo kéo</h3><p>Giá vẽ báo "cảm tính", tách giá gel và sơn để đội hoá đơn; ép làm thêm dịch vụ.</p><p class=src><a href="https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban" target=_blank rel=noopener>Vietcetera</a> · <a href="https://mothership.sg/2021/12/nail-palace-elderly-woman-hard-selling" target=_blank rel=noopener>Mothership</a></p></div>
+<div><h3>Không giống mẫu, chờ lâu, gel bong</h3><p>Tay nghề không đều; dịp Tết khách chờ 3 tiếng; gel bong sau vài ngày.</p><p class=src><a href="https://news.laodong.vn/kinh-doanh/tiem-nail-sang-den-den-khuya-ngay-giap-tet-khach-cho-3-tieng-moi-duoc-vao-lam-1656405.ldo" target=_blank rel=noopener>Lao Động</a> · <a href="https://vneconomy.vn/son-gel-co-gi-hot.htm" target=_blank rel=noopener>VnEconomy</a></p></div>
+</div></div></section>
+
+<section class="band soft" id=tieu-chuan><div class=in>
 <h2>8 tiêu chuẩn, mỗi tiêu chuẩn có hình mẫu thật</h2>
-<p class=lead>Không chuỗi nào đứng đầu cả 8. Mỗi tiêu chuẩn lấy chuỗi có bằng chứng tốt nhất.</p>
+<p class=lead>Chọn từ 17 chuỗi nail ở 9 nước theo 5 tiêu chí đo được: doanh thu, số cửa hàng, hợp khách châu Á, hợp khí hậu Đông Nam Á, hiện diện số.</p>
 <div class=std id=std></div>
+<details><summary>Xem bảng xếp hạng 17 chuỗi</summary>
+<div class=k><span><i></i>Đông Nam Á</span><span><i class=c2></i>Đông Á</span><span><i class=c3></i>Mỹ, Anh, Trung Đông</span></div>
+<div class=rank id=rank></div>
+<p class=m>Quy đổi tạm: 1 USD ≈ 150 yên ≈ 26.000 đ. Chuỗi nail lớn nhất thế giới có công bố số liệu chỉ thu vài chục triệu USD mỗi năm: ngành phân mảnh, chưa ai đủ lớn để làm chuẩn cho cả ngành.</p>
+<div class=scroll><table><thead><tr><th>Chuỗi</th><th>Nước</th><th class=hide-s>Doanh thu</th><th>Cửa hàng</th><th>Tổng</th></tr></thead><tbody id=tb></tbody></table></div>
+</details>
 </div></section>
 
-<section class="band soft" id=tu-cham><div class=in>
+<section class=band id=tu-cham><div class=in>
 <h2>Tiệm của bạn đang ở đâu?</h2>
-<p class=lead>Trả lời 8 câu, mỗi câu ứng với một tiêu chuẩn. Kết quả hiện ngay, không cần để lại thông tin.</p>
+<p class=lead>8 câu, mỗi câu ứng với một tiêu chuẩn. Kết quả hiện ngay, không cần để lại thông tin.</p>
 <div class=quiz><div id=qs></div>
-<div class=res><div class=m>Điểm của tiệm</div><div class=big id=score>0</div><div class=m>trên 10 · chuẩn thế giới từ 9</div>
+<div class="res soft"><div class=m>Điểm của tiệm</div><div class=big id=score>0</div><div class=m>trên 10 · chuẩn thế giới từ 9</div>
 <div class=meter><i id=fill style="width:0"></i><s></s></div>
 <h3 id=verdict></h3><p id=next class=m style="margin:0"></p></div></div>
 </div></section>
 
+<section class="band soft" id=lam-cung><div class=in>
+<h2>Ba cách làm cùng Nailmark</h2>
+<p class=lead>Tuỳ thời gian và mong muốn của từng tiệm. Gói được điều chỉnh theo nhu cầu, có lựa chọn trả theo số lịch hẹn mới.</p>
+<div class=ways>
+<div class=way><span class=tag>Miễn phí</span><h3>Tự làm theo tiêu chuẩn</h3><ul><li>8 tiêu chuẩn và công cụ tự chấm điểm</li><li>Thư viện mẫu: menu, tin Zalo, trả lời đánh giá, lịch mẫu của tháng</li></ul></div>
+<div class="way hi"><span class=tag>Phổ biến nhất</span><h3>Làm sẵn, tiệm chỉ cần duyệt</h3><ul><li>Bản khám 11 kênh có bằng chứng</li><li>Trang đặt lịch, lookbook đánh số, lưới Instagram dựng sẵn</li><li>Video ngắn từ clip điện thoại của tiệm</li><li>Báo cáo số lịch hẹn theo kênh</li></ul></div>
+<div class=way><span class=tag>Cho tiệm muốn tự chủ</span><h3>Đào tạo và chuyển giao</h3><ul><li>Hướng dẫn nhân viên của tiệm làm theo quy trình</li><li>Bộ công cụ AI và mẫu nội dung</li><li>Kiểm tra định kỳ để giữ chuẩn</li></ul></div>
+</div></div></section>
+
 <section class=band id=thu-vien><div class=in>
 <h2>Thư viện mẫu, dùng miễn phí</h2>
 <div class=lib>
-<div><h3>Menu 3 mức giá cố định</h3><p>Đơn giản 45 phút · Vừa 60 phút · Cầu kỳ 90 phút. Giá đã gồm tháo gel cũ. Mỗi mẫu một số, khách chọn số khi đặt lịch.</p></div>
+<div><h3>Menu 3 mức giá cố định</h3><p>Đơn giản 45 phút · Vừa 60 phút · Cầu kỳ 90 phút. Giá đã gồm tháo gel cũ. Mỗi mẫu một số, khách chọn số khi đặt lịch. Không phát sinh.</p></div>
 <div><h3>Tin Zalo nhắc khách sau 3 tuần</h3><p>"Chào chị, đã 3 tuần từ lần làm móng ở tiệm. Mẫu của tháng đã có, chị chọn số mẫu và đặt lịch ở link này để giữ giờ đẹp nhé."</p></div>
-<div><h3>Trả lời đánh giá</h3><p>5 sao: cảm ơn và hẹn dặm lại sau 3 tuần. 4 sao: ghi nhận góp ý. 1–3 sao: xin lỗi và mời nhắn Zalo để chủ tiệm hỗ trợ trực tiếp.</p></div>
+<div><h3>Chống bùng hẹn</h3><p>Nhắn xác nhận trước 24 giờ và 2 giờ. Khách đặt giờ cao điểm cọc 50.000 đ, trừ vào hoá đơn.</p></div>
 </div>
 <h3 style="margin-top:22px">Lịch "mẫu của tháng" cả năm cho tiệm Việt</h3>
 <div class=cal id=cal></div>
 </div></section>
 
-<section class="band soft"><div class=in>
-<h2>Số liệu đầy đủ</h2>
-<p class=m>Nghiên cứu ngày 25/11/2026 từ báo cáo công ty, hồ sơ nhượng quyền, báo ngành; nhiều số lấy từ đoạn trích kết quả tìm kiếm và sẽ được đối chiếu bản gốc. Quy đổi tạm: 1 USD ≈ 150 yên ≈ 26.000 đ; 1 bảng Anh ≈ 1,28 USD. Chuỗi nail lớn nhất thế giới có công bố số liệu chỉ thu vài chục triệu USD mỗi năm: ngành phân mảnh, chưa ai đủ lớn để làm chuẩn cho cả ngành. A doanh thu · B số cửa hàng · C khách châu Á · D khí hậu ĐNÁ · E hiện diện số (mỗi mục 0–10).</p>
-<div class=scroll><table><thead><tr><th>Chuỗi</th><th>Nước</th><th class=hide-s>Doanh thu</th><th>Cửa hàng</th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th><th>Tổng</th></tr></thead><tbody id=tb></tbody></table></div>
+<section class="band soft" id=ve-chung-toi><div class="in about">
+<div><h2>Về Nailmark</h2>
+<p class=lead style="margin-bottom:14px">Ngành nail ở đâu cũng phân mảnh: hàng chục nghìn tiệm nhỏ, chưa ai đủ lớn để làm chuẩn cho cả ngành. Nailmark ra đời để mỗi tiệm nhỏ có thể làm việc chuyên nghiệp như chuỗi hàng đầu, bằng công cụ AI với chi phí của tiệm nhỏ.</p>
+<p>Khởi đầu tại TP.HCM, 2026. Ngành tiếp theo: salon tóc và chăm sóc thú cưng.</p></div>
+<div><h3>Cách chúng tôi làm việc</h3><ol>
+<li>Chốt tiêu chí trước, rồi mới thu số liệu.</li>
+<li>Mỗi con số có nguồn và ngày; không có nguồn thì ghi "không rõ".</li>
+<li>Đo bằng số lịch hẹn thật, không bằng lượt thích.</li>
+<li>Ảnh của tiệm là ảnh thật; AI chỉ chỉnh sáng, không đổi màu móng.</li></ol>
+<p class=m>Số liệu nghiên cứu ngày 25/11/2026, nhiều số lấy từ đoạn trích kết quả tìm kiếm và đang được đối chiếu bản gốc.</p></div>
 </div></section>
 
 <footer class=band><div class=in><div class=logo><i></i>Nailmark</div>
-<p class=m>Bộ tiêu chuẩn mở cho ngành nail, khởi đầu tại TP.HCM. Bản mẫu ngày 25/11/2026. Tên các chuỗi thuộc về chủ sở hữu; Nailmark chỉ dẫn số liệu công khai và không liên kết với các chuỗi này.</p></div></footer>
+<p class=m>Bản mẫu ngày 25/11/2026 · Kênh liên hệ sẽ được bổ sung. Tên các chuỗi thuộc về chủ sở hữu; Nailmark chỉ dẫn số liệu công khai và không liên kết với các chuỗi này.</p></div></footer>
 
 <script>
 {
+const L=[["Không có kênh chăm khách cũ (Zalo, thẻ thành viên)",14],["Không đặt lịch online được",10],["Google Maps không gắn website riêng",10],["Không có TikTok",9],["Không có bảng giá công khai",6],["Instagram nhiều bài, ít người theo dõi",5]];
+document.getElementById("leak").innerHTML=L.map(l=>`<div class=r><div class=n>${l[0]}</div><div class=track><div class=bar style="width:${l[1]/15*100}%"></div></div><div class=v>${l[1]}/15</div></div>`).join("");
+const P=[
+["29%","khách mới quay lại","Khách mới đến một lần rồi thôi","Chỉ 29% khách mới đặt lịch lần hai. Ở Quận 1, 14/15 tiệm không có kênh chăm khách cũ.","Tin Zalo nhắc sau 3 tuần, mẫu của tháng, thẻ 10 lần có điều khoản rõ.",[["Phorest","https://professionalbeauty.co.uk/only-29-percent-new-salon-clients-rebook-phorest-research"]]],
+["48%","chủ salon chọn","Giữ thợ khó nhất","48% chủ salon nói quản lý nhân viên là việc khó nhất. Ở Việt Nam, thợ ra mở tiệm riêng có thể kiếm gấp 3–5 lần làm thuê.","Quy trình và menu chuẩn để thợ mới làm đúng ngay; video ghi tên thợ để thợ có tên tuổi tại tiệm.",[["Professional Beauty","https://professionalbeauty.co.uk/site/newsdetails/Managing-staff-is-the-biggest-challenge-of-running-a-salon"],["VnExpress","https://vnexpress.net/luu-y-khi-chon-nghe-nail-4067693.html"]]],
+["3–5","tiệm một con phố","Cạnh tranh giá","Có phố đi vài bước gặp 3–5 tiệm nail; tiệm nhỏ khó giải thích vì sao giá mình cao hơn.","Khác biệt bằng chuẩn: tiệt trùng có niêm phong, bảo hành 10–14 ngày, giá trọn gói không phát sinh.",[["Toplist","https://toplist.vn/top-list/kinh-nghiem-de-thanh-cong-khi-mo-tiem-nail-33499.htm"]]],
+["92%","từng gặp bùng hẹn","Khách bùng hẹn","92% doanh nghiệp làm đẹp ở Anh từng gặp khách bùng hẹn; tỷ lệ ở tiệm nail tăng từ 1% lên 4% trong một năm.","Nhắn xác nhận trước 24 giờ và 2 giờ; cọc nhỏ cho giờ cao điểm.",[["Fresha","https://www.fresha.com/blog/cancellations-cost-study"],["Zenoti","https://www.zenoti.com/thecheckin/no-show-revenue-calculator"]]],
+["3 giờ","khách chờ dịp Tết","Đông dồn, vắng ngày thường","Cận Tết tiệm mở xuyên đêm, khách chờ 3 tiếng; ngày thường lại trống ghế.","Đặt lịch theo khung giờ, mở đặt trước Tết từ tháng 12, ưu đãi khung giờ vắng.",[["Lao Động","https://news.laodong.vn/kinh-doanh/tiem-nail-sang-den-den-khuya-ngay-giap-tet-khach-cho-3-tieng-moi-duoc-vao-lam-1656405.ldo"]]],
+["1/1/2026","bỏ thuế khoán","Không có thời gian cho marketing và giấy tờ","Từ 2026 hộ kinh doanh tự kê khai thuế; hộ doanh thu từ 1 tỷ/năm dùng hoá đơn điện tử từ máy tính tiền. Marketing bị đẩy xuống sau cùng.","Nailmark làm sẵn phần marketing để chủ tiệm tập trung vào tay nghề và vận hành.",[["VOH","https://voh.com.vn/kinh-te/tu-112026-chinh-thuc-bo-thue-khoan-chuyen-sang-ke-khai-thue-642709.html"],["Thời báo Tài chính","https://thoibaotaichinhvietnam.vn/chinh-thuc-quy-dinh-ho-kinh-doanh-co-doanh-thu-1-ty-dong-tro-len-phai-ap-dung-hoa-don-dien-tu-193181.html"]]]];
+document.getElementById("pains").innerHTML=P.map(p=>`<div class=p><div class=stat>${p[0]}<small>${p[1]}</small></div><h3>${p[2]}</h3><p>${p[3]}</p><p class=fix><b>Cách giải:</b> ${p[4]}</p><p class=src style="grid-column:2">${p[5].map(s=>`<a href="${s[1]}" target=_blank rel=noopener>${s[0]}</a>`).join(" · ")}</p></div>`).join("");
 const R=[
-["FASTNAIL","Nhật",1,"¥3,25 tỷ ≈ $22 triệu ≈ 560 tỷ đ (FY3/2026)",73,10,6,10,2,4],["Nails Dot Glow","Philippines",0,"không rõ",100,0,8,10,10,0],["Nail Palace","Singapore",0,"không rõ",23,0,4,10,10,4],
-["Nail-a-holics","Philippines",0,"không rõ",63,0,6,10,10,0],["Lisa Nail & Spa","Việt Nam",0,"không rõ",6,0,2,10,10,4],["Heart Nail","Nhật",1,"không rõ",280,0,8,10,2,4],
-["Townhouse","Anh",2,"£19,4 triệu ≈ $25 triệu ≈ 650 tỷ đ (2025)",44,8,6,2,2,6],["N.I.C Nail Salon","Thái Lan",0,"không rõ",25,0,4,10,10,0],["Shimmer & Shine","Singapore",0,"không rõ",9,0,2,10,10,2],
-["Nail Room – Mit's House","Việt Nam",0,"không rõ",15,0,4,10,10,0],["Qiaoxiang","Trung Quốc",1,"không rõ",1000,0,10,10,2,0],["Nail Quick","Nhật",1,"không rõ",50,0,6,10,2,2],
-["Frenchies","Mỹ",2,"~$21 triệu ≈ 550 tỷ đ (ước tính)",26,8,4,2,2,4],["MiniLuxe","Mỹ",2,"~$28 triệu ≈ 730 tỷ đ (FY2025)",24,10,4,2,2,0],["Regal Nails","Mỹ",2,"không rõ",584,0,10,2,2,4],
-["Tips & Toes","UAE",2,"không rõ",35,0,6,2,6,2],["DaVi Nails","Mỹ",2,"không rõ",399,0,8,2,2,0]];
-const col=["c1","c2","c3"];
-const tot=r=>2*(r[5]+r[6]+r[7]+r[8]+r[9]);
-document.getElementById("rank").innerHTML=R.map(r=>`<div class=r><div class=n>${r[0]}<span>${r[1]}</span></div><div class="bar ${col[r[2]]}" style="width:${tot(r)}%"></div><div class=v>${tot(r)}</div></div>`).join("");
-document.getElementById("tb").innerHTML=R.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td class=hide-s>${r[3]}</td><td class=num>${r[4].toLocaleString("vi-VN")}</td>${r.slice(5).map(v=>`<td class=num>${v}</td>`).join("")}<td class=num><b>${tot(r)}</b></td></tr>`).join("");
+["FASTNAIL","Nhật",1,"¥3,25 tỷ ≈ $22 triệu ≈ 560 tỷ đ (FY3/2026)",73,64],["Nails Dot Glow","Philippines",0,"không rõ",100,56],["Nail Palace","Singapore",0,"không rõ",23,56],
+["Nail-a-holics","Philippines",0,"không rõ",63,52],["Lisa Nail & Spa","Việt Nam",0,"không rõ",6,52],["Heart Nail","Nhật",1,"không rõ",280,48],
+["Townhouse","Anh",2,"£19,4 triệu ≈ $25 triệu ≈ 650 tỷ đ (2025)",44,48],["N.I.C Nail Salon","Thái Lan",0,"không rõ",25,48],["Shimmer & Shine","Singapore",0,"không rõ",9,48],
+["Nail Room – Mit's House","Việt Nam",0,"không rõ",15,48],["Qiaoxiang","Trung Quốc",1,"không rõ (tự nhận 1.000+ tiệm)",1000,44],["Nail Quick","Nhật",1,"không rõ",50,40],
+["Frenchies","Mỹ",2,"~$21 triệu ≈ 550 tỷ đ (ước tính)",26,40],["MiniLuxe","Mỹ",2,"~$28 triệu ≈ 730 tỷ đ (FY2025)",24,36],["Regal Nails","Mỹ",2,"không rõ",584,36],
+["Tips & Toes","UAE",2,"không rõ",35,32],["DaVi Nails","Mỹ",2,"không rõ",399,24]];
+const col=["","c2","c3"];
+document.getElementById("rank").innerHTML=R.map(r=>`<div class=rk><div>${r[0]} <span class=m>${r[1]}</span></div><div class="bar ${col[r[2]]}" style="width:${r[5]}%"></div><div class=v><b>${r[5]}</b></div></div>`).join("");
+document.getElementById("tb").innerHTML=R.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td class=hide-s>${r[3]}</td><td class=num>${r[4].toLocaleString("vi-VN")}</td><td class=num><b>${r[5]}</b></td></tr>`).join("");
 const S=[
-["Menu mẫu đánh số, giá cố định","FASTNAIL (Nhật, 73 cửa hàng): 500–700 mẫu, giá cố định từ ¥4.290, đã gồm tháo gel cũ. Heart Nail (hơn 280 cửa hàng): mọi mẫu đồng giá ¥4.400, xong trong 60 phút.","Lookbook 30–60 mẫu đánh số, 3 mức giá ghi kèm số phút.","Menu của bạn có mẫu đánh số và giá trọn gói?"],
-["Một nút đặt lịch cho mọi kênh","Townhouse (Anh, 44 cửa hàng, £19,4 triệu): một hệ đặt lịch cho app, web và Instagram. Heart Nail: hơn 80.000 lượt đặt mỗi tháng qua nền tảng đặt lịch.","Một trang đặt lịch gắn vào Google Maps, Facebook, Instagram, TikTok, Zalo.","Khách đặt lịch online được mà không cần nhắn hỏi?"],
+["Menu mẫu đánh số, giá cố định","FASTNAIL (Nhật, 73 cửa hàng, ~$22 triệu/năm): 500–700 mẫu, giá cố định đã gồm tháo gel cũ. Heart Nail (hơn 280 cửa hàng): mọi mẫu đồng giá ¥4.400, xong trong 60 phút.","Lookbook 30–60 mẫu đánh số, 3 mức giá ghi kèm số phút.","Menu của bạn có mẫu đánh số và giá trọn gói?"],
+["Một nút đặt lịch cho mọi kênh","Townhouse (Anh, 44 cửa hàng): một hệ đặt lịch cho app, web và Instagram. Heart Nail: hơn 80.000 lượt đặt mỗi tháng.","Một trang đặt lịch gắn vào Google Maps, Facebook, Instagram, TikTok, Zalo.","Khách đặt lịch online được mà không cần nhắn hỏi?"],
 ["Mẫu của tháng","Tiệm nail Hàn: \"이달의 아트\", bộ mẫu mới mỗi tháng với giá ưu đãi, đặt qua Naver và Kakao. FASTNAIL: màu giới hạn theo mùa.","Mỗi tháng 6–9 mẫu mới theo dịp, đăng ngày 1, nhắc khách cũ qua Zalo.","Mỗi tháng bạn có bộ mẫu mới để báo khách?"],
 ["Thành viên minh bạch","Frenchies (Mỹ): gói Polish Pass từ $50/tháng, tiền chưa dùng được cộng dồn. Bài học ngược: Nail Palace (Singapore) bị cảnh cáo vì ép bán gói trả trước.","Thẻ 10 lần có điều khoản hoàn tiền rõ ràng, không ép mua.","Bạn có thẻ thành viên hoặc gift card với điều khoản rõ?"],
 ["Đánh giá Google dày","Lisa Nail & Spa (TP.HCM): 4,9★ với 9.141 đánh giá Google, đứng đầu khi tìm tiệm nail Quận 1.","Mã QR xin đánh giá ở quầy, trả lời mọi đánh giá trong 24 giờ.","Bạn trả lời mọi đánh giá Google trong 24 giờ?"],
-["Video ngắn quay quy trình","Xu hướng ở Nhật chuyển từ móng đẹp trên ảnh sang đẹp trên video (nhũ mắt mèo, tráng gương). Chưa có chuỗi lớn nào công bố số liệu video, nên đây là định dạng nên theo chứ không phải quy mô.","3 video/tuần dài 15–30 giây, quay dọc bằng điện thoại, ghi tên thợ và số mẫu.","Bạn đăng video ngắn đều mỗi tuần?"],
-["Chuẩn hoá để nhân bản","Heart Nail mở 100 tiệm nhượng quyền trong 12 tháng. Nails Dot Glow (Philippines) có hơn 100 chi nhánh, phí nhượng quyền US$20.000. MiniLuxe công bố doanh thu trung bình $1,3 triệu mỗi studio.","Quy trình, menu, ảnh và giá giống nhau ở mọi chi nhánh; đo doanh thu mỗi ghế.","Các chi nhánh (hoặc các thợ) dùng chung menu, giá và cách chụp ảnh?"],
-["Chuẩn khí hậu Đông Nam Á","Bộ Y tế Singapore yêu cầu khử trùng hoặc hấp autoclave dụng cụ sau mỗi khách. Ở vùng nóng ẩm, gel bền 2–3 tuần nhờ xử lý kỹ da quanh móng. Gel pedicure đắt hơn gel tay khoảng 10–15% ở Kuala Lumpur và Jakarta.","Khui túi dụng cụ đã hấp trước mặt khách, bảo hành 10–14 ngày, có combo tay và chân.","Bạn cho khách thấy dụng cụ đã tiệt trùng?"]];
+["Video ngắn quay quy trình","Ở Nhật, xu hướng chuyển từ móng đẹp trên ảnh sang đẹp trên video. Chưa chuỗi lớn nào công bố số liệu video: đây là định dạng nên theo, không phải quy mô.","3 video/tuần dài 15–30 giây, quay dọc bằng điện thoại, ghi tên thợ và số mẫu.","Bạn đăng video ngắn đều mỗi tuần?"],
+["Chuẩn hoá để nhân bản","Heart Nail mở 100 tiệm nhượng quyền trong 12 tháng. Nails Dot Glow (Philippines) có hơn 100 chi nhánh. MiniLuxe công bố doanh thu trung bình $1,3 triệu mỗi studio.","Quy trình, menu, ảnh và giá giống nhau ở mọi thợ, mọi chi nhánh.","Mọi thợ (và chi nhánh) dùng chung menu, giá và cách chụp ảnh?"],
+["Chuẩn khí hậu Đông Nam Á","Bộ Y tế Singapore yêu cầu khử trùng hoặc hấp autoclave dụng cụ sau mỗi khách. Ở vùng nóng ẩm, gel bền 2–3 tuần nhờ xử lý kỹ da quanh móng.","Khui túi dụng cụ đã hấp trước mặt khách, bảo hành 10–14 ngày, combo tay và chân.","Bạn cho khách thấy dụng cụ đã tiệt trùng?"]];
 document.getElementById("std").innerHTML=S.map((s,i)=>`<div class=s><div class=no>${i+1}</div><h3>${s[0]}</h3><p class=ev>${s[1]}</p><p class=vn><b>Tiệm Việt làm:</b> ${s[2]}</p></div>`).join("");
 const ans=S.map(()=>-1);const lab=["Chưa","Một phần","Có"];
 const qs=document.getElementById("qs");
@@ -143,7 +196,7 @@ const v=document.getElementById("verdict"),n=document.getElementById("next");
 if(!done){v.textContent="Chọn câu trả lời bên trái";n.textContent="";return}
 const weak=ans.map((a,i)=>[a,i]).filter(x=>x[0]>=0&&x[0]<2).slice(0,2).map(x=>S[x[1]][0]);
 v.textContent=sc>=9?"Đạt chuẩn thế giới":sc>=6?"Khá, còn khoảng cách tới chuẩn 9":"Còn nhiều việc dễ làm ngay";
-n.textContent=weak.length?"Bắt đầu từ: "+weak.join("; ")+".":"Giữ nhịp và đo số lịch hẹn mỗi tuần.";};
+n.textContent=(weak.length?"Bắt đầu từ: "+weak.join("; ")+". ":"")+(done<8?`Đã trả lời ${done}/8 câu.`:"");};
 qs.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const i=+b.dataset.i,j=+b.dataset.j;ans[i]=j;
 qs.querySelectorAll(`button[data-i="${i}"]`).forEach(x=>x.setAttribute("aria-pressed",x===b));draw();});
 draw();
