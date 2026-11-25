@@ -17,16 +17,16 @@
 | **Bộ sưu tập 8 dịp** (ảnh mẫu Nailmark) | Không | Có | Có | Có, ưu tiên ảnh thật |
 | **Bảng giá** (anh Ninh duyệt 25/11: AI đọc ảnh cho cả 3 gói) | Gõ theo mẫu. AI đọc ảnh: **sắp có** (chờ Kyma) | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Đội nhập |
 | **Đặt lịch Zalo + QR quầy** | Có | Có | Có | Có |
-| **Mô tả Google Maps** | Mẫu điền chỗ trống | AI viết sẵn, tiệm tự dán | AI viết sẵn, tiệm tự dán | Đội cập nhật (tiệm cấp quyền) |
-| **Mẫu trả lời đánh giá** | 3 | 10 | 10 | 10 |
-| **Tên miền riêng** | Không | Không | Năm đầu. Tiệm chọn tên trong form, hệ thống tự gắn | Năm đầu |
+| **Mô tả Google Maps** | Không | AI viết sẵn, tiệm tự dán | AI viết sẵn, tiệm tự dán | Đội cập nhật (tiệm cấp quyền) |
+| **Mẫu trả lời đánh giá** | Không | 10 | 10 | 10 |
+| **Địa chỉ web** (anh Ninh chốt 25/11: tên miền tốn khoảng 300–500k/năm và thời gian cài tay, không đáng ở mức giá 3 gói tự làm) | Đường dẫn Nailmark | Đường dẫn Nailmark | Đường dẫn Nailmark | **Tên miền riêng của tiệm**, gồm năm đầu. Đội cài |
 | **Số cơ sở** | 1 | 1 | 2 | 2 |
-| **Chỉnh sửa** | Tự sửa qua form | Tự sửa qua form | Tự sửa qua form | Đội sửa trong 30 ngày |
+| **Chỉnh sửa** | Tự sửa không giới hạn | Tự sửa không giới hạn | Tự sửa không giới hạn | Đội sửa trong 30 ngày |
 | **Bộ Tết 2027 + công cụ ảnh quà tặng AI** | Không | Không | Có. Tiệm tự chạy theo video, tối đa 30 khách | 1 mùa, đội làm |
 | **Hỏi đáp trực tuyến (nhóm, chung mọi tiệm)** | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần |
 | **Người làm riêng cho tiệm** | **Không** | **Không** | **Không** | Có, 30 ngày |
 | **Video tạo web (nhóm A, 7 video) + video đưa web ra ngoài (nhóm B, 5 video) + trợ lý AI 24/7** | Có | Có | Có | Có |
-| **Duy trì từ năm 2** | 499k/năm | 990k/năm | 990k/năm + phí tên miền theo nhà cung cấp | 990k/năm + phí tên miền theo nhà cung cấp |
+| **Duy trì từ năm 2** | 499k/năm | 990k/năm | 990k/năm | 990k/năm + phí tên miền theo nhà cung cấp |
 
 ## 2. Các gói khác
 

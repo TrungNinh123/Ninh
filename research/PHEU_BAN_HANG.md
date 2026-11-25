@@ -26,13 +26,14 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
 |---|---|---|---|---|
-| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Web nằm ở đường dẫn của Nailmark. **Nội dung chỉ có hướng dẫn chi tiết qua video:** chủ tiệm tự hoàn thiện, **không có nhân sự hỗ trợ**. **Không gồm:** tên miền riêng, vòng sửa, bộ sưu tập theo dịp, nội dung mới. Muốn được làm trọn thì lên gói Chuẩn hoặc Đẳng cấp | 0 |
-| **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, 1 vòng sửa, video hướng dẫn 3 phút, mô tả Google Maps, 10 mẫu trả lời đánh giá | 0–1 |
-| **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: tên miền riêng năm đầu, tối đa 2 cơ sở, tặng kèm 1 Gói Mùa (ví dụ Tết 2027), ảnh quà tặng AI cho 30 khách | 1 |
+| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Web nằm ở đường dẫn của Nailmark (cả 3 gói tự làm đều dùng đường dẫn Nailmark). **Nội dung chỉ có hướng dẫn chi tiết qua video:** chủ tiệm tự hoàn thiện, **không có nhân sự hỗ trợ**. **Không gồm:** bộ sưu tập theo dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá. Muốn đội Nailmark làm trọn thì chọn gói Làm hộ 9,9 triệu | 0 |
+| **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, 10 mẫu trả lời đánh giá | 0 |
+| **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: 24 ảnh mẫu, dùng cho 2 cơ sở, bộ Tết 2027, ảnh quà tặng AI cho 30 khách | 0 |
 
 - **Duy trì từ năm thứ 2:**
-  - Khởi đầu: **499.000 đ/năm (≈ $19)**. Không hỗ trợ tên miền riêng, không thêm nội dung khác; muốn thêm thì lên gói.
-  - Chuẩn và Đẳng cấp: 990.000 đ/năm (≈ $38). Riêng Đẳng cấp, phí gia hạn tên miền từ năm thứ hai do tiệm trả theo giá nhà cung cấp.
+  - Khởi đầu: **499.000 đ/năm (≈ $19)**. Không thêm nội dung khác; muốn thêm thì lên gói.
+  - Chuẩn và Đẳng cấp: 990.000 đ/năm (≈ $38).
+  - Cả 3 gói tự làm dùng đường dẫn Nailmark, không có tên miền riêng. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp).
 - **Bộ video tự làm cho gói Khởi đầu** (AI soạn kịch bản, quay màn hình, mỗi video 2–4 phút):
   1. Chụp ảnh móng đẹp bằng điện thoại.
   2. Tải ảnh và đánh số mẫu cho lookbook.
@@ -65,7 +66,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 - **Mọi gói đều có nội dung hỗ trợ:** video hướng dẫn chi tiết, mẫu dùng sẵn, trợ lý AI trả lời câu hỏi.
 - **Gói 999k, 1,99 triệu, 2,99 triệu:** tiệm **tự làm theo video**, công cụ AI điền sẵn. **Không có người làm hộ, không có người hỗ trợ.** Ba gói chỉ khác nhau về tính năng (xem `research/PHAM_VI_DICH_VU.md`).
 - **Làm hộ trọn gói (có người làm): 9.900.000 đ (≈ $380). Anh Ninh chốt 25/11/2026.** Ngưỡng tối thiểu cho mọi việc có người làm hộ là 5 triệu. Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
-  - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền, tối ưu Google Maps, chỉnh sửa trong 30 ngày.
+  - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền riêng của tiệm (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp), tối ưu Google Maps, chỉnh sửa trong 30 ngày.
   - Phạm vi cụ thể chờ anh duyệt.
 - **Đồng hành AI (2,49 triệu/tháng):** trả trước theo quý là 7,47 triệu, nên mỗi lần thu vẫn trên ngưỡng 5 triệu.
 - **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
@@ -132,7 +133,7 @@ Bán web giá rẻ chỉ để kéo khách vào. **Lợi nhuận thật nằm �
 - Các tỷ lệ chuyển đổi trong phễu **chưa đo**. Đợt 1 (5 tiệm TP.HCM) chính là để đo.
 
 ## 5. Việc cần làm để phễu chạy (thứ tự)
-1. Anh chốt 3 mức giá web 999k / 1,99 / 2,99 triệu (anh đã chốt 25/11: Khởi đầu 999k, duy trì 499k/năm, không có tên miền riêng), Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
+1. Anh chốt 3 mức giá web 999k / 1,99 / 2,99 triệu (anh đã chốt 25/11: Khởi đầu 999k, duy trì 499k/năm; cả 3 gói dùng đường dẫn Nailmark, tên miền riêng chỉ có ở gói Làm hộ), Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
 2. Dựng trang "Dán link Google Maps → xem web mẫu". Phần lõi đã có (Places API + `web_tiem.py`), chỉ thiếu phần giao diện và chỗ lưu trữ web.
 3. Chọn cổng thanh toán QR tự xác nhận. Đây là việc cần anh mở tài khoản doanh nghiệp.
 4. Làm form nhận tài liệu, mẫu xin đồng ý dùng ảnh, video hướng dẫn 3 phút (AI làm).

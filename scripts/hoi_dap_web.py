@@ -9,8 +9,8 @@ from html import escape as e
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-THU_TU = ["Nailmark là gì", "gói nào, giá", "999k gồm", "người làm hộ", "Tự làm web mất", "Các bước",
-          "Năm sau", "Giá có tăng", "Không gói nào", "Đổi giá", "Mã QR", "tăng khách", "lấy thông tin", "người thật hay AI"]
+THU_TU = ["Nailmark là gì", "gói nào, giá", "999k được", "người làm hộ", "Tự làm web mất", "Các bước",
+          "Năm sau", "Giá có tăng", "tập trung làm", "Đổi giá", "Mã QR", "tăng khách", "lấy thông tin", "người thật hay AI"]
 
 
 def inline(s):

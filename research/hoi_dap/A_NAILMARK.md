@@ -59,35 +59,41 @@ Hiện chỉ làm cho tiệm nail. Các ngành khác sẽ xem xét sau.
 
 Đây là giá ra mắt.
 
-### [P] Gói 999k gồm những gì? Có làm được tất cả không?
-**Không làm được tất cả.**
-- **Gồm:** web 1 trang, lookbook 12 mẫu, bảng giá, đặt lịch qua Zalo, mã QR in để ở quầy, video hướng dẫn, trợ lý AI, buổi hỏi đáp trực tuyến mỗi tuần.
-- **Không gồm:** tên miền riêng, bộ sưu tập theo dịp, người làm hộ.
-- Chị tự làm theo video, khoảng 1–2 buổi là xong.
+### [P] Gói 999k được những gì?
+Đủ để tiệm có **web đặt lịch riêng, chạy ngay**:
+- Web 1 trang, 12 ảnh mẫu đánh số, bảng giá, nút đặt lịch Zalo, mã QR in để ở quầy.
+- AI điền sẵn thông tin từ Google Maps, máy tự chỉnh sáng ảnh giữ đúng màu móng, tự sửa không giới hạn.
+- Video từng bước, trợ lý AI, buổi hỏi đáp trực tuyến mỗi tuần.
+
+Năm đầu khoảng 83.000đ/tháng, chưa bằng giá một bộ sơn gel. Muốn thêm bộ sưu tập 8 dịp lễ và bộ Google Maps viết sẵn thì chọn gói Chuẩn, chỉ trả phần chênh lệch.
 
 ### Gói Chuẩn hơn gói Khởi đầu ở điểm nào?
 Gói Chuẩn có thêm bộ sưu tập 8 dịp, bài mô tả Google Maps viết sẵn và 10 mẫu trả lời đánh giá. Chị vẫn tự làm theo video, không có người làm hộ.
 
 ### Gói Đẳng cấp có gì thêm?
-Gói Đẳng cấp có thêm:
-- Tên miền riêng năm đầu.
-- Dùng được cho tối đa 2 cơ sở.
-- 24 ảnh lookbook.
-- Bộ Tết 2027 và công cụ ảnh quà tặng cho 30 khách.
+Gói Đẳng cấp có mọi thứ của gói Chuẩn, thêm:
+- 24 ảnh mẫu.
+- Dùng được cho 2 cơ sở.
+- Bộ Tết 2027.
+- Ảnh quà tặng AI cho 30 khách.
+
+Web vẫn dùng đường dẫn Nailmark như hai gói kia.
 
 Chị vẫn tự làm theo video.
 
 ### [P] Có người làm hộ không?
-Ba gói 999k, 1,99 triệu, 2,99 triệu thì chị tự làm theo video, có trợ lý AI trả lời và 1 buổi hỏi đáp mỗi tuần. Muốn đội Nailmark làm toàn bộ thì chọn gói Làm hộ trọn gói 9,9 triệu.
+Có, ở gói **Làm hộ trọn gói 9.900.000đ**: đội Nailmark làm toàn bộ, kèm tên miền riêng của tiệm. Ba gói còn lại chị làm theo video 1–2 buổi là xong, có trợ lý AI và buổi hỏi đáp mỗi tuần.
 
 ### Vì sao không có người hỗ trợ riêng ở gói rẻ?
 Để giữ giá dưới 3 triệu. Hỗ trợ riêng từng tiệm cần nhiều thời gian của người, mà giá gói rẻ không đủ trả cho thời gian đó. Thay vào đó, Nailmark làm video thật dễ hiểu và có buổi hỏi đáp chung mỗi tuần.
 
 ### [P] Năm sau phải trả bao nhiêu?
-Phí duy trì từ năm thứ hai:
-- Gói Khởi đầu: 499.000đ/năm.
-- Gói Chuẩn và Đẳng cấp: 990.000đ/năm.
-- Gói Đẳng cấp: thêm phí gia hạn tên miền theo giá của nhà cung cấp tên miền.
+Giá mua đã gồm trọn năm đầu. Từ năm thứ hai:
+- Khởi đầu: **499.000đ/năm**, khoảng 42.000đ/tháng.
+- Chuẩn và Đẳng cấp: **990.000đ/năm**, khoảng 83.000đ/tháng.
+- Làm hộ: 990.000đ/năm cộng phí gia hạn tên miền theo nhà cung cấp.
+
+Phí này giữ nguyên cho tiệm đã mua, kể cả khi Nailmark tăng giá sau này.
 
 ### Không gia hạn thì sao?
 Web sẽ tạm ngưng. Chị gia hạn lại thì web chạy tiếp, nội dung vẫn giữ.
@@ -110,17 +116,12 @@ Gói Mùa là bộ nội dung cho một dịp lễ: bộ sưu tập 4–8 mẫu 
 Khoá video giúp 1 nhân viên của tiệm tự làm nội dung hằng tháng: ảnh, bài đăng, trả lời đánh giá, bộ sưu tập theo mùa. Kèm bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm. Đạt thì tiệm được dùng dấu "Đạt chuẩn Nailmark" 12 tháng. Giá 4,99 triệu, trả một lần. Gói này là đào tạo, không phải làm hộ.
 
 ### Gói Làm hộ 9,9 triệu gồm gì?
-- **Gồm:** đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền, tối ưu Google Maps, sửa web trong 30 ngày, tặng 1 Gói Mùa.
+- **Gồm:** đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, sửa web trong 30 ngày, tặng 1 Gói Mùa.
 - **Thời gian:** khoảng 7 ngày làm việc.
 - **[CHỜ DUYỆT]** Có gồm chụp ảnh tại tiệm hay không: chưa chốt.
 
-### [P] Không gói nào gồm những gì?
-- Cam kết số khách hay doanh thu.
-- Chạy quảng cáo.
-- Quản lý fanpage hằng ngày.
-- Chụp ảnh tại tiệm.
-- Thiết kế riêng ngoài mẫu Nailmark.
-- Sửa mặt hoặc màu móng trong ảnh.
+### [P] Nailmark tập trung làm gì, không làm gì?
+Nailmark tập trung làm thật tốt **web đặt lịch, ảnh mẫu, bảng giá và nội dung theo mùa** cho tiệm. Những việc nằm ngoài phạm vi: chạy quảng cáo, quản lý fanpage hằng ngày, chụp ảnh tại tiệm, thiết kế riêng ngoài mẫu Nailmark. Nailmark không hứa số khách. Nailmark cũng không sửa khuôn mặt hay màu móng trong ảnh, để ảnh luôn đúng tay nghề thật.
 
 ### Có hợp đồng không?
 Có. Thanh toán xong, chị nhận tin xác nhận đơn, ghi rõ gói gồm gì và không gồm gì. **[CHỜ DUYỆT]** Mẫu hợp đồng và pháp nhân chưa chốt.
@@ -191,7 +192,7 @@ Chị hỏi theo thứ tự:
 - Buổi họp không sửa riêng web của từng tiệm.
 
 ### Web có tên miền riêng không?
-Gói Khởi đầu và Chuẩn dùng đường dẫn của Nailmark. Gói Đẳng cấp có tên miền riêng năm đầu.
+Ba gói Khởi đầu, Chuẩn và Đẳng cấp đều dùng đường dẫn của Nailmark. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu: gồm năm đầu, từ năm thứ hai 990.000đ/năm cộng phí tên miền theo nhà cung cấp. Lý do: tên miền tốn khoảng 300–500 nghìn/năm và thời gian cài tay, không đáng ở mức giá các gói tự làm.
 
 ### [P] Mã QR dùng thế nào?
 In mã QR, đặt ở quầy, gương hoặc bàn làm móng. Khách quét bằng camera điện thoại là mở trang đặt lịch, hoặc mở Zalo của tiệm.

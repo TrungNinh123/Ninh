@@ -302,11 +302,13 @@
 - **Nội dung:**
   > Giá ra mắt của Nailmark, ghi rõ gồm gì và không gồm gì. (Sắp mở đăng ký, hiện chưa nhận tiền.)
   >
-  > – **Khởi đầu 999k:** web 1 trang, 12 mẫu, bảng giá, đặt lịch Zalo, QR quầy. Duy trì 499k/năm từ năm 2. Không có tên miền riêng.
-  > – **Chuẩn 1,99tr:** thêm bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, 10 mẫu trả lời đánh giá.
-  > – **Đẳng cấp 2,99tr:** thêm tên miền riêng năm đầu, 2 cơ sở, 24 mẫu, bộ Tết.
+  > – **Khởi đầu 999k:** web 1 trang, 12 mẫu, bảng giá, đặt lịch Zalo, QR quầy. Duy trì 499k/năm từ năm 2.
+  > – **Chuẩn 1,99tr:** thêm bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, 10 mẫu trả lời đánh giá. Duy trì 990k/năm từ năm 2.
+  > – **Đẳng cấp 2,99tr:** thêm 24 mẫu, 2 cơ sở, bộ Tết 2027, ảnh quà tặng AI cho 30 khách. Duy trì 990k/năm từ năm 2.
   >
-  > Cả 3 gói: **chị tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến mỗi tuần. **Không có người làm hộ.** Muốn đội Nailmark làm hết thì có gói Làm hộ trọn gói 9,9tr.
+  > Cả 3 gói dùng chung đường dẫn Nailmark.
+  >
+  > Cả 3 gói: **chị tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến mỗi tuần. **Không có người làm hộ.** Muốn đội Nailmark làm hết thì có gói Làm hộ trọn gói 9,9tr, gói duy nhất có tên miền riêng của tiệm.
   >
   > Không gói nào hứa số khách hay chạy quảng cáo.
   >

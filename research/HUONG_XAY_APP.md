@@ -47,7 +47,7 @@ Giá theo kymaapi.com ngày 25/11/2026, quy đổi theo giá bán ra Vietcombank
 - **Giao diện:** PWA. Đã có bản chạy thử 4 bước.
 - **Máy chủ:** Python. Dùng lại các script đã viết: `tu_dong_demo.py`, `web_tiem.py`, `anh_tang_khach.py`, `ty_gia_vcb.py`.
 - **AI:** gọi qua Kyma bằng chuẩn OpenAI. Nhờ đó nếu Kyma có sự cố hoặc tăng giá thì đổi sang nhà cung cấp khác chỉ cần đổi base URL.
-- **Web của tiệm:** trang tĩnh, mỗi tiệm một đường dẫn, gói Đẳng cấp gắn tên miền riêng.
+- **Web của tiệm:** trang tĩnh, mỗi tiệm một đường dẫn Nailmark; tên miền riêng chỉ ở gói Làm hộ.
 - **Thanh toán:** cổng QR tự xác nhận như payOS. Cần anh mở tài khoản doanh nghiệp.
 - **Lưu ảnh:** trên máy chủ của Nailmark. Ảnh mặt khách không gửi ra ngoài.
 

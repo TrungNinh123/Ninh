@@ -26,7 +26,7 @@
 7. **Máy nhắc thay người.** Zalo OA nhắc vào ngày 1, ngày 3 và ngày 7, kèm đúng video của bước còn thiếu.
 8. **Kẹt thì có ba chỗ hỏi, theo thứ tự:** xem lại video, hỏi trợ lý AI, rồi mang câu hỏi vào buổi hỏi đáp hằng tuần.
 
-**Anh Ninh đã duyệt (25/11/2026):** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, tên miền, số ảnh, số cơ sở và bộ Tết.
+**Anh Ninh đã duyệt (25/11/2026):** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. (Tính năng AI đọc bảng giá từ ảnh: sắp có.) Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá, số ảnh, số cơ sở, bộ Tết và ảnh quà tặng AI. Cả 3 gói dùng chung đường dẫn Nailmark; tên miền riêng chỉ có ở gói Làm hộ 9,9 triệu.
 
 **Sau khi web lên:** các video đưa web ra ngoài (mã QR, Google Maps, đánh giá, bộ sưu tập mùa lễ) là phần làm thêm, không bắt buộc.
 
@@ -59,7 +59,7 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
 |---|---|
 | "Em làm giúp chị phần ảnh được không?" | "Dạ, video số 1 hướng dẫn chụp và video số 2 hướng dẫn tải ảnh, mỗi video 2–3 phút ạ [link]. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu ạ." |
 | "Chị muốn đổi giá." | "Dạ, chị làm theo video số 3 [link]. Web tự cập nhật ngay sau khi chị lưu ạ." |
-| "Có tên miền riêng không em?" | "Dạ, gói Khởi đầu dùng đường dẫn của Nailmark. Tên miền riêng có ở gói Đẳng cấp. Chị lên gói chỉ trả phần chênh lệch ạ." |
+| "Có tên miền riêng không em?" | "Dạ, cả 3 gói Khởi đầu, Chuẩn, Đẳng cấp đều dùng đường dẫn của Nailmark. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu ạ." |
 | "Sao web chưa có bộ sưu tập Tết?" | "Dạ, chị có thể tự làm theo video số 8 [link], hoặc mua Gói Mùa Tết 1,49 triệu để Nailmark làm sẵn, kèm ảnh quà tặng cho 30 khách ạ." |
 | "Gọi điện cho chị được không?" | "Dạ, Nailmark hỗ trợ qua tin nhắn để trả lời nhanh và lưu lại hướng dẫn cho chị. Chị cần làm phần nào ạ? Em gửi đúng video ngay." |
 | "Năm sau gia hạn bao nhiêu?" | "Dạ, gói Khởi đầu duy trì 499.000đ/năm. Giá này giữ nguyên cho chị kể cả khi Nailmark tăng giá sau này ạ." |

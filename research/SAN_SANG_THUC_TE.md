@@ -18,7 +18,7 @@
 | AI đọc bảng giá từ ảnh chụp | **Chưa có** | Chưa kiểm thử. Cần Kyma API key. Hiện bảng giá phải gõ vào file |
 | App tự làm 4 bước (khách tự tải ảnh, tự xuất bản) | **Chạy được trên máy chạy thử** (25/11) | `scripts/app_tu_lam.py` và `nailmark/app.html`. Đã thử đầu-cuối: gõ tên → 12 ảnh → giá → Zalo → web + QR trong khoảng 4 giây. Còn thiếu: hosting công khai, đăng nhập, thanh toán |
 | Đường dẫn web cho tiệm (hosting) | **Chưa có** | Chưa chọn nơi đăng. Web phiên bản 2 đã là thư mục tĩnh, đăng là chạy |
-| Tên miền riêng tự gắn | **Chưa có** | Cần tài khoản nhà đăng ký tên miền. Trước mắt có thể làm tay |
+| Tên miền riêng tự gắn | **Chưa có** | Chỉ cần cho gói Làm hộ 9,9tr (3 gói tự làm dùng đường dẫn Nailmark, anh Ninh chốt 25/11). Đội cài tay, chưa cần gắn tự động |
 | Đặt lịch qua Zalo trên web | **Chạy được (một phần)** | Nút tạo sẵn tin nhắn để khách tự gửi Zalo. Chưa tự động gửi vào Zalo của tiệm |
 | Mã QR in để ở quầy | **Chạy được** (25/11) | Tự tạo khi xuất bản. Khi chưa có hosting, QR mở thẳng Zalo của tiệm (zalo.me/số) |
 | Bộ sưu tập 8 dịp | **Chạy được** (ảnh mẫu Nailmark) | Ảnh ghép bằng `anh_tang_khach.py` từ ảnh Pexels. Chưa dùng ảnh thật của tiệm |
@@ -46,7 +46,7 @@
 | **Web v1** (đã có) | Web demo tạo từ Google Maps, ảnh mẫu | Không bán, chỉ để chào | Xong |
 | **Web v2** (đã có lõi, 25/11) | Ảnh thật, bảng giá thật, chỉnh sáng giữ màu, cam kết chỉ khi tiệm xác nhận | Chạy thử miễn phí với 5 tiệm đợt 1 | Thêm hosting và tạo QR tự động |
 | **App v1, tự làm 4 bước** | Khách tự tải ảnh, gõ hoặc chụp giá, nhập Zalo, xuất bản | **Khởi đầu, Chuẩn** (chỉ khi đã chạy thật với ≥ 3 tiệm) | Máy chủ, lưu ảnh, hosting, thanh toán QR, quay 4 video, AI đọc giá (Kyma) |
-| **App v2, Zalo** | Zalo OA: trợ lý AI, nhắc việc, báo đơn. Tự sửa web | **Đẳng cấp** (tên miền), **Gói Mùa** | Zalo OA, Zalo Mini App, gắn tên miền tự động |
+| **App v2, Zalo** | Zalo OA: trợ lý AI, nhắc việc, báo đơn. Tự sửa web | **Đẳng cấp**, **Gói Mùa** | Zalo OA, Zalo Mini App |
 | **App v3, đo lường** | Đếm lượt đặt lịch theo kênh, báo cáo tháng | **Đồng hành AI** | Mã theo dõi, bảng báo cáo |
 
 **Quy tắc:** trang bán hàng chỉ ghi giá cho gói mà phiên bản tương ứng đã chạy thật. Các gói khác ghi rõ **"Sắp mở"**.

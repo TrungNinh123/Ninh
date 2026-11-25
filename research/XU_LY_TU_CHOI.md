@@ -18,7 +18,7 @@
 11. **Không nài.** Mỗi câu từ chối chỉ trả lời một lần, đưa một bước tiếp theo. Khách nói "không" thì cảm ơn và dừng. Không nhắn lại lần hai nếu khách không trả lời.
 12. **Câu trả lời ngắn:** tối đa 4 câu, rồi một bước tiếp theo.
 
-**Bảng giá ra mắt (để tra nhanh):** Khởi đầu 999k (gồm năm đầu; duy trì 499k/năm; không có tên miền riêng) · Chuẩn 1,99tr (duy trì 990k/năm) · Đẳng cấp 2,99tr (duy trì 990k/năm + phí tên miền theo nhà cung cấp) · Gói Mùa 1,49tr/mùa · Đồng hành AI 2,49tr/tháng, tối thiểu 3 tháng, trả theo quý (sắp mở) · Chuyển giao 4,99tr · Làm hộ trọn gói 9,9tr · Chuỗi từ 3 cơ sở: báo giá riêng. Đơn **từ 3 triệu** có **một cuộc gọi xác minh** (gói từ 3 triệu chưa mở bán cho tới khi có thông tin liên hệ chính thức [CHỜ DUYỆT]).
+**Bảng giá ra mắt (để tra nhanh):** Khởi đầu 999k (gồm năm đầu; duy trì 499k/năm) · Chuẩn 1,99tr (duy trì 990k/năm) · Đẳng cấp 2,99tr (duy trì 990k/năm); cả 3 gói dùng đường dẫn Nailmark · Gói Mùa 1,49tr/mùa · Đồng hành AI 2,49tr/tháng, tối thiểu 3 tháng, trả theo quý (sắp mở) · Chuyển giao 4,99tr · Làm hộ trọn gói 9,9tr (gồm tên miền riêng của tiệm năm đầu; duy trì 990k/năm + phí tên miền theo nhà cung cấp) · Chuỗi từ 3 cơ sở: báo giá riêng. Đơn **từ 3 triệu** có **một cuộc gọi xác minh** (gói từ 3 triệu chưa mở bán cho tới khi có thông tin liên hệ chính thức [CHỜ DUYỆT]).
 
 **Bộ quà miễn phí (không cần đăng ký):** web mẫu mang tên tiệm, poster Tết 2027 có QR Zalo, thẻ QR quầy A6, video 12 giây. Kèm bài tự chấm 8 tiêu chuẩn (17 chuỗi, 9 quốc gia). Ảnh móng trong quà là **ảnh minh hoạ**. Web mẫu chỉ gửi riêng cho chủ tiệm.
 
@@ -36,14 +36,14 @@
 
 ### 1.2 "999k mà năm sau lại phải trả nữa à?"
 - **Ý thật:** sợ phí ẩn, sợ bị "trói".
-- **Trả lời mẫu:** "Dạ đúng, từ năm thứ hai có phí duy trì: Khởi đầu 499k/năm, Chuẩn và Đẳng cấp 990k/năm; Đẳng cấp thêm phí gia hạn tên miền theo nhà cung cấp. Không gia hạn thì web tạm ngưng, gia hạn lại thì chạy tiếp, nội dung vẫn giữ. Ngoài các khoản này không có phí nào khác."
+- **Trả lời mẫu:** "Dạ đúng, từ năm thứ hai có phí duy trì: Khởi đầu 499k/năm, Chuẩn và Đẳng cấp 990k/năm; riêng gói Làm hộ là 990k/năm cộng phí gia hạn tên miền theo nhà cung cấp. Không gia hạn thì web tạm ngưng, gia hạn lại thì chạy tiếp, nội dung vẫn giữ. Ngoài các khoản này không có phí nào khác."
 - **Bước tiếp:** gửi bảng so sánh có dòng "Duy trì từ năm 2".
 - **Không được nói:** "Năm sau miễn phí", "phí duy trì sẽ không bao giờ đổi" (chỉ được nói: tiệm đã mua giữ nguyên giá duy trì khi Nailmark tăng giá).
 
 ### 1.3 "Sao gói Đẳng cấp đắt gần gấp ba gói Khởi đầu?"
 - **Ý thật:** nghi bị "chặt chém" ở gói trên.
-- **Trả lời mẫu:** "Dạ ba gói khác nhau ở tính năng, không khác ở mức phục vụ: cả ba đều tự làm theo video. Đẳng cấp có thêm tên miền riêng năm đầu, 2 cơ sở, 24 mẫu, bộ sưu tập 8 dịp và bộ Tết. Nếu chị chỉ cần một trang đặt lịch thì Khởi đầu 999k là đủ, sau này lên gói chỉ trả chênh lệch."
-- **Bước tiếp:** gửi bảng so sánh; hỏi một câu: "Tiệm mình có mấy cơ sở và có cần tên miền riêng không chị?"
+- **Trả lời mẫu:** "Dạ ba gói khác nhau ở tính năng, không khác ở mức phục vụ: cả ba đều tự làm theo video. Đẳng cấp có thêm 24 mẫu, 2 cơ sở, bộ Tết 2027 và ảnh quà tặng AI cho 30 khách, ngoài bộ sưu tập 8 dịp có từ gói Chuẩn. Cả ba gói đều dùng đường dẫn Nailmark. Nếu chị chỉ cần một trang đặt lịch thì Khởi đầu 999k là đủ, sau này lên gói chỉ trả chênh lệch."
+- **Bước tiếp:** gửi bảng so sánh; hỏi một câu: "Tiệm mình có mấy cơ sở và có cần bộ Tết không chị?" (Nếu tiệm hỏi tên miền riêng: chỉ có ở gói Làm hộ 9,9tr.)
 - **Không được nói:** "Gói Đẳng cấp có người hỗ trợ riêng", "đắt hơn thì hiệu quả hơn".
 
 ### 1.4 "Tiệm nhỏ, ít khách, bỏ tiền làm web phí lắm."
@@ -318,7 +318,7 @@
 
 ### 10.3 "Gói 9,9 triệu có chụp ảnh tại tiệm không?"
 - **Ý thật:** không có ảnh đẹp, muốn được chụp.
-- **Trả lời mẫu:** "Dạ gói Làm hộ gồm nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền, tối ưu Google Maps, sửa web trong 30 ngày. Chụp ảnh tại tiệm thì Nailmark chưa chốt có gồm hay không, nên em chưa hứa."
+- **Trả lời mẫu:** "Dạ gói Làm hộ gồm nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, sửa web trong 30 ngày. Chụp ảnh tại tiệm thì Nailmark chưa chốt có gồm hay không, nên em chưa hứa."
 - **Bước tiếp:** gửi video chụp ảnh móng bằng điện thoại.
 - **Không được nói:** "Có thợ ảnh tới tận tiệm" (**[CHỜ DUYỆT]**).
 
