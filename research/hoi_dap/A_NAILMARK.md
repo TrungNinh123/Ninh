@@ -30,7 +30,7 @@ Chưa có thông tin chốt. Cần anh Ninh quyết pháp nhân, địa chỉ v�
 - Chị được xem web mẫu mang tên tiệm mình trước khi trả bất kỳ đồng nào.
 - Trong đợt chạy thử, Nailmark không thu tiền.
 - Nailmark cam kết bằng văn bản: không đăng web khi chị chưa đồng ý, gỡ web trong ngày khi chị yêu cầu, không dùng nội dung của tiệm chị để chào tiệm khác.
-- Nailmark không hứa tăng khách. Nailmark đo số lượt khách bấm đặt lịch và báo cho chị.
+- Nailmark không hứa tăng khách. Khi web chạy công khai, Nailmark sẽ gắn bộ đếm lượt khách bấm đặt lịch và báo cho chị (tính năng này chưa có).
 
 ### Nailmark đã làm cho tiệm nào chưa?
 Chưa có tiệm nào dùng chính thức. Nailmark đang chạy thử miễn phí với các tiệm đầu tiên ở TP.HCM. Khi tiệm đồng ý chia sẻ, kết quả sẽ được công bố kèm số liệu thật.
@@ -238,7 +238,7 @@ Hiện tại, ai có tên tiệm và số Zalo của tiệm là cập nhật đ�
 ## A5. Hiệu quả: trả lời trung thực
 
 ### [P] Dùng web có tăng khách không?
-Nailmark chưa có số liệu để hứa. Web giúp khách đã tìm thấy tiệm trên Google Maps xem mẫu, xem giá rồi đặt lịch dễ hơn. Nailmark đo số lượt khách bấm đặt lịch và báo cho chị.
+Nailmark chưa có số liệu để hứa. Web giúp khách đã tìm thấy tiệm trên Google Maps xem mẫu, xem giá rồi đặt lịch dễ hơn. Bộ đếm lượt bấm đặt lịch sẽ được gắn khi web chạy công khai (hiện chưa có).
 
 ### Có số liệu nào cho thấy cần web không?
 Có. Trong 15 tiệm nail Quận 1 Nailmark đã khám:
@@ -255,7 +255,7 @@ Facebook để đăng bài. Web để khách xem mẫu, xem giá và đặt lị
 Đông khách thì càng cần xếp lịch. Mùa Tết, khách hay phải chờ lâu. Đặt lịch trước giúp tiệm xếp thợ và giảm cảnh khách bỏ về.
 
 ### Bao lâu thì thấy kết quả?
-Chưa có số liệu chung. Trong đợt chạy thử, Nailmark báo số lượt bấm đặt lịch mỗi tuần để chị tự đánh giá.
+Chưa có số liệu chung. Bộ đếm lượt bấm đặt lịch chưa có. Khi web chạy công khai, Nailmark sẽ gắn bộ đếm và báo mỗi tuần để chị tự đánh giá.
 
 ---
 
