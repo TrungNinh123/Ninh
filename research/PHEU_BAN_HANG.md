@@ -21,12 +21,12 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 **Kết luận về giá:** Nailmark đặt giá **dưới một nửa mức thấp nhất của thị trường web trọn gói**, nhưng làm sẵn cho tiệm, không bắt chủ tiệm tự làm như LadiPage. Biên lợi nhuận đến từ việc AI làm toàn bộ, không đến từ giờ công của người.
 
 ## 2. Bậc thang sản phẩm
-**Neo giá trị (anh Ninh chốt 25/11/2026): "Web đáng giá 2.000 USD (≈ 52 triệu đ), bán còn 57 USD (1.490.000 đ)".** Căn cứ: agency quốc tế thường tính từ 2.000 USD một website ([Clutch](https://clutch.co/web-designers/pricing)); riêng gói web 1 trang của agency khoảng 2.000–5.000 USD ([UENI](https://ueni.com/blog/affordable-website-design/)). Ở Việt Nam, web trọn gói khoảng 6–20 triệu đ ([Sapo](https://www.sapo.vn/blog/chi-phi-thiet-ke-website)). Trên trang bán hàng ghi giá bằng USD, kèm giá VND ngay bên cạnh.
+**Neo giá trị (anh Ninh chốt 25/11/2026): "Web đáng giá 2.000 USD (≈ 52 triệu đ), bán còn 38 USD (999.000 đ)".** Căn cứ: agency quốc tế thường tính từ 2.000 USD một website ([Clutch](https://clutch.co/web-designers/pricing)); riêng gói web 1 trang của agency khoảng 2.000–5.000 USD ([UENI](https://ueni.com/blog/affordable-website-design/)). Ở Việt Nam, web trọn gói khoảng 6–20 triệu đ ([Sapo](https://www.sapo.vn/blog/chi-phi-thiet-ke-website)). Trên trang bán hàng ghi giá bằng USD, kèm giá VND ngay bên cạnh.
 
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
 |---|---|---|---|---|
-| **Khởi đầu** | **1.490.000 đ** | $57 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form, không có vòng sửa | 0 |
+| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form, không có vòng sửa | 0 |
 | **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, 1 vòng sửa, video hướng dẫn 3 phút, mô tả Google Maps, 10 mẫu trả lời đánh giá | 0–1 |
 | **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: tên miền riêng năm đầu, tối đa 2 cơ sở, tặng kèm 1 Gói Mùa (ví dụ Tết 2027), ảnh quà tặng AI cho 30 khách | 1 |
 
@@ -42,7 +42,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 | **Chuỗi / doanh nghiệp** (từ 3 cơ sở) | Từ 50 triệu đ/năm | **Anh Ninh** | Theo hợp đồng |
 | **Tự chấm điểm + bản khám tự động** (cửa vào phễu) | Miễn phí | Website | 0 |
 
-**Vì sao chia 3 mức 1,49 / 1,99 / 2,99 triệu:**
+**Vì sao chia 3 mức 999k / 1,99 / 2,99 triệu:**
 - Mức giữa là mức "phổ biến nhất", để phần lớn khách chọn.
 - Mức Đẳng cấp làm mức Chuẩn trông hợp lý hơn, và kéo khách sang Gói Mùa ngay từ đầu.
 - Mức Khởi đầu giữ những tiệm nhỏ, ít tiền vẫn ở lại trong phễu thay vì bỏ đi.
@@ -73,22 +73,22 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ## 4. Tính thử đường tới mục tiêu 2027 (giả định, cần đo lại)
 | Nguồn | Giả định | Doanh thu |
 |---|---|---|
-| Web Khởi đầu | 3.000 doanh nghiệp × 1,49 triệu | 4,5 tỷ đ |
+| Web Khởi đầu | 3.000 doanh nghiệp × 999.000 đ | 3,0 tỷ đ |
 | Web Chuẩn | 5.000 doanh nghiệp × 1,99 triệu | 10,0 tỷ đ |
 | Web Đẳng cấp | 2.000 doanh nghiệp × 2,99 triệu | 6,0 tỷ đ |
 | Gói Mùa | 4.000 doanh nghiệp × 2 mùa × 1,49 triệu | 11,9 tỷ đ |
 | Đồng hành AI | 600 doanh nghiệp × 2,49 triệu × 9 tháng | 13,4 tỷ đ |
-| **Tổng** | | **45,8 tỷ đ ≈ $1,76 triệu** |
-| Lợi nhuận nếu biên 60% (giả định) | | **27,5 tỷ đ ≈ $1,06 triệu**, vừa chạm mục tiêu 1 triệu USD |
+| **Tổng** | | **44,3 tỷ đ ≈ $1,70 triệu** |
+| Lợi nhuận nếu biên 60% (giả định) | | **26,6 tỷ đ ≈ $1,02 triệu**, vừa chạm mục tiêu 1 triệu USD |
 
-Bán web giá rẻ chỉ để kéo khách vào. **Lợi nhuận thật nằm ở Gói Mùa và Đồng hành AI**, chiếm 55% doanh thu trong bảng trên. Vì vậy chỉ số quan trọng nhất cần đo là **tỷ lệ khách mua web rồi mua tiếp Gói Mùa**.
+Bán web giá rẻ chỉ để kéo khách vào. **Lợi nhuận thật nằm ở Gói Mùa và Đồng hành AI**, chiếm 57% doanh thu trong bảng trên. Vì vậy chỉ số quan trọng nhất cần đo là **tỷ lệ khách mua web rồi mua tiếp Gói Mùa**.
 
 **Lưu ý:**
 - **Chưa có thống kê chính thức về số tiệm nail ở Việt Nam.** Riêng ngành nail có thể không đủ 10.000 doanh nghiệp. Vì vậy cùng phễu này sẽ dùng lại cho **tóc nữ và thú cưng** (combo kinh tế độc thân), chỉ thay mẫu web và bộ sưu tập.
 - Các tỷ lệ chuyển đổi trong phễu **chưa đo**. Đợt 1 (5 tiệm TP.HCM) chính là để đo.
 
 ## 5. Việc cần làm để phễu chạy (thứ tự)
-1. Anh chốt 3 mức giá web 1,49 / 1,99 / 2,99 triệu, Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
+1. Anh chốt 3 mức giá web 999k / 1,99 / 2,99 triệu (Khởi đầu 999k: anh chốt 25/11), Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
 2. Dựng trang "Dán link Google Maps → xem web mẫu". Phần lõi đã có (Places API + `web_tiem.py`), chỉ thiếu phần giao diện và chỗ lưu trữ web.
 3. Chọn cổng thanh toán QR tự xác nhận. Đây là việc cần anh mở tài khoản doanh nghiệp.
 4. Làm form nhận tài liệu, mẫu xin đồng ý dùng ảnh, video hướng dẫn 3 phút (AI làm).
