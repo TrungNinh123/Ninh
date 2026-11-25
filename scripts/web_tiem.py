@@ -14,7 +14,7 @@ ROOT = Path(__file__).resolve().parent.parent
 TIEM = {
     "mau": dict(ten="Sơn Mài Nail", khau_hieu="Móng đẹp như sơn mài, bền qua mùa nóng ẩm", dia_chi=["Quận 1, TP.HCM (địa chỉ mẫu)"],
                 gio="9:00–21:00 mỗi ngày", zalo="0900 000 000", sao="", danh_gia="", maps="",
-                dich_vu=["Sơn gel", "Đắp gel, nối móng", "Nail art", "Chà gót, chăm sóc chân"], ghi_chu="Trang mẫu: tên, địa chỉ, số điện thoại là ví dụ."),
+                dich_vu=["Sơn gel", "Đắp gel, nối móng", "Nail art", "Chà gót, chăm sóc chân"], ghi_chu="Trang mẫu: tên, địa chỉ, số điện thoại là ví dụ.", cam_ket=True),
     "nail-districts": dict(ten="Nail Districts & Spa", khau_hieu="1.113 khách chấm 5 sao giữa lòng Quận 1",
                            dia_chi=["Lầu 1, 158/4 Nguyễn Công Trứ, Bến Thành, Quận 1", "269/1 Nguyễn Trãi, Cầu Ông Lãnh, Quận 1"],
                            gio="10:00–20:00 mỗi ngày", zalo="0333 947 341", sao="5,0", danh_gia="1.113",
@@ -45,6 +45,9 @@ TIEM = {
 }
 DIP = [("tet", "Tết"), ("cuoi-nam", "Tiệc cuối năm"), ("thang-chuc", "Thăng chức"), ("sinh-nhat", "Sinh nhật"),
        ("cuoi", "Mùa cưới"), ("valentine", "Valentine"), ("8-3", "8/3"), ("20-10", "20/10")]
+CAM_KET = """<section class=band><div class=in><h2>Cam kết <em>của tiệm</em></h2><div class=grid3>
+<div class=box><b>Giá trọn gói</b>Đã gồm tháo gel cũ, không phát sinh.</div><div class=box><b>Vệ sinh thấy được</b>Dụng cụ hấp tiệt trùng, khui trước mặt chị.</div><div class=box><b>Bảo hành 10 ngày</b>Bong, hở gel: tiệm sửa miễn phí.</div></div>
+<ul style="margin-top:18px">{dv}</ul></div></section>"""
 LOOK = ["s1", "m0", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "s3", "s4"]
 
 
@@ -54,8 +57,21 @@ def tao(slug):
     dv = "".join(f"<li>{e(x)}</li>" for x in t["dich_vu"])
     dc = "".join(f"<p><b>Cơ sở {i}</b><br>{e(x)}</p>" for i, x in enumerate(t["dia_chi"], 1))
     bst = "".join(f'<figure><img src="img/bst-{k}.jpg" alt="Bộ móng {e(n)}" loading=lazy width=720 height=900><figcaption>{e(n)}</figcaption></figure>' for k, n in DIP)
-    lb = "".join(f'<figure><img src="img/{k}.jpg" alt="Mẫu số {i}" loading=lazy><figcaption><b>{i:02d}</b></figcaption></figure>' for i, k in enumerate(LOOK, 1))
+    # Phiên bản 2: dùng ảnh thật của tiệm nếu có (t["anh"] = danh sách đường dẫn tương đối), không thì ảnh mẫu
+    anh = t.get("anh") or [f"img/{k}.jpg" for k in LOOK]
+    lb = "".join(f'<figure><img src="{e(k)}" alt="Mẫu số {i}" loading=lazy><figcaption><b>{i:02d}</b></figcaption></figure>' for i, k in enumerate(anh, 1))
+    hero = t.get("hero") or (anh[0] if t.get("anh") else "img/hero.jpg")
     opts = "".join(f"<option>Mẫu {i:02d}</option>" for i in range(1, 13))
+    # Bảng giá thật của tiệm nếu có (t["gia"] = [(tên dịch vụ, giá)]), không thì 3 mức mẫu
+    if t.get("gia"):
+        bang_gia = ('<h2 style="margin-top:36px">Bảng giá <em>trọn gói</em></h2><div class=box><table class=gia>' +
+                    "".join(f"<tr><td>{e(a)}</td><td>{e(b)}</td></tr>" for a, b in t["gia"]) + "</table></div>")
+    else:
+        bang_gia = ('<div class=grid3 style="margin-top:16px"><div class=box><b>Đơn giản</b>45 phút · giá của tiệm</div>'
+                    '<div class=box><b>Vừa</b>60 phút · giá của tiệm</div><div class=box><b>Cầu kỳ</b>90 phút · giá của tiệm</div></div>')
+    # Mục "Cam kết" CHỈ hiện khi tiệm đã xác nhận (t["cam_ket"] is True). Nailmark không hứa thay tiệm.
+    dv_html = dv
+    cam_ket = CAM_KET.replace("{dv}", dv_html) if t.get("cam_ket") is True else ""
     rv = (f'<div class=rv><b>{e(t["sao"])}★</b><span>{e(t["danh_gia"])} đánh giá Google</span></div>' if t["sao"] else
           '<div class=rv><b>★</b><span>Số sao và đánh giá Google của tiệm hiển thị ở đây</span></div>')
     return f"""<title>{e(t['ten'])}</title>
@@ -81,6 +97,7 @@ h1,h2{{font-family:"Noto Serif Display",serif;font-weight:700;margin:0;letter-sp
 .rail figcaption{{position:absolute;left:12px;top:12px;background:var(--vang);color:var(--den);font-weight:700;font-size:13px;border-radius:999px;padding:4px 12px}}
 .lb{{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:10px}}.lb figure{{margin:0;position:relative;border-radius:999px 999px 12px 12px;overflow:hidden;aspect-ratio:3/4}}.lb img{{width:100%;height:100%;object-fit:cover}}
 .lb figcaption{{position:absolute;left:10px;bottom:8px;font-family:"Noto Serif Display",serif;color:var(--vang2);font-size:20px;text-shadow:0 2px 8px rgba(0,0,0,.6)}}
+.gia{{width:100%;border-collapse:collapse}}.gia td{{padding:10px 4px;border-bottom:1px solid var(--line)}}.gia tr:last-child td{{border-bottom:0}}.gia td:last-child{{text-align:right;font-weight:700;color:var(--accent);white-space:nowrap}}
 .tint{{background:light-dark(#f3e9dc,#18100e)}}
 .grid3{{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}}.box{{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}}.box b{{display:block;font-family:"Noto Serif Display",serif;font-size:22px;color:var(--accent)}}
 .book{{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:36px;align-items:start}}
@@ -95,18 +112,16 @@ footer{{background:var(--den);color:#bcae9f;font-size:13px;text-align:center}}fo
 <header class=nav><b>{e(t['ten'])}</b><a class=cta href="#dat-lich">Đặt lịch</a></header>
 <section class="band hero"><div class=in>
 <div><h1>{e(t['ten'])}</h1><p>{e(t['khau_hieu'])}</p>{rv}<br><a class=btn href="#dat-lich">Chọn mẫu và đặt lịch</a><a class="btn g" href="#bo-suu-tap">Bộ sưu tập</a></div>
-<div class=arch><img src="img/hero.jpg" alt="Bàn tay sơn gel đỏ" width=900 height=1125></div></div></section>
+<div class=arch><img src="{e(hero)}" alt="Bàn tay sơn gel đỏ" width=900 height=1125></div></div></section>
 <section class=band id=bo-suu-tap><div class=in><h2>Bộ sưu tập <em>theo dịp</em></h2><div class=rail>{bst}</div></div></section>
 <section class="band tint"><div class=in><h2>Lookbook <em>đánh số</em></h2><div class=lb>{lb}</div>
-<div class=grid3 style="margin-top:16px"><div class=box><b>Đơn giản</b>45 phút · giá của tiệm</div><div class=box><b>Vừa</b>60 phút · giá của tiệm</div><div class=box><b>Cầu kỳ</b>90 phút · giá của tiệm</div></div></div></section>
-<section class=band><div class=in><h2>Cam kết <em>của tiệm</em></h2><div class=grid3>
-<div class=box><b>Giá trọn gói</b>Đã gồm tháo gel cũ, không phát sinh.</div><div class=box><b>Vệ sinh thấy được</b>Dụng cụ hấp tiệt trùng, khui trước mặt chị.</div><div class=box><b>Bảo hành 10 ngày</b>Bong, hở gel: tiệm sửa miễn phí.</div></div>
-<ul style="margin-top:18px">{dv}</ul></div></section>
+{bang_gia}</div></section>
+{cam_ket}
 <section class="band tint" id=dat-lich><div class="in book">
 <div><h2>Đặt lịch <em>trong 30 giây</em></h2>{dc}<p>{e(t['gio'])} · Zalo {e(t['zalo'])}</p></div>
 <form id=f><label for=mau>Mẫu</label><select id=mau>{opts}</select><label for=ngay>Ngày</label><input id=ngay type=date><label for=gio>Giờ</label><select id=gio><option>10:00</option><option>13:00</option><option>15:00</option><option>17:00</option><option>19:00</option></select><button type=submit>Tạo tin đặt lịch</button><div class=msg id=msg hidden></div></form>
 </div></section>
-<footer class=band><b>{e(t['ten'])}</b> · Trang theo bộ tiêu chuẩn Nailmark · Ảnh minh hoạ: Pexels</footer>
+<footer class=band><b>{e(t['ten'])}</b> · Trang theo bộ tiêu chuẩn Nailmark · {e(t.get('nguon_anh', 'Ảnh minh hoạ: Pexels'))}</footer>
 <script>{{const f=document.getElementById("f"),m=document.getElementById("msg");f.addEventListener("submit",ev=>{{ev.preventDefault();const t=`Chào tiệm, em muốn đặt ${{document.getElementById("mau").value}} ngày ${{document.getElementById("ngay").value||"(chọn ngày)"}} lúc ${{document.getElementById("gio").value}}.`;m.hidden=false;m.textContent="Gửi tin này qua Zalo {e(t['zalo'])}: "+t;}});}}</script>
 """
 
