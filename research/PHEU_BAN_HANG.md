@@ -26,11 +26,13 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
 |---|---|---|---|---|
-| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form, không có vòng sửa | 0 |
+| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form. Web nằm ở đường dẫn của Nailmark. **Không gồm:** tên miền riêng, vòng sửa, bộ sưu tập theo dịp, nội dung mới, hỗ trợ ngoài trợ lý AI | 0 |
 | **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, 1 vòng sửa, video hướng dẫn 3 phút, mô tả Google Maps, 10 mẫu trả lời đánh giá | 0–1 |
 | **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: tên miền riêng năm đầu, tối đa 2 cơ sở, tặng kèm 1 Gói Mùa (ví dụ Tết 2027), ảnh quà tặng AI cho 30 khách | 1 |
 
-- **Từ năm thứ 2:** 990.000 đ/năm (≈ $38) để duy trì web.
+- **Duy trì từ năm thứ 2:**
+  - Khởi đầu: **499.000 đ/năm (≈ $19)**. Không hỗ trợ tên miền riêng, không thêm nội dung khác; muốn thêm thì lên gói.
+  - Chuẩn và Đẳng cấp: 990.000 đ/năm (≈ $38). Riêng Đẳng cấp, phí gia hạn tên miền từ năm thứ hai do tiệm trả theo giá nhà cung cấp.
 - **Sửa ngoài gói:** 200.000 đ/lần.
 - **Lên mức cao hơn:** chỉ trả phần chênh lệch.
 
@@ -88,7 +90,7 @@ Bán web giá rẻ chỉ để kéo khách vào. **Lợi nhuận thật nằm �
 - Các tỷ lệ chuyển đổi trong phễu **chưa đo**. Đợt 1 (5 tiệm TP.HCM) chính là để đo.
 
 ## 5. Việc cần làm để phễu chạy (thứ tự)
-1. Anh chốt 3 mức giá web 999k / 1,99 / 2,99 triệu (Khởi đầu 999k: anh chốt 25/11), Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
+1. Anh chốt 3 mức giá web 999k / 1,99 / 2,99 triệu (anh đã chốt 25/11: Khởi đầu 999k, duy trì 499k/năm, không có tên miền riêng), Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
 2. Dựng trang "Dán link Google Maps → xem web mẫu". Phần lõi đã có (Places API + `web_tiem.py`), chỉ thiếu phần giao diện và chỗ lưu trữ web.
 3. Chọn cổng thanh toán QR tự xác nhận. Đây là việc cần anh mở tài khoản doanh nghiệp.
 4. Làm form nhận tài liệu, mẫu xin đồng ý dùng ảnh, video hướng dẫn 3 phút (AI làm).
