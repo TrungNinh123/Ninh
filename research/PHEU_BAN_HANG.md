@@ -26,14 +26,25 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
 |---|---|---|---|---|
-| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form. Web nằm ở đường dẫn của Nailmark. **Không gồm:** tên miền riêng, vòng sửa, bộ sưu tập theo dịp, nội dung mới, hỗ trợ ngoài trợ lý AI | 0 |
+| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Web nằm ở đường dẫn của Nailmark. **Nội dung chỉ có hướng dẫn chi tiết qua video:** chủ tiệm tự hoàn thiện, **không có nhân sự hỗ trợ**. **Không gồm:** tên miền riêng, vòng sửa, bộ sưu tập theo dịp, nội dung mới. Muốn được làm trọn thì lên gói Chuẩn hoặc Đẳng cấp | 0 |
 | **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, 1 vòng sửa, video hướng dẫn 3 phút, mô tả Google Maps, 10 mẫu trả lời đánh giá | 0–1 |
 | **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: tên miền riêng năm đầu, tối đa 2 cơ sở, tặng kèm 1 Gói Mùa (ví dụ Tết 2027), ảnh quà tặng AI cho 30 khách | 1 |
 
 - **Duy trì từ năm thứ 2:**
   - Khởi đầu: **499.000 đ/năm (≈ $19)**. Không hỗ trợ tên miền riêng, không thêm nội dung khác; muốn thêm thì lên gói.
   - Chuẩn và Đẳng cấp: 990.000 đ/năm (≈ $38). Riêng Đẳng cấp, phí gia hạn tên miền từ năm thứ hai do tiệm trả theo giá nhà cung cấp.
-- **Sửa ngoài gói:** 200.000 đ/lần.
+- **Bộ video tự làm cho gói Khởi đầu** (AI soạn kịch bản, quay màn hình, mỗi video 2–4 phút):
+  1. Chụp ảnh móng đẹp bằng điện thoại.
+  2. Tải ảnh và đánh số mẫu cho lookbook.
+  3. Nhập và đổi bảng giá.
+  4. Gắn Zalo để nhận đặt lịch.
+  5. In mã QR để ở quầy và dán link vào Google Maps, Facebook.
+  6. Viết mô tả Google Maps theo mẫu.
+  7. Trả lời đánh giá theo mẫu.
+  8. Tự làm bộ sưu tập cho mùa lễ.
+
+  Câu hỏi ngoài video: trợ lý AI trả lời. Không có người hỗ trợ.
+- **Sửa ngoài gói** (Chuẩn và Đẳng cấp): 200.000 đ/lần.
 - **Lên mức cao hơn:** chỉ trả phần chênh lệch.
 
 ### 2b. Gói bán thêm
