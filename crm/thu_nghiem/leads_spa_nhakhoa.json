@@ -1,0 +1,376 @@
+[
+  {
+    "id": "S01",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Boon Nails",
+    "khu_vuc": "Quận 1",
+    "dia_chi": "136/3 Hẻm 136 Lê Thánh Tôn, P. Bến Thành, Quận 1",
+    "sdt": "",
+    "email": "",
+    "website": "",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Nằm ngay trung tâm Quận 1 (hẻm Lê Thánh Tôn), giờ mở 9h–18h",
+    "diem_yeu": [
+      "không tìm thấy số điện thoại công khai",
+      "không tìm thấy website/fanpage chính thức",
+      "chỉ xuất hiện trên 1 bài tổng hợp"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.greensm.com/vn-vi/news/tiem-nail-quan-1"
+    ]
+  },
+  {
+    "id": "S02",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Thuỳ Thỏ Nail",
+    "khu_vuc": "Quận 1",
+    "dia_chi": "218B Nguyễn Cư Trinh, Quận 1",
+    "sdt": "",
+    "email": "",
+    "website": "",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có hồ sơ dịch vụ và bảng giá rõ ràng trên Fresha (khoảng 30.000–120.000đ), có nhận xét tích cực gần đây",
+    "diem_yeu": [
+      "không tìm thấy website riêng",
+      "không tìm thấy số điện thoại công khai",
+      "rất ít đánh giá online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.fresha.com/lp/en/tt/pedicures/in/vn-hồ-chí-minh",
+      "https://www.greensm.com/vn-vi/news/tiem-nail-quan-1"
+    ]
+  },
+  {
+    "id": "S03",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Maria Nail & Spa",
+    "khu_vuc": "Quận 1",
+    "dia_chi": "39 Phan Chu Trinh, P. Bến Thành, Quận 1",
+    "sdt": "",
+    "email": "",
+    "website": "",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Được giới thiệu là tiệm nail Quận 1 chú trọng chất lượng dịch vụ, mở 8h30–21h",
+    "diem_yeu": [
+      "không tìm thấy số điện thoại công khai",
+      "không tìm thấy website/fanpage",
+      "tên hiển thị không thống nhất (Maria Nail & Spa / Maria Nail House)"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.greensm.com/vn-vi/news/tiem-nail-quan-1"
+    ]
+  },
+  {
+    "id": "S04",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Lapela Clinic & Spa",
+    "khu_vuc": "Quận 3",
+    "dia_chi": "351/58B Lê Văn Sỹ, Phường 13, Quận 3",
+    "sdt": "0928900268",
+    "email": "",
+    "website": "lapelaclinic.com",
+    "fanpage": "https://www.facebook.com/lapelamd",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Được nhiều bài tổng hợp xếp hạng đầu danh sách spa làm đẹp Quận 3",
+    "diem_yeu": [
+      "tìm tên website không ra kết quả nào từ chính lapelaclinic.com (khả năng SEO yếu)",
+      "không tìm thấy nút đặt lịch online",
+      "địa chỉ trong hẻm, khó tìm nếu thiếu chỉ đường trên bản đồ"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://mytour.vn/vi/blog/bai-viet/danh-sach-top-7-spa-quan-3-chat-luong-xuat-sac-ma-ban-nen-tim-hieu.html",
+      "https://mytour.vn/vi/blog/doi-song/top-10-spa-lam-dep-hang-dau-phuong-nhieu-loc-tp-ho-chi-minh-mytour.html"
+    ]
+  },
+  {
+    "id": "S05",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Tâm Beauty Clinic",
+    "khu_vuc": "Quận 3",
+    "dia_chi": "80/22 Bà Huyện Thanh Quan, P. 9, Quận 3",
+    "sdt": "0366695780",
+    "email": "",
+    "website": "www.tambeautyclinic.vn",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Hoạt động từ 2016, tự giới thiệu có 4 chi nhánh",
+    "diem_yeu": [
+      "không tìm thấy fanpage trong các danh bạ",
+      "không tìm thấy đánh giá/review khách hàng online"
+    ],
+    "chuoi": true,
+    "nguon": [
+      "https://yellowpages.vn/lgs/1188000039/tam-beauty-clinic.html",
+      "https://trangvangvietnam.com/products/395780962/spa.html"
+    ]
+  },
+  {
+    "id": "S06",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Canary Spa",
+    "khu_vuc": "Quận 3",
+    "dia_chi": "264 Nguyễn Thiện Thuật, Phường 3, Quận 3",
+    "sdt": "0772901888",
+    "email": "",
+    "website": "",
+    "fanpage": "https://www.facebook.com/VTMCanary/",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có mặt trong danh sách spa làm đẹp Quận 3 của Mytour",
+    "diem_yeu": [
+      "không tìm thấy website",
+      "thông tin trên bài tổng hợp bị lẫn với spa khác",
+      "không tìm thấy nút đặt lịch online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://mytour.vn/vi/blog/bai-viet/danh-sach-top-7-spa-quan-3-chat-luong-xuat-sac-ma-ban-nen-tim-hieu.html"
+    ]
+  },
+  {
+    "id": "S07",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Qspa",
+    "khu_vuc": "Quận 10",
+    "dia_chi": "407/10 Sư Vạn Hạnh, Phường 12, Quận 10",
+    "sdt": "02838683619",
+    "email": "",
+    "website": "",
+    "fanpage": "https://www.facebook.com/QspaCenter",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có phòng đá muối Himalaya, sauna, steam bath; được xếp top 1 massage trị liệu Quận 10",
+    "diem_yeu": [
+      "không tìm thấy website chính thức",
+      "trang Foody ghi hơn 3 tháng không có tương tác mới",
+      "không tìm thấy nút đặt lịch online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.toplist.vn/top-list/dia-chi-massage-tri-lieu-phuc-hoi-suc-khoe-tot-nhat-o-quan-10-58599.htm",
+      "https://mytour.vn/en/blog/bai-viet/top-7-addresses-for-rejuvenating-massages-in-district-10.html",
+      "https://www.foody.vn/ho-chi-minh/q-spa-su-van-hanh"
+    ]
+  },
+  {
+    "id": "S08",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Forher Beauty Spa",
+    "khu_vuc": "Quận 10",
+    "dia_chi": "515 Bà Hạt, Phường 8, Quận 10",
+    "sdt": "0907112868",
+    "email": "",
+    "website": "",
+    "fanpage": "https://www.facebook.com/forherbeautyspa",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có tên trong danh sách spa chăm sóc da mặt Quận 10 của Toplist",
+    "diem_yeu": [
+      "không tìm thấy website",
+      "không tìm thấy nút đặt lịch online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://toplist.vn/top-list/spa-cham-soc-da-mat-tot-nhat-tai-quan-10-tp-hcm-38814.htm"
+    ]
+  },
+  {
+    "id": "S09",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Thao Dien Spa",
+    "khu_vuc": "Quận 2",
+    "dia_chi": "47/1/13 Quốc Hương, P. Thảo Điền, Quận 2",
+    "sdt": "0938858968",
+    "email": "",
+    "website": "",
+    "fanpage": "https://www.facebook.com/thaodienspa",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Spa nhỏ kiểu địa phương, mở 9h–21h, được Local Insider giới thiệu trong top spa Thảo Điền",
+    "diem_yeu": [
+      "không tìm thấy website",
+      "nằm sâu trong hẻm, cần chỉ đường chi tiết",
+      "đặt lịch qua Messenger, không thấy form đặt lịch"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.local-insider.com/nurturing-your-body-and-mind-at-the-best-spas-in-thao-dien-district-2/"
+    ]
+  },
+  {
+    "id": "S10",
+    "nganh": "Spa / Nail / Thẩm mỹ",
+    "ten": "Saigon Đẹp Clinic & Spa",
+    "khu_vuc": "Quận 2",
+    "dia_chi": "79 Xuân Thủy, P. Thảo Điền, Quận 2",
+    "sdt": "0945501230",
+    "email": "",
+    "website": "http://www.saigondep.vn/",
+    "fanpage": "https://www.facebook.com/Sai.Gon.Dep.Clinic.and.Spa",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có bảng giá dịch vụ công khai trên WhatClinic (chăm sóc da, trị mụn, peel...)",
+    "diem_yeu": [
+      "điểm đánh giá WhatClinic chỉ 6.4/10 (43 lượt)",
+      "không tìm thấy nút đặt lịch online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.whatclinic.com/beauty-clinics/vietnam/ho-chi-minh-city/sai-gon-dep-skin-clinics",
+      "https://mytour.vn/en/blog/suc-khoe-y-te/top-10-most-trusted-and-high-quality-beauty-spas-in-district-2-ho-chi-minh-city-mytour.html"
+    ]
+  },
+  {
+    "id": "D01",
+    "nganh": "Nha khoa",
+    "ten": "Nha khoa Vạn Hạnh",
+    "khu_vuc": "Quận 3",
+    "dia_chi": "159 Trần Quốc Thảo, Phường 9, Quận 3",
+    "sdt": "02839318376",
+    "email": "vanhanh2dentistry@yahoo.com",
+    "website": "www.vanhanhdental.com",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có hồ sơ trên nhiều danh bạ (Yellow Pages, WhatClinic), có cơ sở 2",
+    "diem_yeu": [
+      "Yellow Pages ghi thông tin đã lâu chưa cập nhật",
+      "dùng email Yahoo, không phải email tên miền",
+      "không tìm thấy fanpage"
+    ],
+    "chuoi": true,
+    "nguon": [
+      "https://www.yellowpages.vn/lgs/1009362/nha-khoa-van-hanh.html",
+      "https://www.whatclinic.com/dentists/vietnam/ho-chi-minh-city/district-1-ho-chi-minh/nha-khoa-vn-hnh-co-s-2"
+    ]
+  },
+  {
+    "id": "D02",
+    "nganh": "Nha khoa",
+    "ten": "Nha khoa Stone",
+    "khu_vuc": "Quận 10",
+    "dia_chi": "453 Cách Mạng Tháng 8, Phường 13, Quận 10",
+    "sdt": "02836207282",
+    "email": "Nhakhoastone@gmail.com",
+    "website": "nhakhoastone.com",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Chuyên nhổ răng khôn khó, ứng dụng máy siêu âm Piezotome",
+    "diem_yeu": [
+      "không tìm thấy fanpage",
+      "dùng email Gmail",
+      "không tìm thấy nút đặt lịch online"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://toplist.vn/top-list/nha-khoa-nho-rang-khon-uy-tin-nhat-tai-quan-10-tp-hcm-62399.htm",
+      "https://mytour.vn/vi/blog/bai-viet/top-6-nha-khoa-nho-rang-khon-uy-tin-nhat-o-quan-10-tp-hcm.html"
+    ]
+  },
+  {
+    "id": "D03",
+    "nganh": "Nha khoa",
+    "ten": "Nha khoa Đông Nam (Cơ sở 2)",
+    "khu_vuc": "Quận 10",
+    "dia_chi": "614-616 Lê Hồng Phong, Phường 10, Quận 10",
+    "sdt": "0972411411",
+    "email": "nhakhoadongnam@gmail.com",
+    "website": "",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Thành lập từ 2005, cơ sở Quận 10 được Sở Y tế TP.HCM cấp phép",
+    "diem_yeu": [
+      "không xác định được website/fanpage chính thức qua tìm kiếm",
+      "dùng email Gmail"
+    ],
+    "chuoi": true,
+    "nguon": [
+      "https://vneconomy.vn/5-ly-do-nen-trong-rang-tai-nha-khoa-dong-nam.htm",
+      "https://toplist.vn/top-list/phong-kham-nha-khoa-uy-tin-tai-quan-10-tphcm-16515.htm",
+      "https://www.yellowpages.vn/lgs/1187785695/nha-khoa-dong-nam.html"
+    ]
+  },
+  {
+    "id": "D04",
+    "nganh": "Nha khoa",
+    "ten": "Nha khoa Hoàng Yến",
+    "khu_vuc": "Quận 1",
+    "dia_chi": "207 Nguyễn Trãi, P. Nguyễn Cư Trinh, Quận 1",
+    "sdt": "",
+    "email": "",
+    "website": "",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Có bảng giá công khai trên WhatClinic (ví dụ veneer từ 6.000.000đ)",
+    "diem_yeu": [
+      "không tìm thấy website/fanpage",
+      "giờ mở cửa không công bố",
+      "rất ít đánh giá (WhatClinic 6.4/10 từ 6 lượt)"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://www.whatclinic.com/dentists/vietnam/ho-chi-minh-city/district-1-ho-chi-minh/nha-khoa-hoang-yen"
+    ]
+  },
+  {
+    "id": "D05",
+    "nganh": "Nha khoa",
+    "ten": "Nha khoa Bình An",
+    "khu_vuc": "Quận 1",
+    "dia_chi": "563-565 Trần Hưng Đạo, P. Cầu Kho, Quận 1",
+    "sdt": "",
+    "email": "",
+    "website": "nhakhoapeace.com",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Hợp tác 5 chuyên khoa điều trị để bác sĩ tập trung thế mạnh",
+    "diem_yeu": [
+      "hồ sơ Docosan chưa được xác minh",
+      "chỉ 1 đánh giá trên Docosan (06/2023)",
+      "không tìm thấy fanpage và số điện thoại công khai"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://jobsgo.vn/tuyen-dung/-479705333.html",
+      "https://www.docosan.com/phong-kham/nha-khoa-binh-an---quan-1-1476"
+    ]
+  },
+  {
+    "id": "D06",
+    "nganh": "Nha khoa",
+    "ten": "Plum Dental Clinic",
+    "khu_vuc": "Quận 2",
+    "dia_chi": "31 Ngô Quang Huy, P. Thảo Điền, Quận 2",
+    "sdt": "0768702534",
+    "email": "",
+    "website": "plumdental.vn",
+    "fanpage": "",
+    "co_dat_lich_online": null,
+    "fanpage_hoat_dong": "không rõ",
+    "diem_khen": "Định vị nha khoa trẻ em tại Thảo Điền",
+    "diem_yeu": [
+      "không tìm thấy fanpage",
+      "thông tin liên hệ chủ yếu nằm trên các trang hồ sơ bên thứ ba"
+    ],
+    "chuoi": false,
+    "nguon": [
+      "https://speakerdeck.com/plumdentalclinic"
+    ]
+  }
+]

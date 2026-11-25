@@ -1,0 +1,241 @@
+<title>Trang Đặt Lịch Mẫu</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lexend:wght@500;600&display=swap">
+<style>
+/* Layout: một cột kiểu điện thoại, đầu trang là danh thiếp của tiệm, bên dưới là 3 bước đặt lịch */
+:root{
+  --bg:#f5f4f8; --card:#ffffff; --fg:#1d1b26; --muted:#6b6878; --line:#e3e0ea;
+  --accent:#6b3fa0; --accent-soft:#efe7f8; --on-accent:#ffffff; --ok:#1f7a4d; --ok-soft:#e3f4ea;
+  --display:"Lexend",system-ui,sans-serif; --body:"Be Vietnam Pro",system-ui,sans-serif;
+}
+:root[data-shop="gara"]{ --accent:#1f5f8b; --accent-soft:#e2eef6; --bg:#f3f5f7; --line:#dde3e8; }
+@media (prefers-color-scheme:dark){ :root:not([data-theme="light"]){
+  --bg:#15131b; --card:#1f1c27; --fg:#ece9f3; --muted:#a29eb1; --line:#332f3e;
+  --accent:#b48be6; --accent-soft:#2e2440; --on-accent:#15131b; --ok:#6fd3a0; --ok-soft:#173327; color-scheme:dark }
+  :root:not([data-theme="light"])[data-shop="gara"]{ --accent:#7fb8e0; --accent-soft:#1c2d3a; --bg:#121619; --card:#1b2126; --line:#2c353c; }
+}
+:root[data-theme="dark"]{
+  --bg:#15131b; --card:#1f1c27; --fg:#ece9f3; --muted:#a29eb1; --line:#332f3e;
+  --accent:#b48be6; --accent-soft:#2e2440; --on-accent:#15131b; --ok:#6fd3a0; --ok-soft:#173327; color-scheme:dark }
+:root[data-theme="dark"][data-shop="gara"]{ --accent:#7fb8e0; --accent-soft:#1c2d3a; --bg:#121619; --card:#1b2126; --line:#2c353c; }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:var(--body);font-size:15px;line-height:1.5;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 40px}
+.wrap{max-width:560px;margin:0 auto;display:flex;flex-direction:column;gap:16px}
+.switch{display:flex;gap:8px;align-items:center;flex-wrap:wrap;font-size:13px;color:var(--muted)}
+.switch a{padding:6px 12px;border-radius:999px;border:1px solid var(--line);color:var(--fg);text-decoration:none;background:var(--card)}
+.switch a[aria-current="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.shop{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:6px}
+.badge{align-self:flex-start;font-size:11px;letter-spacing:.06em;text-transform:uppercase;background:var(--accent-soft);color:var(--accent);padding:3px 8px;border-radius:6px;font-weight:600}
+h1{font-family:var(--display);font-size:24px;margin:0;text-wrap:balance}
+.meta{color:var(--muted);font-size:14px;display:flex;flex-wrap:wrap;gap:4px 14px}
+.stars{color:#d49a00;font-weight:600}
+section{display:flex;flex-direction:column;gap:10px}
+h2{font-family:var(--display);font-size:16px;margin:4px 0 0;display:flex;gap:8px;align-items:center}
+h2 .n{width:24px;height:24px;border-radius:50%;background:var(--accent);color:var(--on-accent);font-size:13px;display:grid;place-items:center}
+.list{display:flex;flex-direction:column;gap:8px}
+.opt{display:flex;justify-content:space-between;gap:12px;align-items:center;background:var(--card);border:1.5px solid var(--line);border-radius:12px;padding:12px 14px;cursor:pointer;text-align:left;font:inherit;color:inherit;width:100%}
+.opt:hover{border-color:var(--accent)}
+.opt[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.opt:focus-visible,.chip:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.opt .t{font-weight:600}
+.opt .d{font-size:13px;color:var(--muted)}
+.opt .p{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap}
+.days{display:flex;gap:8px;overflow-x:auto;padding-bottom:4px}
+.chip{flex:0 0 auto;border:1.5px solid var(--line);background:var(--card);color:inherit;border-radius:10px;padding:8px 12px;font:inherit;cursor:pointer;text-align:center;min-width:64px}
+.chip small{display:block;font-size:12px;color:var(--muted)}
+.chip[aria-pressed="true"]{border-color:var(--accent);background:var(--accent-soft)}
+.chip:disabled{opacity:.4;text-decoration:line-through;cursor:not-allowed}
+.slots{display:grid;grid-template-columns:repeat(auto-fill,minmax(76px,1fr));gap:8px}
+.slots .chip{min-width:0;font-variant-numeric:tabular-nums}
+.form{display:grid;gap:10px}
+label{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:4px}
+input,select,textarea{font:inherit;color:var(--fg);background:var(--card);border:1.5px solid var(--line);border-radius:10px;padding:10px 12px;width:100%}
+.summary{background:var(--accent-soft);border-radius:12px;padding:12px 14px;font-size:14px}
+.cta{background:var(--accent);color:var(--on-accent);border:0;border-radius:12px;padding:14px;font:600 16px var(--body);cursor:pointer}
+.cta:disabled{opacity:.45;cursor:not-allowed}
+.err{color:#c0392b;font-size:13px;min-height:1em}
+.done{background:var(--ok-soft);border:1px solid var(--ok);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.done h2{color:var(--ok)}
+pre{white-space:pre-wrap;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:12px;font:13px/1.5 var(--body);margin:0}
+.ghost{background:transparent;border:1.5px solid var(--line);color:var(--fg);border-radius:10px;padding:10px 14px;font:inherit;cursor:pointer}
+.row{display:flex;gap:8px;flex-wrap:wrap}
+.note{font-size:12px;color:var(--muted);text-align:center}
+@media (prefers-reduced-motion:no-preference){.opt,.chip{transition:border-color .15s,background .15s}}
+</style>
+
+<div class="wrap">
+  <nav class="switch" aria-label="Chọn ngành mẫu">Xem mẫu cho:
+    <a href="#spa" id="tab-spa">Spa / Nail</a>
+    <a href="#gara" id="tab-gara">Rửa xe / Gara</a>
+  </nav>
+
+  <header class="shop">
+    <span class="badge">Bản mẫu</span>
+    <h1 id="shop-name"></h1>
+    <div class="meta"><span class="stars" id="shop-rating"></span><span id="shop-addr"></span><span id="shop-hours"></span></div>
+  </header>
+
+  <div id="flow">
+    <section aria-labelledby="h-svc">
+      <h2 id="h-svc"><span class="n">1</span>Chọn dịch vụ</h2>
+      <div class="list" id="services"></div>
+    </section>
+
+    <section aria-labelledby="h-time" style="margin-top:18px">
+      <h2 id="h-time"><span class="n">2</span>Chọn ngày và giờ</h2>
+      <div class="days" id="days"></div>
+      <div class="slots" id="slots"></div>
+    </section>
+
+    <section aria-labelledby="h-info" style="margin-top:18px">
+      <h2 id="h-info"><span class="n">3</span>Thông tin của bạn</h2>
+      <form class="form" id="form" novalidate>
+        <label for="f-name">Họ tên<input id="f-name" autocomplete="name" placeholder="Nguyễn Thu Hà"></label>
+        <label for="f-phone">Số điện thoại<input id="f-phone" inputmode="tel" autocomplete="tel" placeholder="09xx xxx xxx"></label>
+        <label for="f-extra" id="extra-label"><span id="extra-text"></span><input id="f-extra"></label>
+        <label for="f-note">Ghi chú (không bắt buộc)<textarea id="f-note" rows="2"></textarea></label>
+        <div class="summary" id="summary">Chưa chọn dịch vụ và giờ.</div>
+        <div class="err" id="err" role="alert"></div>
+        <button class="cta" id="submit" type="submit">Đặt lịch</button>
+      </form>
+    </section>
+  </div>
+
+  <div class="done" id="done" hidden>
+    <h2>Đã ghi nhận lịch hẹn</h2>
+    <div id="done-text"></div>
+    <div>Tin báo gửi cho chủ tiệm (bản thật tự gửi qua Zalo hoặc email):</div>
+    <pre id="owner-msg"></pre>
+    <div class="row">
+      <button class="ghost" id="copy" type="button">Sao chép tin báo</button>
+      <button class="ghost" id="again" type="button">Đặt lịch khác</button>
+    </div>
+  </div>
+
+  <p class="note">Trang mẫu để chủ tiệm xem trước. Bản thật gắn vào nút "Đặt lịch" trên Google Maps, fanpage và Zalo của tiệm.</p>
+</div>
+
+<script>
+const SHOPS = {
+  spa: {
+    name: "Spa Mẫu", rating: "★ 4,7 · 128 đánh giá", addr: "Phú Nhuận, TP.HCM", hours: "9:00–20:00",
+    open: 9, close: 20, step: 60, extra: "Kỹ thuật viên (nếu muốn chọn)", extraPh: "Bất kỳ ai",
+    services: [
+      ["Gội đầu dưỡng sinh", "60 phút", 150000],
+      ["Massage body đá nóng", "90 phút", 390000],
+      ["Chăm sóc da mặt cơ bản", "60 phút", 290000],
+      ["Sơn gel tay + chăm sóc móng", "45 phút", 180000],
+      ["Combo đón Tết: da mặt + gội", "120 phút", 399000],
+    ],
+  },
+  gara: {
+    name: "Gara Mẫu", rating: "★ 4,5 · 64 đánh giá", addr: "Tân Bình, TP.HCM", hours: "7:30–18:00",
+    open: 8, close: 18, step: 60, extra: "Loại xe và biển số", extraPh: "VD: Vios 51H-123.45",
+    services: [
+      ["Rửa xe + hút bụi", "45 phút", 120000],
+      ["Rửa gầm + vệ sinh khoang máy", "60 phút", 250000],
+      ["Thay dầu + kiểm tra 20 hạng mục", "60 phút", 650000],
+      ["Vệ sinh nội thất chuyên sâu", "180 phút", 1200000],
+      ["Gói đi Tết: bảo dưỡng + rửa xe", "120 phút", 990000],
+    ],
+  },
+};
+const $ = (id) => document.getElementById(id);
+const fmt = (n) => n.toLocaleString("vi-VN") + "đ";
+const DOW = ["CN", "T2", "T3", "T4", "T5", "T6", "T7"];
+let shopKey, state;
+
+function busy(dayIdx, h) { return (dayIdx * 7 + h * 3) % 5 === 0; } // giờ đã kín (giả lập)
+
+function render() {
+  shopKey = location.hash === "#gara" ? "gara" : "spa";
+  const s = SHOPS[shopKey];
+  document.documentElement.dataset.shop = shopKey;
+  state = { svc: null, day: 0, time: null };
+  ["spa", "gara"].forEach(k => $("tab-" + k).setAttribute("aria-current", String(k === shopKey)));
+  $("shop-name").textContent = s.name;
+  $("shop-rating").textContent = s.rating;
+  $("shop-addr").textContent = s.addr;
+  $("shop-hours").textContent = "Mở cửa " + s.hours;
+  $("extra-text").textContent = s.extra;
+  $("f-extra").placeholder = s.extraPh;
+  $("services").innerHTML = "";
+  s.services.forEach(([t, d, p], i) => {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "opt"; b.setAttribute("aria-pressed", "false");
+    b.innerHTML = `<span><span class="t"></span><br><span class="d"></span></span><span class="p">${fmt(p)}</span>`;
+    b.querySelector(".t").textContent = t; b.querySelector(".d").textContent = d;
+    b.onclick = () => { state.svc = i; mark("services", b); update(); };
+    $("services").appendChild(b);
+  });
+  const days = $("days"); days.innerHTML = "";
+  for (let i = 0; i < 7; i++) {
+    const d = new Date(); d.setDate(d.getDate() + i);
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.setAttribute("aria-pressed", String(i === 0));
+    b.innerHTML = `${i === 0 ? "Hôm nay" : DOW[d.getDay()]}<small>${d.getDate()}/${d.getMonth() + 1}</small>`;
+    b.onclick = () => { state.day = i; state.time = null; mark("days", b); slots(); update(); };
+    days.appendChild(b);
+  }
+  slots(); update();
+  $("flow").hidden = false; $("done").hidden = true;
+}
+
+function slots() {
+  const s = SHOPS[shopKey], box = $("slots"); box.innerHTML = "";
+  const nowH = new Date().getHours();
+  for (let h = s.open; h < s.close; h++) {
+    const b = document.createElement("button");
+    b.type = "button"; b.className = "chip"; b.textContent = h + ":00"; b.setAttribute("aria-pressed", "false");
+    b.disabled = busy(state.day, h) || (state.day === 0 && h <= nowH);
+    if (b.disabled) b.title = "Đã kín";
+    b.onclick = () => { state.time = h + ":00"; mark("slots", b); update(); };
+    box.appendChild(b);
+  }
+}
+
+function mark(boxId, el) {
+  $(boxId).querySelectorAll("[aria-pressed]").forEach(x => x.setAttribute("aria-pressed", "false"));
+  el.setAttribute("aria-pressed", "true");
+}
+
+function dayLabel() {
+  const d = new Date(); d.setDate(d.getDate() + state.day);
+  return `${DOW[d.getDay()]} ${d.getDate()}/${d.getMonth() + 1}`;
+}
+
+function update() {
+  const s = SHOPS[shopKey];
+  if (state.svc === null && !state.time) { $("summary").textContent = "Chưa chọn dịch vụ và giờ."; return; }
+  const svc = state.svc !== null ? s.services[state.svc] : null;
+  $("summary").textContent = [svc ? `${svc[0]} · ${fmt(svc[2])}` : "Chưa chọn dịch vụ",
+    state.time ? `${state.time}, ${dayLabel()}` : "Chưa chọn giờ"].join(" — ");
+}
+
+$("form").addEventListener("submit", (e) => {
+  e.preventDefault();
+  const name = $("f-name").value.trim(), phone = $("f-phone").value.replace(/\s/g, "");
+  const err = state.svc === null ? "Bạn chọn dịch vụ ở bước 1 nhé."
+    : !state.time ? "Bạn chọn giờ ở bước 2 nhé."
+    : !name ? "Bạn nhập họ tên nhé."
+    : !/^0\d{9}$/.test(phone) ? "Số điện thoại cần 10 số, bắt đầu bằng 0." : "";
+  $("err").textContent = err;
+  if (err) return;
+  const s = SHOPS[shopKey], svc = s.services[state.svc];
+  $("done-text").textContent = `${name}, ${s.name} đã nhận lịch ${svc[0]} lúc ${state.time}, ${dayLabel()}. Tiệm sẽ nhắn xác nhận qua số ${phone}.`;
+  $("owner-msg").textContent =
+    `🔔 LỊCH HẸN MỚI – ${s.name}\nKhách: ${name} – ${phone}\nDịch vụ: ${svc[0]} (${svc[1]}, ${fmt(svc[2])})\n` +
+    `Thời gian: ${state.time}, ${dayLabel()}\n${s.extra}: ${$("f-extra").value.trim() || "—"}\nGhi chú: ${$("f-note").value.trim() || "—"}`;
+  $("flow").hidden = true; $("done").hidden = false;
+});
+$("copy").onclick = () => {
+  const t = $("owner-msg").textContent;
+  navigator.clipboard.writeText(t).then(() => $("copy").textContent = "Đã sao chép")
+    .catch(() => { const r = document.createRange(); r.selectNodeContents($("owner-msg")); getSelection().removeAllRanges(); getSelection().addRange(r); });
+};
+$("again").onclick = () => { $("form").reset(); render(); };
+addEventListener("hashchange", render);
+render();
+</script>

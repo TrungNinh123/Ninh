@@ -1,0 +1,916 @@
+[
+  {
+    "id": "Q1S022",
+    "ten": "Lisa Nail & Spa (chi nhánh Tân Định, 416A Hai Bà Trưng, Q1)",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://lisanail.vn/en/",
+        "ten_tai_khoan": "lisanail.vn",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Trang được index cập nhật khoảng 158–364 ngày trước (theo snippet tìm kiếm)",
+        "nhan_xet": "Website song ngữ VI/EN; có trang Hệ thống Salon, form đặt lịch (hỏi iMessage/WhatsApp/Line, chi nhánh, ngày, giờ), trang /booking-test/, bảng giá gội đầu (Gội Hoàng Cung 65' 299k, combo 379k–849k), rất nhiều bài blog SEO tiếng Anh nhắm khách du lịch ('Nail salon Saigon', 'Best Nail Art in Ho Chi Minh City', 'Luxury Nail Saigon'...). Fetch trực tiếp bị chặn (DNS ENOTFOUND trong sandbox); dữ liệu lấy từ snippet kết quả tìm kiếm.",
+        "truy_van_da_dung": [
+          "lisanail.vn",
+          "lisanail.vn bảng giá nail gội đầu Lisa Nail & Spa 2026",
+          "Lisa Nail & Spa đặt lịch zalo messenger hotline lisanail.vn booking"
+        ],
+        "nguon": [
+          "https://lisanail.vn/en/",
+          "https://lisanail.vn/en/salon-system/",
+          "https://lisanail.vn/goi-dau/",
+          "https://lisanail.vn/booking-test/",
+          "https://lisanail.vn/en/nail-salon-saigon/",
+          "https://lisanail.vn/en/best-nail-art-in-ho-chi-minh-city-top-spots-loved-by-tourists/"
+        ]
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/lisanailvn/",
+        "ten_tai_khoan": "Lisa Nail & Spa (@lisanailvn)",
+        "nguoi_theo_doi": "457.396 lượt thích (theo snippet, không rõ thời điểm)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fanpage chính của chuỗi; email Info@lisanail.vn, website lisanail.vn. Có thêm page phụ 'Check Var Nhà Lisa Nail Spa' (facebook.com/goidauduongsinhspaq1) và page facebook.com/61575995636273 'Lisanailvn Lisa Nail & Spa'. Không xem được nội dung bài đăng.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa Hồ Chí Minh facebook",
+          "lisanail.vn instagram tiktok facebook Lisa Nail & Spa official"
+        ],
+        "nguon": [
+          "https://www.facebook.com/lisanailvn/",
+          "https://www.facebook.com/goidauduongsinhspaq1/",
+          "https://www.toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-dinh-tphcm-64619.htm"
+        ]
+      },
+      "instagram": {
+        "tim_thay": true,
+        "link": "https://www.instagram.com/lisanailvn/",
+        "ten_tai_khoan": "@lisanailvn",
+        "nguoi_theo_doi": "215K (theo snippet tìm kiếm, không rõ thời điểm)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Tài khoản cùng handle với TikTok/Facebook. Có các tài khoản trùng tên không liên quan (@lisanailsandspa ~140 follower link lisanailsandspa.com; @lisanailandspa ~278 follower) – KHÔNG phải của chuỗi.",
+        "truy_van_da_dung": [
+          "Lisa Nail Spa Saigon instagram",
+          "\"lisanailvn\" tiktok followers",
+          "lisanail.vn instagram tiktok facebook Lisa Nail & Spa official"
+        ],
+        "nguon": [
+          "https://www.instagram.com/lisanailvn/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": true,
+        "link": "https://www.tiktok.com/@lisanailvn",
+        "ten_tai_khoan": "Lisa Nail & Spa (@lisanailvn)",
+        "nguoi_theo_doi": "2,9M follower; 82,1M lượt thích (snippet hồ sơ TikTok, bản cache)",
+        "hoat_dong_gan_nhat": "Có video ngày 2023-12-05 (giải mã từ ID video 7308931803744652552) và có phiên LIVE được index; ngày đăng gần nhất không rõ",
+        "nhan_xet": "Nội dung chủ lực: video ASMR gội đầu dưỡng sinh ('Gội đầu dưỡng sinh cực phê #lisanailspa #asmr'), có livestream; bio link lisanail.vn/en/.",
+        "truy_van_da_dung": [
+          "lisanail tiktok",
+          "\"lisanailvn\" tiktok followers"
+        ],
+        "nguon": [
+          "https://www.tiktok.com/@lisanailvn",
+          "https://www.tiktok.com/@lisanailvn/live?lang=en",
+          "https://www.tiktok.com/@lisanailvn/video/7308931803744652552",
+          "https://www.tiktok.com/@lisanailvn/video/7313769840102165768"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa Tân Định 416A Hai Bà Trưng review gội đầu dưỡng sinh lemon8 OR threads OR pinterest"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": true,
+        "link": "https://www.youtube.com/@lisanailspa",
+        "ten_tai_khoan": "Lisa Nail & Spa (@lisanailspa); thêm @lisanailspa.korean và kênh 'Lisa Nail & Spa Relax'",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Kênh tự giới thiệu 'Hệ thống Nail & Spa hàng đầu Việt Nam', có email hợp tác; video ASMR gội đầu, shorts 'Gội đầu dưỡng sinh hoàng cung tại Lisa nail spa quận 1'. Có kênh tiếng Hàn riêng.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa youtube channel lisanail"
+        ],
+        "nguon": [
+          "https://www.youtube.com/@lisanailspa",
+          "https://www.youtube.com/@lisanailspa.korean/videos",
+          "https://www.youtube.com/channel/UCfLcYdw3CAqYA67prGDzHOA",
+          "https://www.youtube.com/shorts/XUUi6d-IYeo"
+        ]
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy tài khoản Threads/Lemon8 của Lisa.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa Tân Định 416A Hai Bà Trưng review gội đầu dưỡng sinh lemon8 OR threads OR pinterest"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy Zalo OA hay số Zalo chính thức; form đặt lịch trên web dùng iMessage/WhatsApp/Line.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa đặt lịch zalo messenger hotline lisanail.vn booking"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": true,
+        "link": "https://us.trip.com/things-to-do/detail/99168099",
+        "ten_tai_khoan": "Trip.com: LISA NAIL&SPA Hand/Foot Nail Care, Head Spa and Massage; Tripadvisor: Lisa Nail & Spa - District 1",
+        "nguoi_theo_doi": "Trip.com 3,3/5 (4 đánh giá) – trang pk 2,5/5 (2 đánh giá); Wanderlog 4,9 (11 đánh giá)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Bán dịch vụ trên Trip.com (WhatsApp từng chi nhánh, không hủy sau xác nhận). Có listing Tripadvisor d25250993 cho chi nhánh Q1. Không thấy Fresha/Klook/KKday.",
+        "truy_van_da_dung": [
+          "Lisa Nail Spa Ho Chi Minh tripadvisor reviews",
+          "\"Lisa Nail\" Saigon fresha OR booksy OR klook OR kkday"
+        ],
+        "nguon": [
+          "https://us.trip.com/things-to-do/detail/99168099",
+          "https://pk.trip.com/things-to-do/detail/99168099",
+          "https://www.tripadvisor.com/Attraction_Review-g293925-d25250993-Reviews-Lisa_Nail_Spa_District_1_Ho_Chi_Minh_City-Ho_Chi_Minh_City.html",
+          "https://wanderlog.com/place/details/15107165/lisa-nail--spa-g%E1%BB%99i-%C4%91%E1%BA%A7u-d%C6%B0%E1%BB%A1ng-sinh-qu%E1%BA%ADn-1-hair-wash"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://thanhnien.vn/giai-ma-lisa-nail-spa-dia-chi-yeu-thich-cua-gioi-tre-van-phong-tai-tphcm-185240827153841812.htm",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Bài Thanh Niên (mã bài gợi ý ngày 27/08/2024)",
+        "nhan_xet": "Bài trên Thanh Niên (dạng PR); có mặt ở nhiều toplist: toplist.vn (Tân Định, Nhiêu Lộc, Sài Gòn), evivatour, local-insider, mytour, alltop, topaz, Trip.com.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa 416A Hai Bà Trưng",
+          "toplist Tân Định nail Lisa Nail & Spa 416A Hai Bà Trưng fanpage hotline",
+          "Lisa Nail & Spa đặt lịch zalo messenger hotline lisanail.vn booking"
+        ],
+        "nguon": [
+          "https://thanhnien.vn/giai-ma-lisa-nail-spa-dia-chi-yeu-thich-cua-gioi-tre-van-phong-tai-tphcm-185240827153841812.htm",
+          "https://evivatour.com/top-5-nail-salons-in-ho-chi-minh-city/",
+          "https://local-insider.com/post/best-nail-salons-in-ho-chi-minh-city/620e788499748eb364e6f5a9",
+          "https://www.toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-dinh-tphcm-64619.htm",
+          "https://alltop.vn/all-top/spa-goi-dau-duong-sinh-chuyen-nghiep-nhat-quan-1-tp-hcm-10571",
+          "https://topaz.vn/toplist/tiem-lam-nail-phuong-tan-dinh"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được kênh cá nhân của chủ/thợ được công khai.",
+        "truy_van_da_dung": [
+          "Lisa Nail & Spa ... (các truy vấn trên)"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Hotline/WhatsApp chi nhánh Tân Định 0777 776 922 (toplist, evivatour, alltop); form đặt lịch trên lisanail.vn/en (kênh liên hệ iMessage/WhatsApp/Line); nhắn fanpage Facebook; mua qua Trip.com. Không thấy Zalo OA.",
+    "gia_dich_vu": "Gội Hoàng Cung 65' 299k; combo gội + massage 379k–849k (combo 6 = 649k) – áp dụng chi nhánh An Đông/Tân Hưng/Chánh Hưng, chi nhánh Tân Định và Premium giá cao hơn (lisanail.vn/goi-dau/). Nail (chi nhánh Q3, glowvietnam): cắt da 50k, sơn gel Hàn 200k, đắp gel 350k. Local-insider: 250k–500k (~$10–20). Chưa có bảng giá riêng xác nhận cho chi nhánh Tân Định.",
+    "dac_trung": "Chuỗi nail + gội đầu dưỡng sinh 'Hoàng Cung'/massage, ~6 chi nhánh (Q1,3,5,7,8); style nail Tây–Hàn–Nhật–Đài; nhắm cả khách du lịch quốc tế (EN, kênh YouTube tiếng Hàn, WhatsApp).",
+    "diem_manh": [
+      "TikTok @lisanailvn ~2,9M follower/82,1M like (snippet hồ sơ)",
+      "Instagram @lisanailvn ~215K, Facebook ~457K like",
+      "Website song ngữ có form đặt lịch + blog SEO tiếng Anh dày",
+      "Có mặt Trip.com, Tripadvisor, báo Thanh Niên, nhiều toplist"
+    ],
+    "van_de": [
+      "Đánh giá trên Trip.com thấp & ít: 3,3/5 (4) và 2,5/5 (2)",
+      "Số hotline không nhất quán giữa các nguồn (0777776922 / 0777776928 / 0777772879 cho cùng chi nhánh trong các toplist)",
+      "Google Maps ghi '2 chi nhánh' trong khi web nói 6 – thông tin chi nhánh rối",
+      "Review Wanderlog: khu vực tầng dưới 'messy and not so organized', nhân viên dùng điện thoại ở cửa",
+      "Nhiều tài khoản trùng tên Lisa (IG @lisanailsandspa, lisanailsbeauty.com, nailspalisa.com) gây nhầm lẫn thương hiệu",
+      "Không có Zalo OA dù khách nội địa chủ yếu dùng Zalo"
+    ],
+    "do_tin_cay": "cao"
+  },
+  {
+    "id": "Q1S042",
+    "ten": "A+ Nails Studio (55/8 Lê Thị Hồng Gấm, Q1)",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://acongstudio.wordpress.com/",
+        "ten_tai_khoan": "Service Menu - WordPress.com (A+ Studio)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Trang WordPress.com miễn phí tên 'Service Menu': mô tả nối mi/uốn mi, nail (dịch vụ phổ biến nhất), điêu khắc chân mày; nói không gian trắng, ấm cúng; nhắc handle @acong.nail.studio. Không thấy giá/địa chỉ trong snippet. Có thêm trang netblitz.app/portal/anailstudio (microsite). Fetch trực tiếp bị chặn (DNS ENOTFOUND trong sandbox); dữ liệu lấy từ snippet kết quả tìm kiếm.",
+        "truy_van_da_dung": [
+          "acongstudio wordpress nail",
+          "acongstudio.wordpress.com A+ Nail Studio"
+        ],
+        "nguon": [
+          "https://acongstudio.wordpress.com/",
+          "https://www.netblitz.app/portal/anailstudio"
+        ]
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/acongnails/",
+        "ten_tai_khoan": "A+ Nails Studio (@acongnails)",
+        "nguoi_theo_doi": "~11K follower (snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fanpage ghi chi nhánh 1 55/8 Lê Thị Hồng Gấm, chi nhánh 2 69/7 Nguyễn Gia Trí, Bình Thạnh.",
+        "truy_van_da_dung": [
+          "\"A Công\" nail studio quận 1 acongnails",
+          "A+ Nails Studio 55/8 Lê Thị Hồng Gấm facebook acongnails"
+        ],
+        "nguon": [
+          "https://www.facebook.com/acongnails/",
+          "https://mytour.vn/vi/blog/xep-hang/top-9-tiem-lam-mong-dep-va-chuyen-nghiep-nhat-tai-quan-1-mytour.html"
+        ]
+      },
+      "instagram": {
+        "tim_thay": true,
+        "link": "https://www.instagram.com/acongnails/",
+        "ten_tai_khoan": "@acongnails",
+        "nguoi_theo_doi": "4.327 follower; 207 following; 621 bài (snippet, không rõ thời điểm)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Bio: 2 địa chỉ, hotline 056 519 5109, giờ 09:00–21:00. Trang WordPress lại ghi handle @acong.nail.studio – không thống nhất.",
+        "truy_van_da_dung": [
+          "A+ Nails Studio Saigon instagram tiktok",
+          "instagram acongnails OR \"acong.nail.studio\" A+ Nails Studio followers"
+        ],
+        "nguon": [
+          "https://www.instagram.com/acongnails/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "(@acong.nail.studio được nhắc trên trang menu, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy hồ sơ TikTok được index.",
+        "truy_van_da_dung": [
+          "A+ Nails Studio Saigon instagram tiktok",
+          "\"A+ Nails\" OR \"A Cộng Nails\" Sài Gòn instagram tiktok",
+          "tiktok acongnails A+ Nails Studio quận 1"
+        ],
+        "nguon": []
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "A+ Nails Studio ... (các truy vấn trên)"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "A+ Nails Studio ... (các truy vấn trên)"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": true,
+        "link": "https://www.threads.com/@acongnails",
+        "ten_tai_khoan": "@acongnails (Threads)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Bài 'HOT TREND: Nail Y2K' ngày 2026-04-04 (giải mã từ mã bài DWtF-admGtg)",
+        "nhan_xet": "Bài promo nail Y2K đính đá/charm/xà cừ 180k–350k, ghi 'chính thức mở cửa trở lại', làm 1 kèm 1 nên đặt trước, 2 chi nhánh + SĐT 0565 195 109. Lemon8: được nhắc trong bài tổng hợp 'vietnam beauty recommendations' (nail & mi giá phải chăng).",
+        "truy_van_da_dung": [
+          "threads.com/@acongnails",
+          "A+ Nails Studio Ho Chi Minh lemon8 nail lash review affordable"
+        ],
+        "nguon": [
+          "https://www.threads.com/@acongnails/post/DWtF-admGtg/hot-trend-nail-y2k-%C4%91%C3%ADnh-%C4%91%C3%A1-charm-x%C3%A0-c%E1%BB%AB-style-c%C3%A1-t%C3%ADnh-n%E1%BB%95i-b%E1%BA%ADt-t%C3%B9y-ch%E1%BB%89nh-theo-gu-t",
+          "https://www.lemon8-app.com/experience/vietnam-beauty-recommendations?region=sg"
+        ]
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "\"0565195109\" OR \"0565 195 109\""
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Fresha/Booksy/Tripadvisor/Foody. Có microsite Netblitz nhưng không xác minh được chức năng đặt lịch.",
+        "truy_van_da_dung": [
+          "A+ Nail Studio Lê Thị Hồng Gấm quận 1",
+          "netblitz.app portal anailstudio A+ Nail Studio booking"
+        ],
+        "nguon": [
+          "https://www.netblitz.app/portal/anailstudio"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://toplist.vn/top-list/tiem-nail-dep-va-uy-tin-nhat-o-tp-ho-chi-minh-10433.htm",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Toplist xếp #3 top tiệm nail TPHCM (bảo hành 7 ngày, sơn chính hãng), toplist Q1 cho 9,7/10; toplist nối móng đắp gel ghi bảo hành 5 ngày (mâu thuẫn); mytour, alltop Q1. Đều là toplist dạng quảng bá.",
+        "truy_van_da_dung": [
+          "toplist tiệm nail quận 1 \"A+ Nails\" 55/8 Lê Thị Hồng Gấm giá"
+        ],
+        "nguon": [
+          "https://toplist.vn/top-list/tiem-nail-dep-va-uy-tin-nhat-o-tp-ho-chi-minh-10433.htm",
+          "https://toplist.vn/top-list/dich-vu-noi-mong-dap-gel-chuyen-nghiep-nhat-tphcm-65108.htm",
+          "https://toplist.vn/top-list/tiem-nail-dep-va-chat-luong-nhat-tai-quan-1-tp-hcm-16773.htm",
+          "https://mytour.vn/vi/blog/xep-hang/top-9-tiem-lam-mong-dep-va-chuyen-nghiep-nhat-tai-quan-1-mytour.html",
+          "https://alltop.vn/all-top/tiem-lam-nail-dep-va-chat-luong-nhat-quan-1-tp-hcm-933"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Gọi/nhắn 0565 195 109 (IG bio, Threads, mytour); nhắn fanpage/Instagram. Threads nhấn mạnh làm 1:1 nên phải đặt trước. Không có nền tảng đặt lịch online xác minh được.",
+    "gia_dich_vu": "Nail Y2K đính đá/charm 180k–350k (Threads @acongnails, 04/2026). Không thấy bảng giá đầy đủ công khai.",
+    "dac_trung": "Studio nhỏ trong hẻm, nail + nối mi + chân mày, làm 1 kèm 1, theo trend (Y2K, đính đá); 2 chi nhánh Q1 & Bình Thạnh.",
+    "diem_manh": [
+      "Có Threads đăng bài 04/2026 với giá cụ thể",
+      "Instagram 621 bài – kho ảnh nail khá dày",
+      "Xuất hiện trên nhiều toplist (toplist.vn #3, 9,7/10)"
+    ],
+    "van_de": [
+      "Website là trang WordPress.com miễn phí 'Service Menu', không có giá/đặt lịch xác minh được",
+      "Handle không thống nhất: @acongnails vs @acong.nail.studio",
+      "Instagram chỉ ~4,3K follower so với 621 bài – tương tác thấp",
+      "Không thấy TikTok, YouTube, Zalo OA, nền tảng đặt lịch",
+      "Threads ghi 'mở cửa trở lại' → từng gián đoạn hoạt động",
+      "Toplist mâu thuẫn bảo hành 7 ngày vs 5 ngày"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S047",
+    "ten": "Mina Nails & Beauty (CS2: 264 Lý Tự Trọng, Q1)",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://minanails.vn/",
+        "ten_tai_khoan": "minanails.vn",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website riêng song ngữ: trang dịch vụ (làm móng, đắp bột, thiết kế móng, nối mi, uốn mi, chăm sóc da mặt), trang Chi nhánh, Liên hệ có form 'Đặt lịch ngay' (chi nhánh, dịch vụ, ngày giờ, số người, quốc gia), trang Hình thức thanh toán, nút Zalo, mục Tin tức/Videos, nhiều landing SEO tiếng Anh ('Nail Salon Near Ben Thanh Market', 'Nail salons for tourists in saigon'). Fetch trực tiếp bị chặn (DNS ENOTFOUND trong sandbox); dữ liệu lấy từ snippet kết quả tìm kiếm.",
+        "truy_van_da_dung": [
+          "minanails.vn",
+          "mina nails beauty 264 Ly Tu Trong Ben Thanh nail salon",
+          "minanails.vn đặt lịch booking zalo hotline Mina Nails"
+        ],
+        "nguon": [
+          "https://minanails.vn/",
+          "https://minanails.vn/lien-he",
+          "https://minanails.vn/chi-nhanh",
+          "https://minanails.vn/nail-salon-near-ben-thanh-market",
+          "https://minanails.vn/nail-salons-for-tourists-in-saigon"
+        ]
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/minanailsbeauty/",
+        "ten_tai_khoan": "Mina Nails & Beauty",
+        "nguoi_theo_doi": "~6,7K follower / 6.708 like (snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Page ghi địa chỉ 2 Bis Bùi Thị Xuân; '100% recommend (260 Reviews)'.",
+        "truy_van_da_dung": [
+          "Mina Nails & Beauty Ho Chi Minh tripadvisor OR fresha OR klook review",
+          "facebook minanailsbeauty followers Mina Nails & Beauty 2 Bis Bùi Thị Xuân"
+        ],
+        "nguon": [
+          "https://www.facebook.com/minanailsbeauty/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": true,
+        "link": "https://www.instagram.com/minanailsvn/",
+        "ten_tai_khoan": "@minanailsvn (theo website/Facebook)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Handle được website và Facebook ghi là kênh chính thức; hồ sơ IG không được index nên không xem được số follower/nội dung. Nhiều tài khoản 'Mina nails' khác không liên quan.",
+        "truy_van_da_dung": [
+          "Mina Nails & Beauty District 1 Ho Chi Minh instagram",
+          "minanailsbeauty instagram OR tiktok Mina Nails Saigon",
+          "instagram.com/minanailsvn"
+        ],
+        "nguon": [
+          "https://minanails.vn/dia-chi-noi-mi-dep-tai-quan-1",
+          "https://www.facebook.com/minanailsbeauty/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": true,
+        "link": "https://www.tiktok.com/@minanails99",
+        "ten_tai_khoan": "@minanails99 (theo website)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website ghi 'Tiktok: minanails99'; không tìm thấy hồ sơ/video được index → chưa xác minh hoạt động.",
+        "truy_van_da_dung": [
+          "tiktok @minanails99 Mina Nails",
+          "Mina Nails & Beauty tiktok Bùi Thị Xuân quận 1 nail video"
+        ],
+        "nguon": [
+          "https://minanails.vn/dia-chi-noi-mi-dep-tai-quan-1"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "các truy vấn Mina ở trên"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy kênh.",
+        "truy_van_da_dung": [
+          "các truy vấn Mina ở trên"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "các truy vấn Mina ở trên"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": true,
+        "link": "",
+        "ten_tai_khoan": "nút Zalo trên minanails.vn (không rõ số/OA)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website có nút Zalo cạnh hotline nhưng snippet không lộ ID → không xác nhận là Zalo OA.",
+        "truy_van_da_dung": [
+          "minanails.vn đặt lịch booking zalo hotline Mina Nails"
+        ],
+        "nguon": [
+          "https://minanails.vn/lien-he"
+        ]
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy trên Fresha/Tripadvisor/Klook (Tripadvisor 'Mina Beauty' là cơ sở khác). Đặt lịch qua form trên website.",
+        "truy_van_da_dung": [
+          "Mina Nails & Beauty Ho Chi Minh tripadvisor OR fresha OR klook review"
+        ],
+        "nguon": []
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://toplist.vn/top-list/tiem-ve-nail-nghe-thuat-dep-nhat-tp-hcm-65075.htm",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Toplist #3 tiệm vẽ nail nghệ thuật TPHCM; checkinnail.com review (khen tư vấn, không ép dịch vụ; mặt tiền kém ấn tượng); localleads 4,9/2.416 đánh giá; daythammy 4,9/3.042 đánh giá Google; wikithammy, ubeauty (giá). Lisanail.vn (đối thủ) cũng nhắc Mina trong bài blog.",
+        "truy_van_da_dung": [
+          "\"Mina Nails\" Hồ Chí Minh",
+          "Mina Nails & Beauty minanails.vn bảng giá dịch vụ sơn gel"
+        ],
+        "nguon": [
+          "https://toplist.vn/top-list/tiem-ve-nail-nghe-thuat-dep-nhat-tp-hcm-65075.htm",
+          "https://checkinnail.com/review/best-nail-salon-ho-chi-minh",
+          "https://localleads.io.vn/danh-sach/nail-salon/ho-chi-minh",
+          "https://daythammy.com/doanh-nghiep/mina-nails-beauty",
+          "https://wikithammy.com/toplist/tiem-nail-tai-phuong-ben-thanh",
+          "https://ubeauty.vn/tiem-nails-phuong-ben-thanh"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Form 'Đặt lịch ngay' trên minanails.vn/lien-he; hotline theo chi nhánh: CS1 Bùi Thị Xuân 0707 59 59 92, CS2 264 Lý Tự Trọng 0707 59 59 93, CS3 299 Lý Tự Trọng 0768 59 59 94; nút Zalo; nhắn Facebook. LƯU Ý: SĐT trên Google Maps (0707595992) là hotline CS1, không phải CS2 264 Lý Tự Trọng.",
+    "gia_dich_vu": "Theo bên thứ ba (wikithammy/ubeauty, ~1–1,5 năm trước): sơn gel đơn màu 180k–250k; ombre/French 250k–320k; đắp bột/gel 400k–650k; vẽ 80k–300k/móng. Toplist ghi Mina chưa công khai bảng giá chi tiết. Không thấy bảng giá chính thức.",
+    "dac_trung": "Chuỗi 3 cơ sở quanh chợ Bến Thành + 1 chi nhánh Thụy Sĩ (Ebikon); nail nghệ thuật theo trend Âu–Á, nối mi, gội đầu, da mặt, waxing; mở 8h–23h; nhắm khách du lịch.",
+    "diem_manh": [
+      "Rating Google rất cao, nhiều review: 4,9/2.416 (localleads) – 4,9/3.042 (daythammy)",
+      "Website riêng có form đặt lịch, nút Zalo, landing SEO tiếng Anh",
+      "Giờ mở cửa dài 8h–23h",
+      "Review độc lập khen vệ sinh (hấp autoclave), tư vấn tận tình"
+    ],
+    "van_de": [
+      "Mạng xã hội yếu so với lượng khách: Facebook ~6,7K follower",
+      "Instagram @minanailsvn và TikTok @minanails99 không được index → không xác minh được hoạt động/nội dung",
+      "Không có trên Fresha/Tripadvisor dù nhắm khách du lịch",
+      "Không có bảng giá công khai chính thức",
+      "SĐT Google Maps của CS2 trùng hotline CS1 → dễ nhầm"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S051",
+    "ten": "NAIL DISTRICTS & SPA (Lầu 1, 158/4 Nguyễn Công Trứ, Q1)",
+    "kenh": {
+      "website": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không có website (Google Maps cũng không ghi).",
+        "truy_van_da_dung": [
+          "Nail Districts & Spa Nguyễn Công Trứ",
+          "\"Nail Districts\" Saigon"
+        ],
+        "nguon": []
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/p/Nail-Districts-61561669554808/",
+        "ten_tai_khoan": "Nail Districts",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Page loại nail salon/health spa; SĐT +84 33 394 7341; trạng thái 'Opening Soon', 'Not yet rated (2 Reviews)' – có vẻ không được cập nhật.",
+        "truy_van_da_dung": [
+          "Nail Districts & Spa 158/4 Nguyễn Công Trứ quận 1",
+          "localleads.io.vn nail salon Hồ Chí Minh Nail Districts 158/4 Nguyễn Công Trứ đánh giá"
+        ],
+        "nguon": [
+          "https://www.facebook.com/p/Nail-Districts-61561669554808/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": true,
+        "link": "https://www.instagram.com/naildistricts/",
+        "ten_tai_khoan": "@naildistricts",
+        "nguoi_theo_doi": "572 follower; 69 following; 439 bài (snippet, không rõ thời điểm)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Bio: nails, hair wash, eyelash, massage; 2 địa chỉ (158/4 Nguyễn Công Trứ Q1 và 269/1 Nguyễn Trãi, Cầu Ông Lãnh); 10am–8pm. Bài dạng ảnh tay khách + caption địa chỉ/giờ/SĐT ('Fall Collections', 'Nail xinh tay đẹp của khách nhà Nail Districts').",
+        "truy_van_da_dung": [
+          "instagram naildistricts followers posts Nail Districts",
+          "\"0333947341\" OR \"0333 947 341\" nail"
+        ],
+        "nguon": [
+          "https://www.instagram.com/naildistricts/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "(caption ghi 'Insta/FB/Tiktok: Nail Districts', không tìm thấy hồ sơ)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Chỉ thấy 1 bài TikTok của người dùng nhắc 'Nail Districts And Spa' ở 269/1 Nguyễn Trãi; không tìm được tài khoản chính thức.",
+        "truy_van_da_dung": [
+          "tiktok naildistricts Nail Districts And Spa Nguyễn Trãi Cầu Ông Lãnh",
+          "\"Nail Districts\" Saigon"
+        ],
+        "nguon": [
+          "https://www.tiktok.com/discover/nail-salon-ho-chi-minh"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": true,
+        "link": "https://www.pinterest.com/pin/1149262398654211455/",
+        "ten_tai_khoan": "(pin repost từ @naildistricts Instagram)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Một pin 'Fall Collections' được nguồn tìm kiếm mô tả là tháng 10/2024",
+        "nhan_xet": "Các pin là bài Instagram được đẩy sang Pinterest (ảnh nail + địa chỉ, giờ 10am–8pm Mon–Sun, SĐT 0333.947.341).",
+        "truy_van_da_dung": [
+          "Nail Districts & Spa 158/4 Nguyễn Công Trứ quận 1",
+          "\"0333947341\" OR \"0333 947 341\" nail"
+        ],
+        "nguon": [
+          "https://www.pinterest.com/pin/1149262398654211455/",
+          "https://www.pinterest.com/pin/fall-collections-____________________________-1584-nguyn-cng-tr-p-nguyn-thi-bnh-qun-1-10am-8pm-mon-sun-0333-947--1149262398654711890/"
+        ]
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "các truy vấn Nail Districts ở trên"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "các truy vấn Nail Districts ở trên"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "\"0333947341\" OR \"0333 947 341\" nail"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Fresha/Tripadvisor/Foody.",
+        "truy_van_da_dung": [
+          "localleads.io.vn nail salon Hồ Chí Minh Nail Districts 158/4 Nguyễn Công Trứ đánh giá"
+        ],
+        "nguon": []
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://localleads.io.vn/danh-sach/nail-salon/ho-chi-minh",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Chỉ có danh bạ localleads.io.vn: 'NAIL DISTRICTS & SPA', Lầu 1 158/4 Nguyễn Công Trứ, 5,0 sao/933 đánh giá (có vẻ lấy từ Google Maps). Không có toplist/báo chí.",
+        "truy_van_da_dung": [
+          "\"Nail Districts\" quận 1 bảng giá OR review OR toplist",
+          "localleads.io.vn nail salon Hồ Chí Minh Nail Districts 158/4 Nguyễn Công Trứ đánh giá"
+        ],
+        "nguon": [
+          "https://localleads.io.vn/danh-sach/nail-salon/ho-chi-minh"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Gọi 0333 947 341 (Instagram/Pinterest/Facebook); nhắn Instagram/Facebook. Không có web/nền tảng đặt lịch.",
+    "gia_dich_vu": "Không tìm thấy bảng giá công khai.",
+    "dac_trung": "Tiệm nhỏ lầu 1 trong hẻm Q1, nail + gội đầu + mi + massage; 2 cơ sở (Q1 và 269/1 Nguyễn Trãi); ảnh tay khách kiểu nail xinh theo mùa.",
+    "diem_manh": [
+      "Google rating 5,0/933 đánh giá (theo localleads) – tài sản uy tín lớn",
+      "Instagram có 439 bài – có sẵn kho ảnh"
+    ],
+    "van_de": [
+      "Không có website",
+      "Instagram chỉ 572 follower dù 439 bài – gần như không có reach",
+      "Facebook vẫn để 'Opening Soon', 2 reviews – profile bị bỏ quên",
+      "Không tìm thấy TikTok chính thức dù caption ghi có",
+      "Không có bảng giá, không có nền tảng đặt lịch, không có trên toplist/báo",
+      "Tên thương hiệu 'Nail District(s)' trùng nhiều tài khoản nước ngoài → khó tìm kiếm"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S055",
+    "ten": "Zeni Nail Spa (52 Calmette, Q1)",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://zeninailspa.com/",
+        "ten_tai_khoan": "zeninailspa.com",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website tiếng Anh nhắm khách du lịch: About, Services (nail, head spa, mi, waxing, microblading, phun môi), Gallery, trang /booking/ đặt lịch online, rất nhiều bài SEO ('TOP 10 BEST NAIL SALON IN DISTRICT 1', 'Top 10 Lip Blush...', 'English Speaking Nail Salon'); homepage có khối từ khóa thô (dấu hiệu nhồi SEO). Thêm trang vệ tinh zeninailspa.mystrikingly.com. Giờ 09:00–21:00, email hello@zeninailspa.com. Fetch trực tiếp bị chặn (DNS ENOTFOUND trong sandbox); dữ liệu lấy từ snippet kết quả tìm kiếm.",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa 52 Calmette",
+          "zeninailspa.com",
+          "Zeni Nail Spa Calmette District 1 Ho Chi Minh"
+        ],
+        "nguon": [
+          "https://zeninailspa.com/",
+          "https://zeninailspa.com/about-us/",
+          "https://zeninailspa.com/services/",
+          "https://zeninailspa.com/booking/",
+          "https://zeninailspa.com/best-nail-salon-in-district-1/",
+          "https://zeninailspa.mystrikingly.com/"
+        ]
+      },
+      "facebook": {
+        "tim_thay": false,
+        "link": "https://www.facebook.com/zeninailspa",
+        "ten_tai_khoan": "(được khai trong markup website, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website và evivatour link tới facebook.com/zeninailspa nhưng trang không xuất hiện trong kết quả tìm kiếm → không xác minh được tồn tại/hoạt động.",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa Saigon instagram tiktok facebook",
+          "facebook.com/zeninailspa Zeni Nail Spa 52 Calmette likes"
+        ],
+        "nguon": [
+          "https://zeninailspa.com/",
+          "https://evivatour.com/top-5-nail-salons-in-ho-chi-minh-city/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": false,
+        "link": "https://www.instagram.com/zeninailspa",
+        "ten_tai_khoan": "(được khai trong markup website, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy hồ sơ @zeninailspa được index; chỉ ra các tài khoản 'Zen Nail Spa' ở Mỹ.",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa Saigon instagram tiktok facebook",
+          "\"zeninailspa\" instagram followers"
+        ],
+        "nguon": [
+          "https://zeninailspa.com/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "https://www.tiktok.com/@zeninailspa",
+        "ten_tai_khoan": "(được khai trong markup website, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy hồ sơ.",
+        "truy_van_da_dung": [
+          "tiktok.com/@zeninailspa"
+        ],
+        "nguon": [
+          "https://zeninailspa.com/"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "(website khai có, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa youtube @ZeniNailSpa OR pinterest zeninailspa OR threads zeninailspa"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": true,
+        "link": "https://www.youtube.com/@ZeniNailSpa",
+        "ten_tai_khoan": "Zeni Nail Spa (@ZeniNailSpa)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Kênh có ghi địa chỉ 52 Calmette; không thấy số sub/video trong snippet.",
+        "truy_van_da_dung": [
+          "facebook.com/zeninailspa Zeni Nail Spa 52 Calmette likes"
+        ],
+        "nguon": [
+          "https://www.youtube.com/@ZeniNailSpa"
+        ]
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy (X/Twitter @zeninailspa thì có: 0 follower, đăng promo 'relaxing beauty break near Ben Thanh Market').",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa youtube @ZeniNailSpa OR pinterest zeninailspa OR threads zeninailspa"
+        ],
+        "nguon": [
+          "https://x.com/zeninailspa"
+        ]
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy.",
+        "truy_van_da_dung": [
+          "các truy vấn Zeni ở trên"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": true,
+        "link": "https://www.fresha.com/a/zeni-nail-spa-thanh-pho-ho-chi-minh-ben-thanh-ho-chi-minh-52-duong-calmette-gd8q1yxz",
+        "ten_tai_khoan": "Fresha: Zeni Nail Spa; Tripadvisor: Zeni Nail Spa",
+        "nguoi_theo_doi": "Fresha: chưa có review; Tripadvisor: 12 review, hạng #139/1.351 spa & wellness HCMC",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fresha có bảng giá đặt online; Tripadvisor (listing d34322878 – ID mới) review khen sạch sẽ, chuyên nghiệp, pedicure; chủ trả lời review dạng cảm ơn chung chung.",
+        "truy_van_da_dung": [
+          "Zeni Nail Spa Ho Chi Minh tripadvisor OR wanderlog OR fresha reviews"
+        ],
+        "nguon": [
+          "https://www.fresha.com/a/zeni-nail-spa-thanh-pho-ho-chi-minh-ben-thanh-ho-chi-minh-52-duong-calmette-gd8q1yxz",
+          "https://www.tripadvisor.com.sg/Attraction_Review-g293925-d34322878-Reviews-Zeni_Nail_Spa-Ho_Chi_Minh_City.html"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://saigonreview.vn/danh-gia/zeni-nail-spa-52-calmette-p-ben-thanh",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Saigon Review có bài đánh giá riêng (sạch, thơm, decor hiện đại); topAZ top 9 Q1; mytour 'top 12' xếp #1 cho khách du lịch; evivatour top 5; local-insider; adventure-journey. Nhiều bài dạng toplist/PR.",
+        "truy_van_da_dung": [
+          "\"Zeni Nail\" quận 1 Calmette tiệm nail",
+          "Zeni Nail Spa Calmette District 1 Ho Chi Minh"
+        ],
+        "nguon": [
+          "https://saigonreview.vn/danh-gia/zeni-nail-spa-52-calmette-p-ben-thanh",
+          "https://topaz.vn/toplist/tiem-nail-tai-quan-1",
+          "https://mytour.vn/en/blog/bai-viet/top-12-most-beautiful-and-reliable-nail-salons-in-ho-chi-minh-city.html",
+          "https://evivatour.com/top-5-nail-salons-in-ho-chi-minh-city/",
+          "https://local-insider.com/post/best-nail-salons-in-ho-chi-minh-city/620e788499748eb364e6f5a9"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Form đặt lịch trên zeninailspa.com/booking/; Fresha (đặt online có giá); điện thoại +84 899 221 077; email hello@zeninailspa.com.",
+    "gia_dich_vu": "Fresha: manicure/pedicure cơ bản 200k; gel manicure 400k; gel pedicure 440k; combo gel tay + chân 720k; add-on ombre/French/chrome/mắt mèo từ 40k. Blog của tiệm ghi giá thấp hơn (manicure ~$4, 100k–200k) – không nhất quán. Evivatour: 100k–700k ($6–30).",
+    "dac_trung": "Tiệm hướng khách du lịch/expat gần chợ Bến Thành, nhân viên nói tiếng Anh; nail + head spa + mi + phun xăm/microblading; có nhận đào tạo nghề (theo nguồn toplist).",
+    "diem_manh": [
+      "Có nền tảng đặt lịch thật (Fresha) + trang booking riêng",
+      "Tripadvisor 12 review tích cực, hạng #139/1.351",
+      "Phủ SEO tiếng Anh mạnh, có mặt nhiều toplist/blog du lịch"
+    ],
+    "van_de": [
+      "Mạng xã hội gần như vô hình: FB/IG/TikTok chỉ được khai trong code website, không tìm thấy hồ sơ được index; X 0 follower",
+      "Website nhồi từ khóa, nhiều bài 'Top 10' tự xếp mình – rủi ro uy tín",
+      "Giá không nhất quán giữa Fresha (gel 400k) và blog (~$4–10)",
+      "Fresha chưa có review nào",
+      "Không có Zalo/kênh cho khách Việt"
+    ],
+    "do_tin_cay": "trung bình"
+  }
+]

@@ -1,0 +1,217 @@
+{
+  "websites": [
+    {
+      "ten": "Paintbox",
+      "url": "https://paint-box.com/",
+      "quoc_gia": "Mỹ (New York)",
+      "diem_manh": [
+        "Nút 'Book a Manicure' và 'Gift Cards' ngay trên trang chủ",
+        "Menu theo mùa: mẫu nail gom thành SEASONAL MENU / Bridal Lookbook, giá đã bao gồm thiết kế (paint-box.com/menu)",
+        "Phát hành bộ sưu tập theo mùa/lễ (vd. bộ Holiday 'Oh What Fun')",
+        "FAQ rõ ràng: thanh toán, gift card, đến trễ thì đổi sang lookbook 'New and Now'",
+        "Bán thêm press-on tùy chỉnh có nút 'book now'",
+        "Được Colorlib/SiteBuilderReport khen bố cục tối giản, điều hướng rõ, đẩy đặt lịch tại studio"
+      ],
+      "nguon": [
+        "https://paint-box.com/",
+        "https://paint-box.com/menu",
+        "https://paint-box.com/pages/faq",
+        "https://fashionweekdaily.com/beauty-fix-an-exclusive-first-look-at-paintboxs-holiday-nail-art-collection",
+        "https://colorlib.com/wp/nail-salon-website-examples/",
+        "https://www.sitebuilderreport.com/inspiration/nail-salon-websites"
+      ]
+    },
+    {
+      "ten": "Sundays (Dear sundays)",
+      "url": "https://dearsundays.com/",
+      "quoc_gia": "Mỹ (New York)",
+      "diem_manh": [
+        "Trang menu dịch vụ có giá và thời lượng (vd. 'Nontoxic Gel Manicure (50 Mins) $59')",
+        "Mỗi chi nhánh có landing page riêng (SoHo, NoMad, East Village, UES, Hudson Yards, LIC) tối ưu SEO 'nail salon in <khu vực>'",
+        "Đặt lịch online trên web, kèm ClassPass; ghi rõ giờ mở cửa và chính sách walk-in",
+        "Định vị rõ ràng: non-toxic, 10-free, vegan — một thông điệp nhất quán xuyên suốt"
+      ],
+      "nguon": [
+        "https://dearsundays.com/pages/nycstudiomenu",
+        "https://dearsundays.com/pages/locations",
+        "https://dearsundays.com/pages/east-village-studio",
+        "https://www.essence.com/beauty/best-nail-studios-nyc-for-spring-manis/",
+        "https://timeout.com/newyork/health-and-beauty/sundays-soho"
+      ]
+    },
+    {
+      "ten": "Chillhouse",
+      "url": "https://chillhouse.com/",
+      "quoc_gia": "Mỹ (New York)",
+      "diem_manh": [
+        "Gói thành viên 'Club Chill' (vd. tier ALL ACCESS $125/tháng, gói nail không giới hạn T2–T5) — tạo doanh thu định kỳ",
+        "Gift card số và vật lý, điều khoản rõ (hạn 5 năm)",
+        "Đặt lịch online (Boulevard), giữ thẻ để chống no-show",
+        "Menu nail art đặc trưng (line work, họa tiết lượn sóng) biến thành sản phẩm press-on 'Chill Tips'; được KISS mua lại"
+      ],
+      "nguon": [
+        "https://chillhouse.com/pages/club-chill",
+        "https://chillhouse.com/pages/faq",
+        "https://chillhouse.com/pages/visit-soho",
+        "https://www.refinery29.com/en-us/2021/06/10541690/chillhouse-press-on-nails-covl",
+        "https://www.newbeauty.com/kiss-acquires-chillhouse"
+      ]
+    },
+    {
+      "ten": "Vanity Projects",
+      "url": "https://vanityprojectsnyc.com/",
+      "quoc_gia": "Mỹ (New York & Miami)",
+      "diem_manh": [
+        "Bảng giá nail art chia 3 cấp theo thời gian: Simple 60', Medium 90', Complex 120' — khách tự chọn mức độ, dễ báo giá",
+        "Đặt lịch qua website, FAQ dặn trước phụ phí (tháo gel, nối, fill…)",
+        "Kênh sự kiện riêng (private events) và collab thương hiệu (Pleasing của Harry Styles, 2023)",
+        "Định vị 'nail như nghệ thuật' (nhà sáng lập xuất thân giới nghệ thuật)"
+      ],
+      "nguon": [
+        "https://vanityprojects.squarespace.com/faqs",
+        "https://vanityprojects.squarespace.com/about",
+        "https://hypebae.com/2023/7/harry-styles-pleasing-manicure-pollinators-collection-vanity-projects-miami-new-york-collaboration-info",
+        "https://www.nailsmag.com/379285/vanity-projects-miami-a-seamless-blend-of-nails-art-and-culture"
+      ],
+      "luu_y": "URL vanityprojectsnyc.com lấy từ FAQ của chính họ; chưa mở được trang để kiểm tra giao diện hiện tại."
+    }
+  ],
+  "instagram": [
+    {
+      "handle": "@vanityprojects",
+      "thuong_hieu": "Vanity Projects (NYC/Miami)",
+      "followers": "~130.000 (bài Beauty Launchpad, không rõ ngày)",
+      "diem_manh": [
+        "Chính salon gọi Instagram là 'heartbeat' của trải nghiệm thương hiệu",
+        "Ảnh cận cảnh nail art vẽ tay, mỗi bài là một 'tác phẩm'",
+        "Collab có thời hạn tạo FOMO"
+      ],
+      "nguon": [
+        "https://www.beautylaunchpad.com/business/nail-news/article/21809218/savvy-salon-vanity-projects",
+        "https://www.bustle.com/p/the-best-nail-art-instagram-accounts-to-follow-if-youre-obsessed-with-manis-pedis-18780237"
+      ]
+    },
+    {
+      "handle": "@chillhouse",
+      "thuong_hieu": "Chillhouse (NYC)",
+      "followers": "không thấy trong snippet",
+      "diem_manh": [
+        "Phong cách nhận diện ngay: line work, họa tiết lượn sóng, màu pop",
+        "Series định kỳ 'Nail Edit' hằng tháng, collab nhà thiết kế",
+        "Thiết kế lan rộng trên Pinterest/MXH theo lời nhà sáng lập"
+      ],
+      "nguon": [
+        "https://www.nylon.com/beauty/chillhouses-new-press-on-nails-bring-its-viral-designs-home-to-you",
+        "https://hypebae.com/2024/12/chillhouse-julia-lang-collaboration-where-to-book-fashion-veert",
+        "https://www.newbeauty.com/instagram-nail-inspiration"
+      ]
+    },
+    {
+      "handle": "@paintboxnails",
+      "thuong_hieu": "Paintbox (NYC)",
+      "followers": "không thấy cho Instagram",
+      "diem_manh": [
+        "Feed chính là 'menu': mọi mẫu từng đăng đều có thể đặt (theo review Foursquare)",
+        "Nail art tối giản, nhất quán, ra theo bộ sưu tập mùa",
+        "Được các list gợi ý cho ai thích nail tối giản"
+      ],
+      "nguon": [
+        "https://paint-box.com/",
+        "https://lv.foursquare.com/paintbox9261795",
+        "https://www.bustle.com/p/23-nail-inspiration-instagram-accounts-to-follow-if-you-want-to-up-your-mani-game-58062"
+      ]
+    },
+    {
+      "handle": "Unistella (@nail_unistella hoặc @unistella_nails — nguồn không thống nhất)",
+      "thuong_hieu": "Unistella, Seoul (Park Eunkyung)",
+      "followers": ">300.000 (PlayJunkie, không rõ ngày)",
+      "diem_manh": [
+        "Tạo xu hướng viral có tên gọi riêng (shattered glass, wire, bracelet nails)",
+        "Gắn với KOL/K-pop (BLACKPINK)",
+        "Salon thường kín lịch; giá nail art gốc khoảng $300"
+      ],
+      "nguon": [
+        "https://fashionmagazine.com/beauty-grooming/park-eunkyung-unistella-nail-artist/",
+        "https://www.koreatimes.co.kr/lifestyle/trends/20191201/nail-artist-unistella-strives-to-develop-new-trends-in-nail-design",
+        "https://playjunkie.com/kyung-parks-nail-art-is-ahead-of-the-curve/",
+        "https://wmagazine.com/story/tam2na-3d-manicures-seoul-korean-beauty"
+      ]
+    }
+  ],
+  "pinterest": [
+    {
+      "ten": "Olive & June (profile thương hiệu)",
+      "url": "https://www.pinterest.com/theoliveandjune/",
+      "vi_du_board": [
+        "https://www.pinterest.com/theoliveandjune/olive-june/",
+        "https://www.pinterest.com/theoliveandjune/spring/",
+        "https://www.pinterest.com/theoliveandjune/olive-color/"
+      ],
+      "vi_sao": "Board chia theo mùa (Spring…) và theo màu; mẫu cho bài pin có tên màu/sản phẩm + link mua."
+    },
+    {
+      "ten": "Manucurist – board 'Wedding Nails' (thương hiệu Paris)",
+      "url": "https://www.pinterest.com/manucurist/wedding-nails/",
+      "vi_sao": "Board cô dâu của một thương hiệu nail; mẫu để salon làm board 'Nail cô dâu' riêng."
+    },
+    {
+      "ten": "Ý tưởng Lunar New Year / Tết: 'Red and Gold Chinese New Year Nails'",
+      "url": "https://www.pinterest.com/ideas/red-and-gold-chinese-new-year-nails/910729886287/",
+      "vi_sao": "Trang ý tưởng đỏ–vàng, cá koi, đèn lồng, nhũ — đúng mùa Tết; tham khảo thêm https://www.pinterest.com/ideas/lunar-new-year-nails-short/913780181733/ và trang ý tưởng Giáng sinh https://www.pinterest.com/ideas/olive-and-june-christmas-nails/906450498527/"
+    }
+  ],
+  "tiktok": [
+    {
+      "handle": "@paintboxnails",
+      "url": "https://www.tiktok.com/@paintboxnails",
+      "followers": "~2.810 (snapshot cache)",
+      "diem_manh": "Video ngắn theo mùa/trend (jade nails, fall nails, fairy cat-eye) và video transition ('không hỏi tôi quay bao nhiêu lần'), hashtag địa phương #nycnails; quy mô nhỏ nhưng format dễ copy.",
+      "nguon": [
+        "https://www.tiktok.com/@paintboxnails/video/7415319295770610986",
+        "https://www.tiktok.com/@paintboxnails/video/7390490989519064363",
+        "https://www.tiktok.com/@paintboxnails/video/7425658870283898154"
+      ]
+    },
+    {
+      "handle": "@nycpolished",
+      "url": "https://www.tiktok.com/@nycpolished",
+      "followers": "không rõ",
+      "diem_manh": "Video quy trình do từng thợ thực hiện, ghi tên thợ, caption nhấn mạnh 'làm từng bước tỉ mỉ' — xây niềm tin vào tay nghề.",
+      "nguon": [
+        "https://www.tiktok.com/@nycpolished/video/7387145025882230059"
+      ]
+    },
+    {
+      "handle": "5x5 Nail Studio (Seoul) — hiện diện chủ yếu qua video khách/creator",
+      "url": "https://www.tiktok.com/discover/5x5-nail-studio-korea?lang=en",
+      "followers": "không rõ",
+      "diem_manh": "Mẫu theo tháng, khách du lịch tự quay trải nghiệm → UGC miễn phí; đặt lịch qua WhatsApp kèm cọc.",
+      "nguon": [
+        "https://www.tiktok.com/@vivianyunn/video/7419313815323413790",
+        "https://www.tiktok.com/@aylennpark/video/7514022364909227295"
+      ]
+    }
+  ],
+  "quy_luat": [
+    "1. Một phông nền + một nguồn sáng cố định (bàn trắng/kem, đèn vòng hoặc cửa sổ) cho MỌI ảnh — feed đồng bộ còn hơn ảnh đẹp lẻ tẻ.",
+    "2. Ảnh cận cảnh bàn tay, nail chiếm >50% khung hình; dùng AI chỉ để chỉnh sáng, xóa bụi/da xước — không đổi màu nail (khách sẽ thấy khác thật).",
+    "3. 'Menu mẫu theo mùa' như Paintbox: 15–25 mẫu đặt tên, đánh số, giá trọn gói; ra bộ mới cho Noel, Tết, 8/3, mùa cưới.",
+    "4. Bảng giá minh bạch theo cấp độ (Đơn giản / Vừa / Cầu kỳ, kèm thời gian) như Vanity Projects; ghi rõ phụ phí tháo gel, nối.",
+    "5. Một nút đặt lịch duy nhất ở mọi nơi (link bio, ghim bài, Google Maps): Zalo/Messenger/form, không bắt khách hỏi giá qua inbox.",
+    "6. Video quy trình 15–30 giây quay dọc bằng điện thoại: trước → sơn → kết quả xoay dưới đèn; thêm tên thợ để tạo niềm tin.",
+    "7. Caption luôn có: tên mẫu + giá + thời gian + 'đặt lịch: link/Zalo' + hashtag địa phương (#nailquan1, #nailsaigon).",
+    "8. Gói thành viên / thẻ quà tặng đơn giản (vd. thẻ 10 lần, gift card cho 8/3, 20/10) — doanh thu định kỳ như Chillhouse.",
+    "9. Khuyến khích khách tự quay/đăng và repost (UGC) — như khách quay tại 5x5 Nail Studio; tặng ưu đãi nhỏ khi gắn tag.",
+    "10. Dựng board Pinterest/album Facebook theo chủ đề: Nail cô dâu, Noel, Tết đỏ–vàng, công sở — khách chọn mẫu trước khi đến."
+  ],
+  "ghi_chu": [
+    "Không mở được trang (WebFetch bị chặn mạng); toàn bộ dữ liệu lấy từ snippet tìm kiếm — cần kiểm tra lại link và số liệu trước khi trình bày.",
+    "Số follower đều cũ/không rõ ngày: Vanity Projects ~130k, Unistella >300k, Paintbox TikTok ~2,8k; chưa có số hiện tại cho Instagram Chillhouse/Paintbox.",
+    "Chưa tìm thấy bằng chứng các website trên đoạt giải thiết kế (Awwwards…); trên Awwwards chỉ thấy 'Cure Unique Nail & Wax Boutique' (https://www.awwwards.com/sites/cure-unique-nail-wax-boutique) và 'Switch Nails' (https://www.awwwards.com/inspiration/homepage-switch-nails). Lựa chọn dựa trên tính năng chuyển đổi (đặt lịch, menu giá, membership, gift card).",
+    "Olive & June nay chủ yếu là thương hiệu sản phẩm tại nhà (mani system); chỉ dùng làm mẫu Pinterest, không dùng làm mẫu website salon. Không tìm được thông tin Bellacures chính thức.",
+    "Bài Entrepreneur 'Instagram giữ salon kín lịch 100%' là về WAH Nails (London, @wahnails, 437k followers năm 2017; nhắc tới đăng ~10 bài/ngày giai đoạn đầu, khách DM để đặt lịch) — case study hay nhưng salon London có thể đã đóng: https://www.entrepreneur.com/science-technology/this-entrepreneurs-eye-catching-instagram-keeps-her-nail/299066 , https://showstudio.com/news/wah-nails-end-of-an-era",
+    "Mẫu salon nhỏ đáng tham khảo: Sky High Studio (Glasgow) ~13k Instagram, nổi nhờ nail art phức tạp (Professional Beauty, 08/2025): https://professionalbeauty.co.uk/5-instagrammable-nail-salons-to-follow",
+    "TikTok: không tìm được tài khoản salon (không phải cá nhân) có hàng triệu follower qua snippet; các ví dụ chọn vì format video quy trình dễ sao chép, không phải vì quy mô.",
+    "Salon Tokyo đáng xem thêm (chưa xác minh handle): Sucre, Biddie Tokyo, FOXXY (Mei Kawajiri) — https://timeout.com/tokyo/health-and-beauty/best-nail-art-salons-in-tokyo"
+  ]
+}

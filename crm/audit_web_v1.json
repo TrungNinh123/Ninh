@@ -1,0 +1,262 @@
+[
+ {
+  "id": "Q1S055",
+  "url": "https://zeninailspa.com/",
+  "truy_cap": true,
+  "diem": 10,
+  "tieu_chi": [
+   {
+    "ten": "Truy cập được, HTTPS",
+    "dat": true,
+    "bang_chung": "https://zeninailspa.com/"
+   },
+   {
+    "ten": "Tải nhanh < 3 giây",
+    "dat": true,
+    "bang_chung": "1.6 giây"
+   },
+   {
+    "ten": "Tối ưu điện thoại",
+    "dat": true,
+    "bang_chung": "có thẻ viewport"
+   },
+   {
+    "ten": "Tiêu đề + mô tả SEO",
+    "dat": true,
+    "bang_chung": "title: Zeni Nail Spa | Nail Salon District 1 Ho Chi Minh City | description: có"
+   },
+   {
+    "ten": "Có bảng giá",
+    "dat": true,
+    "bang_chung": "có giá/“price”"
+   },
+   {
+    "ten": "Nút/form đặt lịch online",
+    "dat": true,
+    "bang_chung": "có từ khoá đặt lịch"
+   },
+   {
+    "ten": "Bấm gọi / Zalo / WhatsApp",
+    "dat": true,
+    "bang_chung": "tel:, whatsapp"
+   },
+   {
+    "ten": "Đủ ảnh mẫu (≥12)",
+    "dat": true,
+    "bang_chung": "66 ảnh"
+   },
+   {
+    "ten": "Địa chỉ / bản đồ / giờ",
+    "dat": true,
+    "bang_chung": "có"
+   },
+   {
+    "ten": "Blog + song ngữ",
+    "dat": true,
+    "bang_chung": "có blog"
+   }
+  ],
+  "nhin_bang_mat": "Màn hình đầu không có ảnh móng nào, chỉ nền trơn + chữ; có nút WhatsApp/Book Now cố định; đa ngôn ngữ",
+  "diem_cuoi": 8
+ },
+ {
+  "id": "Q1S076",
+  "url": "https://fleurbeauty.vn/en/",
+  "truy_cap": true,
+  "diem": 9,
+  "tieu_chi": [
+   {
+    "ten": "Truy cập được, HTTPS",
+    "dat": true,
+    "bang_chung": "https://fleurbeauty.vn/en/"
+   },
+   {
+    "ten": "Tải nhanh < 3 giây",
+    "dat": true,
+    "bang_chung": "1.2 giây"
+   },
+   {
+    "ten": "Tối ưu điện thoại",
+    "dat": true,
+    "bang_chung": "có thẻ viewport"
+   },
+   {
+    "ten": "Tiêu đề + mô tả SEO",
+    "dat": false,
+    "bang_chung": "title: Fleur Nail &amp; Beauty | Nail Salon &amp; Spa in District 1, Saigon | description: không"
+   },
+   {
+    "ten": "Có bảng giá",
+    "dat": true,
+    "bang_chung": "có giá/“price”"
+   },
+   {
+    "ten": "Nút/form đặt lịch online",
+    "dat": true,
+    "bang_chung": "có từ khoá đặt lịch"
+   },
+   {
+    "ten": "Bấm gọi / Zalo / WhatsApp",
+    "dat": true,
+    "bang_chung": "tel:, zalo.me, wa.me, whatsapp"
+   },
+   {
+    "ten": "Đủ ảnh mẫu (≥12)",
+    "dat": true,
+    "bang_chung": "27 ảnh"
+   },
+   {
+    "ten": "Địa chỉ / bản đồ / giờ",
+    "dat": true,
+    "bang_chung": "có"
+   },
+   {
+    "ten": "Blog + song ngữ",
+    "dat": true,
+    "bang_chung": "có blog"
+   }
+  ],
+  "nhin_bang_mat": "Ảnh nội thất sang trọng, song ngữ; 5 nút tròn nổi không ghi chữ gây rối",
+  "diem_cuoi": 8
+ },
+ {
+  "id": "Q1S042",
+  "url": "https://acongstudio.wordpress.com/",
+  "truy_cap": true,
+  "diem": 6,
+  "tieu_chi": [
+   {
+    "ten": "Truy cập được, HTTPS",
+    "dat": true,
+    "bang_chung": "https://acongstudio.wordpress.com/"
+   },
+   {
+    "ten": "Tải nhanh < 3 giây",
+    "dat": true,
+    "bang_chung": "0.5 giây"
+   },
+   {
+    "ten": "Tối ưu điện thoại",
+    "dat": true,
+    "bang_chung": "có thẻ viewport"
+   },
+   {
+    "ten": "Tiêu đề + mô tả SEO",
+    "dat": true,
+    "bang_chung": "title:  | description: có"
+   },
+   {
+    "ten": "Có bảng giá",
+    "dat": false,
+    "bang_chung": "không thấy giá"
+   },
+   {
+    "ten": "Nút/form đặt lịch online",
+    "dat": true,
+    "bang_chung": "có từ khoá đặt lịch"
+   },
+   {
+    "ten": "Bấm gọi / Zalo / WhatsApp",
+    "dat": false,
+    "bang_chung": "không có"
+   },
+   {
+    "ten": "Đủ ảnh mẫu (≥12)",
+    "dat": true,
+    "bang_chung": "23 ảnh"
+   },
+   {
+    "ten": "Địa chỉ / bản đồ / giờ",
+    "dat": false,
+    "bang_chung": "chỉ chữ / không có bản đồ"
+   },
+   {
+    "ten": "Blog + song ngữ",
+    "dat": false,
+    "bang_chung": "có blog"
+   }
+  ],
+  "nhin_bang_mat": "Trang WordPress miễn phí; khi mở hiện màn hình chống robot 'Confirm you are human' – cần thử bằng điện thoại thật",
+  "diem_cuoi": 4
+ },
+ {
+  "id": "Q1S098",
+  "url": "https://haiyen2dt-hue.github.io/",
+  "truy_cap": true,
+  "diem": 9,
+  "tieu_chi": [
+   {
+    "ten": "Truy cập được, HTTPS",
+    "dat": true,
+    "bang_chung": "https://haiyen2dt-hue.github.io/"
+   },
+   {
+    "ten": "Tải nhanh < 3 giây",
+    "dat": true,
+    "bang_chung": "0.1 giây"
+   },
+   {
+    "ten": "Tối ưu điện thoại",
+    "dat": true,
+    "bang_chung": "có thẻ viewport"
+   },
+   {
+    "ten": "Tiêu đề + mô tả SEO",
+    "dat": true,
+    "bang_chung": "title: Dany Nailroom | Tiệm nails bà nội | description: có"
+   },
+   {
+    "ten": "Có bảng giá",
+    "dat": true,
+    "bang_chung": "có giá/“price”"
+   },
+   {
+    "ten": "Nút/form đặt lịch online",
+    "dat": true,
+    "bang_chung": "có từ khoá đặt lịch"
+   },
+   {
+    "ten": "Bấm gọi / Zalo / WhatsApp",
+    "dat": true,
+    "bang_chung": "tel:"
+   },
+   {
+    "ten": "Đủ ảnh mẫu (≥12)",
+    "dat": false,
+    "bang_chung": "10 ảnh"
+   },
+   {
+    "ten": "Địa chỉ / bản đồ / giờ",
+    "dat": true,
+    "bang_chung": "chỉ chữ / không có bản đồ"
+   },
+   {
+    "ten": "Blog + song ngữ",
+    "dat": true,
+    "bang_chung": "không có blog"
+   }
+  ],
+  "nhin_bang_mat": "Thiết kế hiện đại, ảnh mẫu thật, nút 'Đặt lịch ngay', bảng giá, bộ sưu tập; nhưng đặt trên github.io cá nhân, chưa có tên miền riêng",
+  "diem_cuoi": 8
+ },
+ {
+  "id": "Q1S044",
+  "url": "https://mydorisnail.com/",
+  "diem": 0,
+  "truy_cap": false,
+  "bang_chung": [
+   "Không truy cập được (URLError) ngày 25/11/2026 – khách bấm link sẽ không xem được trang"
+  ],
+  "diem_cuoi": 0
+ },
+ {
+  "id": "Q1S059",
+  "url": "https://thernailspace.com/",
+  "diem": 0,
+  "truy_cap": false,
+  "bang_chung": [
+   "Không truy cập được (URLError) ngày 25/11/2026 – khách bấm link sẽ không xem được trang"
+  ],
+  "diem_cuoi": 0
+ }
+]

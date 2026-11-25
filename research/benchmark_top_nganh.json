@@ -1,0 +1,463 @@
+{
+  "thuong_hieu": [
+    {
+      "ten": "Thẩm mỹ viện Ngọc Dung",
+      "phan_khuc": "thẩm mỹ viện / spa chuỗi",
+      "quy_mo": "Thành lập 1998, trụ sở 32-34-36 Ba Tháng Hai (Q.10 cũ); App Store ghi 18 chi nhánh Nam–Bắc; nguồn khác ghi 16 chi nhánh (số liệu không thống nhất)",
+      "kenh": {
+        "website": "thammyvienngocdung.com",
+        "facebook": "facebook.com/ngocdungbeautycenter – khoảng 237.695 người theo dõi (snippet, không rõ ngày); ngoài ra có fanpage riêng theo chi nhánh (Quảng Ninh, Vũng Tàu)",
+        "tiktok": "@ngocdungbeauty ~19,4K follower; tài khoản riêng @khuyenmaingocdung đăng ưu đãi (HIFU, massage)",
+        "youtube": "Ngọc Dung Beauty Center – chỉ số ~71.000 (không chắc là số người đăng ký)",
+        "instagram": "không rõ",
+        "zalo_oa": "không rõ",
+        "app": "Ngoc Dung Beauty (iOS/Android) – mô tả: tin tức, theo dõi chăm sóc khách hàng, thông tin CTV"
+      },
+      "tan_suat": "Không rõ tần suất. Có TVC 'Khu vườn nhan sắc', chiến dịch quảng cáo ngoài trời; trang chủ đăng combo/deal (vd. 'Nhân ngày của nàng' từ 168K, deal phun xăm); website có bài tổng hợp cảm nhận khách hàng theo tháng.",
+      "kol": "Chiến dịch 'Cách mạng nhan sắc' (rebrand 12/2018) dùng 3 đại sứ: Việt Trinh, Hari Won, Hương Giang. Sau đó Brands Vietnam ghi nhận hãng chuyển sang dùng hình ảnh khách hàng thân thiết thay vì người nổi tiếng (chiến dịch Tạp chí Nhan Sắc). Hiện tại: không rõ.",
+      "dat_lich": "Hotline 1800 6377 / *3232; fanpage inbox; app chưa thấy xác nhận có đặt lịch. Một review ghi 'hotline 24/7' nhưng cùng trang ghi giờ làm việc 09:00–19:30.",
+      "giu_chan": "App có mục theo dõi chăm sóc khách hàng và chương trình CTV (cộng tác viên giới thiệu); không tìm thấy thẻ thành viên/VIP công khai (một bài nhắc khu VIP tại chi nhánh nhưng không phải hạng thành viên).",
+      "khuyen_mai": "Deal theo dịp/ngày lễ phụ nữ trên website; liên kết ngân hàng (VPBank giảm 10% năm 2026, Woori, MSB); tài khoản TikTok riêng cho khuyến mãi.",
+      "quang_cao": "TVC, quảng cáo ngoài trời (OOH) theo Brands Vietnam; bài PR trên báo (Znews, Tạp chí Công Thương, Doanh nhân Pháp luật). Agency cụ thể: không rõ (inetgroup.vn có trang testimonial 'Ngọc Dung Beauty Center').",
+      "diem_yeu": [
+        "Webtretho: khách trị nám tại chi nhánh tỉnh phải chờ ~2 tuần chưa được khám lại vì 'chờ bác sĩ từ Sài Gòn ra' (một trường hợp).",
+        "Thông tin không thống nhất: số chi nhánh 16 vs 18; giờ hotline '24/7' vs 09:00–19:30; hai địa chỉ fanpage chính khác nhau.",
+        "Từng có tin Thanh tra Sở Y tế phạt một chi nhánh 94 triệu đồng, tước giấy phép 3 tháng (bài doanhnghiephoinhap.vn, không rõ ngày, lỗi cụ thể chưa rõ ràng).",
+        "Danhsachvang.vn khuyên khách lưu ý minh bạch giá và nội dung liệu trình."
+      ],
+      "nguon": [
+        "https://apps.apple.com/ng/app/ngoc-dung-beauty/id1437360091",
+        "https://play.google.com/store/apps/details?id=com.ngocdungaesthetic.marketingapp&hl=en_US",
+        "https://www.facebook.com/ngocdungbeautycenter/",
+        "https://www.tiktok.com/@ngocdungbeauty",
+        "https://www.tiktok.com/@khuyenmaingocdung",
+        "https://www.youtube.com/channel/UCNXAGXPeAp41PMxanjk1BlA",
+        "https://www.facebook.com/ThamMyVienNgocDungQN/",
+        "https://www.facebook.com/ThamMyVienNgocDungVungTau/",
+        "https://thammyvienngocdung.com/",
+        "https://thammyvienngocdung.com/danh-gia-ve-ngoc-dung-5-2025/",
+        "https://www.brandsvietnam.com/campaign/326-Ngoc-Dung-Cach-mang-nhan-sac",
+        "https://www.brandsvietnam.com/23853-Khi-moi-nguoi-phu-nu-Viet-tro-thanh-mot-ngoi-sao-tren-trang-bia-cua-Tap-Chi-Nhan-Sac",
+        "https://www.brandsvietnam.com/21540-TMV-Ngoc-Dung-dung-chien-dich-quang-cao-ngoai-troi-de-tro-nen-gan-gui-hon-voi-khach-hang",
+        "https://www.brandsvietnam.com/work/tvc-ngoc-dung-spa-khu-vuon-nhan-sac-cham-vao-net-doi-muoi/",
+        "https://www.vpbank.com.vn/uu-dai/retail/for-cardholder-promotion-category/health-and-beauty/tham-my-vien-ngoc-dung-2026",
+        "https://woori.com.vn/en/card-offer/health-and-beauty/ngoc-dung-aesthetics/",
+        "https://www.finhay.com.vn/tham-my-vien-ngoc-dung",
+        "https://www.webtretho.com/f/kinh-nghiem-lam-dep/that-vong-tham-my-vien-ngoc-dung",
+        "https://danhsachvang.vn/doanh-nghiep/tham-my-vien-ngoc-dung",
+        "https://doanhnghiephoinhap.vn/tuoc-giay-phep-hoat-dong-cua-cong-ty-y-te-shoubikai-va-tham-my-vien-ngoc-dung-1290.html",
+        "https://inetgroup.vn/testimonials/ngoc-dung-beauty-center/"
+      ]
+    },
+    {
+      "ten": "Bệnh viện Thẩm mỹ Kangnam",
+      "phan_khuc": "thẩm mỹ viện / bệnh viện thẩm mỹ",
+      "quy_mo": "Trang tổng hợp ghi 3 bệnh viện + 10 viện thẩm mỹ ở 11 tỉnh thành (chưa đối chiếu chính thức); Kangnam Sài Gòn tại 666 CMT8. Báo Đại biểu Nhân dân ghi Cty TNHH BVTM Đông Á đã đổi tên thành Cty TNHH BVTM Kangnam.",
+      "kenh": {
+        "website": "benhvienthammykangnam.com.vn (có form đặt lịch)",
+        "facebook": "Fanpage chính facebook.com/Thammykangnam ~1.055.125 lượt thích / ~1M follower; nhiều page chi nhánh: Sài Gòn ~23,6K, Cần Thơ ~19,8K, Hà Nội ~16,4K và một page Hà Nội khác ~5,8K (cả hai đều tự nhận chính thức)",
+        "tiktok": "@drkangnam ~334,3K follower, ~6,6M lượt thích",
+        "youtube": "không tìm thấy kênh chính thức trong kết quả",
+        "instagram": "không rõ",
+        "zalo_oa": "không rõ",
+        "app": "không rõ"
+      },
+      "tan_suat": "Không rõ tần suất/định dạng cụ thể (không xác nhận được video trước–sau hay livestream qua snippet). Kênh TikTok đặt tên 'dr' gợi ý định hướng nội dung bác sĩ, nhưng nội dung cụ thể: không rõ.",
+      "kol": "Không tìm thấy nguồn nêu tên KOL/đại sứ.",
+      "dat_lich": "Hotline 1900 6466 (tư vấn), số 24/7 0968.999.777 (trang chính sách bảo mật); form đặt lịch trên website; đăng ký trực tiếp tại cơ sở. Giờ làm việc ghi 8:00–17:00 ở một trang và 8:00–17:30 ở trang chủ.",
+      "giu_chan": "Chính sách bảo hành dài hạn cho dịch vụ phẫu thuật (theo trang review). Thẻ thành viên: không rõ.",
+      "khuyen_mai": "Trang Kangnam Sài Gòn: hóa đơn từ 6 triệu tặng 1 buổi chăm sóc da/triệt lông; trang voucher ghi ưu đãi kỷ niệm 10 năm (tặng 50% nha khoa/spa-laser), giảm 30% một số dịch vụ (02/2025); Picodi liệt kê mã giảm đến 50%.",
+      "quang_cao": "YouNet Media (2020) xếp Kangnam vào top 5 thương hiệu thẩm mỹ cao cấp sôi nổi nhất social. Agency/ngân sách: không rõ.",
+      "diem_yeu": [
+        "Thanh tra Sở Y tế TP.HCM tước chứng chỉ hành nghề tổng 4 tháng của 2 bác sĩ Kangnam Sài Gòn (không rõ ngày/lỗi).",
+        "Review ẩn danh (review-thammy.com): tư vấn sơ sài rồi đề nghị cấy thêm khi tái khám (Nguyễn Trãi); bị yêu cầu mua thêm gói trị nám, không được giữ giấy cam kết/phác đồ (Bình Dương); 'kiểu gì cũng up sale' (CMT8). Chưa kiểm chứng.",
+        "Nhận diện phân mảnh: nhiều fanpage chi nhánh, hai page Hà Nội cùng nhận chính thức; tồn tại các thương hiệu tên gần giống (AB Kang Nam, TJ Kangnam) – hellobacsi cảnh báo có thông tin sai về địa chỉ Kangnam ở tỉnh.",
+        "Giờ làm việc/hotline khác nhau giữa các trang."
+      ],
+      "nguon": [
+        "https://benhvienthammykangnam.com.vn/",
+        "https://benhvienthammykangnam.com.vn/kangnam-sai-gon/",
+        "https://benhvienthammykangnam.com.vn/chinh-sach-bao-mat/",
+        "https://www.facebook.com/Thammykangnam/",
+        "https://www.facebook.com/benhvienthammykangnamsg/",
+        "https://www.facebook.com/benhvienthammykangnamhanoi/",
+        "https://www.facebook.com/thammykangnamhanoi190truongchinh/",
+        "https://www.facebook.com/kangnamcantho/",
+        "https://www.facebook.com/benhvienthammyABKangnam/",
+        "https://www.facebook.com/benhvienthammyTJ/",
+        "https://www.tiktok.com/@drkangnam",
+        "https://hellobacsi.com/care/benh-vien/benh-vien-tham-my-kangnam-han-quoc-ho-chi-minh-1759/",
+        "https://medpro.vn/tin-tuc/review-tong-quat-benh-vien-tham-my-kangnam",
+        "https://daibieunhandan.vn/print/10321240.html",
+        "https://thuonghieucongluan.com.vn/news-tag184671/kinh-te-c3",
+        "https://review-thammy.com/co-so-tham-my/benh-vien-tham-my-kangnam-nguyen-trai-2157",
+        "https://review-thammy.com/co-so-tham-my/vien-tham-my-kangnam-binh-duong-3120",
+        "https://www.review-thammy.com/co-so-tham-my/benh-vien-tham-my-kangnam-cmt8-414",
+        "https://voucher.com.vn/ma-giam-gia/thammykangnam/",
+        "https://www.picodi.com/vn/kangnam",
+        "https://www.brandsvietnam.com/congdong/topic/29452-YouNet-Media-Thi-truong-Tham-my-Lam-dep-2020-qua-goc-nhin-social-listening",
+        "https://phongkhambacsi.vn/lich-kham-benh-vien-kangnam/"
+      ]
+    },
+    {
+      "ten": "Thẩm mỹ viện Seoul Center (trước là SeoulSpa.Vn)",
+      "phan_khuc": "thẩm mỹ viện / spa chuỗi",
+      "quy_mo": "Cán mốc hơn 50 chi nhánh (07/2022, Dân trí); tái định vị từ SeoulSpa.Vn thành Seoul Center; triển khai nhượng quyền (2024). Số chi nhánh hiện tại: không rõ.",
+      "kenh": {
+        "website": "seoulcenter.vn, seoulspa.vn, nhuongquyen.seoulspa.vn",
+        "facebook": "facebook.com/thammyvienseoulcenter ~360.045 follower; nhiều page chi nhánh (Quy Nhơn ~11,9K lượt thích, Đà Nẵng ~11,8K, Quận 10 ~2,5K, Biên Hòa, Gia Lai, Vinh…) và page 'vuongquoctrimun'",
+        "tiktok": "@seoulcenter.vn ~122,8K follower, ~747,4K lượt thích",
+        "youtube": "Thẩm Mỹ Viện Seoul Center (youtube.com/c/SeoulSpaTV) – số liệu không rõ",
+        "instagram": "không rõ",
+        "zalo_oa": "không rõ",
+        "app": "Thẩm mỹ viện Seoul Center trên App Store – 4,2 sao/306 đánh giá"
+      },
+      "tan_suat": "Không rõ tần suất. Có sự kiện công bố đại sứ, bài PR khai trương chi nhánh trên báo địa phương.",
+      "kol": "Nghệ sĩ Việt Hương làm đại sứ 'độc quyền' (07/2022); diễn viên Quỳnh Lam làm đại sứ 2026 (công bố 26/2/2026).",
+      "dat_lich": "Hotline, mã khuyến mãi khi đến chi nhánh; app; fanpage. Chi tiết form online: không rõ.",
+      "giu_chan": "Thẻ làm đẹp của khách thương hiệu cũ vẫn dùng tại hệ thống mới sau rebrand; mô hình bán gói/liệu trình trả trước (theo review). Hạng thành viên: không rõ.",
+      "khuyen_mai": "Ưu đãi khai trương giảm đến 80% (Hội An, Châu Đốc, Hồng Ngự); tặng 2 triệu đồng khi công bố đại sứ 2022; review nói khuyến mãi thường xuyên, giảm sâu.",
+      "quang_cao": "Bài PR/tài trợ trên nhiều báo (Thanh Niên, VnExpress, Tiền Phong, Dân trí, CafeBiz, báo Quảng Ninh, Đà Nẵng, An Giang). Agency: không rõ.",
+      "diem_yeu": [
+        "Review Google Maps: gói 15 buổi không được tính đúng như hứa, chủ page phải xin lỗi vì 'hiểu nhầm cách tính số buổi'.",
+        "Review: chờ lâu dù đã đặt lịch; bị ép mua thêm gói triệt lông (chưa kiểm chứng).",
+        "Foody: bình luận cho rằng tư vấn chạy theo hoa hồng, chất lượng giảm sau khi đặt cọc, nghi seeding/đánh giá ảo (ý kiến cá nhân).",
+        "Rebrand gây tin đồn đổi chủ, nhiều tên/tên miền song song (SeoulSpa.Vn, Seoul Center) – thông tin số chi nhánh mâu thuẫn (30+ vs 50+).",
+        "Chênh lệch điểm: Google Maps 5.0/829 vs App Store 4.2/306."
+      ],
+      "nguon": [
+        "https://seoulspa.vn/seoulspa-tai-dinh-vi-thuong-hieu-thanh-tham-my-vien-seoul-center",
+        "https://www.yan.vn/seoulspavn-tai-dinh-vi-thuong-hieu-thanh-tham-my-vien-seoul-center-329011.html",
+        "https://nhuongquyen.seoulspa.vn/",
+        "https://kienthucspa.edu.vn/nghi-van-doi-chu-so-huu-khien-hang-loat-tham-my-vien-he-thong-seoulspa-vn-bi-doi-ten.html",
+        "https://dantri.com.vn/suc-khoe/tham-my-vien-seoulspavn-can-moc-50-chi-nhanh-ky-ket-vang-voi-viet-huong-20220704153334098.htm",
+        "https://vnexpress.net/viet-huong-tro-thanh-dai-su-thuong-hieu-tham-my-vien-seoulspa-vn-4484299.html",
+        "https://thanhnien.vn/viet-huong-lam-dai-su-thuong-hieu-doc-quyen-tham-my-vien-seoulspa-vn-1851474384.htm",
+        "https://seoulcenter.vn/su-kien/dien-vien-quynh-lam-tro-thanh-dai-su-thuong-hieu-tham-my-vien-seoul-center-2026",
+        "https://www.facebook.com/thammyvienseoulcenter/",
+        "https://www.facebook.com/SeoulcenterQuan10/",
+        "https://www.facebook.com/seoulcenter.quynhon/",
+        "https://www.facebook.com/seoulcenterdanang.vn/",
+        "https://www.tiktok.com/@seoulcenter.vn",
+        "https://www.youtube.com/c/SeoulSpaTV/featured",
+        "https://apps.apple.com/vn/app/th%E1%BA%A9m-m%E1%BB%B9-vi%E1%BB%87n-seoul-center/id1457475360",
+        "https://vienthammyadamas.com/review-tham-my-vien-seoul-center/",
+        "https://thongtindiadiem.com/tham-my-vien-seoul-center-review-dich-vu-bang-gia-2025/",
+        "https://maps.app.goo.gl/98J85iH5Dop1yWMr6",
+        "https://www.foody.vn/ho-chi-minh/seoul-spa",
+        "https://baodanang.vn/seoul-center-hoi-an-khai-truong-ruc-ro-lam-dep-khong-gioi-han-cung-uu-dai-len-den-80-3293212.html",
+        "https://baoangiang.com.vn/seoul-center-chau-doc-tung-uu-dai-vang-giam-80-mung-khai-truong-a379908.html",
+        "https://baoquangninh.vn/seoul-center-dia-chi-triet-long-uy-tin-tai-tp-hcm-post3295823.html"
+      ]
+    },
+    {
+      "ten": "Fame Nails",
+      "phan_khuc": "nail / foot spa (Quận 1 + Thảo Điền + Q.7)",
+      "quy_mo": "Website ghi '4 chi nhánh tại Q.1, Q.2, Q.7' nhưng chỉ liệt kê 3 địa chỉ; Tripadvisor có listing 18 Phạm Hồng Thái (Bến Thành) và Mạc Thị Bưởi.",
+      "kenh": {
+        "website": "famenails.com (nhiều bài SEO song ngữ: 'Top 1 tiệm nail', 'pedicure near me', 'salon nail gần chợ Bến Thành')",
+        "facebook": "có (số follower không rõ)",
+        "instagram": "có (số follower không rõ)",
+        "tiktok": "không rõ",
+        "youtube": "không rõ",
+        "zalo_oa": "Zalo/WhatsApp theo số từng chi nhánh (không rõ là OA)",
+        "google_maps_tripadvisor": "Tripadvisor Phạm Hồng Thái 4,9/116 đánh giá (snapshot); Mạc Thị Bưởi 15 đánh giá; Thảo Điền 4,6/416 (thaodien.app)"
+      },
+      "tan_suat": "Không rõ. Nội dung website thiên về SEO tiếng Anh cho khách du lịch/expat.",
+      "kol": "Không tìm thấy.",
+      "dat_lich": "Đặt online qua website, Facebook, Instagram, Messenger, gọi/Zalo/WhatsApp từng chi nhánh; 9:00–21:00, nhận khách cuối ~20:30.",
+      "giu_chan": "Website tự nói có chương trình tri ân/khuyến mãi khách hàng, không nêu chi tiết.",
+      "khuyen_mai": "'Thường xuyên giảm giá và khuyến mãi tri ân' (tự công bố), không có chi tiết cụ thể; giá 150.000–500.000đ.",
+      "quang_cao": "Không tìm thấy bằng chứng quảng cáo trả phí/agency; đầu tư rõ vào SEO website.",
+      "diem_yeu": [
+        "Thông tin số chi nhánh tự mâu thuẫn trên website (4 vs 3 địa chỉ).",
+        "Chi nhánh Thảo Điền có review than nhân viên thô lỗ, bộ acrylic bị bong, pedicure làm qua loa (04/2024).",
+        "Review: luôn đông, nên đặt trước; Wanderlog: một số khách thấy giá cao hơn tiệm khác."
+      ],
+      "nguon": [
+        "https://famenails.com/fame-nails-sai-gon/",
+        "https://famenails.com/salon-nail-gan-cho-ben-thanh-quan-1-fame-nails-tp-hcm/",
+        "https://famenails.com/tiem-nail-so-1-tai-tp-hcm/",
+        "https://famenails.com/pedicure-near-me/",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d19259802-Reviews-Fame_Nails-Ho_Chi_Minh_City.html",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d23963250-Reviews-Fame_Nails_M_c_Th_Bu_i-Ho_Chi_Minh_City.html",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d24037055-Reviews-Fame_Nails_Th_o_Di_n-Ho_Chi_Minh_City.html",
+        "https://wanderlog.com/place/details/9837562/fame-nails-thao-dien",
+        "https://thaodien.app/venue/fame-nails-thao-dien",
+        "https://toplist.vn/top-list/tiem-nail-dep-va-chat-luong-nhat-tai-quan-1-tp-hcm-16773.htm"
+      ]
+    },
+    {
+      "ten": "Dưỡng Sinh Cô Ba",
+      "phan_khuc": "headspa / gội đầu dưỡng sinh / massage (chuỗi, có chi nhánh Q.1 – Đa Kao)",
+      "quy_mo": "Các nguồn mâu thuẫn: 'hơn 20 chi nhánh toàn quốc', '19 chi nhánh ở Sài Gòn', 'mở rộng 7 chi nhánh'.",
+      "kenh": {
+        "website": "duongsinhcoba.com; cobaspamassage.com (trang đặt lịch tiếng Anh)",
+        "facebook": "fanpage chung + page theo chi nhánh (vd. Quận 7) – follower không rõ",
+        "youtube": "kênh 'Dưỡng Sinh Cô Ba' (được nhắc trên site), số liệu không rõ",
+        "tiktok": "không xác nhận được",
+        "instagram": "không rõ",
+        "zalo_oa": "không rõ",
+        "app": "không; có listing trên Lookme.vn (đặt lịch qua nền tảng bên thứ ba)",
+        "google_maps_tripadvisor": "Google 4,7/375 (theo blog, chưa kiểm chứng); có listing Tripadvisor Q.1"
+      },
+      "tan_suat": "Không rõ. Website đăng bài blog/SEO (lợi ích gội dưỡng sinh, review tự đăng).",
+      "kol": "Không tìm thấy.",
+      "dat_lich": "Trang đặt lịch cobaspamassage.com, hotline/Messenger từng chi nhánh, Lookme.vn.",
+      "giu_chan": "TopAZ nói 'thường có chương trình ưu đãi tri ân', không có chi tiết thẻ thành viên.",
+      "khuyen_mai": "Không rõ chi tiết; giá niêm yết 219.000đ/60 phút đến 349.000đ/90 phút (site), nguồn khác ghi 129.000đ/40 phút – giá không đồng nhất.",
+      "quang_cao": "Không tìm thấy bằng chứng.",
+      "diem_yeu": [
+        "Lookme: giá hơi cao, sấy/dịch vụ thêm phải trả thêm; không gian ồn.",
+        "Wheree: một số khách thấy bị làm vội, tay nghề kỹ thuật viên không đồng đều.",
+        "Tripadvisor: địa chỉ không chính xác, khó tìm.",
+        "Giá và số chi nhánh không thống nhất giữa các kênh; một listing chi nhánh Q.7 vẫn để 'Opening Soon'."
+      ],
+      "nguon": [
+        "https://duongsinhcoba.com/dich-vu/goi-dau-duong-sinh/",
+        "https://duongsinhcoba.com/review-goi-dau-duong-sinh-tai-duong-sinh-co-ba/",
+        "https://www.cobaspamassage.com/",
+        "https://www.facebook.com/goidauduongsinhcobaquan7/",
+        "https://www.tripadvisor.com.sg/Attraction_Review-g293925-d26027120-Reviews-Co_Ba_Nursing_District_1-Ho_Chi_Minh_City.html",
+        "https://www.lookme.vn/duong-sinh-co-ba",
+        "https://d-ng-sinh-c-ba-qu-n-1.wheree.com/",
+        "https://topaz.vn/toplist/spa-goi-dau-thao-duoc-duong-sinh-quan-1",
+        "https://mytour.vn/vi/blog/bai-viet/top-12-danh-gia-dang-tin-cay-ve-tiem-goi-dau-duong-sinh-co-ba.html",
+        "https://mperlabeautycenter.com/duong-sinh-co-ba-diem-den-ly-tuong-cho-suc-khoe-va-thu-gian-tai-quan-1/",
+        "https://duongsinhspa.vn/en/?p=4911"
+      ]
+    },
+    {
+      "ten": "Miu Miu Spa",
+      "phan_khuc": "spa – massage (Quận 1, hướng khách du lịch)",
+      "quy_mo": "Reviewer 2024 nói có 4 chi nhánh; reviews nhắc Miu Miu 1, 2, 3.",
+      "kenh": {
+        "website": "miumiuspa.com (đa ngôn ngữ, có đặt online)",
+        "facebook": "không rõ",
+        "instagram": "không rõ",
+        "tiktok": "không rõ",
+        "zalo_oa": "không rõ",
+        "whatsapp": "có (theo hướng dẫn và review Apple Maps)",
+        "google_maps_tripadvisor": "Tripadvisor ~4,4–4,6/5 với vài trăm đánh giá (2017–2026)"
+      },
+      "tan_suat": "Không rõ.",
+      "kol": "Không tìm thấy.",
+      "dat_lich": "Đặt online trên website (trước ít nhất 1 giờ; gói không đặt online được, phải email/gọi); email/điện thoại riêng từng chi nhánh; nhóm ≥5 người đặt cọc qua email; WhatsApp. Giờ 09:30–23:00, nhận khách cuối 22:00.",
+      "giu_chan": "không rõ",
+      "khuyen_mai": "không rõ",
+      "quang_cao": "Không tìm thấy; dựa vào Tripadvisor/review du lịch.",
+      "diem_yeu": [
+        "Khó vào nếu không đặt trước, cuối tuần phải đặt (Tripadvisor).",
+        "Review: phòng chung không có rèm ngăn, chỉ 1 phòng tắm ở một chi nhánh, lễ tân thô lỗ, chất lượng giảm so với trước.",
+        "Số điện thoại/giờ mở cửa khác nhau giữa website chính thức và trang bên thứ ba (+84 28 6659 3609 vs +84 28 3822 1788; 09:30 vs 08:00)."
+      ],
+      "nguon": [
+        "http://miumiuspa.com/en",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d2283872-Reviews-Miu_Miu_Spa_1-Ho_Chi_Minh_City.html",
+        "https://www.tripadvisor.com/ShowUserReviews-g293925-d2283872-r482328275-Miu_Miu_Spa_1-Ho_Chi_Minh_City.html",
+        "https://maps.apple.com/place?place-id=ID9D11B44B25B75EE",
+        "https://www.bestpricetravel.com/travel-guide/spas-in-ho-chi-minh-for-best-massage-2868.html",
+        "https://mindtrip.ai/attraction/ho-chi-minh-city-vietnam/miumiu-spa-1/at-BJsX6jg6"
+      ]
+    }
+  ],
+  "mau_chung": [
+    {
+      "thuc_hanh": "Website riêng có thông tin dịch vụ/giá và kênh đặt lịch",
+      "so_thuong_hieu": "6/6",
+      "ghi_chu": "Nail/spa Q.1 dùng website SEO song ngữ cho khách nước ngoài (Fame Nails, Miu Miu, Cô Ba)."
+    },
+    {
+      "thuc_hanh": "Fanpage Facebook làm kênh chính, kèm page riêng theo chi nhánh",
+      "so_thuong_hieu": "5/6 có Facebook xác nhận (Miu Miu không rõ); 4/6 có page theo chi nhánh (Ngọc Dung, Kangnam, Seoul Center, Cô Ba)",
+      "ghi_chu": "Page tổng của các TMV: 237K–1M follower."
+    },
+    {
+      "thuc_hanh": "Hotline/điện thoại + nhắn tin (Messenger/Zalo/WhatsApp) là kênh đặt lịch cốt lõi",
+      "so_thuong_hieu": "6/6"
+    },
+    {
+      "thuc_hanh": "Tài khoản TikTok chính thức",
+      "so_thuong_hieu": "3/6 (Ngọc Dung ~19,4K, Kangnam ~334K, Seoul Center ~123K); 3 thương hiệu nail/spa Q.1 không xác nhận được"
+    },
+    {
+      "thuc_hanh": "Khuyến mãi giảm giá/ưu đãi theo dịp hoặc khai trương",
+      "so_thuong_hieu": "5/6 (Miu Miu không rõ)",
+      "ghi_chu": "TMV: giảm 30–80%, quà theo hóa đơn, deal ngày phụ nữ; liên kết ngân hàng (Ngọc Dung)."
+    },
+    {
+      "thuc_hanh": "Bán gói/liệu trình trả trước để giữ chân",
+      "so_thuong_hieu": "3/6 có bằng chứng (Ngọc Dung, Kangnam, Seoul Center); Miu Miu có gói nhưng phải đặt qua email/gọi"
+    },
+    {
+      "thuc_hanh": "Ứng dụng di động riêng",
+      "so_thuong_hieu": "2/6 (Ngọc Dung, Seoul Center)"
+    },
+    {
+      "thuc_hanh": "Dùng người nổi tiếng/đại sứ thương hiệu",
+      "so_thuong_hieu": "2/6 (Ngọc Dung 2018: Việt Trinh, Hari Won, Hương Giang; Seoul Center: Việt Hương 2022, Quỳnh Lam 2026)"
+    },
+    {
+      "thuc_hanh": "PR báo chí/bài tài trợ, TVC, OOH",
+      "so_thuong_hieu": "2/6 có bằng chứng rõ (Ngọc Dung, Seoul Center)"
+    },
+    {
+      "thuc_hanh": "Hiện diện mạnh trên Tripadvisor/Google Maps với nhiều review",
+      "so_thuong_hieu": "3/6 rõ ràng (Fame Nails, Miu Miu, Cô Ba – nhóm Q.1 phục vụ khách du lịch); Seoul Center có Google Maps 829 review"
+    }
+  ],
+  "khoang_trong": [
+    {
+      "khoang_trong": "Thông tin không nhất quán giữa các kênh (số chi nhánh, giờ mở cửa, hotline, giá)",
+      "bang_chung": "Ngọc Dung 16 vs 18 chi nhánh, hotline '24/7' vs 09:00–19:30; Kangnam 8:00–17:00 vs 17:30; Fame Nails ghi 4 chi nhánh nhưng liệt kê 3; Miu Miu số điện thoại/giờ khác nhau; Cô Ba giá và số chi nhánh khác nhau.",
+      "so_thuong_hieu": "6/6",
+      "nguon": [
+        "https://www.finhay.com.vn/tham-my-vien-ngoc-dung",
+        "https://benhvienthammykangnam.com.vn/chinh-sach-bao-mat/",
+        "https://famenails.com/fame-nails-sai-gon/",
+        "http://miumiuspa.com/en",
+        "https://www.lookme.vn/duong-sinh-co-ba"
+      ]
+    },
+    {
+      "khoang_trong": "Phân mảnh fanpage/nhận diện, gây khó xác định kênh chính thức",
+      "bang_chung": "Kangnam có 2 page Hà Nội cùng tự nhận chính thức và thương hiệu trùng tên (AB Kang Nam, TJ Kangnam); Seoul Center có hàng chục page chi nhánh vài nghìn follower; Ngọc Dung có 2 URL fanpage chính.",
+      "so_thuong_hieu": "3/6",
+      "nguon": [
+        "https://www.facebook.com/benhvienthammykangnamhanoi/",
+        "https://www.facebook.com/thammykangnamhanoi190truongchinh/",
+        "https://www.facebook.com/SeoulcenterQuan10/",
+        "https://hellobacsi.com/care/benh-vien/benh-vien-tham-my-kangnam-han-quoc-ho-chi-minh-1759/"
+      ]
+    },
+    {
+      "khoang_trong": "Up-sell/bán gói gây mất niềm tin, thiếu minh bạch số buổi và giấy tờ",
+      "bang_chung": "Seoul Center: gói 15 buổi tính sai, ép mua thêm gói; Kangnam: đề nghị cấy thêm, không giao giấy cam kết; Ngọc Dung: lưu ý minh bạch giá/liệu trình.",
+      "so_thuong_hieu": "3/6 (nhóm TMV)",
+      "nguon": [
+        "https://maps.app.goo.gl/98J85iH5Dop1yWMr6",
+        "https://vienthammyadamas.com/review-tham-my-vien-seoul-center/",
+        "https://review-thammy.com/co-so-tham-my/vien-tham-my-kangnam-binh-duong-3120",
+        "https://danhsachvang.vn/doanh-nghiep/tham-my-vien-ngoc-dung"
+      ]
+    },
+    {
+      "khoang_trong": "Đặt lịch chưa liền mạch: chờ lâu dù đặt, kín lịch, gói không đặt online được, tái khám chậm",
+      "bang_chung": "Seoul Center chờ lâu dù đã đặt; Ngọc Dung chờ 2 tuần tái khám; Miu Miu kín chỗ, gói phải email; Fame Nails luôn đông phải đặt trước.",
+      "so_thuong_hieu": "4/6",
+      "nguon": [
+        "https://vienthammyadamas.com/review-tham-my-vien-seoul-center/",
+        "https://www.webtretho.com/f/kinh-nghiem-lam-dep/that-vong-tham-my-vien-ngoc-dung",
+        "http://miumiuspa.com/en",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d2283872-Reviews-Miu_Miu_Spa_1-Ho_Chi_Minh_City.html",
+        "https://www.tripadvisor.com/Attraction_Review-g293925-d19259802-Reviews-Fame_Nails-Ho_Chi_Minh_City.html"
+      ]
+    },
+    {
+      "khoang_trong": "Chương trình thành viên/loyalty không công khai hoặc mơ hồ",
+      "bang_chung": "Không tìm thấy thẻ thành viên/hạng công khai của Ngọc Dung, Kangnam; Fame Nails, Cô Ba chỉ ghi 'tri ân' chung chung; Miu Miu không rõ. App Ngọc Dung chỉ mô tả tin tức/chăm sóc/CTV.",
+      "so_thuong_hieu": "6/6 không có chương trình rõ ràng công khai",
+      "nguon": [
+        "https://apps.apple.com/ng/app/ngoc-dung-beauty/id1437360091",
+        "https://famenails.com/tiem-nail-so-1-tai-tp-hcm/",
+        "https://topaz.vn/toplist/spa-goi-dau-thao-duoc-duong-sinh-quan-1"
+      ]
+    },
+    {
+      "khoang_trong": "Nhóm nail/spa Q.1 gần như bỏ trống TikTok/short video có thương hiệu, trong khi trend ASMR headspa đang được creator khác (kể cả creator nước ngoài) khai thác",
+      "bang_chung": "Không xác nhận được TikTok của Fame Nails, Cô Ba, Miu Miu; video ASMR headspa của Mầm Spa ~57,5K lượt thích, creator Cleo Abrahams quay nhiều spa TP.HCM.",
+      "so_thuong_hieu": "3/6",
+      "nguon": [
+        "https://www.tiktok.com/@mamspavn/video/7588137157458545938",
+        "https://www.tiktok.com/@cleoabrahamsasmr/video/7591438586227068181"
+      ]
+    }
+  ],
+  "theo_phan_khuc": [
+    {
+      "phan_khuc": "nail / nail art",
+      "kenh_uu_tien": "Instagram (khoe mẫu, reels), TikTok (hậu trường, hướng dẫn, trend nhạc), Pinterest (khách tìm cảm hứng mẫu), website SEO song ngữ + Google Maps/Tripadvisor cho khách du lịch Q.1, Messenger/WhatsApp/Zalo để chốt lịch. Lý do theo nguồn: khách chọn tiệm qua hình mẫu nail; Pinterest là nơi phụ nữ tìm cảm hứng bộ móng kế tiếp; Q.1 nhiều khách nước ngoài đọc review.",
+      "dinh_dang_noi_dung": "Ảnh/video cận cảnh mẫu nail; video toàn bộ quá trình làm một bộ móng với cận cảnh + nhạc nhẹ (được xem và lưu nhiều nhất theo một nguồn Mỹ); before/after; mẹo chăm móng; lịch đăng theo chủ đề hằng tuần.",
+      "phong_cach_hinh_anh": "Không tìm thấy nguồn mô tả quy chuẩn ánh sáng/color grading/grid cho tiệm nail Việt Nam – không rõ.",
+      "tan_suat": "Nguồn chỉ gợi ý 'lịch đăng hằng tuần theo chủ đề'; tần suất thực tế của các tiệm dẫn đầu: không rõ.",
+      "muc_9_10_vs_3_5": "Không có nguồn nào định nghĩa thang điểm. Quan sát từ bằng chứng: tiệm dẫn đầu (Fame Nails) có website SEO tiếng Anh, nhiều kênh đặt lịch, 100–400 review Tripadvisor ~4,6–4,9; tiệm nhỏ trong danh sách xếp hạng thường chỉ có ít review (vd. Fresha 6 review, Tripadvisor 1 review). Mức 9–10 trên mỗi kênh cụ thể: không có nguồn xác định – cần agency tự đặt tiêu chí.",
+      "nguon": [
+        "https://snschairs.com/blogs/news/cach-quang-cao-cho-tiem-nails",
+        "https://pionails.com/content-marketing-cho-nail/",
+        "https://pionails.com/marketing-cho-tiem-nails/",
+        "https://dreamermarketingusa.com/quang-cao-tiem-nails-tai-my/",
+        "https://www.tre247.com/cach-tan-dung-tiktok-de-quang-ba-dich-vu-nails-cho-tiem-cua-ban-9929.html",
+        "https://famenails.com/pedicure-near-me/",
+        "https://www.fresha.com/lp/en/bt/nail-salons/in/vn-thành-phố-hồ-chí-minh",
+        "https://www.tripadvisor.ca/Attraction_Review-g293925-d15349135-Reviews-Tramy_Spa_Ha_Do_Branch-Ho_Chi_Minh_City.html"
+      ]
+    },
+    {
+      "phan_khuc": "spa – massage – headspa",
+      "kenh_uu_tien": "Google Maps/Tripadvisor + website đa ngôn ngữ có đặt online (Miu Miu, Cô Ba) cho khách du lịch/expat; Facebook page chi nhánh + Messenger; nền tảng đặt lịch bên thứ ba (Lookme); WhatsApp. TikTok dùng cho ASMR headspa bởi một số spa nhỏ hơn (Mầm Spa) và creator.",
+      "dinh_dang_noi_dung": "Video ASMR gội đầu/massage da đầu với âm thanh nước, hashtag #headspa #asmr #goidauduongsinh; video do creator quốc tế quay tại spa; bài blog SEO về lợi ích dưỡng sinh; review khách.",
+      "phong_cach_hinh_anh": "Theo mô tả các bài toplist: không gian cây xanh, mùi thảo dược, tiếng nước (An Miên Spa). Quy chuẩn color grading/grid: không rõ.",
+      "tan_suat": "Không rõ.",
+      "muc_9_10_vs_3_5": "Không có nguồn định nghĩa. Bằng chứng: Miu Miu có hàng trăm review Tripadvisor và đặt online; video ASMR tốt đạt hàng chục nghìn lượt thích (Mầm ~57,5K). Mức tiệm nhỏ: không có dữ liệu.",
+      "nguon": [
+        "http://miumiuspa.com/en",
+        "https://www.cobaspamassage.com/",
+        "https://www.lookme.vn/duong-sinh-co-ba",
+        "https://www.tiktok.com/@mamspavn/video/7588137157458545938",
+        "https://www.tiktok.com/@cleoabrahamsasmr/video/7584790091181313300",
+        "https://www.tiktok.com/discover/asmr-spa-vietnam",
+        "https://muaban.net/blog/goi-dau-duong-sinh-quan-1-593604/",
+        "https://toplist.vn/top-list/dia-chi-goi-dau-duong-sinh-tot-nhat-quan-1-tphcm-52615.htm"
+      ]
+    },
+    {
+      "phan_khuc": "thẩm mỹ viện / beauty clinic",
+      "kenh_uu_tien": "Facebook fanpage tổng (237K–1M follower) + page chi nhánh; TikTok (Kangnam ~334K, Seoul Center ~123K); YouTube; app riêng; hotline tổng đài 1800/1900; PR báo chí. Theo YouNet Media, fanpage chính thức là nguồn tạo thảo luận lớn nhất ngành (61,49%), YouTube đứng sau.",
+      "dinh_dang_noi_dung": "Đại sứ người nổi tiếng, TVC, review/cảm nhận khách hàng (Ngọc Dung tổng hợp theo tháng), bài PR khai trương. Ràng buộc: chính sách TikTok yêu cầu xin phép cho quảng cáo thủ thuật thẩm mỹ, giới hạn 18+; blog agency nói phẫu thuật xâm lấn thường bị cấm quảng cáo; Znews dẫn lời bác sĩ: ~84,8% nội dung thẩm mỹ trên TikTok không do bác sĩ tạo (chưa rõ phương pháp).",
+      "phong_cach_hinh_anh": "Ngọc Dung rebrand toàn hệ thống 2018 (logo, màu). Quy chuẩn hình ảnh cụ thể: không rõ.",
+      "tan_suat": "Không rõ.",
+      "muc_9_10_vs_3_5": "Không có nguồn định nghĩa thang điểm. Bằng chứng mức dẫn đầu: page ~1M follower, TikTok 6,6M lượt thích (Kangnam), đại sứ nổi tiếng, app. Dữ liệu tiệm nhỏ: không có.",
+      "nguon": [
+        "https://www.facebook.com/Thammykangnam/",
+        "https://www.tiktok.com/@drkangnam",
+        "https://www.tiktok.com/@seoulcenter.vn",
+        "https://www.brandsvietnam.com/congdong/topic/334310-YouNet-Media-Trung-binh-moi-thang-thao-luan-nganh-Tham-my-Lam-dep-tang-49",
+        "https://ads.tiktok.com/help/article/tiktok-ads-policy-healthcare-pharmaceuticals?lang=vi",
+        "https://blog.hcm.cleverads.vn/chinh-sach-dich-vu-lam-dep-tren-tiktok-moi-nhat-2024/",
+        "https://zafago.com/chinh-sach-quang-cao-tiktok-cho-thi-truong-viet-nam-tiktok-advertising-policies/",
+        "https://znews.vn/hon-84-noi-dung-tham-my-tren-tiktok-khong-do-bac-si-tao-ra-post1639027.html",
+        "https://www.brandsvietnam.com/campaign/326-Ngoc-Dung-Cach-mang-nhan-sac"
+      ]
+    },
+    {
+      "tin_hieu_chi_phi": {
+        "kol_koc": "Bảng giá tự công bố của các trang agency/booking (tham khảo, chênh nhau nhiều): nano 1K–10K follower ~300.000–1.500.000đ/video; micro 10K–50K ~1,5–5 triệu (nguồn khác 3–10 triệu); mid 50K–200K ~5–20 triệu; macro 200K–1M ~20–80 triệu; mega >1M từ 80 triệu. Một nguồn: ngành làm đẹp cao hơn trung bình 20–30%; spa/thẩm mỹ micro ~3–12 triệu, thường theo gói kèm chi phí liệu trình. Phí bản quyền dùng lại content 3–6 tháng: 20–50% giá video. (Search tool không gắn số cụ thể với từng URL – xem danh sách nguồn.)",
+        "agency_retainer_fanpage": "QC MKT: 3,5 / 5,5 / 8,5 triệu/tháng (gói giữa dành cho spa/TMV); ZIP Agency: 3,5tr/10 bài – 10tr/30 bài, hợp đồng tối thiểu 6 tháng, chưa gồm tiền ads; LANA Digital từ 3.190.000đ/tháng; Upcontent 1,99 / 4,95 / 7,92 triệu (chưa VAT); ATPCare 3,5 triệu/15 nội dung; BICTweb 1,5–3,5 triệu/30 bài.",
+        "luong_marketing_hcmc": "Tin tuyển dụng: content marketing spa/TMV 10–13 triệu (Doctor Beauty, hạn 05/2025); part-time 6–8 triệu; nhân viên marketing spa Tân Bình 10–15 triệu (2022), 15–30 triệu nếu >1 năm và có chiến dịch ra doanh thu; chuyên viên content BVTM 13–15 triệu; marketing manager spa 16–20 triệu; trưởng phòng chuỗi clinic Q.10 25–30 triệu (lương cứng 20–25 triệu + hoa hồng); YB Spa 25–45 triệu, YB Clinic 30–45 triệu.",
+        "nguon": [
+          "https://bumx.vn/news/gia-thue-kenh-tiktok-review/",
+          "https://pareto.vn/chi-phi-thue-kol-tiktok",
+          "https://chodat.com.vn/tin-tuc/bang-gia-booking-kol-koc-viet-nam-moi-nhat",
+          "https://mktcare.net/bang-gia-booking-kol-tiktok/",
+          "https://contamedia.vn/chi-phi-booking-kol-koc/",
+          "https://giacongmyphamseoul.vn/bang-gia-kol-koc-review-my-pham-2026/",
+          "https://phanmemmkt.vn/bang-gia-kol-tiktok",
+          "https://blog.vn.revu.net/koc-tiktok-top-6-guong-mat-koc-viet-nam/",
+          "https://zipagency.vn/bang-bao-gia-dich-vu-cham-soc-fanpage/",
+          "https://lana.digital/cham-soc-fanpage/",
+          "https://upcontent.vn/dich-vu-cham-soc-fanpage/",
+          "https://atpcare.vn/dich-vu-cham-soc-fanpage-tron-goi/",
+          "https://bictweb.vn/dich-vu-cham-soc-fanpage-tron-goi/",
+          "https://viestarbrands.com/dich-vu-cham-soc-fanpage-tron-goi-cho-spa/",
+          "https://huynhquoccuong.com/dich-vu/cham-soc-fanpage-facebook",
+          "https://nhansu.vn/nhan-vien-content-marketing-spa-tham-my-187175.html",
+          "https://www.hoteljob.vn/viec-lam/256900-nhan-vien-marketing",
+          "https://careerviet.vn/vi/search-job/marketing-manager-spa-tham-my.35C13785",
+          "https://careerviet.vn/viec-lam-tuong-tu/Marketing-Manager-Spa,-Th%E1%BA%A9m-M%E1%BB%B9-tai-ho-chi-minh-kl8-sortscore-vi.html",
+          "https://vn.indeed.com/q-marketing-th%E1%BA%A9m-m%E1%BB%B9-spa-l-th%C3%A0nh-ph%E1%BB%91-h%E1%BB%93-ch%C3%AD-minh-vi%E1%BB%87c-l%C3%A0m.html"
+        ]
+      }
+    }
+  ],
+  "ghi_chu": "Thu thập 25/11/2026 chỉ bằng WebSearch; WebFetch bị chặn (ENOTFOUND cho brandsvietnam.com, thammyvienngocdung.com, finhay.com.vn, seoulspa.vn) nên mọi dữ kiện lấy từ snippet/tóm tắt kết quả tìm kiếm, chưa mở trang gốc kiểm chứng. Số follower là snapshot index không rõ ngày. Review trên review-thammy, Foody, Lookme, Wheree là ý kiến cá nhân, chưa kiểm chứng. Lựa chọn thương hiệu: Hoài Anh bị loại vì thiếu dữ liệu kênh; Seoul Center = SeoulSpa.Vn sau tái định vị. Fame Nails/Cô Ba/Miu Miu là đại diện nail/headspa/spa Q.1 theo toplist và Tripadvisor, không phải 'lớn nhất' theo số liệu kiểm chứng. Không có nguồn nào định nghĩa thang '9–10 vs 3–5'; các so sánh trong theo_phan_khuc chỉ dựa trên bằng chứng quan sát. Giá KOL/agency là bảng giá tự công bố của bên bán dịch vụ."
+}

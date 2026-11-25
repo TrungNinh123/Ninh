@@ -1,0 +1,874 @@
+[
+  {
+    "id": "Q1S044",
+    "ten": "My Doris nail&beauty",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://mydorisnail.com/",
+        "ten_tai_khoan": "My Doris Nail & Beauty",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website tiếng Anh: HOME, NAIL COLLECTION (bộ sưu tập mẫu), MENU/bảng giá (nail-price-list) có nút đặt lịch; footer có icon TikTok, Instagram, Facebook, WhatsApp. Tự giới thiệu 'Korean-style nail salon', giờ 9h-21h T2-CN, ưu đãi 10% khi đặt trước, cam kết hoàn tiền/sửa miễn phí, khử trùng dụng cụ. LƯU Ý: Google Maps không khai báo website này (khách trên Maps không thấy). Không fetch được trang để kiểm tra trực tiếp.",
+        "truy_van_da_dung": [
+          "mydorisnail.com",
+          "mydorisnail",
+          "My Doris Nail & Beauty instagram tiktok booking"
+        ],
+        "nguon": [
+          "https://mydorisnail.com/",
+          "https://mydorisnail.com/nail-price-list/",
+          "https://mydorisnail.com/nail-collection/"
+        ]
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/mydoris.nailbeauty/",
+        "ten_tai_khoan": "My Doris - Nail & Beauty",
+        "nguoi_theo_doi": "~12.066 lượt thích (snippet; 1 snippet khác ghi ~12K followers); 201 lượt check-in",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Snippet cho thấy địa chỉ 188 Đề Thám Q1 và link tới mydorisnail.com. Không xem được nội dung bài đăng (facebook.com bị chặn fetch).",
+        "truy_van_da_dung": [
+          "My Doris nail beauty (site:facebook)",
+          "mydoris.nailbeauty"
+        ],
+        "nguon": [
+          "https://www.facebook.com/mydoris.nailbeauty/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website có icon Instagram ở footer nhưng snippet không lộ handle; tìm kiếm không ra tài khoản khớp (chỉ ra các 'Doris Nails' nước ngoài). Không được đoán handle.",
+        "truy_van_da_dung": [
+          "\"My Doris\" nail beauty Saigon instagram",
+          "mydorisnail (site:instagram)",
+          "mydoris.nailbeauty (site:instagram)"
+        ],
+        "nguon": []
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website có icon TikTok nhưng tìm kiếm trên tiktok.com không ra tài khoản My Doris ở Đề Thám.",
+        "truy_van_da_dung": [
+          "My Doris nail Đề Thám Cầu Ông Lãnh tiktok",
+          "mydorisnail (site:tiktok)"
+        ],
+        "nguon": []
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "mydoris.nailbeauty (site:threads.com)",
+          "My Doris Nail Beauty review (site:lemon8)"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Zalo OA; website có liên kết WhatsApp (theo snippet).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": true,
+        "link": "https://www.tripadvisor.com/Attraction_Review-g293925-d26260077-Reviews-My_Doris_Nail_Beauty-Ho_Chi_Minh_City.html",
+        "ten_tai_khoan": "My Doris Nail & Beauty (Tripadvisor)",
+        "nguoi_theo_doi": "5.0 sao / 15 đánh giá",
+        "hoat_dong_gan_nhat": "Review chủ yếu T9-T10/2024 (theo snippet)",
+        "nhan_xet": "Tripadvisor: khen gel, nối móng, mẫu phức tạp, nhân viên nói tiếng Anh tốt, giá rẻ, có nước/snack. Có thêm 1 listing TRÙNG (d26259958, 0 review) -> phân tán đánh giá. Không thấy trên Fresha/Booksy/Foody.",
+        "truy_van_da_dung": [
+          "\"My Doris\" nail (site:tripadvisor/fresha/foody)",
+          "My Doris Nail Beauty 188 De Tham review"
+        ],
+        "nguon": [
+          "https://www.tripadvisor.com/Attraction_Review-g293925-d26260077-Reviews-My_Doris_Nail_Beauty-Ho_Chi_Minh_City.html",
+          "https://www.tripadvisor.com/Attraction_Review-g293925-d26259958-Reviews-My_Doris_nail_beauty-Ho_Chi_Minh_City.html",
+          "https://www.tripadvisor.com/ShowUserReviews-g293925-d26260077-r970421212-My_Doris_Nail_Beauty-Ho_Chi_Minh_City.html"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://www.greensm.com/vn-vi/news/tiem-nail-quan-1",
+        "ten_tai_khoan": "Greensm – '15 tiệm nail Quận 1 chất lượng...'",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Bài đăng khoảng 19/01/2025 (theo tiêu đề snippet)",
+        "nhan_xet": "Được liệt kê: 188 Đề Thám, P. Cầu Ông Lãnh, 9h-21h, nhận đặt lịch cả ngày lễ, 'hệ thống nail chuẩn Hàn'. Không có bài báo/blog review chuyên sâu tiếng Việt khác.",
+        "truy_van_da_dung": [
+          "\"Doris nail\" Đề Thám quận 1",
+          "tiệm nail quận 1 (site:greensm.com)"
+        ],
+        "nguon": [
+          "https://www.greensm.com/vn-vi/news/tiem-nail-quan-1"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được kênh cá nhân của chủ/thợ.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Điện thoại 0906 233 861; nút đặt lịch trên website (menu) và WhatsApp (theo snippet website); Messenger qua fanpage (suy luận, chưa xác minh). Nguồn: mydorisnail.com/nail-price-list/",
+    "gia_dich_vu": "Có bảng giá công khai trên website (mydorisnail.com/nail-price-list/). Snippet: dịch vụ cơ bản từ ~$2, sơn gel từ ~$4; giảm 10% khi đặt trước. Chưa xem được chi tiết đầy đủ.",
+    "dac_trung": "Nail chuẩn Hàn, hướng tới khách du lịch/nước ngoài (website tiếng Anh, giá USD, Tripadvisor, nhân viên nói tiếng Anh); vị trí Đề Thám khu phố Tây Bùi Viện.",
+    "diem_manh": [
+      "Có website riêng với bảng giá + bộ sưu tập mẫu + nút đặt lịch (mydorisnail.com)",
+      "Fanpage ~12K lượt thích, 201 check-in (facebook.com/mydoris.nailbeauty)",
+      "Tripadvisor 5.0/15 review, khen tay nghề và tiếng Anh",
+      "Có mặt trong toplist Greensm 15 tiệm nail Q1"
+    ],
+    "van_de": [
+      "Google Maps KHÔNG khai báo website -> mất traffic từ Maps (website chỉ thấy qua Facebook)",
+      "Không tìm thấy Instagram/TikTok hoạt động công khai dù website có icon -> kênh video/visual yếu hoặc không index được",
+      "Review Tripadvisor dừng ở 2024 (theo snippet) và có listing trùng -> uy tín chưa được làm mới",
+      "Không có mặt trên Fresha/booking platform cho khách quốc tế"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S076",
+    "ten": "Fleur Nail & Beauty",
+    "kenh": {
+      "website": {
+        "tim_thay": true,
+        "link": "https://fleurbeauty.vn/en/",
+        "ten_tai_khoan": "Fleur Nail & Beauty",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Website tiếng Anh (footer có link tiếng Việt theo snippet): bảng giá chi tiết (nail, gội đầu thảo dược, massage chân, nối mi), landing SEO 'Nail Salon District 1' (/en/nail-salon-district-1/), gói trải nghiệm 'Self Love Reset — 70 phút', trang chính sách bảo mật, đặt lịch qua WhatsApp/online booking. Pháp nhân: CÔNG TY TNHH TM & DV MDG (MST 0317674713). Không fetch được (DNS bị chặn trong phiên).",
+        "truy_van_da_dung": [
+          "fleurbeauty.vn",
+          "Fleur Nail & Beauty price list booking instagram (site:fleurbeauty.vn)"
+        ],
+        "nguon": [
+          "https://fleurbeauty.vn/en/",
+          "https://fleurbeauty.vn/en/nail-salon-district-1/",
+          "https://fleurbeauty.vn/en/experiences/self-love-reset/",
+          "https://fleurbeauty.vn/en/privacy-policy/"
+        ]
+      },
+      "facebook": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy fanpage khớp tên + địa chỉ 214/B9 Nguyễn Trãi. Các kết quả 'Fleur Nails & Beauty' đều ở UK/Đức/Mỹ; 'Fleur Beauty (@fleurbeautybyBB)' không xác minh được là cùng tiệm.",
+        "truy_van_da_dung": [
+          "Fleur nail beauty Nguyễn Trãi (site:facebook)",
+          "Fleur Nail & Beauty (site:facebook)",
+          "Fleur Nail Beauty Cầu Ông Lãnh (site:facebook)"
+        ],
+        "nguon": []
+      },
+      "instagram": {
+        "tim_thay": false,
+        "link": "https://www.instagram.com/fleur_nailspa/ (chưa xác minh)",
+        "ten_tai_khoan": "fleur_nailspa (theo structured data website, chưa xác minh)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Snippet nói structured data của fleurbeauty.vn khai Instagram 'fleur_nailspa', nhưng tìm 'fleur_nailspa' không ra tài khoản này (chỉ ra @fleurnailspa ở Santa Ana, Mỹ). Có thể tài khoản chưa tồn tại/không index -> cần kiểm tra tay.",
+        "truy_van_da_dung": [
+          "fleur_nailspa (site:instagram)",
+          "fleur nail beauty instagram tiktok Ho Chi Minh"
+        ],
+        "nguon": [
+          "https://fleurbeauty.vn/en/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy TikTok của tiệm.",
+        "truy_van_da_dung": [
+          "Fleur Nail & Beauty (site:tiktok)",
+          "Fleur Nail Beauty Ho Chi Minh District 1 (site:tiktok)"
+        ],
+        "nguon": []
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "Fleur Nail Beauty Ho Chi Minh (site:pinterest)"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "Fleur Nail Beauty Ho Chi Minh (site:youtube)"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "Fleur Nail & Beauty (site:threads.com)",
+          "(site:lemon8-app.com)"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Zalo OA; website chọn WhatsApp làm kênh chính.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": true,
+        "link": "",
+        "ten_tai_khoan": "Fleur Nail Beauty (Fresha)",
+        "nguoi_theo_doi": "5.0 sao / 1 đánh giá (theo snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Xuất hiện trên Fresha như 'venue gần đó' trong trang Grand Spa & Skincare và Nara Spa, địa chỉ 214/B9 Nguyễn Trãi; snippet còn hiện địa chỉ 212B/18 Nguyễn Trãi (có thể lỗi hiển thị). Không tìm được URL trang Fresha riêng của Fleur. Không thấy trên Tripadvisor/Foody.",
+        "truy_van_da_dung": [
+          "Fleur Nail Beauty 214/B9 Nguyễn Trãi (site:fresha/tripadvisor/booksy)",
+          "Fleur Nail Beauty Cầu Ông Lãnh (site:fresha)"
+        ],
+        "nguon": [
+          "https://www.fresha.com/a/grand-spa-skincare-thanh-pho-ho-chi-minh-cau-ong-lanh-cau-ong-lanh-41-duong-cao-ba-nha-abzvwx31",
+          "https://www.fresha.com/a/nara-spa-thanh-pho-ho-chi-minh-ban-co-ho-chi-minh-595-74-nguyen-dinh-chieu-gch9o1k3"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không có trong các toplist Q1 (toplist.vn, greensm, vietcetera) hay review blog nào tìm được.",
+        "truy_van_da_dung": [
+          "\"Fleur Nail\" Nguyễn Trãi quận 1",
+          "fleurbeauty.vn bảng giá nail gội đầu thảo dược quận 1"
+        ],
+        "nguon": []
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "WhatsApp/hotline +84 931 371 033 và trang online booking trên website; nhận khách vãng lai (walk-in). Nguồn: snippet fleurbeauty.vn/en/nail-salon-district-1/",
+    "gia_dich_vu": "Bảng giá công khai trên fleurbeauty.vn (theo snippet): Gel-X 220k; gel cơ bản 329k; combo gel tay+chân 439k; chăm sóc cơ bản 50k-439k; thiết kế 220k-369k; add-on ombre/marble/french 15-20k; nối mi 399k-589k; gội Express Hair Refresh 99k, Herbal Hair Ritual 269k; gói signature 550k-~1,2tr. Snippet ghi 2 trang có khoảng giá hơi khác nhau.",
+    "dac_trung": "Nail + gội đầu thảo dược + massage chân + nối mi, định vị trải nghiệm 'self-love', nhắm khách du lịch (tiếng Anh, WhatsApp, quy đổi USD, gần chợ Bến Thành).",
+    "diem_manh": [
+      "Website chuyên nghiệp có SEO landing 'Nail Salon District 1', bảng giá minh bạch, gói trải nghiệm",
+      "Có kênh đặt lịch rõ ràng (WhatsApp + online booking)",
+      "Đa dịch vụ (nail + head spa + mi) giúp tăng giá trị đơn"
+    ],
+    "van_de": [
+      "Gần như vắng mặt trên mạng xã hội: không tìm thấy Facebook, TikTok; Instagram khai trên website (fleur_nailspa) không xác minh được",
+      "Bằng chứng xã hội rất mỏng: chỉ thấy 1 review Fresha (5.0), không có Tripadvisor/toplist",
+      "Website chủ yếu tiếng Anh -> bỏ lỡ khách Việt; không Zalo"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S079",
+    "ten": "Dami Nail",
+    "kenh": {
+      "website": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không có website (Google Maps cũng không khai báo); không tìm thấy domain riêng.",
+        "truy_van_da_dung": [
+          "\"Dami Nail\" Nguyễn Văn Thủ",
+          "daminail"
+        ],
+        "nguon": []
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/daminail.korea/",
+        "ten_tai_khoan": "Dami Nail",
+        "nguoi_theo_doi": "~2,7K lượt thích (snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fanpage mô tả 'nail studio phong cách Hàn Quốc'; địa chỉ trên page là 157 Cô Bắc, P. Cô Giang, Q1 (chi nhánh 2) chứ không phải 8B Nguyễn Văn Thủ; có email liên hệ. Có thêm page 'Dami Nail' facebook.com/dami.nail.5/ chưa xác minh có liên quan.",
+        "truy_van_da_dung": [
+          "Dami nail Tân Định (site:facebook)",
+          "Dami Nail Nguyễn Văn Thủ Đa Kao Tân Định (site:facebook)",
+          "\"Dami Nail\" 8B Nguyễn Văn Thủ (site:facebook)",
+          "daminail.korea"
+        ],
+        "nguon": [
+          "https://www.facebook.com/daminail.korea/",
+          "https://www.facebook.com/dami.nail.5/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Snippet tổng hợp nói handle Instagram là 'daminail.korea' nhưng không có URL instagram.com nào khớp trong kết quả -> chưa xác minh. (@nails_by_dami là nghệ sĩ khác, không liên quan.)",
+        "truy_van_da_dung": [
+          "daminail (site:instagram)",
+          "daminail.korea (site:instagram)",
+          "Dami Nail Korean nail studio Ho Chi Minh instagram"
+        ],
+        "nguon": []
+      },
+      "tiktok": {
+        "tim_thay": true,
+        "link": "https://www.tiktok.com/@daminail.korea (suy ra từ trang discover, chưa mở được profile)",
+        "ten_tai_khoan": "@daminail.korea",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Video của tiệm xuất hiện trong các trang TikTok Discover (angelcore nails, korean nails...) với caption 'Nail xinh chuẩn Hàn 🇰🇷 Dịch vụ nail bảo hành 7 ngày', 'nhận thiết kế nailbox theo yêu cầu', CN1 8B Nguyễn Văn Thủ, CN2 157 Cô Bắc, 9h-21h. Một trang discover hiển thị ~279,9K lượt xem (không rõ là 1 video hay tổng).",
+        "truy_van_da_dung": [
+          "daminail (site:tiktok)",
+          "\"Dami Nail\" 8B Nguyễn Văn Thủ (site:tiktok)",
+          "Dami Nail nail chuẩn Hàn bảo hành 7 ngày nailbox (site:tiktok)"
+        ],
+        "nguon": [
+          "https://www.tiktok.com/discover/angelcore-nails",
+          "https://www.tiktok.com/discover/korean-nails-boston",
+          "https://www.tiktok.com/discover/daejeon-south-korea-nails",
+          "https://www.tiktok.com/discover/korean-pedicure-ideas"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "Dami Nail nail chuẩn Hàn (site:threads.com)"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Zalo OA.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy trên Fresha/Tripadvisor/Foody/Booksy.",
+        "truy_van_da_dung": [
+          "Dami Nail Korean nail studio Ho Chi Minh (site:tripadvisor/fresha)",
+          "\"0909430018\""
+        ],
+        "nguon": []
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-dinh-tphcm-64619.htm",
+        "ten_tai_khoan": "toplist.vn – Top 9 tiệm nail đẹp nhất phường Tân Định",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Dami Nail xếp #7: nail chuẩn Hàn, nailbox theo yêu cầu, bảo hành 7 ngày, địa chỉ 8B Nguyễn Văn Thủ.",
+        "truy_van_da_dung": [
+          "Top 9 Tiệm làm nail đẹp nhất phường Tân Định (site:toplist.vn)",
+          "Dami Nail quận 1 Hàn Quốc tiệm nail review"
+        ],
+        "nguon": [
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-dinh-tphcm-64619.htm"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Hotline/điện thoại (snippet TikTok nói có hotline; các nguồn ghi số hotline khác nhau) và inbox Facebook. Chưa thấy booking online. Số 0909430018 không có kết quả tìm kiếm nào.",
+    "gia_dich_vu": "Không tìm thấy bảng giá công khai.",
+    "dac_trung": "Nail chuẩn Hàn, nailbox (móng úp) thiết kế theo yêu cầu, bảo hành 7 ngày; 2 chi nhánh Q1 (8B Nguyễn Văn Thủ, 157 Cô Bắc).",
+    "diem_manh": [
+      "Có TikTok với nội dung nail art xuất hiện trong trang Discover (có video lan ra cả tìm kiếm quốc tế)",
+      "Lọt toplist.vn Tân Định #7",
+      "USP rõ: chuẩn Hàn + bảo hành 7 ngày + nailbox"
+    ],
+    "van_de": [
+      "Fanpage chỉ ~2,7K lượt thích và hiển thị địa chỉ chi nhánh 2 (Cô Bắc) chứ không phải 8B Nguyễn Văn Thủ -> khách tìm theo Maps dễ nhầm",
+      "Hotline không nhất quán giữa các nguồn; số trên Maps (0909430018) không xuất hiện ở đâu trên web",
+      "Không website, không bảng giá, không booking platform/review quốc tế",
+      "Instagram chưa xác minh được"
+    ],
+    "do_tin_cay": "trung bình"
+  },
+  {
+    "id": "Q1S080",
+    "ten": "Cosie Nails Town - Nguyễn Trãi",
+    "kenh": {
+      "website": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không có website riêng; Instagram/Threads là 'trang chủ' thực tế.",
+        "truy_van_da_dung": [
+          "\"Cosie Nails Town\"",
+          "Cosie Nails Town Nguyễn Trãi quận 1 bảng giá"
+        ],
+        "nguon": []
+      },
+      "facebook": {
+        "tim_thay": true,
+        "link": "https://www.facebook.com/cosie.nailstown/",
+        "ten_tai_khoan": "Cosie Nails Town",
+        "nguoi_theo_doi": "~37.000 người theo dõi (snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fanpage ghi hoạt động từ 2018; chuỗi 3 chi nhánh (Q3 Kỳ Đồng, Q7 Nguyễn Thị Thập, Q1 245/21 Nguyễn Trãi).",
+        "truy_van_da_dung": [
+          "Cosie nails (site:facebook/instagram/tiktok)",
+          "cosie.nailstown"
+        ],
+        "nguon": [
+          "https://www.facebook.com/cosie.nailstown/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": true,
+        "link": "https://www.instagram.com/cosie.nailstown/",
+        "ten_tai_khoan": "@cosie.nailstown – 'NGƯỜI CHƠI HỆ NAILS CHẤT - since 2018'",
+        "nguoi_theo_doi": "~106K followers, ~2.739 bài (snippet)",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Kênh chính; bio có hotline, địa chỉ chi nhánh, tài khoản dự phòng @cosienailstown. Khách du lịch đặt lịch qua IG DM gửi ảnh Pinterest tham khảo.",
+        "truy_van_da_dung": [
+          "cosienailstown instagram (site:instagram)",
+          "cosie.nailstown"
+        ],
+        "nguon": [
+          "https://www.instagram.com/cosie.nailstown/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": true,
+        "link": "https://www.tiktok.com/@cosienailstown",
+        "ten_tai_khoan": "@cosienailstown (COSIE NAILS TOWN)",
+        "nguoi_theo_doi": "~165K+ followers (snippet tổng hợp; chưa mở được profile)",
+        "hoat_dong_gan_nhat": "Có video id 7532479529105755399 (~giữa 2025 theo ID; ngày chính xác không rõ)",
+        "nhan_xet": "Video nail art/tutorial, tuyển học viên khóa học, review tiệm; bio ghi đặt lịch qua Instagram. Nhiều khách quốc tế tự đăng review (UGC) gắn tag chi nhánh Q1.",
+        "truy_van_da_dung": [
+          "Cosie nails (site:tiktok)",
+          "cosie.nailstown (site:tiktok)"
+        ],
+        "nguon": [
+          "https://www.tiktok.com/@cosienailstown/video/7532479529105755399",
+          "https://www.tiktok.com/@cosienailstown/video/7387008681998683399",
+          "https://www.tiktok.com/@victoriahui/video/7542195672875879686",
+          "https://www.tiktok.com/@laraseverinoo/video/7451886255928872200",
+          "https://www.tiktok.com/@tiff.ny/video/7436045090792967454"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": true,
+        "link": "https://www.pinterest.com/pin/778137641904046843/",
+        "ten_tai_khoan": "pin 'ig: cosie.nailstown'",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Có pin dẫn về IG (không rõ do tiệm hay người khác đăng).",
+        "truy_van_da_dung": [
+          "cosie.nailstown (site:pinterest)"
+        ],
+        "nguon": [
+          "https://www.pinterest.com/pin/778137641904046843/"
+        ]
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "Cosie Nails Town (site:youtube)"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": true,
+        "link": "https://www.threads.com/@cosie.nailstown",
+        "ten_tai_khoan": "@cosie.nailstown (Threads) + review Lemon8",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "Nhiều bài Threads (vd DSMdqi7EagR – ngày không rõ)",
+        "nhan_xet": "Threads đăng đều: Victorian gothic design, press-on/nailbox, 'Redefining the language of modern nails', chữ ký kèm hotline + 3 chi nhánh + tuyển học viên. Lemon8 có bài 'Cosie Nails Town Honest Review & Price Breakdown'.",
+        "truy_van_da_dung": [
+          "cosie.nailstown (site:threads/lemon8)"
+        ],
+        "nguon": [
+          "https://www.threads.com/@cosie.nailstown/post/DHsAzi3vIqy",
+          "https://www.threads.com/@cosie.nailstown/post/DP5ikp-kZg7",
+          "https://www.threads.com/@cosie.nailstown/post/DNaPKzgvOe7",
+          "https://www.threads.com/@cosie.nailstown/post/DONH7UKgZua",
+          "https://www.threads.com/@cosie.nailstown/post/DSMdqi7EagR",
+          "https://www.lemon8-app.com/sussysam/7370277766765298192?region=sg"
+        ]
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy Zalo OA.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": true,
+        "link": "https://www.fresha.com/a/cosie-nails-town-district-1-thanh-pho-ho-chi-minh-cau-ong-lanh-245-21-duong-nguyen-trai-slase136",
+        "ten_tai_khoan": "Cosie Nails Town - District 1 (Fresha) + Tripadvisor",
+        "nguoi_theo_doi": "Tripadvisor 5.0 / 3 review",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Fresha chi nhánh Q1 (245/21 Nguyễn Trãi), giờ 10:00-19:30, menu có giá; snippet ghi listing mới. Có cả Fresha Q3 và Tripadvisor (d33118137).",
+        "truy_van_da_dung": [
+          "Cosie Nails Town (site:fresha/tripadvisor/youtube/foody)",
+          "Cosie Nails Town District 1 Fresha gel extension price"
+        ],
+        "nguon": [
+          "https://www.fresha.com/a/cosie-nails-town-district-1-thanh-pho-ho-chi-minh-cau-ong-lanh-245-21-duong-nguyen-trai-slase136",
+          "https://www.fresha.com/a/cosie-nails-town-district-3-thanh-pho-ho-chi-minh-20-28-d-ky-dong-quan-3-ho-chi-minh-70000-vietnam-ol01ac0u",
+          "https://www.tripadvisor.com/Attraction_Review-g293925-d33118137-Reviews-Cosie_Nails_Town-Ho_Chi_Minh_City.html"
+        ]
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": true,
+        "link": "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-nhieu-loc-tphcm-65089.htm",
+        "ten_tai_khoan": "toplist.vn Top 1 Nhiêu Lộc (+ Top Tân Thuận)",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Top 1 tiệm nail phường Nhiêu Lộc (chi nhánh Q3); cũng đứng đầu list Tân Thuận (Q7). Chưa thấy toplist riêng cho chi nhánh Q1 Nguyễn Trãi.",
+        "truy_van_da_dung": [
+          "Cosie Nails Town toplist Nhiêu Lộc (site:toplist.vn)"
+        ],
+        "nguon": [
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-nhieu-loc-tphcm-65089.htm",
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-thuan-tphcm-65149.htm"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được kênh cá nhân chủ tiệm; có mảng đào tạo học viên.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Instagram DM là kênh chính (TikTok bio + review khách quốc tế 'booked via Instagram DM'); hotline 090 2679987 / 0931 081641; Fresha (chi nhánh Q1). Nguồn: Threads bio, Lemon8, TikTok @laraseverinoo, Fresha.",
+    "gia_dich_vu": "Fresha Q1: đắp gel cứng từ 300.000đ, Gel X từ 200.000đ, fill gel 250.000đ, tháo 60.000đ. Khách review: bộ gel ~820.000đ (~50 AUD) (TikTok @laraseverinoo); ~48 USD cho tháo + design + bộ mới (Lemon8).",
+    "dac_trung": "Nail art cao cấp/trend (3D, đắp nổi, gothic, nhân vật), press-on/nailbox, đào tạo học viên; chuỗi 3 chi nhánh Q1/Q3/Q7; rất mạnh với khách du lịch.",
+    "diem_manh": [
+      "Instagram ~106K, TikTok ~165K+, Facebook ~37K (snippet)",
+      "Nhiều UGC review từ khách quốc tế trên TikTok/Lemon8",
+      "Có Fresha + Tripadvisor + toplist #1 Nhiêu Lộc",
+      "Nội dung đăng đều trên Threads/IG với chữ ký đầy đủ hotline + địa chỉ"
+    ],
+    "van_de": [
+      "Không có website riêng; mọi thứ phụ thuộc Instagram DM (khó mở rộng, dễ trễ phản hồi giờ cao điểm)",
+      "Chi nhánh Q1 là chi nhánh mới/thứ 3 – toplist và Tripadvisor chủ yếu gắn với Q3; Fresha Q1 ghi listing mới",
+      "Tripadvisor mới 3 review dù lượng khách du lịch lớn",
+      "Không Zalo OA cho khách Việt"
+    ],
+    "do_tin_cay": "cao"
+  },
+  {
+    "id": "Q1S100",
+    "ten": "Atelier. ME IN NAIL",
+    "kenh": {
+      "website": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không có website.",
+        "truy_van_da_dung": [
+          "\"ME IN NAIL\" Đặng Tất",
+          "ME IN NAIL 29a Đặng Tất quận 1"
+        ],
+        "nguon": []
+      },
+      "facebook": {
+        "tim_thay": false,
+        "link": "https://www.facebook.com/ateliermeinnail (theo Google Maps, chưa xác minh)",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Link Facebook do Google Maps cung cấp KHÔNG xuất hiện trong bất kỳ kết quả tìm kiếm nào và không fetch được (facebook.com bị chặn) -> page có thể mới/ít tương tác/chưa được index. Thương hiệu mẹ có fanpage ME IN NAIL facebook.com/meinnail (~10.305 followers, 25 check-in) và các page chi nhánh meinnail.quan10, meinnail.quan7, nhưng không thấy page nào nhắc tới chi nhánh Đặng Tất/Q1.",
+        "truy_van_da_dung": [
+          "ateliermeinnail",
+          "\"ateliermeinnail\" OR \"atelier.meinnail\"",
+          "Atelier Me In Nail (site:facebook)",
+          "\"atelier\" \"me in nail\""
+        ],
+        "nguon": [
+          "https://www.facebook.com/meinnail/",
+          "https://www.facebook.com/meinnail.quan10/",
+          "https://www.facebook.com/meinnail.quan7/"
+        ]
+      },
+      "instagram": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy IG riêng cho 'Atelier'. Thương hiệu ME IN NAIL có @meinnail (~25K followers theo snippet) – chưa xác minh liên quan tới tiệm Đặng Tất.",
+        "truy_van_da_dung": [
+          "Atelier Me In Nail (site:instagram)",
+          "meinnail Đặng Tất Tân Định"
+        ],
+        "nguon": [
+          "https://www.instagram.com/meinnail/"
+        ]
+      },
+      "tiktok": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy TikTok riêng. TikTok thương hiệu @mein.nail (~11,9K followers) ghi chi nhánh Q7 - Q10 - Bình Thạnh - Tân Bình (156 Nguyễn Văn Thương, Bình Thạnh), KHÔNG có Q1.",
+        "truy_van_da_dung": [
+          "mein.nail tiktok atelier quận 1",
+          "meinnail Đặng Tất Tân Định (site:tiktok)"
+        ],
+        "nguon": [
+          "https://www.tiktok.com/@mein.nail"
+        ]
+      },
+      "pinterest": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "youtube": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "threads_lemon8": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không tìm thấy qua tìm kiếm web (chỉ dùng snippet; không fetch được trang).",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "zalo_oa": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      },
+      "nen_tang_dat_lich": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không thấy trên Fresha/Tripadvisor/Foody.",
+        "truy_van_da_dung": [
+          "ME IN NAIL 29a Đặng Tất quận 1"
+        ],
+        "nguon": []
+      },
+      "bao_chi_bai_review": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Atelier/Đặng Tất không có trong toplist Tân Định. Thương hiệu ME IN NAIL có trong toplist.vn Quận 10 (#4) và phường Bảy Hiền (#1, 364-366 Âu Cơ) – không phải chi nhánh này.",
+        "truy_van_da_dung": [
+          "Top 9 Tiệm làm nail đẹp nhất phường Tân Định ... ME IN NAIL Atelier (site:toplist.vn)",
+          "ME IN NAIL tiệm nail quận 10 Bảy Hiền chi nhánh quận 1"
+        ],
+        "nguon": [
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-tan-dinh-tphcm-64619.htm",
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-va-chat-luong-nhat-quan-10-tp-hcm-36128.htm",
+          "https://toplist.vn/top-list/tiem-lam-nail-dep-nhat-phuong-bay-hien-tphcm-65491.htm"
+        ]
+      },
+      "kenh_ca_nhan_chu_tiem": {
+        "tim_thay": false,
+        "link": "",
+        "ten_tai_khoan": "",
+        "nguoi_theo_doi": "không rõ",
+        "hoat_dong_gan_nhat": "không rõ",
+        "nhan_xet": "Không xác định được.",
+        "truy_van_da_dung": [
+          "web search tổng quát với tên tiệm + địa chỉ"
+        ],
+        "nguon": []
+      }
+    },
+    "dat_lich_hien_tai": "Theo dữ liệu Maps: gọi 0877171979 hoặc nhắn Facebook ateliermeinnail. Số điện thoại không xuất hiện ở đâu trên web; chưa có kênh đặt lịch online nào xác minh được.",
+    "gia_dich_vu": "Không tìm thấy bảng giá công khai cho chi nhánh này.",
+    "dac_trung": "Tên gợi ý 'atelier' (studio cao cấp) của thương hiệu ME IN NAIL (chuỗi có chi nhánh Q7/Q10/Bình Thạnh/Tân Bình, có nhận đặt lịch tiếng Hàn theo TikTok thương hiệu) – liên hệ giữa Atelier Đặng Tất và chuỗi ME IN NAIL CHỈ suy ra từ tên, chưa được xác minh.",
+    "diem_manh": [
+      "Nếu đúng là thuộc chuỗi ME IN NAIL: có thể tận dụng tài sản thương hiệu (FB ~10K, IG ~25K, TikTok ~11,9K) và mặt bằng toplist Q10/Bảy Hiền"
+    ],
+    "van_de": [
+      "Gần như vô hình trên web: tên 'Atelier. ME IN NAIL', địa chỉ 29a Đặng Tất và số 0877171979 đều không cho kết quả nào",
+      "Kênh thương hiệu mẹ không liệt kê chi nhánh Q1 -> khách theo dõi ME IN NAIL không biết có Atelier ở Tân Định",
+      "Không bảng giá, không review, không booking platform"
+    ],
+    "do_tin_cay": "thấp"
+  }
+]
