@@ -74,6 +74,23 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 - Gồm: khoá video cho một nhân viên của tiệm, bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm, dấu "Đạt chuẩn Nailmark".
 - Đây là đào tạo, không phải làm hộ, và không có người hỗ trợ trực tiếp. Gói dành cho tiệm muốn tự chủ, thay vì trả Đồng hành AI hằng tháng.
 
+### 2d. Đây là giá ra mắt, sẽ nâng giá nhiều lần (anh Ninh chốt 25/11/2026)
+Mọi mức giá ở trên là **giá khởi đầu**. Khi làm tốt, có bằng chứng thì nâng giá nhiều lần.
+
+**Đề xuất lộ trình nâng giá theo mốc bằng chứng, không theo ngày (chờ anh duyệt):**
+
+| Giai đoạn | Điều kiện để chuyển | Hướng giá |
+|---|---|---|
+| 1. Ra mắt (hiện tại) | Chưa có số liệu thật | Khởi đầu 999k · Chuẩn 1,99 tr · Đẳng cấp 2,99 tr · Làm hộ 9,9 tr |
+| 2. Có bằng chứng | 10 tiệm có số liệu trước và sau (lịch hẹn, đánh giá Google) | Tăng khoảng 1,5–2 lần |
+| 3. Có thương hiệu | 100 tiệm dùng, dấu "Đạt chuẩn Nailmark" được khách nhận ra | Tăng khoảng 2–3 lần so với giá ra mắt |
+| 4. Chuẩn quốc tế | Ra nước ngoài, so với mốc $2.000 của agency | Định giá theo thị trường từng nước |
+
+**Nguyên tắc khi tăng giá:**
+- Tiệm đã mua **giữ nguyên giá duy trì cũ**. Điều này vừa giữ chữ tín, vừa tạo lý do để tiệm mua sớm. Trên trang đã ghi: "Giá ra mắt, sẽ tăng theo từng giai đoạn. Tiệm đã mua giữ nguyên giá duy trì."
+- Báo trước khi tăng giá. Việc báo này cũng là một lần chào bán tự động trong phễu.
+- Trong tài liệu nội bộ, các con số doanh thu ở mục 4 đang tính theo **giá ra mắt**, tức là mức thấp nhất.
+
 ## 3. Phễu 6 bước (tự động từ đầu đến cuối)
 1. **Thu hút.**
    - Nội dung cho **chủ tiệm** (không phải cho khách làm móng): "Tiệm bạn đang mất khách ở đâu", "Chuẩn của 17 chuỗi ở 9 quốc gia". Đăng ở TikTok, Facebook và các nhóm chủ tiệm nail.
