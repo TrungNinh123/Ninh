@@ -1,0 +1,95 @@
+# Nailmark – Phễu bán hàng tự động (bản đề xuất, 25/11/2026)
+
+**Ba nguyên tắc anh Ninh đặt:**
+1. Bán được cả website giống demo cho khách.
+2. Bàn giao **không tốn nhiều lần phục vụ**. Nếu cần phục vụ thì **tính tiền**.
+3. **Toàn bộ nội dung do AI làm.**
+
+Anh Ninh **không trực tiếp bán** các đơn 500k–1 triệu, hay bất kỳ gói lẻ nào. Phễu tự bán các gói nhỏ. Anh chỉ vào việc với hợp đồng **từ 50 triệu/năm** hoặc **chuỗi từ 3 cơ sở**.
+
+Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`research/ty_gia_vcb.json`).
+
+## 1. Căn cứ định giá
+| Mốc thị trường | Giá | Nguồn |
+|---|---|---|
+| Thiết kế web trọn gói | 6–20 triệu đ | [Sapo](https://www.sapo.vn/blog/chi-phi-thiet-ke-website) |
+| Web "chuyên nghiệp" tối thiểu | 10–15 triệu đ | [Sapo](https://www.sapo.vn/blog/kinh-doanh-spa-can-bao-nhieu-von) |
+| Bảo trì web | 2–5 triệu đ/năm | [Sapo](https://www.sapo.vn/blog/chi-phi-thiet-ke-website) |
+| Trình tạo landing page (LadiPage MAX, giá tham khảo) | khoảng 1,22 triệu đ/năm, khách tự làm | [Hoàng Hà Mobile](https://hoanghamobile.com/tin-tuc/ladipage-la-gi/) |
+| Lợi nhuận ròng của tiệm nail | khoảng 5–15% | phân tích trước (`research/NOI_DAU_CHU_TIEM_NAIL.md`) |
+
+**Kết luận về giá:** Nailmark đặt giá **dưới một nửa mức thấp nhất của thị trường web trọn gói**, nhưng làm sẵn cho tiệm, không bắt chủ tiệm tự làm như LadiPage. Biên lợi nhuận đến từ việc AI làm toàn bộ, không đến từ giờ công của người.
+
+## 2. Bậc thang sản phẩm
+**Neo giá trị:** web có hình ảnh và hiệu ứng như Nailmark, nếu thuê ngoài thì đáng **5–10 triệu đ**, khớp mức trọn gói 6–20 triệu theo Sapo. Nailmark **bán 1–3 triệu**. Làm được giá này vì AI dựng toàn bộ và bàn giao tự động. Trên trang bán hàng luôn ghi giá trị tương đương cạnh giá bán.
+
+### 2a. Website (trả một lần, đã gồm năm đầu)
+| Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
+|---|---|---|---|---|
+| **Khởi đầu** | **1.490.000 đ** | $57 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Chủ tiệm tự cập nhật qua form, không có vòng sửa | 0 |
+| **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, 1 vòng sửa, video hướng dẫn 3 phút, mô tả Google Maps, 10 mẫu trả lời đánh giá | 0–1 |
+| **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: tên miền riêng năm đầu, tối đa 2 cơ sở, tặng kèm 1 Gói Mùa (ví dụ Tết 2027), ảnh quà tặng AI cho 30 khách | 1 |
+
+- **Từ năm thứ 2:** 990.000 đ/năm (≈ $38) để duy trì web.
+- **Sửa ngoài gói:** 200.000 đ/lần.
+- **Lên mức cao hơn:** chỉ trả phần chênh lệch.
+
+### 2b. Gói bán thêm
+| Gói | Giá | Ai bán | Người chạm |
+|---|---|---|---|
+| **Gói Mùa** (Tết, 8/3, 20/10, Noel…): bộ sưu tập theo mùa trên web, 10 bài đăng, 3 tin Zalo, thẻ quà tặng, ảnh quà tặng AI cho 30 khách (khách phải đồng ý trước) | 1.490.000 đ/mùa (≈ $57) | Hệ thống tự gửi trước mỗi mùa 6 tuần | 0 |
+| **Đồng hành AI** (có phục vụ, nên tính tiền): AI viết 12 bài/tháng, trả lời đánh giá Google, cập nhật web, báo cáo lịch hẹn | 2.490.000 đ/tháng (≈ $96), tối thiểu 3 tháng, trả trước theo quý | Website | 1 lần duyệt/tháng |
+| **Chuỗi / doanh nghiệp** (từ 3 cơ sở) | Từ 50 triệu đ/năm | **Anh Ninh** | Theo hợp đồng |
+| **Tự chấm điểm + bản khám tự động** (cửa vào phễu) | Miễn phí | Website | 0 |
+
+**Vì sao chia 3 mức 1,49 / 1,99 / 2,99 triệu:**
+- Mức giữa là mức "phổ biến nhất", để phần lớn khách chọn.
+- Mức Đẳng cấp làm mức Chuẩn trông hợp lý hơn, và kéo khách sang Gói Mùa ngay từ đầu.
+- Mức Khởi đầu giữ những tiệm nhỏ, ít tiền vẫn ở lại trong phễu thay vì bỏ đi.
+- Cả 3 mức đều tự thanh toán và tự bàn giao. Anh Ninh không phải bán đơn nào.
+
+## 3. Phễu 6 bước (tự động từ đầu đến cuối)
+1. **Thu hút.**
+   - Nội dung cho **chủ tiệm** (không phải cho khách làm móng): "Tiệm bạn đang mất khách ở đâu", "Chuẩn của 17 chuỗi ở 9 quốc gia". Đăng ở TikTok, Facebook và các nhóm chủ tiệm nail.
+   - Nhắn danh sách 455 tiệm đã quét (chỉ khi anh duyệt kênh và nội dung tin).
+2. **Nam châm.** Bài tự chấm 8 tiêu chuẩn (đã có trên Nailmark). Chấm xong hiện nút "Xem web mẫu cho tiệm của bạn".
+3. **Demo tự động.** Chủ tiệm dán link Google Maps. Hệ thống lấy tên, địa chỉ, số sao, số đánh giá qua Places API (đã có) rồi tạo trang demo bằng `scripts/web_tiem.py` trong vài phút. Trang demo chỉ gửi riêng cho chủ tiệm, không đăng công khai.
+4. **Mua.** Bảng 3 gói cùng mã VietQR. Tiền vào là hệ thống tự xác nhận (payOS hoặc dịch vụ tương đương, cần kiểm phí trước khi chọn: [plugin payOS](https://wordpress.org/plugins/payos/)).
+5. **Bàn giao: 1 form, 1 lần duyệt, 1 lần bàn giao.**
+   - Form nhận: 8–12 ảnh móng thật, ảnh chụp bảng giá (AI đọc thành chữ), số Zalo, giờ mở cửa, xác nhận quyền dùng ảnh.
+   - AI dựng web trong 24 giờ, rồi gửi link để chủ tiệm duyệt. Chủ tiệm sửa 1 vòng bằng cách đánh dấu chỗ cần sửa trên form.
+   - Gói bàn giao gồm: link web, mã QR để in, video hướng dẫn 3 phút, 10 mẫu chú thích bài đăng.
+   - **Chủ tiệm tự cập nhật** giá và ảnh qua một bảng tính hoặc form, web tự đổi theo. Không cần gọi Nailmark.
+6. **Mở rộng.**
+   - Trước mỗi mùa lễ 6 tuần, hệ thống tự chào Gói Mùa.
+   - Tiệm có số lịch hẹn tăng thì được chào Đồng hành AI.
+   - Giới thiệu một tiệm khác thì được tặng 1 tháng.
+
+**Quy tắc phục vụ (để không bị kéo vào việc lặt vặt):**
+- **Không gọi điện.** Mọi hỗ trợ đi qua Zalo OA, trợ lý AI trả lời trước. Người chỉ xử lý ngoại lệ, trong vòng 24 giờ.
+- Việc nằm ngoài gói thì **có giá niêm yết sẵn**, hoặc chuyển chủ tiệm lên gói cao hơn.
+- Mỗi gói ghi rõ phạm vi trên trang bán hàng, để không phải "thương lượng" từng đơn.
+
+## 4. Tính thử đường tới mục tiêu 2027 (giả định, cần đo lại)
+| Nguồn | Giả định | Doanh thu |
+|---|---|---|
+| Web Khởi đầu | 3.000 doanh nghiệp × 1,49 triệu | 4,5 tỷ đ |
+| Web Chuẩn | 5.000 doanh nghiệp × 1,99 triệu | 10,0 tỷ đ |
+| Web Đẳng cấp | 2.000 doanh nghiệp × 2,99 triệu | 6,0 tỷ đ |
+| Gói Mùa | 4.000 doanh nghiệp × 2 mùa × 1,49 triệu | 11,9 tỷ đ |
+| Đồng hành AI | 600 doanh nghiệp × 2,49 triệu × 9 tháng | 13,4 tỷ đ |
+| **Tổng** | | **45,8 tỷ đ ≈ $1,76 triệu** |
+| Lợi nhuận nếu biên 60% (giả định) | | **27,5 tỷ đ ≈ $1,06 triệu**, vừa chạm mục tiêu 1 triệu USD |
+
+Bán web giá rẻ chỉ để kéo khách vào. **Lợi nhuận thật nằm ở Gói Mùa và Đồng hành AI**, chiếm 55% doanh thu trong bảng trên. Vì vậy chỉ số quan trọng nhất cần đo là **tỷ lệ khách mua web rồi mua tiếp Gói Mùa**.
+
+**Lưu ý:**
+- **Chưa có thống kê chính thức về số tiệm nail ở Việt Nam.** Riêng ngành nail có thể không đủ 10.000 doanh nghiệp. Vì vậy cùng phễu này sẽ dùng lại cho **tóc nữ và thú cưng** (combo kinh tế độc thân), chỉ thay mẫu web và bộ sưu tập.
+- Các tỷ lệ chuyển đổi trong phễu **chưa đo**. Đợt 1 (5 tiệm TP.HCM) chính là để đo.
+
+## 5. Việc cần làm để phễu chạy (thứ tự)
+1. Anh chốt 3 mức giá web 1,49 / 1,99 / 2,99 triệu, Gói Mùa và Đồng hành (hoặc sửa lại) và kênh Zalo OA của Nailmark.
+2. Dựng trang "Dán link Google Maps → xem web mẫu". Phần lõi đã có (Places API + `web_tiem.py`), chỉ thiếu phần giao diện và chỗ lưu trữ web.
+3. Chọn cổng thanh toán QR tự xác nhận. Đây là việc cần anh mở tài khoản doanh nghiệp.
+4. Làm form nhận tài liệu, mẫu xin đồng ý dùng ảnh, video hướng dẫn 3 phút (AI làm).
+5. Chạy thử với 5 tiệm đợt 1. Đo tỷ lệ từ xem demo sang trả tiền, số lần phải chạm mỗi đơn, số lịch hẹn tăng thêm.
