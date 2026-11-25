@@ -1,0 +1,148 @@
+<title>Nailmark Hướng dẫn</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,700;1,600&family=Be+Vietnam+Pro:wght@400;600;700&display=swap">
+<style>
+/* VOICE everyday manual for salon owners, Nailmark lacquer brand
+   IDEA a printed salon handbook: one page per step, numbered seals, checkboxes to tick
+   PICTURE the real 30-second tutorial video recorded from the app, phone-shaped, beside the steps overview
+   COLOUR eggshell ground, lacquer black ink, son red seals, gilt rules
+   TYPE Noto Serif Display + Be Vietnam Pro
+   LAYOUT laptop: video left 36%, step list right; then one band per step with text + troubleshooting side by side; phone: stacked */
+:root{color-scheme:light dark;--bg:light-dark(#f5eee3,#120c0b);--card:light-dark(#fff,#1d1513);--ink:light-dark(#17100e,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e3d5c3,#3a2c26);--son:#a3161a;--acc:light-dark(#a3161a,#ff6b5e);--vang:#c9a14a;--tint:light-dark(#efe4d6,#1a1210)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+.band{padding-block:clamp(26px,4vw,56px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.in{max-width:1180px;margin:0 auto}
+header.band{background:#17100e;color:#f5eee3;padding-block:16px}
+header .in{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
+.logo{font-family:"Noto Serif Display",serif;font-size:22px;font-weight:700;color:#f5eee3;text-decoration:none}
+header nav{display:flex;gap:16px;flex-wrap:wrap}header nav a{color:#e9c977;font-size:14px}
+h1{font-family:"Noto Serif Display",serif;font-size:clamp(32px,4.6vw,50px);line-height:1.06;letter-spacing:-.02em;margin:0 0 10px}
+h2{font-family:"Noto Serif Display",serif;font-size:clamp(24px,3vw,32px);line-height:1.15;margin:0 0 10px}
+h3{font-size:17px;margin:0 0 8px}
+.top{display:grid;grid-template-columns:minmax(0,36fr) minmax(0,64fr);gap:32px;align-items:center}
+.phone{background:#17100e;border-radius:34px;padding:10px;max-width:330px;margin:0 auto;box-shadow:0 20px 50px rgba(23,16,14,.3)}
+.phone video{display:block;width:100%;height:auto;border-radius:26px;background:#000}
+.lead{color:var(--mut);margin:0 0 18px;max-width:60ch}
+.ov{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.ov li{display:grid;grid-template-columns:auto minmax(0,1fr) auto;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.ov a{color:var(--ink);text-decoration:none;font-weight:600}.ov small{color:var(--mut);white-space:nowrap}
+.seal{width:40px;height:44px;border-radius:20px 20px 8px 8px;background:var(--son);color:#fff;display:grid;place-items:center;font-family:"Noto Serif Display",serif;font-weight:700;font-size:20px}
+.facts{display:flex;gap:18px;flex-wrap:wrap;margin-top:16px;font-size:14px;color:var(--mut)}.facts b{color:var(--ink)}
+.step{border-top:1px solid var(--line)}
+.step:nth-of-type(even){background:var(--tint)}
+.sg{display:grid;grid-template-columns:minmax(0,58fr) minmax(0,42fr);gap:28px;align-items:start}
+.head{display:flex;gap:14px;align-items:center;margin-bottom:10px}
+.chk{list-style:none;padding:0;margin:10px 0}.chk li{display:flex;gap:10px;align-items:flex-start;margin:8px 0}
+.chk input{width:20px;height:20px;margin-top:3px;accent-color:var(--son);flex:none}
+.box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px}
+.box h3{color:var(--acc)}
+.fix{display:grid;gap:10px;margin:0;padding:0;list-style:none}.fix li{font-size:15px}.fix b{display:block}
+.tip{border-left:4px solid var(--vang);padding:6px 12px;margin:12px 0;font-size:15px}
+.tbl{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}
+.end{background:#17100e;color:#f5eee3}.end a{color:#e9c977}.end p{color:#e8dccd;max-width:70ch}
+@media(max-width:820px){.top,.sg{grid-template-columns:1fr}}
+</style>
+<header class=band><div class=in><a class=logo href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H">Nailmark</a><nav><a href="https://claude.ai/artifact/2TvYceH8BLKFDRJxEwC2iV">Quà miễn phí</a><a href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H#hoi-dap">Hỏi đáp</a></nav></div></header>
+
+<section class=band><div class="in top">
+<div class=phone><video src="huong-dan-4-buoc.mp4" controls playsinline muted loop preload=metadata poster="huong-dan-bia.jpg" aria-label="Video hướng dẫn 4 bước, 30 giây"></video></div>
+<div><h1>Tự tạo web đặt lịch trong 4 bước</h1>
+<p class=lead>Đọc theo thứ tự, tích từng ô là xong. Mỗi bước có cách xử lý khi gặp lỗi, nên không cần hỏi ai. Video bên cạnh quay từ app thật, dài 30 giây.</p>
+<ol class=ov>
+<li><span class=seal>1</span><a href="#b1">Thông tin tiệm</a><small>2 phút</small></li>
+<li><span class=seal>2</span><a href="#b2">Chụp và tải 12 ảnh móng</a><small>1–2 giờ</small></li>
+<li><span class=seal>3</span><a href="#b3">Bảng giá</a><small>5 phút</small></li>
+<li><span class=seal>4</span><a href="#b4">Zalo và xuất bản</a><small>3 phút</small></li>
+<li><span class=seal>✓</span><a href="#sau">Sau khi web lên</a><small>làm dần</small></li>
+</ol>
+<div class=facts><span><b>Cần có:</b> điện thoại, link Google Maps của tiệm, số Zalo</span><span><b>Tổng:</b> 1–2 buổi, phần lớn là chụp ảnh</span></div>
+</div></div></section>
+
+<section class="band step" id=b1><div class="in sg">
+<div><div class=head><span class=seal>1</span><h2>Thông tin tiệm</h2></div>
+<ul class=chk>
+<li><input type=checkbox id=c11><label for=c11>Mở Google Maps, tìm tiệm, bấm <b>Chia sẻ → Sao chép đường liên kết</b>.</label></li>
+<li><input type=checkbox id=c12><label for=c12>Dán vào ô đầu tiên, bấm <b>Tra Google Maps</b>. Tên, địa chỉ, giờ mở cửa, số sao tự điền.</label></li>
+<li><input type=checkbox id=c13><label for=c13>Đọc lại từng ô. Sai thì sửa trực tiếp. Bấm <b>Đúng rồi, tiếp</b>.</label></li>
+</ul>
+<p class=tip>Tiệm chưa có trên Google Maps vẫn làm được: bỏ qua ô tra cứu, tự gõ tên, địa chỉ, giờ mở cửa.</p></div>
+<div class=box><h3>Gặp lỗi thì làm gì</h3><ul class=fix>
+<li><b>"Không tìm thấy tiệm"</b>Gõ thêm tên quận, ví dụ "Sơn Mài Nail Quận 1", hoặc tự gõ thông tin.</li>
+<li><b>Link rút gọn không đọc được</b>Dán tên tiệm kèm quận thay cho link.</li>
+<li><b>Giờ mở cửa sai</b>Sửa ngay trong ô Giờ mở cửa. Nên sửa luôn trên Google Maps cho khớp.</li>
+</ul></div></div></section>
+
+<section class="band step" id=b2><div class="in sg">
+<div><div class=head><span class=seal>2</span><h2>Chụp và tải 12 ảnh móng</h2></div>
+<ul class=chk>
+<li><input type=checkbox id=c21><label for=c21>Chọn 12 bộ móng đẹp nhất <b>do chính tiệm làm</b>, đủ kiểu: trơn, French, mắt mèo, vẽ, đính đá.</label></li>
+<li><input type=checkbox id=c22><label for=c22>Chụp gần cửa sổ, ánh sáng ban ngày. Tắt đèn vàng, tắt flash.</label></li>
+<li><input type=checkbox id=c23><label for=c23>Nền vải trơn màu kem hoặc trắng. Chạm vào móng để lấy nét. Không dùng bộ lọc màu.</label></li>
+<li><input type=checkbox id=c24><label for=c24>Bấm <b>Chụp hoặc chọn ảnh</b>, chọn 4–12 ảnh. Máy tự cắt khung 3:4 và chỉnh sáng.</label></li>
+</ul>
+<p class=tip>Máy chỉnh sáng bằng một hệ số chung cho cả ba kênh màu, nên <b>màu móng giữ nguyên</b> như ngoài đời.</p></div>
+<div class=box><h3>Gặp lỗi thì làm gì</h3><ul class=fix>
+<li><b>"Cần ít nhất 4 ảnh"</b>Chọn thêm ảnh. Đẹp nhất là đủ 12.</li>
+<li><b>"Ảnh số … bị hỏng"</b>Ảnh đó bị lỗi khi lưu. Chụp lại hoặc chọn ảnh khác.</li>
+<li><b>"Định dạng … chưa nhận"</b>Chỉ nhận ảnh JPG, PNG, WEBP và ảnh iPhone (HEIC). File PDF, video không dùng được.</li>
+<li><b>Ảnh tối, mờ</b>Chụp lại gần cửa sổ. Máy làm sáng được, nhưng không làm nét được ảnh bị mờ.</li>
+</ul></div></div></section>
+
+<section class="band step" id=b3><div class="in sg">
+<div><div class=head><span class=seal>3</span><h2>Bảng giá</h2></div>
+<ul class=chk>
+<li><input type=checkbox id=c31><label for=c31>Mỗi dòng một dịch vụ: <b>tên | giá</b>. Cũng nhận kiểu "Sơn gel: 150k" hoặc "Sơn gel 150k".</label></li>
+<li><input type=checkbox id=c32><label for=c32>Ghi rõ giá đã gồm tháo gel cũ, nhặt da hay chưa.</label></li>
+<li><input type=checkbox id=c33><label for=c33>Nail art ghi theo ngón hoặc theo bộ, ví dụ "Mắt mèo | +20.000đ/ngón".</label></li>
+</ul>
+<div class=tbl><table><tr><th>Viết thế này</th><th>Máy hiểu</th></tr>
+<tr><td>Sơn gel trơn | 150.000đ</td><td>Sơn gel trơn — 150.000đ</td></tr>
+<tr><td>Nối móng 380k</td><td>Nối móng — 380k</td></tr>
+<tr><td>Tháo gel cũ miễn phí</td><td>Tháo gel cũ — Miễn phí</td></tr></table></div></div>
+<div class=box><h3>Gặp lỗi thì làm gì</h3><ul class=fix>
+<li><b>"Chưa đọc được giá ở dòng …"</b>Dòng đó thiếu giá. Thêm giá vào cuối dòng, hoặc dùng dấu |.</li>
+<li><b>Muốn chụp ảnh bảng giá cho máy đọc</b>Tính năng này <b>sắp có</b>. Hiện chị gõ theo mẫu, khoảng 5 phút.</li>
+</ul>
+<p class=tip>Khách phàn nàn nhiều nhất về giá phát sinh. Bảng giá rõ ràng là lợi thế để khách chọn tiệm mình.</p></div></div></section>
+
+<section class="band step" id=b4><div class="in sg">
+<div><div class=head><span class=seal>4</span><h2>Zalo và xuất bản</h2></div>
+<ul class=chk>
+<li><input type=checkbox id=c41><label for=c41>Nhập số Zalo đang dùng để nhận khách (10 chữ số).</label></li>
+<li><input type=checkbox id=c42><label for=c42>Bấm <b>Xuất bản web</b>. Vài giây sau có web và mã QR.</label></li>
+<li><input type=checkbox id=c43><label for=c43>Bấm <b>Xem web của tiệm</b>, thử nút <b>Đặt lịch</b>: tin nhắn hiện ra đúng là xong.</label></li>
+</ul></div>
+<div class=box><h3>Gặp lỗi thì làm gì</h3><ul class=fix>
+<li><b>Nút Xuất bản bị mờ</b>Số Zalo chưa đủ 10 chữ số.</li>
+<li><b>"Có lỗi khi tạo web"</b>Bấm lại một lần. Vẫn lỗi thì gửi câu hỏi vào buổi hỏi đáp trực tuyến tuần này.</li>
+<li><b>Muốn sửa sau khi đã xuất bản</b>Làm lại 4 bước với cùng tên tiệm và cùng số Zalo. Web cũ được cập nhật, đường dẫn giữ nguyên.</li>
+</ul></div></div></section>
+
+<section class="band step" id=sau><div class="in sg">
+<div><div class=head><span class=seal>✓</span><h2>Sau khi web lên: làm dần</h2></div>
+<ul class=chk>
+<li><input type=checkbox id=c51><label for=c51><b>In mã QR</b> khổ A6, đặt ở quầy, gương, bàn làm móng. Thẻ QR đẹp có sẵn trong <a href="https://claude.ai/artifact/2TvYceH8BLKFDRJxEwC2iV">bộ quà miễn phí</a>.</label></li>
+<li><input type=checkbox id=c52><label for=c52><b>Gắn link web vào Google Maps:</b> mở Google Business Profile → Chỉnh sửa hồ sơ → Liên hệ → Trang web → dán link.</label></li>
+<li><input type=checkbox id=c53><label for=c53><b>Gắn link vào Facebook, Zalo, TikTok:</b> phần giới thiệu hoặc tiểu sử.</label></li>
+<li><input type=checkbox id=c54><label for=c54><b>Trả lời đánh giá Google trong 24 giờ</b>, theo 3 mẫu bên cạnh.</label></li>
+<li><input type=checkbox id=c55><label for=c55><b>Mùa Tết:</b> đăng poster Tết (có trong bộ quà), mở đặt lịch trước 4–6 tuần.</label></li>
+</ul></div>
+<div class=box><h3>3 mẫu trả lời đánh giá</h3><ul class=fix>
+<li><b>5 sao</b>"Cảm ơn chị đã tin tiệm! Hẹn chị lần sau, tiệm có mẫu mới mỗi tuần ạ."</li>
+<li><b>3–4 sao</b>"Cảm ơn chị đã góp ý. Tiệm sẽ cải thiện [điều chị nêu]. Lần tới chị nhắn tiệm trước, tiệm xếp thợ chính cho chị ạ."</li>
+<li><b>1–2 sao</b>"Tiệm xin lỗi chị về trải nghiệm này. Chị nhắn Zalo [số] để tiệm sửa miễn phí trong thời gian bảo hành ạ." Không tranh cãi.</li>
+</ul></div></div></section>
+
+<section class="band end"><div class=in>
+<h2 style="color:#e9c977">Vẫn còn vướng?</h2>
+<p>Thứ tự hỏi: xem lại video và mục "Gặp lỗi thì làm gì" của bước đó, rồi đến <a href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H#hoi-dap">14 câu hỏi thường gặp</a>, rồi trợ lý AI, cuối cùng là buổi hỏi đáp trực tuyến mỗi tuần. Muốn có người làm toàn bộ: gói Làm hộ trọn gói 9.900.000đ.</p>
+</div></section>
+<script>
+{
+const ks=[...document.querySelectorAll('.chk input')];
+try{const s=JSON.parse(localStorage.getItem('nm_hd')||'{}');ks.forEach(k=>{k.checked=!!s[k.id];});}catch(e){}
+ks.forEach(k=>k.addEventListener('change',()=>{try{const s={};ks.forEach(x=>{s[x.id]=x.checked;});localStorage.setItem('nm_hd',JSON.stringify(s));}catch(e){}}));
+}
+</script>

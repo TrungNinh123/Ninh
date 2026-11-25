@@ -1,0 +1,42 @@
+[
+ {
+  "muc": "Ảnh lookbook ≥ 4",
+  "dat": true,
+  "chi_tiet": "12 ảnh"
+ },
+ {
+  "muc": "Không ảnh hỏng",
+  "dat": true,
+  "chi_tiet": "0"
+ },
+ {
+  "muc": "Bảng giá có dòng",
+  "dat": true,
+  "chi_tiet": "3 dòng"
+ },
+ {
+  "muc": "QR mở đúng Zalo",
+  "dat": true,
+  "chi_tiet": "https://zalo.me/0900000000"
+ },
+ {
+  "muc": "Không tràn ngang 390px",
+  "dat": true,
+  "chi_tiet": "390"
+ },
+ {
+  "muc": "Không tràn ngang 1280px",
+  "dat": true,
+  "chi_tiet": "1280"
+ },
+ {
+  "muc": "Không lỗi script",
+  "dat": true,
+  "chi_tiet": "0"
+ },
+ {
+  "muc": "Không còn chữ giữ chỗ",
+  "dat": true,
+  "chi_tiet": "0"
+ }
+]

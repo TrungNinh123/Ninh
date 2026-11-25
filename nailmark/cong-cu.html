@@ -1,0 +1,157 @@
+<title>Nailmark Công cụ</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,700;1,600&family=Be+Vietnam+Pro:wght@400;600;700&display=swap">
+<style>
+/* VOICE everyday tool for salon owners, Nailmark lacquer brand
+   IDEA a lacquer gift box: four free tools, each makes one finished thing for the salon
+   PICTURE the live result (QR card, Tết poster, price board, corrected photos) drawn large on canvas
+   COLOUR ground eggshell #f5eee3, ink lacquer black #17100e, son red #a3161a, gilt #c9a14a
+   TYPE Noto Serif Display + Be Vietnam Pro
+   LAYOUT laptop: controls left 38%, result right 62%; phone: title, result, controls */
+:root{color-scheme:light dark;--bg:light-dark(#f5eee3,#120c0b);--card:light-dark(#fff,#1d1513);--ink:light-dark(#17100e,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e3d5c3,#3a2c26);--son:#a3161a;--acc:light-dark(#a3161a,#ff6b5e);--vang:#c9a14a}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+.band{padding-block:clamp(20px,3vw,40px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.in{max-width:1240px;margin:0 auto}
+header.band{background:#17100e;color:#f5eee3;padding-block:16px}
+header .in{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.logo{font-family:"Noto Serif Display",serif;font-size:22px;font-weight:700;color:#f5eee3;text-decoration:none}
+header a.back{color:#e9c977;font-size:14px}
+h1{font-family:"Noto Serif Display",serif;font-size:clamp(30px,4.4vw,46px);line-height:1.08;letter-spacing:-.02em;margin:0 0 6px}
+.lead{color:var(--mut);margin:0 0 18px;max-width:62ch}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:16px}
+.tabs button{font:inherit;font-weight:600;border:1.5px solid var(--line);background:var(--card);color:var(--ink);border-radius:999px;padding:10px 18px;cursor:pointer;min-height:44px}
+.tabs button[aria-selected=true]{background:var(--son);border-color:var(--son);color:#fff}
+.work{display:grid;grid-template-columns:minmax(0,38fr) minmax(0,62fr);gap:20px;align-items:start}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px}
+label{display:block;font-size:14px;font-weight:600;margin:12px 0 6px}
+input[type=text],input[type=tel],textarea{font:inherit;font-size:16px;width:100%;padding:11px 12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+textarea{min-height:150px;resize:vertical}
+input:focus,textarea:focus,button:focus-visible{outline:2px solid var(--acc);outline-offset:2px}
+.file{display:block;text-align:center;border:2px dashed var(--vang);border-radius:14px;padding:14px;font-weight:700;cursor:pointer}
+.file input{display:none}
+.hint{font-size:13px;color:var(--mut);margin:6px 0 0}
+.err{font-size:14px;color:var(--acc);margin:8px 0 0}
+.out{position:sticky;top:12px}
+.stage{background:light-dark(#ede3d6,#1a1210);border-radius:18px;padding:16px;display:flex;justify-content:center}
+.stage img{display:block;max-height:72vh;width:auto;max-width:100%;border-radius:10px;box-shadow:0 10px 30px rgba(23,16,14,.25)}
+.grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:8px;width:100%}
+.grid img{width:100%;height:auto;max-height:none;box-shadow:none;border-radius:8px}
+.save{display:flex;justify-content:space-between;gap:10px;align-items:center;flex-wrap:wrap;margin-top:10px;font-size:14px;color:var(--mut)}
+.tool[hidden]{display:none}
+.next{background:#17100e;color:#f5eee3}
+.next .in{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr) minmax(0,1fr);gap:16px}
+.next h2{font-family:"Noto Serif Display",serif;font-size:24px;margin:0 0 6px;color:#e9c977}
+.next p{margin:0;font-size:15px;color:#e8dccd}.next a{color:#e9c977}
+@media(max-width:760px){.work{grid-template-columns:1fr}.out{position:static;order:-1}.next .in{grid-template-columns:1fr}.grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+<header class=band><div class=in><a class=logo href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H">Nailmark</a><a class=back href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H">← Về trang Nailmark</a></div></header>
+<main class=band><div class=in>
+<h1>Quà miễn phí cho tiệm nail</h1>
+<p class=lead>Bốn công cụ chạy ngay trên điện thoại, không cần đăng ký, không ai phải trả lời. Gõ tên tiệm là có ngay sản phẩm hoàn chỉnh. Ảnh của chị không rời khỏi máy.</p>
+<div class=tabs role=tablist>
+<button role=tab id=t-qr aria-selected=true data-t=qr>Thẻ QR đặt lịch</button>
+<button role=tab id=t-poster aria-selected=false data-t=poster>Poster Tết 2027</button>
+<button role=tab id=t-gia aria-selected=false data-t=gia>Bảng giá đẹp</button>
+<button role=tab id=t-anh aria-selected=false data-t=anh>Chỉnh sáng ảnh móng</button>
+</div>
+<div class=work>
+<div class=panel>
+<label for=ten>Tên tiệm</label><input type=text id=ten value="Sơn Mài Nail" maxlength=40>
+<label for=zalo>Số Zalo nhận khách</label><input type=tel id=zalo value="0900 000 000" inputmode=numeric>
+<p class=err id=zerr hidden>Số Zalo cần đủ 10 chữ số.</p>
+<div class=tool data-t=qr><label for=dc>Địa chỉ (in dưới mã)</label><input type=text id=dc value="Quận 1, TP.HCM" maxlength=60>
+<p class=hint>Quét mã là mở Zalo của tiệm. In khổ A6, đặt ở quầy, gương, bàn làm móng.</p></div>
+<div class=tool data-t=poster hidden><label for=sao>Số sao và đánh giá Google (không bắt buộc)</label><input type=text id=sao value="4,9★ · 1.250 đánh giá" maxlength=40>
+<label class=file>📷 Đổi ảnh nền bằng ảnh móng của tiệm<input type=file id=pimg accept="image/*"></label>
+<p class=hint>Khổ 1080×1350, đăng Facebook, Zalo, Instagram. Chưa chọn ảnh thì dùng ảnh minh hoạ của Nailmark.</p></div>
+<div class=tool data-t=gia hidden><label for=gia>Bảng giá, mỗi dòng: tên dịch vụ | giá</label>
+<textarea id=gia>Sơn gel trơn | 150.000đ
+Sơn gel + vẽ 2 ngón | 190.000đ
+Đắp gel, nối móng | 350.000đ
+Tháo gel cũ | Miễn phí khi làm mới
+Chăm sóc chân | 120.000đ
+Mắt mèo, tráng gương | +20.000đ/ngón</textarea>
+<p class=hint>Ghi rõ giá đã gồm tháo gel cũ chưa: khách sợ nhất giá phát sinh.</p></div>
+<div class=tool data-t=anh hidden><label class=file>📷 Chọn tối đa 12 ảnh móng<input type=file id=imgs accept="image/*" multiple></label>
+<p class=hint>Cắt khung 3:4, chỉnh sáng bằng một hệ số chung cho cả ba kênh màu nên <b>không đổi màu móng</b>. Ảnh iPhone: nếu trình duyệt không mở được, chọn "Định dạng tương thích nhất" trong Cài đặt Camera.</p></div>
+</div>
+<div class=out><div class=stage id=stage><img id=res alt="Kết quả"></div>
+<div class=save><span id=cap>Thẻ QR · 1240×1748</span><span>Lưu: nhấn giữ ảnh (điện thoại) hoặc chuột phải → Lưu ảnh</span></div></div>
+</div></div></main>
+<section class="band next"><div class=in>
+<div><h2>Muốn có web đặt lịch?</h2><p>Gói Khởi đầu 999.000đ: tự làm theo video 1–2 buổi, giá ra mắt. Xem <a href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H#lam-cung">bảng so sánh gói</a>.</p></div>
+<div><h2>Còn thắc mắc?</h2><p>14 câu chủ tiệm hay hỏi nhất có sẵn ở <a href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H#hoi-dap">mục Hỏi đáp</a>.</p></div>
+<div><h2>Không mua cũng được</h2><p>Quà là của chị. Nailmark không lưu ảnh hay số điện thoại chị nhập ở đây.</p></div>
+</div></section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcode-generator/1.4.4/qrcode.min.js"></script>
+<script>
+{
+const $=id=>document.getElementById(id);
+const C={son:"#a3161a",son2:"#7d0f13",den:"#17100e",vang:"#c9a14a",vang2:"#e9c977",trung:"#f5eee3"};
+let tab="qr",posterImg=null,photos=[];
+const defImg=new Image();defImg.src="img/bst-tet.jpg";
+const so=()=>$("zalo").value.replace(/\D/g,"");
+const fmt=s=>s.length===10?`${s.slice(0,4)} ${s.slice(4,7)} ${s.slice(7)}`:s;
+const cv=(w,h)=>{const c=document.createElement("canvas");c.width=w;c.height=h;return [c,c.getContext("2d")];};
+const SERIF='"Noto Serif Display", serif',SANS='"Be Vietnam Pro", sans-serif';
+function fit(x,t,max,size,font,weight){let s=size;do{x.font=`${weight} ${s}px ${font}`;s-=2;}while(x.measureText(t).width>max&&s>18);return s+2;}
+function drawQR(x,url,cx,cy,size,dark){const q=qrcode(0,"M");q.addData(url);q.make();const n=q.getModuleCount(),m=size/(n+2);
+ x.fillStyle="#fff";x.fillRect(cx,cy,size,size);x.fillStyle=dark;
+ for(let r=0;r<n;r++)for(let c=0;c<n;c++)if(q.isDark(r,c))x.fillRect(Math.floor(cx+(c+1)*m),Math.floor(cy+(r+1)*m),Math.ceil(m),Math.ceil(m));}
+function cover(x,img,X,Y,W,H){const r=Math.max(W/img.width,H/img.height),w=img.width*r,h=img.height*r;x.drawImage(img,X+(W-w)/2,Y+(H-h)/2,w,h);}
+function rr(x,X,Y,W,H,R){x.beginPath();x.moveTo(X+R,Y);x.arcTo(X+W,Y,X+W,Y+H,R);x.arcTo(X+W,Y+H,X,Y+H,R);x.arcTo(X,Y+H,X,Y,R);x.arcTo(X,Y,X+W,Y,R);x.closePath();}
+function the_qr(){const [c,x]=cv(1240,1748),ten=$("ten").value||"Tên tiệm";
+ x.fillStyle=C.trung;x.fillRect(0,0,1240,1748);rr(x,70,70,1100,1608,60);x.fillStyle="#fff";x.fill();x.lineWidth=6;x.strokeStyle=C.vang;x.stroke();
+ x.textAlign="center";x.fillStyle=C.vang;x.font=`700 40px ${SANS}`;x.fillText("QUÉT ĐỂ ĐẶT LỊCH",620,330);
+ x.fillStyle=C.son;fit(x,ten,980,104,SERIF,700);x.fillText(ten,620,450);
+ drawQR(x,"https://zalo.me/"+so(),270,540,700,C.den);
+ x.fillStyle=C.den;x.font=`700 46px ${SANS}`;x.fillText("Zalo "+fmt(so()),620,1360);
+ x.fillStyle="#6f6259";x.font=`400 32px ${SANS}`;x.fillText($("dc").value,620,1420);
+ x.font=`400 24px ${SANS}`;x.fillText("Tạo miễn phí bằng công cụ Nailmark",620,1600);return c;}
+function poster(){const [c,x]=cv(1080,1350),ten=$("ten").value||"Tên tiệm",img=posterImg||defImg;
+ x.fillStyle=C.son2;x.fillRect(0,0,1080,1350);if(img.complete&&img.naturalWidth)cover(x,img,0,0,1080,1350);
+ const g=x.createLinearGradient(0,0,0,1350);g.addColorStop(0,"rgba(23,16,14,.15)");g.addColorStop(.45,"rgba(125,15,19,.55)");g.addColorStop(.78,C.son2);g.addColorStop(1,C.son2);x.fillStyle=g;x.fillRect(0,0,1080,1350);
+ x.fillStyle="rgba(245,238,227,.85)";x.font=`400 22px ${SANS}`;x.textAlign="left";x.fillText(posterImg?"Ảnh của tiệm":"Ảnh minh hoạ · quà tặng của Nailmark",80,60);
+ x.fillStyle=C.vang2;x.font=`700 32px ${SANS}`;x.fillText("BỘ SƯU TẬP TẾT 2027",80,800);
+ x.fillStyle=C.trung;fit(x,ten,920,108,SERIF,700);x.fillText(ten,80,920);
+ x.fillStyle=C.vang2;x.font=`italic 600 56px ${SERIF}`;x.fillText("Móng đỏ son đón năm mới",80,1000);
+ x.fillStyle=C.trung;x.font=`700 36px ${SANS}`;x.fillText("Đặt lịch sớm, không phải chờ",80,1160);
+ x.font=`400 30px ${SANS}`;if($("sao").value)x.fillText($("sao").value,80,1210);x.fillText("Quét mã để nhắn Zalo đặt lịch",80,1260);
+ rr(x,770,1040,230,230,22);x.fillStyle="#fff";x.fill();drawQR(x,"https://zalo.me/"+so(),782,1052,206,C.den);return c;}
+function bang_gia(){const ten=$("ten").value||"Tên tiệm";
+ const rows=$("gia").value.split("\n").map(l=>l.trim()).filter(Boolean).map(l=>{const i=l.indexOf("|");return i>0?[l.slice(0,i).trim(),l.slice(i+1).trim()]:[l,""];}).slice(0,12);
+ const [c,x]=cv(1080,1350);x.fillStyle=C.den;x.fillRect(0,0,1080,1350);x.strokeStyle=C.vang;x.lineWidth=3;rr(x,50,50,980,1250,36);x.stroke();
+ x.textAlign="center";x.fillStyle=C.vang2;x.font=`700 30px ${SANS}`;x.fillText("BẢNG GIÁ TRỌN GÓI",540,170);
+ x.fillStyle=C.trung;fit(x,ten,860,92,SERIF,700);x.fillText(ten,540,270);
+ const step=Math.min(84,700/Math.max(rows.length,1)),top=340+(760-rows.length*step)/2+step*.6;
+ rows.forEach(([a,b],i)=>{const y=top+i*step;x.textAlign="left";x.fillStyle=C.trung;fit(x,a,560,36,SANS,400);x.fillText(a,120,y);
+  x.textAlign="right";x.fillStyle=C.vang2;fit(x,b,320,36,SANS,700);x.fillText(b,960,y);
+  x.strokeStyle="rgba(233,201,119,.25)";x.lineWidth=1;x.beginPath();x.moveTo(120,y+22);x.lineTo(960,y+22);x.stroke();});
+ x.textAlign="center";x.fillStyle="#bcae9f";x.font=`400 28px ${SANS}`;x.fillText("Giá đã gồm như ghi trên bảng · Không phát sinh",540,1120);
+ drawQR(x,"https://zalo.me/"+so(),470,1150,140,C.den);return c;}
+function chinh(img){const [c,x]=cv(600,800);cover(x,img,0,0,600,800);const d=x.getImageData(0,0,600,800),p=d.data,L=[];
+ for(let i=0;i<p.length;i+=16)L.push(.2126*p[i]+.7152*p[i+1]+.0722*p[i+2]);L.sort((a,b)=>a-b);
+ const k=Math.min(1.6,Math.max(.8,.52*255/(L[L.length>>1]||1)));
+ for(let i=0;i<p.length;i+=4){const mx=Math.max(p[i],p[i+1],p[i+2])||1,kk=Math.min(k,255/mx);p[i]*=kk;p[i+1]*=kk;p[i+2]*=kk;}
+ x.putImageData(d,0,0);return [c,k];}
+function render(){const ok=so().length===10;$("zerr").hidden=ok;const st=$("stage");
+ if(tab==="anh"){if(!photos.length){st.innerHTML='<img id=res alt="" src="img/m3.jpg" style="opacity:.5">';$("cap").textContent="Chọn ảnh để xem kết quả";return;}
+  st.innerHTML='<div class=grid>'+photos.map((p,i)=>`<img src="${p.url}" alt="Ảnh ${i+1} đã chỉnh, hệ số ${p.k.toFixed(2)}">`).join("")+'</div>';
+  $("cap").textContent=`${photos.length} ảnh · 600×800 · hệ số sáng ${Math.min(...photos.map(p=>p.k)).toFixed(2)}–${Math.max(...photos.map(p=>p.k)).toFixed(2)}`;return;}
+ const c=tab==="qr"?the_qr():tab==="poster"?poster():bang_gia();
+ st.innerHTML='<img id=res alt="Kết quả">';$("res").src=c.toDataURL("image/png");
+ $("cap").textContent={qr:"Thẻ QR · in A6 · 1240×1748",poster:"Poster Tết · 1080×1350",gia:"Bảng giá · 1080×1350"}[tab];}
+document.querySelectorAll(".tabs button").forEach(b=>b.addEventListener("click",()=>{tab=b.dataset.t;
+ document.querySelectorAll(".tabs button").forEach(o=>o.setAttribute("aria-selected",o===b));
+ document.querySelectorAll(".tool").forEach(t=>t.hidden=t.dataset.t!==tab);render();}));
+["ten","zalo","dc","sao","gia"].forEach(id=>$(id).addEventListener("input",render));
+$("pimg").addEventListener("change",e=>{const f=e.target.files[0];if(!f)return;const im=new Image();im.onload=()=>{posterImg=im;render();};im.src=URL.createObjectURL(f);});
+$("imgs").addEventListener("change",e=>{photos=[];const fs=[...e.target.files].slice(0,12);let n=0;
+ fs.forEach((f,i)=>{const im=new Image();im.onload=()=>{const [c,k]=chinh(im);photos[i]={url:c.toDataURL("image/jpeg",.88),k};if(++n===fs.length){photos=photos.filter(Boolean);render();}};
+  im.onerror=()=>{if(++n===fs.length){photos=photos.filter(Boolean);render();}};im.src=URL.createObjectURL(f);});});
+const go=()=>{try{render();}catch(err){$("cap").textContent="Không vẽ được: "+err.message;}};
+defImg.onload=go;(document.fonts?document.fonts.ready:Promise.resolve()).then(go);go();
+}
+</script>
