@@ -44,7 +44,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
   8. Tự làm bộ sưu tập cho mùa lễ.
 
   Câu hỏi ngoài video: trợ lý AI trả lời. Không có người hỗ trợ.
-- **Sửa ngoài gói:** tiệm tự sửa theo video. Muốn có người làm hộ thì dùng gói Làm hộ, từ 5 triệu.
+- **Sửa ngoài gói:** tiệm tự sửa theo video. Muốn có người làm hộ thì dùng gói Làm hộ trọn gói, 9,9 triệu.
 - **Lên mức cao hơn:** chỉ trả phần chênh lệch.
 
 ### 2b. Gói bán thêm
@@ -64,11 +64,11 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2c. Nguyên tắc: có nội dung hỗ trợ, nhưng làm hộ phải từ 5 triệu (anh Ninh chốt 25/11/2026)
 - **Mọi gói đều có nội dung hỗ trợ:** video hướng dẫn chi tiết, mẫu dùng sẵn, trợ lý AI trả lời câu hỏi.
 - **Gói 999k, 1,99 triệu, 2,99 triệu:** AI dựng web, AI sửa qua form, tiệm tự hoàn thiện theo video. **Không có người làm hộ.**
-- **Làm hộ trọn gói (có người làm): từ 5.000.000 đ (≈ $192).** Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
+- **Làm hộ trọn gói (có người làm): 9.900.000 đ (≈ $380). Anh Ninh chốt 25/11/2026.** Ngưỡng tối thiểu cho mọi việc có người làm hộ là 5 triệu. Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
   - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền, tối ưu Google Maps, chỉnh sửa trong 30 ngày.
   - Phạm vi cụ thể chờ anh duyệt.
 - **Đồng hành AI (2,49 triệu/tháng):** trả trước theo quý là 7,47 triệu, nên mỗi lần thu vẫn trên ngưỡng 5 triệu.
-- **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì gói làm hộ từ 5 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
+- **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
 
 **Gói Chuyển giao cho nhân viên: 4.990.000 đ (≈ $192), trả một lần. Anh Ninh đã duyệt 25/11/2026.**
 - Gồm: khoá video cho một nhân viên của tiệm, bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm, dấu "Đạt chuẩn Nailmark".
