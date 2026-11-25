@@ -4,7 +4,7 @@
 
 ## 1. Bảng so sánh 4 gói website
 **Nguyên tắc (anh Ninh chốt 25/11/2026):**
-- Ba gói 999k, 1,99 triệu và 2,99 triệu **không có người làm hộ, không có người hỗ trợ**. Chỉ có video hướng dẫn, công cụ AI điền sẵn và trợ lý AI.
+- Ba gói 999k, 1,99 triệu và 2,99 triệu **không có người làm hộ, không có người hỗ trợ riêng**. Có video hướng dẫn, công cụ AI điền sẵn, trợ lý AI, và **1 buổi hỏi đáp trực tuyến chung mỗi tuần** (anh Ninh bổ sung 25/11/2026).
 - Ba gói này khác nhau ở **tính năng và công cụ**, không khác ở mức phục vụ.
 - Muốn có người làm thì **chỉ có** gói Làm hộ trọn gói 9,9 triệu.
 
@@ -23,7 +23,8 @@
 | **Số cơ sở** | 1 | 1 | 2 | 2 |
 | **Chỉnh sửa** | Tự sửa qua form | Tự sửa qua form | Tự sửa qua form | Đội sửa trong 30 ngày |
 | **Bộ Tết 2027 + công cụ ảnh quà tặng AI** | Không | Không | Có. Tiệm tự chạy theo video, tối đa 30 khách | 1 mùa, đội làm |
-| **Người hỗ trợ** | **Không** | **Không** | **Không** | Có, 30 ngày |
+| **Hỏi đáp trực tuyến (nhóm, chung mọi tiệm)** | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần |
+| **Người làm riêng cho tiệm** | **Không** | **Không** | **Không** | Có, 30 ngày |
 | **Video tạo web (nhóm A, 7 video) + video đưa web ra ngoài (nhóm B, 5 video) + trợ lý AI 24/7** | Có | Có | Có | Có |
 | **Duy trì từ năm 2** | 499k/năm | 990k/năm | 990k/năm + phí tên miền theo nhà cung cấp | 990k/năm + phí tên miền theo nhà cung cấp |
 

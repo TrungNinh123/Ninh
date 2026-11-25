@@ -89,3 +89,19 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
    - Nếu tỷ lệ thấp, xem tiệm hay kẹt ở bước nào rồi sửa video hoặc công cụ của bước đó. Không giải quyết bằng cách thêm người hỗ trợ.
 
 **Chạy thử với 5 tiệm đợt 1:** quan sát tiệm tự làm từ đầu đến cuối, bấm giờ từng bước, ghi lại chỗ bị kẹt. Không làm hộ. Đây là cách duy nhất để biết con số "1–2 buổi" có đúng không.
+
+## F. Buổi hỏi đáp trực tuyến hằng tuần (anh Ninh bổ sung 25/11/2026)
+**Nguyên tắc:** mỗi tuần **1 buổi hỏi đáp chung** cho mọi tiệm. Ngoài buổi này, mọi việc đều đi qua video và trợ lý AI.
+
+**Đề xuất cách tổ chức (chờ anh duyệt):**
+- **Thời lượng:** 60 phút, trực tuyến (Google Meet hoặc Zoom), một người của Nailmark chủ trì.
+- **Giờ:** sau 21:00 tối, ví dụ **Thứ Hai 21:15**. Lý do: theo Google Places, các tiệm trong đợt 1 đóng cửa lúc 20:30–21:00 (ELIZ 09:30–20:30, Charming 09:00–21:00). Họp trong giờ làm thì chủ tiệm không tham gia được.
+- **Gửi câu hỏi trước qua form**, hạn tối Chủ Nhật. Trợ lý AI gom các câu giống nhau, xếp theo số tiệm hỏi. Câu nào đã có video thì AI trả lời luôn bằng link video, không mang vào buổi họp.
+- **Trong buổi:**
+  - 10 phút: điểm tin, ví dụ tính năng mới hoặc mùa lễ sắp tới.
+  - 40 phút: trả lời câu hỏi, chia sẻ màn hình để làm mẫu.
+  - 10 phút: hỏi tự do.
+  - Không xử lý riêng web của từng tiệm. Việc đó thuộc gói Làm hộ 9,9 triệu.
+- **Ghi hình.** AI cắt mỗi câu trả lời thành video ngắn rồi thêm vào thư viện. Câu hỏi càng lặp lại nhiều thì buổi họp càng ngắn dần.
+- **Đo:** số tiệm tham gia, số câu hỏi, số câu hỏi mới chưa có video. Mục tiêu là số câu hỏi mới giảm theo từng tuần.
+- **Bán thêm:** cuối buổi giới thiệu ngắn Gói Mùa sắp tới, hoặc gói Chuyển giao cho tiệm muốn tự chủ.
