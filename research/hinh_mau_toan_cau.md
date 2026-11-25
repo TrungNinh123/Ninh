@@ -28,3 +28,6 @@
 - Olive & June: https://www.cbinsights.com/company/olive-june/financials
 - Nails.INC: https://www.cosmeticsbusiness.com/nails-inc-bought-by-pacific-world-corporation
 - Thị trường Mỹ: https://www.ibisworld.com/united-states/market-size/personal-waxing-nail-salons/4411/ · https://cdn.shoplightspeed.com/shops/613505/files/13051484/nails-big-book.pdf · https://voanews.com/a/vietnamese-american-nail-business-faces-change-134069688/163281.html
+
+
+**Quy đổi (giá bán ra Vietcombank 25/11/2026):** 1 USD = 26.020 đ; 1 yên = 166,70 đ. MiniLuxe ~$28 triệu ≈ 729 tỷ đ. FASTNAIL ¥3,25 tỷ ≈ 542 tỷ đ ≈ $20,8 triệu. Cập nhật bằng `python scripts/ty_gia_vcb.py`.

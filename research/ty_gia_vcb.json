@@ -1,0 +1,107 @@
+{
+  "nguon": "https://portal.vietcombank.com.vn/Usercontrols/TVPortal.TyGia/pXML.aspx",
+  "thoi_diem": "11/25/2026 8:38:47 PM",
+  "quy_uoc": "Quy đổi theo giá bán ra",
+  "ty_gia": {
+    "AUD": {
+      "mua_tien_mat": 16543.33,
+      "mua_chuyen_khoan": 16710.44,
+      "ban_ra": 17246.07
+    },
+    "CAD": {
+      "mua_tien_mat": 17627.82,
+      "mua_chuyen_khoan": 17805.88,
+      "ban_ra": 18376.62
+    },
+    "CHF": {
+      "mua_tien_mat": 30148.85,
+      "mua_chuyen_khoan": 30453.38,
+      "ban_ra": 31429.53
+    },
+    "CNY": {
+      "mua_tien_mat": 3772.33,
+      "mua_chuyen_khoan": 3810.44,
+      "ban_ra": 3932.58
+    },
+    "DKK": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 3711.88,
+      "ban_ra": 3853.92
+    },
+    "EUR": {
+      "mua_tien_mat": 27536.99,
+      "mua_chuyen_khoan": 27815.14,
+      "ban_ra": 28989.55
+    },
+    "GBP": {
+      "mua_tien_mat": 32913.01,
+      "mua_chuyen_khoan": 33245.46,
+      "ban_ra": 34311.11
+    },
+    "HKD": {
+      "mua_tien_mat": 3202.4,
+      "mua_chuyen_khoan": 3234.75,
+      "ban_ra": 3358.53
+    },
+    "INR": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 278.44,
+      "ban_ra": 290.44
+    },
+    "JPY": {
+      "mua_tien_mat": 155.96,
+      "mua_chuyen_khoan": 157.54,
+      "ban_ra": 166.7
+    },
+    "KRW": {
+      "mua_tien_mat": 16.64,
+      "mua_chuyen_khoan": 18.48,
+      "ban_ra": 20.06
+    },
+    "KWD": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 83111.95,
+      "ban_ra": 87142.66
+    },
+    "MYR": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 6210.07,
+      "ban_ra": 6345.35
+    },
+    "NOK": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 2568.04,
+      "ban_ra": 2677.0
+    },
+    "RUB": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 298.39,
+      "ban_ra": 330.32
+    },
+    "SAR": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 6845.87,
+      "ban_ra": 7140.68
+    },
+    "SEK": {
+      "mua_tien_mat": null,
+      "mua_chuyen_khoan": 2463.65,
+      "ban_ra": 2568.18
+    },
+    "SGD": {
+      "mua_tien_mat": 19468.58,
+      "mua_chuyen_khoan": 19665.23,
+      "ban_ra": 20336.22
+    },
+    "THB": {
+      "mua_tien_mat": 668.04,
+      "mua_chuyen_khoan": 742.27,
+      "ban_ra": 773.76
+    },
+    "USD": {
+      "mua_tien_mat": 25610.0,
+      "mua_chuyen_khoan": 25640.0,
+      "ban_ra": 26020.0
+    }
+  }
+}

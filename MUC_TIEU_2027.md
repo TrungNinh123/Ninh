@@ -6,10 +6,10 @@
 - MREAL **làm thay** phần marketing và bán hàng cho họ.
 - Phễu: tiếp cận **khoảng 1 triệu người**, chuyển đổi **1%**, ra 10.000 doanh nghiệp.
 
-## 2. Các con số phải đạt (tỷ giá giả định: 26.000đ/USD)
+## 2. Các con số phải đạt (tỷ giá bán ra Vietcombank 25/11/2026: 26.020đ/USD, xem `research/ty_gia_vcb.json`)
 | Chỉ số | Giá trị |
 |---|---|
-| Lợi nhuận | 1.000.000 USD ≈ 26 tỷ đ |
+| Lợi nhuận | 1.000.000 USD ≈ 26,02 tỷ đ |
 | Lợi nhuận bình quân mỗi DN mỗi năm | ≈ 2,6 triệu đ (≈ 217.000đ/tháng nếu DN ở lại cả năm) |
 | Tốc độ có khách (12 tháng) | ≈ 830 DN/tháng ≈ 27 DN/ngày |
 | Tiếp cận | ≈ 83.000 người/tháng ≈ 2.700 người/ngày |
