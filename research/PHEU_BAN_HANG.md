@@ -21,7 +21,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 **Kết luận về giá:** Nailmark đặt giá **dưới một nửa mức thấp nhất của thị trường web trọn gói**, nhưng làm sẵn cho tiệm, không bắt chủ tiệm tự làm như LadiPage. Biên lợi nhuận đến từ việc AI làm toàn bộ, không đến từ giờ công của người.
 
 ## 2. Bậc thang sản phẩm
-**Neo giá trị:** web có hình ảnh và hiệu ứng như Nailmark, nếu thuê ngoài thì đáng **5–10 triệu đ**, khớp mức trọn gói 6–20 triệu theo Sapo. Nailmark **bán 1–3 triệu**. Làm được giá này vì AI dựng toàn bộ và bàn giao tự động. Trên trang bán hàng luôn ghi giá trị tương đương cạnh giá bán.
+**Neo giá trị (anh Ninh chốt 25/11/2026): "Web đáng giá 2.000 USD (≈ 52 triệu đ), bán còn 57 USD (1.490.000 đ)".** Căn cứ: agency quốc tế thường tính từ 2.000 USD một website ([Clutch](https://clutch.co/web-designers/pricing)); riêng gói web 1 trang của agency khoảng 2.000–5.000 USD ([UENI](https://ueni.com/blog/affordable-website-design/)). Ở Việt Nam, web trọn gói khoảng 6–20 triệu đ ([Sapo](https://www.sapo.vn/blog/chi-phi-thiet-ke-website)). Trên trang bán hàng ghi giá bằng USD, kèm giá VND ngay bên cạnh.
 
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
