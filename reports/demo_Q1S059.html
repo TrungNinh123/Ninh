@@ -1,0 +1,62 @@
+<title>Demo Ther Nail</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Bộ demo: 1) landing page trong khung điện thoại 2) lưới Instagram 3) bảng Pinterest 4) học từ thế giới */
+:root{--bg:#f5f1ee;--card:#fff;--fg:#2a2220;--muted:#776b66;--line:#e7dfda;--rose:#c4566f;--blush:#f6e3e6;--nude:#e9d6c8;--gold:#b08a4a;
+--ser:"Fraunces",Georgia,serif;--sans:"Be Vietnam Pro",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171312;--card:#211b19;--fg:#f2e9e5;--muted:#b5a7a1;--line:#3a312e;--rose:#e88aa0;--blush:#3a2228;--nude:#4a3a31;--gold:#d8b273;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171312;--card:#211b19;--fg:#f2e9e5;--muted:#b5a7a1;--line:#3a312e;--rose:#e88aa0;--blush:#3a2228;--nude:#4a3a31;--gold:#d8b273;color-scheme:dark}
+*{box-sizing:border-box}body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--sans);padding-block:24px 56px;
+padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font:600 30px/1.2 var(--ser);margin:0;text-wrap:balance}h2{font:600 22px var(--ser);margin:0 0 6px}h3{font:600 17px var(--ser);margin:0}
+.k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);font-weight:600}.m{color:var(--muted);font-size:14px}
+.two{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.phone{border:10px solid #1d1716;border-radius:34px;overflow:hidden;background:var(--card);max-width:380px;width:100%}
+.ph{padding:14px;display:flex;flex-direction:column;gap:12px}
+.hero{border-radius:18px;aspect-ratio:4/5;background:linear-gradient(160deg,var(--blush),var(--nude));display:flex;flex-direction:column;justify-content:flex-end;padding:16px;position:relative}
+.ph-tag{position:absolute;top:12px;left:12px;font-size:11px;background:rgba(255,255,255,.75);color:#5a4a44;padding:3px 8px;border-radius:99px}
+.hero h3{font-size:24px}.stars{font-size:13px;color:var(--fg)}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btn{border-radius:12px;padding:11px;text-align:center;font-weight:600;font-size:14px;border:1px solid var(--line)}
+.btn.main{background:var(--rose);color:#fff;border-color:var(--rose);grid-column:1/-1}
+.look{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.look div{aspect-ratio:1;border-radius:10px;background:var(--nude);font-size:11px;padding:6px;display:flex;flex-direction:column;justify-content:space-between}
+.look b{font-family:var(--ser);font-size:15px}
+.tier{display:grid;gap:6px}.tier div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:4px 0;font-size:14px}
+.note{background:var(--blush);border-radius:10px;padding:8px 10px;font-size:13px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.ig{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;max-width:420px}.ig div{aspect-ratio:1;background:var(--nude);display:flex;align-items:flex-end;padding:6px;font-size:11px;line-height:1.3}
+.ig div:nth-child(3n+2){background:var(--blush)}.ig div:nth-child(4){background:#e3cfc3}
+.pins{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.pin{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pin .cov{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:3px;aspect-ratio:3/2}.pin .cov i{background:var(--nude)}.pin .cov i:first-child{grid-row:1/3;background:var(--blush)}
+.pin p{margin:8px 10px 10px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}th{font-size:12px;color:var(--muted)}
+.wrap{overflow-x:auto}a{color:var(--rose)}
+</style>
+<main>
+<header><div class=k>Bản demo MREAL dựng riêng cho</div><h1>Ther Nail Space &amp; Headspa — 135/12 Trần Hưng Đạo, Quận 1</h1>
+<p class=m>Ngày 25/11/2026, Ther Nail đang mở cửa (Google Maps) với 4,8★ từ 336 đánh giá và khoảng 16.000 người theo dõi Facebook. Nhưng website thernailspace.com không truy cập được và cũng chưa gắn vào Google Maps; Instagram 1.971 người theo dõi dù 490 bài; khách chưa đặt lịch online được. Đây là bản xem trước nếu MREAL làm lại: mọi khung ảnh sẽ dùng <b>ảnh thật của tiệm</b> (chỉ chỉnh sáng bằng AI, không đổi màu móng); mọi giá điền theo bảng giá của tiệm.</p></header>
+<section class=two>
+<div class=phone><div class=ph>
+  <div class=hero><span class=ph-tag>Ảnh thật của tiệm · nail và headspa</span>
+    <div class=stars>★ 4,8 Google · 336 đánh giá</div>
+    <h3>Nail, gội đầu dưỡng sinh, mi</h3><div class=m style="color:#5a4a44">Mẫu Hàn – Nhật – Âu Mỹ · Nailbox by Ther · cạnh Trần Hưng Đạo</div></div>
+  <div class=btns><div class="btn main">Đặt combo nail + headspa</div><div class=btn>Facebook</div><div class=btn>Zalo · 0777 922 699</div></div>
+  <div><h3>Holiday Lookbook · Noel – Tết</h3><p class=m style="margin:2px 0 8px">Chọn mẫu theo số, giá trọn gói, giữ chỗ trước.</p>
+  <div class=look><div>Ảnh thật<b>01</b></div><div>Ảnh thật<b>02</b></div><div>Ảnh thật<b>03</b></div><div>Ảnh thật<b>04</b></div><div>Ảnh thật<b>05</b></div><div>Ảnh thật<b>06</b></div></div></div>
+  <div><h3>Bảng giá</h3><div class=tier><div><span>Gội đầu thư giãn</span><span>429k–799k</span></div><div><span>Nail theo mẫu</span><span>giá của tiệm</span></div><div><span>Combo nail + headspa</span><span>giá của tiệm</span></div></div></div>
+  <div class=note>Giá gội đầu theo website của tiệm (bản lưu trong kết quả tìm kiếm). Nailbox và khoá học nghề có trang riêng.</div>
+  <div class=m>135/12 Trần Hưng Đạo, Cầu Ông Lãnh, Q1 · Giờ mở cửa theo Google Maps · Chỉ đường</div>
+</div></div>
+<div class=panel><h2>Landing page này khác gì hiện tại</h2>
+<div class=wrap><table><tr><th>Hiện tại (bằng chứng, khám 25/11/2026)</th><th>Bản demo</th></tr><tr><td>Website thernailspace.com không truy cập được (kiểm tra 25/11/2026)</td><td>Trang mở trong 1 giây, chạy tốt trên điện thoại</td></tr><tr><td>Google Maps không gắn website</td><td>Trang đặt lịch gắn vào Maps, Facebook, Instagram</td></tr><tr><td>Instagram 1.971 người theo dõi dù 490 bài; Facebook khoảng 16.000</td><td>Kéo người theo dõi Facebook sang đặt lịch bằng một nút</td></tr><tr><td>Tripadvisor chỉ 1 đánh giá dù tiệm nhắm khách du lịch</td><td>Mã QR xin đánh giá Google và Tripadvisor sau mỗi lượt</td></tr><tr><td>Không đặt lịch online</td><td>Combo nail + headspa đặt trong 30 giây</td></tr></table></div>
+<p class=m>Chi phí dựng: nằm trong gói Khởi động 500.000đ (landing page). Website đầy đủ nằm trong gói Hệ thống.</p></div>
+</section>
+<section class=panel><h2>Lưới Instagram 9 ô đầu tiên (kế hoạch)</h2><p class=m>Một nền, một nguồn sáng cho mọi ảnh, để lưới đồng bộ như các tiệm dẫn đầu thế giới.</p>
+<div class=ig><div>Video 20s: gội đầu dưỡng sinh</div><div>Mẫu Noel 02 · giá trọn gói</div><div>Khách thật · 4,8★</div><div>Bảng giá combo</div><div>Nailbox by Ther</div><div>Video: một bộ móng Hàn</div><div>Thợ của tiệm</div><div>Mẫu Tết</div><div>Combo cho khách du lịch</div></div></section>
+<section class=panel><h2>Bảng Pinterest cho khách chọn mẫu trước khi đến</h2><div class=pins><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Ther Nail Lookbook</b><br>Hàn – Nhật – Âu Mỹ đánh số</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Head Spa Saigon</b><br>Gội đầu dưỡng sinh</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Nailbox by Ther</b><br>Móng úp theo yêu cầu</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Christmas Nails</b><br>Mẫu Noel</p></div></div></section>
+<section class=panel><h2>Học từ tiệm nail dẫn đầu thế giới, áp dụng với chi phí thấp</h2><div class=wrap><table>
+<tr><th>Hình mẫu</th><th>Họ làm gì</th><th>Ther Nail áp dụng</th></tr><tr><td><a href="https://paint-box.com" target="_blank" rel="noopener">Paintbox</a> (New York)</td><td>Menu mẫu theo mùa, giá trọn gói; nút &quot;Book a Manicure&quot; và gift card ngay trang chủ</td><td>Lookbook theo mùa đánh số</td></tr><tr><td><a href="https://vanityprojectsnyc.com" target="_blank" rel="noopener">Vanity Projects</a> (New York, Miami)</td><td>Nail art 3 cấp theo thời gian (60/90/120 phút), phụ phí ghi rõ</td><td>Combo theo thời lượng, giá trọn gói</td></tr><tr><td><a href="https://chillhouse.com" target="_blank" rel="noopener">Chillhouse</a> (New York)</td><td>Gói thành viên hằng tháng, gift card dùng 5 năm</td><td>Thẻ 10 lần, gift card nail + headspa</td></tr><tr><td><a href="https://dearsundays.com" target="_blank" rel="noopener">Sundays</a> (New York)</td><td>Dịch vụ ghi rõ giá và thời lượng, đặt lịch online</td><td>Mỗi dịch vụ ghi giá và số phút</td></tr>
+</table></div><p class=m>Nguồn: website các thương hiệu và bài tổng hợp (tra cứu 25/11/2026). MREAL học cách làm, không sao chép thiết kế.</p></section>
+</main>

@@ -24,7 +24,8 @@ DEMO_URL = {"Q1S044": "https://claude.ai/artifact/3dF4dvsVfCnHYRUcuAsGY4",
             "Q1S079": "https://claude.ai/artifact/6iV6VWindYVAAYc6f9zaU8",
             "Q1S041": "https://claude.ai/artifact/MHUX7cf7xqhqFnbkYFwmeZ",
             "Q1S051": "https://claude.ai/artifact/AVzrt9QhUKBkAw8XVtGzvR",
-            "Q1S042": "https://claude.ai/artifact/TD5Uo12RyVBDx4TGxnHwTD"}
+            "Q1S042": "https://claude.ai/artifact/TD5Uo12RyVBDx4TGxnHwTD",
+            "Q1S059": "https://claude.ai/artifact/Ji14aEPrUPMnFfByVkTdW3"}
 AP_DUNG_CHUNG = ["Lookbook theo mùa đánh số, giá trọn gói", "Bảng giá 3 cấp độ, không phát sinh",
                  "Thẻ 10 lần, gift card theo dịp", "Mỗi dịch vụ ghi giá và số phút"]
 NOI_BAT_DEMO = {"Q1S044": ["Trang mở trong 1 giây thay cho website đang lỗi", "Lookbook Noel – Tết đánh số, giá trọn gói",

@@ -1,0 +1,29 @@
+{
+ "id": "Q1S059",
+ "ten": "Ther Nail Space & Headspa",
+ "ngay_kiem": "2026-11-25T15:04+07:00",
+ "ket_luan": "CÒN HOẠT ĐỘNG – giữ trong danh sách ứng viên",
+ "bang_chung": [
+  {
+   "nguon": "Google Places API (searchText)",
+   "ket_qua": "businessStatus=OPERATIONAL, openNow=true, 4,8★/336 đánh giá, 135/12 Trần Hưng Đạo, Cầu Ông Lãnh",
+   "place_id": "ChIJrUpYlmQvdTERj4r2mjt9aVU"
+  },
+  {
+   "nguon": "curl https://thernailspace.com (15h05)",
+   "ket_qua": "không kết nối được (proxy báo host unreachable) – website vẫn lỗi"
+  },
+  {
+   "nguon": "Tìm kiếm web 'Ther Nail Space đóng cửa'",
+   "ket_qua": "không có tin đóng cửa; chỉ có toplist Cầu Ông Lãnh xếp #1"
+  },
+  {
+   "nguon": "kham_nail_v1 (snippet MapQuest)",
+   "ket_qua": "MapQuest từng hiện 'closed' – thông tin ngoài Google lệch, không phải bằng chứng đóng cửa"
+  }
+ ],
+ "rui_ro": [
+  "Website không truy cập được",
+  "TikTok có video 'bóc phốt nhân viên' – không nhắc trong demo gửi tiệm, chỉ ghi nội bộ"
+ ]
+}

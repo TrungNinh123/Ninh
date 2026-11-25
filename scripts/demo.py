@@ -116,6 +116,31 @@ DEMO = {
               ("Lunar New Year Nails", "Tết đỏ – vàng"), ("Natural Lashes", "Mi tự nhiên")],
         ap_dung=["Lookbook theo trend đánh số", "Bảng giá 3 mức theo độ cầu kỳ", "Thẻ 10 lần, gift card", "Chọn thợ, ghi giá và số phút"],
     ),
+    "Q1S059": dict(
+        title="Demo Ther Nail", ten="Ther Nail Space & Headspa — 135/12 Trần Hưng Đạo, Quận 1",
+        mo_dau="Ngày 25/11/2026, Ther Nail đang mở cửa (Google Maps) với 4,8★ từ 336 đánh giá và khoảng 16.000 người theo dõi Facebook. "
+               "Nhưng website thernailspace.com không truy cập được và cũng chưa gắn vào Google Maps; Instagram 1.971 người theo dõi dù 490 bài; "
+               "khách chưa đặt lịch online được.",
+        tag="Ảnh thật của tiệm · nail và headspa", sao="★ 4,8 Google · 336 đánh giá",
+        hero="Nail, gội đầu dưỡng sinh, mi", hero_phu="Mẫu Hàn – Nhật – Âu Mỹ · Nailbox by Ther · cạnh Trần Hưng Đạo",
+        nut="Đặt combo nail + headspa", lien_he=["Facebook", "Zalo · 0777 922 699"],
+        look_ten="Holiday Lookbook · Noel – Tết", look_mo="Chọn mẫu theo số, giá trọn gói, giữ chỗ trước.",
+        tang=[("Gội đầu thư giãn", "429k–799k"), ("Nail theo mẫu", "giá của tiệm"), ("Combo nail + headspa", "giá của tiệm")],
+        note="Giá gội đầu theo website của tiệm (bản lưu trong kết quả tìm kiếm). Nailbox và khoá học nghề có trang riêng.",
+        dia_chi="135/12 Trần Hưng Đạo, Cầu Ông Lãnh, Q1 · Giờ mở cửa theo Google Maps · Chỉ đường",
+        so_sanh=[
+            ("Website thernailspace.com không truy cập được (kiểm tra 25/11/2026)", "Trang mở trong 1 giây, chạy tốt trên điện thoại"),
+            ("Google Maps không gắn website", "Trang đặt lịch gắn vào Maps, Facebook, Instagram"),
+            ("Instagram 1.971 người theo dõi dù 490 bài; Facebook khoảng 16.000", "Kéo người theo dõi Facebook sang đặt lịch bằng một nút"),
+            ("Tripadvisor chỉ 1 đánh giá dù tiệm nhắm khách du lịch", "Mã QR xin đánh giá Google và Tripadvisor sau mỗi lượt"),
+            ("Không đặt lịch online", "Combo nail + headspa đặt trong 30 giây"),
+        ],
+        ig=["Video 20s: gội đầu dưỡng sinh", "Mẫu Noel 02 · giá trọn gói", "Khách thật · 4,8★", "Bảng giá combo",
+            "Nailbox by Ther", "Video: một bộ móng Hàn", "Thợ của tiệm", "Mẫu Tết", "Combo cho khách du lịch"],
+        pins=[("Ther Nail Lookbook", "Hàn – Nhật – Âu Mỹ đánh số"), ("Head Spa Saigon", "Gội đầu dưỡng sinh"),
+              ("Nailbox by Ther", "Móng úp theo yêu cầu"), ("Christmas Nails", "Mẫu Noel")],
+        ap_dung=["Lookbook theo mùa đánh số", "Combo theo thời lượng, giá trọn gói", "Thẻ 10 lần, gift card nail + headspa", "Mỗi dịch vụ ghi giá và số phút"],
+    ),
 }
 
 HINH_MAU = [
