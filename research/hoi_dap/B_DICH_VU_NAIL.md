@@ -130,37 +130,39 @@ Là gel ít hoặc không có HEMA, chất hay gây dị ứng. Hãng The Gel Bo
 
 ---
 
-## B4. Giá tham khảo (TP.HCM, 2025–2026; nhiều nguồn không ghi ngày)
+## B4. Giá tham khảo (TP.HCM, 2025–2026; đã đọc lại trang gốc ngày 25/11/2026)
+
+Giá dưới đây lấy từ bảng giá tiệm tự đăng trên toplist, mytour, Fresha và bài Vietcetera. Chỉ là khoảng tham khảo, không phải giá niêm yết. Chi tiết và nguồn: tài liệu nền 01, mục 4.
 
 ### Sơn gel thường bao nhiêu tiền?
-Khoảng 60.000–130.000đ một bộ ở tiệm bình dân, 100.000–150.000đ ở tiệm trung cấp.
+Khoảng 50.000–100.000đ một bộ ở tiệm bình dân, 100.000–150.000đ ở tiệm trung cấp. Ví dụ: Nzim Beauty Q3 sơn gel 1 màu 100.000đ, từ 2 màu 120.000đ, gel thạch 130.000đ; Thuỳ Thỏ Nail Q1 trên Fresha 130.000đ.
 
 ### Đắp gel bao nhiêu?
-Khoảng 250.000–400.000đ một bộ. Một salon ở Quận 1 ghi 380.000đ.
+Khoảng 250.000–400.000đ một bộ (mytour, bài 2024). BIAB ở một số tiệm khoảng 200.000–270.000đ.
 
 ### Nối móng bao nhiêu?
-Khoảng 250.000–300.000đ. Gel-X ở tiệm cao cấp có thể đến 800.000đ.
+Phổ biến khoảng 250.000–300.000đ (Nzim Beauty, Little Beauty, Queen Nail đều ghi 250.000đ). Gel cứng nối dài ở spa cao cấp có thể đến 800.000–850.000đ (Mornington Spa trên Fresha ghi 850.000đ).
 
 ### Tháo gel bao nhiêu?
 Khoảng 30.000đ. Tháo gel cứng hoặc bột cũ khoảng 65.000đ.
 
 ### Chăm sóc chân bao nhiêu?
-Trên Fresha (TP.HCM) thường khoảng 130.000–390.000đ.
+Trên Fresha (TP.HCM) khoảng 130.000–390.000đ (sơn chân gel ở tiệm nail 130.000đ, pedicure ở spa Q1 390.000đ).
 
 ### Một lần làm móng trọn bộ trung bình bao nhiêu?
-Khoảng 250.000–400.000đ theo khảo sát của Vietcetera.
+Khoảng 250.000–400.000đ theo khảo sát của Vietcetera (bài năm 2022, đã cũ). Bài toplist Quận 3 năm 2026 ghi: sơn gel đơn giản 100.000–200.000đ/bộ, đắp bột/gel 250.000–500.000đ/bộ, mẫu cầu kỳ 300.000–800.000đ/bộ.
 
 ### Vì sao hoá đơn cao hơn giá quảng cáo?
 Có tiệm tính riêng:
-- Sơn gel và base cứng.
-- Phí sơn trên 3 màu.
+- Sơn gel và base cứng (ví dụ sơn cứng móng 50.000đ/bộ).
+- Phí sơn trên 3 màu (ví dụ cộng 10.000đ mỗi màu).
 - Phí tháo móng cũ.
-- Phí đính đá.
+- Phí đính đá (tính theo viên).
 
 Bảng giá rõ ràng nên ghi giá đã gồm hay chưa gồm nhặt da, tháo gel cũ, base cứng, và nail art tính theo ngón hay theo bộ.
 
 ### Nail art tính giá thế nào?
-Thường tính theo ngón hoặc theo độ khó. Một khảo sát của Vietcetera ghi giá sàn khoảng 25.000đ một ngón. Giá mắt mèo, tráng gương, đính đá theo ngón **chưa xác minh**.
+Thường tính theo ngón hoặc theo độ khó. Khảo sát của Vietcetera (2022) ghi giá sàn khoảng 25.000đ một ngón. Bảng giá một tiệm Quận 3 (Nzim Beauty, 2026): mắt mèo 15.000–20.000đ/ngón, nhũ flash 25.000đ/ngón, vẽ đơn giản 5.000–30.000đ/ngón, vẽ cầu kỳ 35.000–150.000đ/ngón, đá nhỏ 5.000–20.000đ/viên. Một tiệm khác ở Quận 3 ghi tráng gương và mắt mèo 10.000–15.000đ/ngón.
 
 ---
 

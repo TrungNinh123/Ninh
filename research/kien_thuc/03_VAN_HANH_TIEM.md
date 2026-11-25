@@ -2,7 +2,7 @@
 
 > Tài liệu nội bộ Nailmark (TP.HCM). Mục đích: giúp team sales và content nói chuyện được với **chủ tiệm** về chuyện kinh doanh (vốn, thợ, thuế, mùa vụ, khách, giá, phần mềm), một cách tự tin và **đúng**.
 >
-> Cập nhật: 25/11/2026. Nghiên cứu bằng công cụ tìm kiếm web. Trong phiên này **không mở trực tiếp được** nhiều trang gốc (chinhphu.vn, tuoitre.vn, lsvn.vn bị chặn mạng), nên nhiều thông tin lấy từ trích đoạn kết quả tìm kiếm và bài tổng hợp thứ cấp.
+> Cập nhật: 25/11/2026. Nghiên cứu bằng công cụ tìm kiếm web. Trong phiên này **không mở trực tiếp được** nhiều trang gốc (chinhphu.vn, tuoitre.vn, lsvn.vn bị chặn mạng), nên nhiều thông tin lấy từ trích đoạn kết quả tìm kiếm và bài tổng hợp thứ cấp. **Bổ sung 25/11/2026:** phần pháp lý và thuế (mục 3.2–3.4) đã được đối chiếu lại trực tiếp với xaydungchinhsach.chinhphu.vn và tuoitre.vn; các ý đã kiểm tra được ghi "đã xác minh từ <URL>".
 >
 > **Quy ước:**
 > - Mỗi ý có số liệu đều ghi nguồn `[Sx]` (danh sách ở cuối).
@@ -19,9 +19,10 @@
 | Vốn mở tiệm nhỏ | Một chủ tiệm ở Hà Nội nói khoảng **50–70 triệu đồng** là mở được một tiệm nail riêng [S1] | Một ý kiến cá nhân, không phải khảo sát |
 | Thu nhập thợ | **8–12 triệu/tháng, chưa tính tip** (theo một chủ tiệm Hà Nội trên VnExpress) [S1]; tin tuyển dụng ở TP.HCM có mức **5–10 triệu** + tip [S7][S8] | Tham khảo |
 | Mô hình lương | Ở TP.HCM có cả "lương cứng 5–7 triệu + 10% hoa hồng bill + 100% tip" [S8] lẫn "ăn chia 5-5" [S9] | Lấy từ tin tuyển dụng |
-| Ngưỡng không chịu thuế 2026 | **1 tỷ đồng/năm** (Nghị định 141/2026/NĐ-CP sửa Nghị định 68/2026, áp dụng từ 1/1/2026) [S20][S21][S22] | Nhiều báo lớn đưa tin, **chưa đọc được văn bản gốc** |
-| Thuế khoán | **Bị bỏ từ 01/01/2026** theo khoản 6 Điều 10 Nghị quyết 198/2025/QH15 [S16][S17] | Chắc chắn |
-| HĐĐT máy tính tiền | Hộ kinh doanh có doanh thu **trên 1 tỷ/năm** phải dùng hóa đơn điện tử (có mã của CQT hoặc khởi tạo từ máy tính tiền) [S23][S25] | Khá chắc chắn, mốc ngưỡng cần kiểm tra lại |
+| Ngưỡng không chịu thuế 2026 | **1 tỷ đồng/năm** (Nghị định 141/2026/NĐ-CP ban hành 29/4/2026, sửa Nghị định 68/2026, hiệu lực từ 1/1/2026) [S21][S22] | **Đã xác minh** từ toàn văn trên xaydungchinhsach.chinhphu.vn và Tuổi Trẻ |
+| Thuế khoán | **Bị bỏ từ 01/01/2026** theo khoản 6 Điều 10 Nghị quyết 198/2025/QH15 [S66] | **Đã xác minh** từ toàn văn trên xaydungchinhsach.chinhphu.vn |
+| Lệ phí môn bài | **Không phải nộp từ năm 2026** (khoản 7 Điều 10 Nghị quyết 198; Công văn 645/CT-CS) [S66][S67] | **Đã xác minh** từ xaydungchinhsach.chinhphu.vn |
+| HĐĐT máy tính tiền | Hộ kinh doanh có doanh thu **trên 1 tỷ/năm** phải dùng hóa đơn điện tử (có mã của CQT hoặc khởi tạo từ máy tính tiền) [S21][S22] | **Đã xác minh** (Nghị định 141/2026) |
 | Cao điểm | Tết là đỉnh rõ nhất: có tiệm nói khách **tăng 4–5 lần** trong khoảng 10 ngày trước Tết [S33] | Ý kiến của một chủ tiệm |
 | Khách mới quay lại | Khảo sát của Phorest (UK/IE, 2025): chỉ **~29%** khách mới quay lại [S41] | Số nước ngoài |
 | Đặt online | Boulevard (Mỹ): khách đặt online lần đầu quay lại **78%**, khách vãng lai chỉ **39%** [S42] | Số nước ngoài, của nhà bán phần mềm |
@@ -123,36 +124,39 @@ Câu dùng khi nói chuyện (suy luận): *"Mỗi khách mới quay lại thêm
 
 ### 3.2. Bỏ thuế khoán và lệ phí môn bài (Nghị quyết 198/2025/QH15)
 
-- Nghị quyết 198/2025/QH15 ngày **17/5/2025** về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân [S16].
-- **Khoản 6 Điều 10:** hộ kinh doanh, cá nhân kinh doanh **không áp dụng phương pháp khoán thuế từ 01/01/2026** [S16][S17].
-- **Khoản 7 Điều 10:** chấm dứt thu **lệ phí môn bài** từ 01/01/2026 [S17][S18]. *Một số bài viết lại nêu mốc 01/06/2026* (chưa xác minh mốc nào đúng).
-- Bộ Tài chính có **Quyết định 3389/QĐ-BTC (06/10/2025)** phê duyệt đề án chuyển đổi mô hình và phương pháp quản lý thuế khi xoá bỏ thuế khoán [S19].
+- Nghị quyết 198/2025/QH15 về một số cơ chế, chính sách đặc biệt phát triển kinh tế tư nhân, Quốc hội khoá XV **thông qua ngày 17/5/2025**, có hiệu lực từ ngày thông qua. **Đã xác minh từ** toàn văn trên Cổng TTĐT Chính phủ: https://xaydungchinhsach.chinhphu.vn/nghi-quyet-198-2025-qh15-ve-mot-so-co-che-chinh-sach-dac-biet-phat-trien-kinh-te-tu-nhan-119250517191622422.htm [S66]
+- **Khoản 6 Điều 10** (nguyên văn): *"Hộ kinh doanh, cá nhân kinh doanh không áp dụng phương pháp khoán thuế từ ngày 01 tháng 01 năm 2026. Hộ kinh doanh, cá nhân kinh doanh nộp thuế theo pháp luật về quản lý thuế."* **Đã xác minh từ** [S66].
+- **Khoản 7 Điều 10** (nguyên văn): *"Chấm dứt việc thu, nộp lệ phí môn bài từ ngày 01 tháng 01 năm 2026."* **Đã xác minh từ** [S66].
+- **Lệ phí môn bài năm 2026: không phải nộp.** Ngày 23/01/2026, Cục Thuế ban hành **Công văn 645/CT-CS**: kể từ 01/01/2026 người nộp thuế **không phải nộp lệ phí môn bài và không phải nộp hồ sơ khai lệ phí môn bài** cho năm 2026 và các năm sau; Nghị định 362/2025/NĐ-CP (31/12/2025) bãi bỏ Nghị định 139/2016 và 22/2020 về lệ phí môn bài. Tiền môn bài **năm 2025 trở về trước còn nợ thì vẫn phải nộp**. **Đã xác minh từ** https://xaydungchinhsach.chinhphu.vn/tu-thang-1-2026-nguoi-nop-thue-khong-phai-nop-le-phi-mon-bai-119260126110926562.htm [S67] và Tuổi Trẻ (24/01/2026) https://tuoitre.vn/doanh-nghiep-ho-kinh-doanh-khong-phai-khai-nop-phi-mon-bai-tu-2026-2026012417440004.htm [S68].
+  - **Đính chính:** mốc "01/06/2026" mà một số bài viết nêu trước đây là **sai**. Mốc đúng là **01/01/2026** [S66][S67].
+  - Tháng 11/2026 Quốc hội thông qua Nghị quyết về chính sách đặc thù **xử lý nợ lệ phí môn bài và tiền chậm nộp** cho người nộp thuế ở trạng thái 03 (ngừng hoạt động chưa chấm dứt mã số thuế) và 06 (không hoạt động tại địa chỉ đăng ký), hiệu lực **21/11/2026 đến hết 30/6/2028**. Chỉ liên quan tiệm đã ngừng hoạt động mà còn nợ cũ. **Đã xác minh từ** https://xaydungchinhsach.chinhphu.vn/chinh-sach-dac-thu-xu-ly-no-le-phi-mon-bai-va-tien-cham-nop-de-thao-go-kho-khan-cho-nguoi-nop-thue-119261123151934393.htm [S69]
+- Bộ Tài chính có **Quyết định 3389/QĐ-BTC (06/10/2025)** phê duyệt đề án chuyển đổi mô hình và phương pháp quản lý thuế khi xoá bỏ thuế khoán [S19] (chưa đọc văn bản gốc).
+- Cục Thuế khẳng định khi chuyển sang kê khai từ 01/01/2026, cơ quan thuế **không dùng doanh thu khai năm 2026 để truy thu thuế khoán** các năm 2025 trở về trước (Tuổi Trẻ đưa tin) [S68].
 - **Hệ quả cho chủ tiệm (suy luận):** chủ tiệm phải tự kê khai doanh thu thực tế, nên sổ sách, hoá đơn và dữ liệu doanh thu trở nên quan trọng. Đây là lý do nhiều tiệm phải tìm phần mềm POS/hoá đơn trong 2026. Lưu ý: phần mềm loại này là việc của KiotViet/Sapo/MISA, **không phải sản phẩm của Nailmark**.
 
-### 3.3. Ngưỡng doanh thu không phải nộp thuế: **1 tỷ đồng/năm** (cần kiểm tra lại văn bản gốc)
+### 3.3. Ngưỡng doanh thu không phải nộp thuế: **1 tỷ đồng/năm** (đã xác minh)
 
-Diễn biến (theo các báo và trang luật):
+Diễn biến:
 1. Trước đây: ngưỡng **100 triệu/năm** [S20].
-2. **Luật Thuế TNCN (sửa đổi), số 109/2025/QH15**, thông qua **10/12/2025**, nâng ngưỡng lên **500 triệu/năm** [S20][S29].
-3. **Nghị định 68/2026/NĐ-CP (05/3/2026)** về chính sách thuế và quản lý thuế hộ kinh doanh: ngưỡng không chịu thuế GTGT và TNCN là 500 triệu [S20][S30].
-4. **Nghị định 141/2026/NĐ-CP (29/4/2026)** sửa Nghị định 68: thay cụm "500 triệu đồng" bằng **"01 tỷ đồng"**, **áp dụng từ 01/01/2026**. Hộ, cá nhân kinh doanh có doanh thu năm **từ 1 tỷ trở xuống không phải nộp thuế GTGT và TNCN** [S21][S22][S31]. Toàn văn đăng trên xaydungchinhsach.chinhphu.vn [S21]; VOH, SGGP, PLO, Tạp chí Công Thương đưa tin [S22].
-5. Hộ đã nộp thuế mà nay thuộc diện miễn theo ngưỡng mới sẽ được **bù trừ hoặc hoàn** [S31] (chưa xác minh chi tiết thủ tục).
+2. **Luật Thuế TNCN (sửa đổi), số 109/2025/QH15**, thông qua tại kỳ họp thứ 10 (tháng 12/2025), nâng ngưỡng lên **500 triệu/năm** (Tuổi Trẻ 11/12/2025 đưa tin luật đã được thông qua với mức 500 triệu) [S20][S29][S70]. Ngày thông qua chính xác 10/12/2025: chưa xác minh từ văn bản gốc.
+3. **Nghị định 68/2026/NĐ-CP ngày 05/3/2026** về chính sách thuế và quản lý thuế đối với hộ kinh doanh, cá nhân kinh doanh, **hiệu lực từ 05/3/2026**; ngưỡng ban đầu là 500 triệu. Kèm **Thông tư 18/2026/TT-BTC** hướng dẫn hồ sơ, thủ tục. **Đã xác minh từ** https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-68-2026-nd-cp-quy-dinh-ve-chinh-sach-thue-quan-ly-thue-voi-ho-kinh-doanh-119260306102906789.htm và https://xaydungchinhsach.chinhphu.vn/noi-dung-moi-cua-nghi-dinh-68-2026-nd-cp-va-thong-tu-18-2026-tt-btc-nguoi-nop-thue-can-luu-y-119260312140920747.htm [S71]
+4. **Nghị định 141/2026/NĐ-CP**, Chính phủ ban hành **cuối ngày 29/4/2026**, sửa Nghị định 68/2026 (và Nghị định 320/2025 về thuế TNDN). Điều 1 thay cụm "500 triệu đồng" bằng **"01 tỷ đồng"** tại Điều 3, Điều 4, khoản 1 Điều 8, Điều 9, Điều 10, khoản 3 Điều 11, khoản 1 và 2 Điều 12, khoản 4 Điều 17, khoản 3 Điều 18 Nghị định 68. Hộ, cá nhân kinh doanh có doanh thu năm **từ 1 tỷ trở xuống không phải nộp thuế GTGT và TNCN**. **Nghị định có hiệu lực thi hành từ ngày 01/01/2026** (áp dụng hồi tố cho cả năm 2026). **Đã xác minh từ** toàn văn trên Cổng TTĐT Chính phủ https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm [S21] và Tuổi Trẻ (29/4/2026) https://tuoitre.vn/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-cua-ho-kinh-doanh-len-1-ti-dong-20260429184716431.htm [S22]. (Ngày ban hành và ngày hiệu lực lấy từ bài Tuổi Trẻ; trang Chính phủ đăng toàn văn nhưng file PDF không mở được trong lần kiểm tra này.)
+5. Hộ đã kê khai nộp thuế GTGT, TNCN theo Nghị định 68 mà nay doanh thu năm từ 1 tỷ trở xuống thì được **xử lý bù trừ, hoàn trả tiền thuế đã nộp**. **Đã xác minh từ** Tuổi Trẻ [S22] (chi tiết thủ tục: chưa xác minh).
 
 **Thuế khi doanh thu vượt 1 tỷ:**
-- Ngành **dịch vụ không bao thầu nguyên vật liệu**: tỷ lệ thuế GTGT **5%** theo các bài viết về Nghị định 68/141 [S32].
-- TNCN: theo Techcombank (dẫn Luật 109/2025), doanh thu trên 1 tỷ đến 3 tỷ có thể chọn: (a) tính trên **phần doanh thu vượt 1 tỷ** × tỷ lệ theo ngành, hoặc (b) tính theo thu nhập (doanh thu trừ chi phí hợp lệ) [S31]. **Tỷ lệ TNCN cụ thể cho dịch vụ trong quy định mới: chưa xác minh.** (Mức 2% thường thấy là của Thông tư 40/2021 cũ.)
+- Ngành **dịch vụ không bao thầu nguyên vật liệu**: tỷ lệ thuế GTGT **5%** theo các bài viết về Nghị định 68/141 [S32] (chưa xác minh từ văn bản gốc).
+- TNCN: theo Techcombank (dẫn Luật 109/2025), doanh thu trên ngưỡng đến 3 tỷ có thể chọn: (a) tính trên **phần doanh thu vượt ngưỡng** × tỷ lệ theo ngành, hoặc (b) tính theo thu nhập (doanh thu trừ chi phí hợp lệ) × 15% [S31][S70]. **Tỷ lệ TNCN cụ thể cho dịch vụ làm móng trong quy định mới: chưa xác minh.** (Mức 2% thường thấy là của Thông tư 40/2021 cũ.)
 - Một số bài viết vẫn ghi ngưỡng 500 triệu và mốc 01/7/2026. Đó là thông tin **trước** Nghị định 141 [S20].
 
-**Câu nói an toàn với chủ tiệm:** *"Theo Nghị định 141/2026 thì từ năm 2026 hộ kinh doanh có doanh thu từ 1 tỷ/năm trở xuống không phải nộp thuế GTGT và TNCN, nhưng vẫn phải khai doanh thu. Anh/chị nên xác nhận lại với cán bộ thuế phường hoặc kế toán."*
+**Câu nói an toàn với chủ tiệm:** *"Theo Nghị định 141/2026 thì từ năm 2026 hộ kinh doanh có doanh thu từ 1 tỷ/năm trở xuống không phải nộp thuế GTGT và TNCN, nhưng vẫn phải thông báo/khai doanh thu với cơ quan thuế. Anh/chị nên xác nhận lại với cán bộ thuế phường hoặc kế toán."*
 
-Kể cả hộ được miễn vẫn có nghĩa vụ **ghi sổ/khai doanh thu**. Một nguồn dẫn Thông tư 152/2025/TT-BTC về sổ kế toán [S20] (chưa xác minh chi tiết; chưa rõ còn đúng sau Nghị định 141 hay không).
+Kể cả hộ được miễn vẫn có nghĩa vụ **thông báo doanh thu thực tế**: theo bài giới thiệu Nghị định 68 và Thông tư 18/2026 trên Cổng TTĐT Chính phủ, hộ dưới ngưỡng thông báo doanh thu thực tế phát sinh trong năm chậm nhất **31/01 năm sau** [S71] (bài viết dùng ngưỡng 500 triệu, trước khi Nghị định 141 nâng lên 1 tỷ). Một nguồn dẫn Thông tư 152/2025/TT-BTC về sổ kế toán [S20] (chưa xác minh).
 
 ### 3.4. Hoá đơn điện tử khởi tạo từ máy tính tiền (Nghị định 70/2025/NĐ-CP)
 
-- Nghị định 70/2025/NĐ-CP sửa đổi Nghị định 123/2020 về hoá đơn, **hiệu lực 01/06/2025** [S23][S24].
-- Theo bản 2025: hộ, cá nhân kinh doanh **doanh thu từ 1 tỷ/năm trở lên** (và hộ đã nộp thuế theo phương pháp kê khai) phải dùng **hoá đơn điện tử khởi tạo từ máy tính tiền** có kết nối dữ liệu với cơ quan thuế [S23][S24].
-- Sau Nghị định 141/2026: hộ có doanh thu **trên 1 tỷ** phải dùng hoá đơn điện tử, **có mã của CQT hoặc khởi tạo từ máy tính tiền**. Hộ mới hoặc hộ năm trước dưới 1 tỷ mà trong năm vượt thì phải đăng ký **trong 30 ngày** kể từ kỳ tính thuế có doanh thu luỹ kế vượt 1 tỷ [S25][S31].
-- Hộ **dưới ngưỡng** thì chưa bắt buộc dùng hoá đơn điện tử (VnEconomy) [S25].
+- Nghị định 70/2025/NĐ-CP sửa đổi Nghị định 123/2020 về hoá đơn, chứng từ, **hiệu lực 01/6/2025**. **Đã xác minh từ** https://xaydungchinhsach.chinhphu.vn/nghi-dinh-70-2025-nd-cp-sua-doi-bo-sung-quy-dinh-ve-hoa-don-chung-tu-11925032321512617.htm [S72]
+- Theo bản 2025: hộ, cá nhân kinh doanh (nộp thuế khoán) có **doanh thu từ 1 tỷ/năm trở lên** phải dùng **hoá đơn điện tử khởi tạo từ máy tính tiền** có kết nối dữ liệu với cơ quan thuế. **Đã xác minh từ** Tuổi Trẻ (1/8/2025) https://tuoitre.vn/kien-nghi-doanh-thu-2-3-ti-dong-nam-ho-kinh-doanh-moi-phai-ket-noi-may-tinh-tien-20250801135102379.htm và (25/5/2025) https://tuoitre.vn/ho-kinh-doanh-chuyen-doi-so-bat-buoc-bo-thue-khoan-giup-lam-quen-may-tinh-tien-20250525091149628.htm [S73]. (Trang Chính phủ về Nghị định 70 không nêu ngưỡng này; nguyên văn điều khoản trong Nghị định 70: chưa đọc.)
+- **Từ 2026 (Nghị định 141/2026 sửa khoản 5 Điều 8 Nghị định 68):** hộ có doanh thu năm **trên 1 tỷ** phải dùng hoá đơn điện tử **có mã của cơ quan thuế hoặc khởi tạo từ máy tính tiền** có kết nối dữ liệu với cơ quan thuế. Hộ **từ 1 tỷ trở xuống** không bắt buộc, nhưng nếu đủ điều kiện và có nhu cầu thì được đăng ký dùng. Hộ mới ra kinh doanh hoặc năm trước chưa trên 1 tỷ mà trong năm vượt thì phải đăng ký dùng hoá đơn điện tử **trong 30 ngày kể từ ngày cuối cùng của kỳ tính thuế có doanh thu luỹ kế trên 1 tỷ**. Hộ có nhiều địa điểm dùng chung mã số thuế, ghi mã địa điểm trên hoá đơn. **Đã xác minh từ** [S21] và [S22].
 - **Liên quan Nailmark (suy luận):** máy tính tiền/hoá đơn điện tử là phần POS. Nailmark không bán phần này, nhưng nên biết để không bị hỏi bí và để giới thiệu đúng chỗ (KiotViet, Sapo, MISA…).
 
 ### 3.5. Giấy phép/điều kiện riêng cho dịch vụ làm móng
@@ -331,13 +335,13 @@ Câu nói mẫu (suy luận): *"KiotViet/Sapo giúp anh/chị tính tiền và t
 
 ## 10. CÁC ĐIỂM CẦN XÁC MINH THÊM (việc cần làm)
 
-- [ ] Đọc toàn văn **Nghị định 141/2026/NĐ-CP** trên chinhphu.vn (ngưỡng, ngày áp dụng, tỷ lệ TNCN cho dịch vụ).
-- [ ] Mốc bỏ lệ phí môn bài: 01/01/2026 hay 01/06/2026?
+- [x] Đọc toàn văn **Nghị định 141/2026/NĐ-CP** trên chinhphu.vn: đã xác minh ngưỡng 1 tỷ, ban hành 29/4/2026, hiệu lực 01/01/2026 (25/11/2026). **Còn thiếu:** tỷ lệ TNCN cho dịch vụ khi vượt ngưỡng.
+- [x] Mốc bỏ lệ phí môn bài: **01/01/2026** (đã xác minh 25/11/2026, xem 3.2).
 - [ ] Phụ lục I Nghị định 105/2025 có bị Nghị định 347/2026 sửa không? Tiệm nail thuộc mục nào?
 - [ ] Giá chính thức của KiotViet Salon, Sapo (gói spa/salon), MySpa, SalonHero, Fresha tại Việt Nam.
 - [ ] Học phí khoá nail tại TP.HCM (gọi 3–5 trung tâm).
 - [ ] Phỏng vấn 10–15 chủ tiệm để kiểm chứng danh sách câu hỏi ở mục 8, mô hình chia lương (50/50, 60/40) và mức tăng khách dịp 8/3, 20/10.
-- [ ] Cấu hình mạng: cần cho phép truy cập `chinhphu.vn`, `xaydungchinhsach.chinhphu.vn`, `tuoitre.vn`, `lsvn.vn` để đọc văn bản gốc.
+- [ ] Cấu hình mạng: `chinhphu.vn`, `xaydungchinhsach.chinhphu.vn`, `tuoitre.vn` đã đọc được (25/11/2026). Còn thiếu `lsvn.vn` và file PDF trên `xdcs.cdnchinhphu.vn`; `thuvienphapluat.vn` chặn truy cập tự động.
 
 ---
 
@@ -360,11 +364,11 @@ Câu nói mẫu (suy luận): *"KiotViet/Sapo giúp anh/chị tính tiền và t
 - [S15] Luật Minh Khuê, "Mở tiệm nail có cần đăng ký kinh doanh?": https://luatminhkhue.vn/mo-tiem-nail-co-can-dang-ky-kinh-doanh-hay-khong-thu-tuc-thanh-lap-co-so-kinh-doanh-cham-soc-mong.aspx ; ACC Group: https://accgroup.vn/giay-phep-kinh-doanh-tiem-nail ; Luật Dương Gia: https://luatduonggia.vn/phap-luat/mo-tiem-nail-co-can-thuc-hien-dang-ky-kinh-doanh-khong/
 - [S16] Thư viện Pháp luật, Nghị quyết 198/2025/QH15: https://thuvienphapluat.vn/documents/law.aspx?id=Q%3DpVM01UUTTm ; "Từ 01/01/2026, cá nhân kinh doanh có áp dụng thuế khoán không?": https://thuvienphapluat.vn/ma-so-thue/phap-luat-thue/tu-01012026-ca-nhan-kinh-doanh-co-ap-dung-hinh-thuc-thue-khoan-khong-216107.html
 - [S17] LuatVietnam, "10 chính sách mới về thuế, phí theo Nghị quyết 198/2025/QH15": https://luatvietnam.vn/thue-phi-le-phi/10-chinh-sach-moi-ve-thue-phi-theo-nghi-quyet-198-2025-qh15-565-102213-article.html ; VietnamPlus: https://www.vietnamplus.vn/bo-ap-dung-thue-khoan-ho-kinh-doanh-buoc-vao-cuoc-choi-moi-post1042297.vnp
-- [S18] Thư viện Pháp luật, "Chính thức bãi bỏ lệ phí môn bài từ 1/6/2026?": https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/chinh-thuc-bai-bo-le-phi-mon-bai-tu-162026-cham-dut-viec-thu-nop-le-phi-mon-bai-ra-sao-216631.html
+- [S18] Thư viện Pháp luật, "Chính thức bãi bỏ lệ phí môn bài từ 1/6/2026?" (mốc 1/6/2026 **không đúng**, xem 3.2): https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/chinh-thuc-bai-bo-le-phi-mon-bai-tu-162026-cham-dut-viec-thu-nop-le-phi-mon-bai-ra-sao-216631.html
 - [S19] LuatVietnam, Quyết định 3389/QĐ-BTC: https://luatvietnam.vn/thue/quyet-dinh-3389-qd-btc-cua-bo-tai-chinh-phe-duyet-de-an-chuyen-doi-mo-hinh-va-phuong-phap-quan-ly-thue-doi-voi-ho-kinh-doanh-khi-xoa-bo-thue-khoan-414047-d1.html
 - [S20] LuatVietnam, "Doanh thu dưới 500 triệu đồng/năm được miễn thuế?": https://luatvietnam.vn/thue-phi-le-phi/tin-vui-voi-ho-kinh-doanh-doanh-thu-duoi-500-trieu-dong-nam-duoc-mien-thue-565-105669-article.html ; Thư viện Pháp luật, Công văn 2354/CT-CS 2026: https://thuvienphapluat.vn/cong-van/Thue-Phi-Le-Phi/Cong-van-2354-CT-CS-2026-quan-ly-thue-ho-kinh-doanh-ca-nhan-kinh-doanh-701903.aspx ; Lao Động: https://news.laodong.vn/kinh-doanh/ho-kinh-doanh-co-doanh-thu-duoi-500-trieu-dong-can-luu-y-de-tranh-rui-ro-ve-thue-1649872.ldo
-- [S21] Cổng TTĐT Chính phủ (Xây dựng chính sách), toàn văn Nghị định 141/2026/NĐ-CP: https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm ; LuatVietnam: https://luatvietnam.vn/tin-van-ban-moi/chinh-thuc-nang-nguong-doanh-thu-len-1-ty-dong-doi-voi-ho-kinh-doanh-tu-2026-186-108719-article.html
-- [S22] Tuổi Trẻ: https://tuoitre.vn/nang-nguong-chiu-thue.html ; VOH: https://voh.com.vn/kinh-te/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dong-653439.html ; SGGP: https://www.sggp.org.vn/nang-nguong-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dongnam-post850439.html ; PLO: https://plo.vn/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-voi-ca-nhan-ho-kinh-doanh-len-1-ti-dongnam-post906478.html ; Tạp chí Công Thương: https://tapchicongthuong.vn/chinh-thuc--nang-nguong-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dong-nam--ap-dung-tu-1-1-2026-514336.htm
+- [S21] Cổng TTĐT Chính phủ (Xây dựng chính sách), toàn văn Nghị định 141/2026/NĐ-CP (đăng 25/5/2026; đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-so-141-2026-nd-cp-nang-nguong-doanh-thu-khong-phai-chiu-thue-len-1-ty-dong-119260504154326455.htm ; LuatVietnam: https://luatvietnam.vn/tin-van-ban-moi/chinh-thuc-nang-nguong-doanh-thu-len-1-ty-dong-doi-voi-ho-kinh-doanh-tu-2026-186-108719-article.html
+- [S22] Tuổi Trẻ, "Chính thức nâng ngưỡng doanh thu chịu thuế của hộ kinh doanh lên 1 tỉ đồng" (29/4/2026; đọc 25/11/2026): https://tuoitre.vn/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-cua-ho-kinh-doanh-len-1-ti-dong-20260429184716431.htm ; trang chủ đề: https://tuoitre.vn/nang-nguong-chiu-thue.html ; VOH: https://voh.com.vn/kinh-te/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dong-653439.html ; SGGP: https://www.sggp.org.vn/nang-nguong-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dongnam-post850439.html ; PLO: https://plo.vn/chinh-thuc-nang-nguong-doanh-thu-chiu-thue-voi-ca-nhan-ho-kinh-doanh-len-1-ti-dongnam-post906478.html ; Tạp chí Công Thương: https://tapchicongthuong.vn/chinh-thuc--nang-nguong-chiu-thue-voi-ho-kinh-doanh-len-1-ty-dong-nam--ap-dung-tu-1-1-2026-514336.htm
 - [S23] Sapo, "Hoá đơn khởi tạo từ máy tính tiền là gì? Ai bắt buộc dùng từ 1/6/2025?": https://www.sapo.vn/blog/hoa-don-khoi-tao-tu-may-tinh-tien ; Sapo FAQ NĐ 70/2025: https://www.sapo.vn/blog/giai-dap-chi-tiet-nd70-2025-nd-cp-phan-2
 - [S24] Thư viện Pháp luật, "Hộ kinh doanh có doanh thu 1 tỷ trở lên phải áp dụng HĐĐT?": https://thuvienphapluat.vn/hoi-dap-phap-luat/ho-kinh-doanh-co-doanh-thu-1-ty-dong-tro-len-phai-ap-dung-hoa-don-dien-tu-dung-khong-138082541.html ; Thời báo Tài chính Việt Nam: https://thoibaotaichinhvietnam.vn/ho-ca-nhan-kinh-doanh-chu-dong-ra-soat-doanh-thu-ap-dung-hoa-don-dien-tu-tu-may-tinh-tien-175242.html
 - [S25] VnEconomy, "Hộ kinh doanh có doanh thu dưới 1 tỷ đồng chưa bắt buộc dùng hoá đơn điện tử": https://vneconomy.vn/ho-kinh-doanh-co-doanh-thu-duoi-1-ty-dong-chua-bat-buoc-dung-hoa-don-dien-tu.htm ; VOV2: https://vov2.vov.vn/phap-luat/tu-2026-ho-kinh-doanh-doanh-thu-tren-1-ty-dong-phai-dung-hoa-don-dien-tu-58355.vov2
@@ -409,3 +413,11 @@ Câu nói mẫu (suy luận): *"KiotViet/Sapo giúp anh/chị tính tiền và t
 - [S63] Capterra, Easy Salon Software: https://www.capterra.com/p/183699/Easy-Salon-Software/ ; SaaSworthy: https://www.saasworthy.com/product/easy-salon
 - [S64] Brands Vietnam, "Bí quyết Marketing cho Spa hiệu quả và tiết kiệm": https://www.brandsvietnam.com/congdong/topic/25127-Bi-quyet-Marketing-cho-Spa-hieu-qua-va-tiet-kiem
 - [S65] TikTok for Business, "Salon advertising marketing guide": https://ads.tiktok.com/business/vi/guides/salon-advertising-marketing-guide ; Graphed, "Facebook Ads for Nail Techs": https://www.graphed.com/blog/facebook-ads-for-nail-techs
+- [S66] Cổng TTĐT Chính phủ (Xây dựng chính sách), toàn văn Nghị quyết 198/2025/QH15 (đăng 26/6/2025; đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/nghi-quyet-198-2025-qh15-ve-mot-so-co-che-chinh-sach-dac-biet-phat-trien-kinh-te-tu-nhan-119250517191622422.htm
+- [S67] Cổng TTĐT Chính phủ, "Từ tháng 1/2026: Người nộp thuế không phải nộp lệ phí môn bài" (Công văn 645/CT-CS; đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/tu-thang-1-2026-nguoi-nop-thue-khong-phai-nop-le-phi-mon-bai-119260126110926562.htm
+- [S68] Tuổi Trẻ, "Doanh nghiệp, hộ kinh doanh không phải khai, nộp phí môn bài từ 2026" (24/01/2026; đọc 25/11/2026): https://tuoitre.vn/doanh-nghiep-ho-kinh-doanh-khong-phai-khai-nop-phi-mon-bai-tu-2026-2026012417440004.htm
+- [S69] Cổng TTĐT Chính phủ, "Chính sách đặc thù xử lý nợ lệ phí môn bài và tiền chậm nộp" (23/11/2026; đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/chinh-sach-dac-thu-xu-ly-no-le-phi-mon-bai-va-tien-cham-nop-de-thao-go-kho-khan-cho-nguoi-nop-thue-119261123151934393.htm
+- [S70] Tuổi Trẻ, "Những điểm mới cần lưu ý về ngưỡng, cách tính thuế thu nhập cá nhân với hộ kinh doanh" (11/12/2025; đọc 25/11/2026): https://tuoitre.vn/nhung-diem-moi-can-luu-y-ve-nguong-cach-tinh-thue-thu-nhap-ca-nhan-voi-ho-kinh-doanh-20251211175443712.htm
+- [S71] Cổng TTĐT Chính phủ, toàn văn Nghị định 68/2026/NĐ-CP (đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/toan-van-nghi-dinh-68-2026-nd-cp-quy-dinh-ve-chinh-sach-thue-quan-ly-thue-voi-ho-kinh-doanh-119260306102906789.htm ; "Nội dung mới của Nghị định 68/2026/NĐ-CP và Thông tư 18/2026/TT-BTC": https://xaydungchinhsach.chinhphu.vn/noi-dung-moi-cua-nghi-dinh-68-2026-nd-cp-va-thong-tu-18-2026-tt-btc-nguoi-nop-thue-can-luu-y-119260312140920747.htm
+- [S72] Cổng TTĐT Chính phủ, "Nghị định 70/2025/NĐ-CP sửa đổi, bổ sung quy định về hóa đơn, chứng từ" (đọc 25/11/2026): https://xaydungchinhsach.chinhphu.vn/nghi-dinh-70-2025-nd-cp-sua-doi-bo-sung-quy-dinh-ve-hoa-don-chung-tu-11925032321512617.htm
+- [S73] Tuổi Trẻ, "Kiến nghị doanh thu 2-3 tỉ đồng/năm hộ kinh doanh mới phải kết nối máy tính tiền" (01/8/2025): https://tuoitre.vn/kien-nghi-doanh-thu-2-3-ti-dong-nam-ho-kinh-doanh-moi-phai-ket-noi-may-tinh-tien-20250801135102379.htm ; "Hộ kinh doanh chuyển đổi số bắt buộc: Bỏ thuế khoán, giúp làm quen máy tính tiền" (25/5/2025): https://tuoitre.vn/ho-kinh-doanh-chuyen-doi-so-bat-buoc-bo-thue-khoan-giup-lam-quen-may-tinh-tien-20250525091149628.htm

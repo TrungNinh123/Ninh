@@ -128,13 +128,16 @@ Chủ salon ở Anh coi giữ thợ là việc khó nhất: 48% chọn quản l�
 ## D6. Pháp lý và thuế 2026 (luôn kèm câu "xác nhận lại với cán bộ thuế hoặc kế toán")
 
 ### Thuế khoán còn không?
-Không. Thuế khoán bị bỏ từ 01/01/2026 theo Nghị quyết 198/2025/QH15. Hộ kinh doanh tự kê khai.
+Không. Thuế khoán bị bỏ từ 01/01/2026 theo khoản 6 Điều 10 Nghị quyết 198/2025/QH15 (đã đối chiếu toàn văn trên Cổng TTĐT Chính phủ). Hộ kinh doanh tự kê khai. Anh/chị nên xác nhận lại với cán bộ thuế hoặc kế toán.
+
+### Năm 2026 còn phải nộp lệ phí môn bài không?
+Không. Lệ phí môn bài chấm dứt từ 01/01/2026 (khoản 7 Điều 10 Nghị quyết 198/2025/QH15). Cục Thuế có Công văn 645/CT-CS (23/01/2026) hướng dẫn: từ năm 2026 không phải nộp lệ phí môn bài và không phải nộp tờ khai môn bài. Tiền môn bài năm 2025 trở về trước nếu còn nợ thì vẫn phải nộp. Anh/chị nên xác nhận lại với cán bộ thuế hoặc kế toán.
 
 ### Doanh thu bao nhiêu thì không phải nộp thuế?
-Theo nhiều báo lớn, ngưỡng là **1 tỷ đồng/năm**, áp dụng từ 1/1/2026 (Nghị định 141/2026 sửa Nghị định 68/2026). Team chưa đọc được văn bản gốc, nên luôn khuyên tiệm xác nhận lại.
+Ngưỡng là **1 tỷ đồng/năm**. Nghị định 141/2026/NĐ-CP (ban hành 29/4/2026, sửa Nghị định 68/2026) có hiệu lực từ 01/01/2026: hộ kinh doanh có doanh thu năm từ 1 tỷ trở xuống không phải nộp thuế GTGT và TNCN, nhưng vẫn phải thông báo doanh thu với cơ quan thuế. Hộ đã lỡ nộp thuế năm 2026 mà doanh thu không quá 1 tỷ thì được bù trừ hoặc hoàn. Team đã đối chiếu với toàn văn trên Cổng TTĐT Chính phủ và báo Tuổi Trẻ, nhưng vẫn luôn khuyên tiệm xác nhận lại với cán bộ thuế hoặc kế toán.
 
 ### Có phải dùng hoá đơn điện tử không?
-Hộ kinh doanh có doanh thu trên 1 tỷ/năm phải dùng hoá đơn điện tử (Nghị định 70/2025, hiệu lực 1/6/2025). Mốc ngưỡng nên kiểm tra lại.
+Hộ kinh doanh có doanh thu **trên 1 tỷ/năm** phải dùng hoá đơn điện tử có mã của cơ quan thuế hoặc hoá đơn khởi tạo từ máy tính tiền (Nghị định 141/2026). Hộ từ 1 tỷ trở xuống chưa bắt buộc, nhưng được đăng ký dùng nếu muốn. Hộ đang dưới ngưỡng mà trong năm vượt 1 tỷ thì phải đăng ký trong 30 ngày. Trước đó, từ 1/6/2025, Nghị định 70/2025 đã bắt hộ có doanh thu từ 1 tỷ/năm trở lên dùng hoá đơn khởi tạo từ máy tính tiền. Anh/chị nên xác nhận lại với cán bộ thuế hoặc kế toán.
 
 ### Mở tiệm nail có cần giấy phép riêng không?
 Chưa xác minh. Cơ bản là đăng ký hộ kinh doanh. Phòng cháy chữa cháy theo Nghị định 105/2025 áp dụng cho cơ sở dịch vụ từ 100 m²; chưa xác minh có sửa đổi mới không.

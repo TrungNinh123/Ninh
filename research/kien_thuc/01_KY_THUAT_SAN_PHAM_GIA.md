@@ -16,7 +16,7 @@
 | Tháo gel có hại móng không? | Tháo đúng cách (ủ acetone, chỉ ngâm đầu ngón) thì ít hại. Hại chủ yếu do **cạy/bóc** hoặc **mài quá tay**. | [S1][S5] |
 | Đèn UV có gây ung thư không? | Chưa có nghiên cứu dài hạn lớn nào kết luận như vậy. Một nghiên cứu năm 2023 cho thấy tế bào bị tổn hại trong phòng thí nghiệm. AAD khuyên thoa kem chống nắng SPF 30+ hoặc đeo găng hở ngón. | [S15][S1] |
 | Dị ứng gel là gì? | Dị ứng (meth)acrylate/HEMA, nguy cơ tăng khi **gel chưa khô hết (under-cure)** hoặc khi gel dính vào da. Dị ứng có thể kéo dài suốt đời. | [S14][S11] |
-| Giá sơn gel ở TP.HCM? | Bình dân khoảng **60.000–130.000đ/bộ**, trung cấp khoảng **100.000–150.000đ/bộ**. Xem chi tiết ở mục 4. | [S28][S25][S30][S32] |
+| Giá sơn gel ở TP.HCM? | Bình dân khoảng **50.000–100.000đ/bộ**, trung cấp khoảng **100.000–150.000đ/bộ** (ví dụ Nzim Beauty Q3 100.000–130.000đ, Thuỳ Thỏ Nail Q1 trên Fresha 130.000đ; đọc lại trang gốc 25/11/2026). Xem chi tiết ở mục 4. | [S28][S25][S30][S32][S45] |
 | Bảo hành bao lâu là hợp lý? | Nhiều tiệm ở TP.HCM bảo hành **3–7 ngày**, chỉ cho lỗi kỹ thuật. | [S38] |
 
 ---
@@ -38,7 +38,7 @@
 | **Úp móng (gel tip mềm)** | Soft gel tips / full-cover tips (ví dụ Gel-X của Aprés) | Móng úp phủ toàn bộ mặt móng, làm bằng gel mềm, dán bằng gel rồi chiếu đèn | 2–4 tuần. Aprés công bố bám "3+ tuần" | Mài lớp ngoài rồi ủ acetone khoảng 10–15 phút. **Không giật hay bóc** | Thấp–trung bình nếu tháo đúng cách | [S10] |
 | **Móng giả dán sẵn** | Press-on nails | Móng làm sẵn, dán bằng keo hoặc miếng dán | **Chưa xác minh** (rất khác nhau tùy loại keo) | Ngâm nước ấm hoặc dầu rồi gỡ nhẹ (**chưa xác minh**) | Thấp nếu gỡ đúng (**chưa xác minh**) | — |
 
-**Lưu ý thuật ngữ ở VN (chưa xác minh, theo cách dùng phổ biến):** "úp móng" ở nhiều tiệm vừa chỉ móng úp gel mềm, vừa chỉ móng giả dán keo. Một bảng giá ở Quận 3 tách riêng "ốp móng giả keo" và "ốp móng giả base (có thể fill lại)" [S25]. Khi tư vấn nên hỏi lại khách muốn loại nào.
+**Lưu ý thuật ngữ ở VN (chưa xác minh, theo cách dùng phổ biến):** "úp móng" ở nhiều tiệm vừa chỉ móng úp gel mềm, vừa chỉ móng giả dán keo. Bảng giá Nzim Beauty ở Quận 3 tách riêng "ốp móng giả keo" và "ốp móng giả base (có thể fill lại)" [S25]. Khi tư vấn nên hỏi lại khách muốn loại nào.
 
 ### 1.2 Quy trình chuẩn của sơn gel (tham khảo hướng dẫn hãng)
 
@@ -52,7 +52,7 @@
 | 6 | Top: phủ kín cả mép tự do (cap the free edge), chiếu đèn, lau lớp dính nếu là loại phải lau | **Chưa xác minh** bước bọc mép theo hãng cụ thể |
 | 7 | Dưỡng dầu cuticle | Dầu dưỡng giúp gel bền hơn [S10][S22] |
 
-**Thời gian thực hiện (tham khảo):** sơn gel khoảng **55 phút** theo một tiệm ở Quận 1 trên Fresha [S30]. Nối móng gel kèm sơn gel khoảng **1 giờ 30 phút** theo một tiệm ở Hà Nội [S37]. Thời gian các dịch vụ khác **chưa xác minh**. Theo kinh nghiệm nghề: đắp gel hoặc acrylic khoảng 60–120 phút, nail art phức tạp mất thêm thời gian.
+**Thời gian thực hiện (tham khảo):** sơn gel tay khoảng **1 giờ**, sơn gel chân khoảng **55 phút** theo Thuỳ Thỏ Nail Q1 trên Fresha (đọc lại 25/11/2026) [S30][S31]. Gel cứng móng (BIAB) khoảng **1 giờ 30 phút** theo một tiệm ở Hà Nội trên Fresha [S37]. Thời gian các dịch vụ khác **chưa xác minh**. Theo kinh nghiệm nghề: đắp gel hoặc acrylic khoảng 60–120 phút, nail art phức tạp mất thêm thời gian.
 
 ### 1.3 Ai hợp với dịch vụ nào (tư vấn nhanh)
 
@@ -69,7 +69,7 @@
 
 | Kiểu (VN) | Tiếng Anh | Mô tả | Lưu ý kỹ thuật | Nguồn |
 |---|---|---|---|---|
-| Vẽ móng | Hand-painted nail art | Vẽ tay bằng gel hoặc màu nước | Thường tính giá theo ngón hoặc theo độ khó (**chưa xác minh** giá) | — |
+| Vẽ móng | Hand-painted nail art | Vẽ tay bằng gel hoặc màu nước | Thường tính giá theo ngón hoặc theo độ khó. Ví dụ Nzim Beauty Q3: vẽ đơn giản 5.000–30.000đ/ngón, vẽ cầu kỳ 35.000–150.000đ/ngón (đọc lại 25/11/2026) | [S25] |
 | Đầu móng kiểu Pháp | French tip / micro-French | Viền trắng hoặc màu ở đầu móng; năm 2025 nổi bản viền siêu mảnh | — | [S41 glamour] |
 | Loang màu | Ombré / gradient | Chuyển màu, làm bằng mút hoặc cọ | Kiểu Hàn "blush nails": loang mềm ở giữa móng | [S41 newbeauty] |
 | Mắt mèo | Cat-eye / magnetic gel | Gel có hạt kim loại, dùng nam châm kéo thành vệt sáng | 2026: vệt "velvet" mềm, vệt chéo, "magnetic line" | [S41 glamour][S41 Pure Nails] |
@@ -132,31 +132,45 @@
 
 ## 4. Giá bán lẻ tại TP.HCM (2025–2026)
 
-> **Cảnh báo:** đa số số liệu lấy từ bài toplist/mytour, tin rao hoặc Fresha. Nhiều nguồn **không ghi ngày** hoặc là nội dung cũ (bài mytour bản tiếng Anh dùng nội dung 2022–2023). Chỉ dùng làm khoảng tham khảo, **không** dùng làm giá niêm yết. Cách phân khúc dưới đây là do Nailmark tự xếp theo mức giá quan sát được.
+> **Cảnh báo:** số liệu lấy từ bài toplist/mytour, tin rao hoặc Fresha. Đây là bài tổng hợp hoặc bảng giá do tiệm tự đăng, **không** phải khảo sát thị trường. Chỉ dùng làm khoảng tham khảo, **không** dùng làm giá niêm yết. Cách phân khúc dưới đây là do Nailmark tự xếp theo mức giá quan sát được.
+>
+> **Kiểm tra lại ngày 25/11/2026:** đã mở trực tiếp các trang toplist, mytour, vietcetera, fresha và vnexpress được dẫn bên dưới. Mỗi dòng ghi rõ: **"đã đọc trang gốc (ngày đọc 25/11/2026)"**, **"không còn trên trang"** (giá cũ không còn thấy trên trang lúc đọc), hoặc **"chưa đọc lại"** (nguồn chotot, chogia, local-insider, WhatClinic, Lemon8 không mở được trong lần kiểm tra này, giữ nguyên trạng thái cũ). Ngày đăng/cập nhật của từng bài ghi ở danh sách nguồn.
 
 ### 4.1 Bảng giá theo dịch vụ
 
 | Dịch vụ | Bình dân | Trung cấp | Cao cấp / spa | Nguồn |
 |---|---|---|---|---|
-| **Sơn gel (1 bộ tay)** | Cắt da + sơn gel **60.000đ** (tin rao Q6); khoảng 50.000–100.000đ (bài tổng hợp) | **100.000đ** (1 màu) / **120.000đ** (từ 2 màu) ở một tiệm Q3; **120.000đ** (Thuỳ Thỏ Nail Q1, Fresha); 130.000đ gel thạch (Nzim Beauty Q3); khoảng 100.000–150.000đ/bộ (mytour) | 150.000đ ở một salon Q1 (mytour); trung bình manicure trên Fresha TP.HCM khoảng **220.000đ** | [S28][S29][S25][S30][S32] |
-| **Sơn thường** | — | **80.000đ** (Thuỳ Thỏ Nail, Fresha) | — | [S30] |
-| **Đắp gel / gel bền** | — | Khoảng **250.000–400.000đ/bộ** (mytour) | **380.000đ** "gel nails" ở một salon Q1 (mytour) | [S32] |
-| **Nối móng (có đắp gel)** | — | **250.000đ** (Nzim Beauty Q3, Little Beauty Q3, Queen Nail); nối móng hoặc kim tuyến từ 250.000–300.000đ (mytour) | Gel-X đến **800.000đ** (Mornington Spa Q2, local-insider) | [S25][S26][S32][S33] |
-| **Fill gel / fill móng** | — | **200.000đ** (Nzim Beauty Q3) | — | [S25] |
-| **Úp móng / ốp móng giả** | Cắt da + úp móng + sơn gel **120.000đ** (tin rao Q6) | Ốp móng giả keo **100.000đ**; ốp móng giả base (fill lại được) **200.000đ** (Nzim Beauty Q3) | — | [S28][S25] |
-| **Nail art** | Giá sàn khoảng **25.000đ/ngón** (khảo sát Vietcetera) | Giá theo ngón cho mắt mèo, tráng gương, đính đá: **chưa xác minh** (không tìm được bảng giá công khai) | Trọn bộ có nail art trung bình khoảng **900.000đ** ở Cosie Nails Town (Lemon8, **UGC, chưa xác minh**) | [S27][S35] |
-| **Trọn bộ hai tay (tổng hóa đơn)** | Có voucher "full tay 90.000đ" | Trung bình **250.000–400.000đ** (Vietcetera); combo 200.000–500.000đ (chogia) | — | [S27][S29] |
-| **Nhặt da / cắt da** | **15.000đ** (tin rao Q6); 30.000đ (một tiệm) | 40.000đ/tay hoặc chân khi làm kèm sơn; 80.000đ khi chỉ làm riêng (một tiệm Q3) | — | [S28][S25] |
-| **Chăm sóc chân (pedicure)** | — | Fresha TP.HCM: thường **130.000–390.000đ** | Khách sạn 5 sao (Four Seasons Hội An, không phải TP.HCM): pedicure 60 phút **1.700.000đ** | [S31][S39] |
-| **Chà gót** | — | **149.000–199.000đ** tùy tình trạng gót (NailHouse Q5, bài tổng hợp); một spa gót khoảng 200.000đ/30 phút (VnExpress, **bài cũ**) | — | [S36] |
-| **Tháo gel** | **30.000đ** (Thuỳ Thỏ Nail, Fresha); 30.000đ/tay hoặc chân (một tiệm Q3) | Phá gel cứng hoặc bột cũ (khó): **65.000đ** (một tiệm Q3) | — | [S30][S25] |
-| **Manicure spa** | — | Q Spa & Salon Q1: manicure từ **160.000đ** | Spa manicure từ **310.000đ** (WhatClinic) | [S34] |
+| **Sơn gel (1 bộ tay)** | Cắt da + sơn gel **60.000đ** (tin rao Q6, chưa đọc lại); sơn gel **từ 49.000đ** ở Tiệm làm đẹp Cô Tấm Q1 (toplist Q1, đã đọc trang gốc (ngày đọc 25/11/2026)) | Nzim Beauty Q3: sơn gel 1 màu **100.000đ**, từ 2 màu **120.000đ**, gel thạch **130.000đ**; Little Beauty Q3: **120.000đ**, trên 3 màu cộng **10.000đ/màu** (toplist Q3, đã đọc trang gốc (ngày đọc 25/11/2026)). Thuỳ Thỏ Nail Q1 trên Fresha: **130.000đ** (trước ghi 120.000đ, nay đã đổi), gel thạch 150.000đ (đã đọc trang gốc (ngày đọc 25/11/2026)). Khoảng **100.000–150.000đ/bộ** (mytour EN, đã đọc trang gốc (ngày đọc 25/11/2026), bài 2024) | Mức "150.000đ ở một salon Q1" (mytour EN): **không còn trên trang**. Mức "trung bình manicure trên Fresha TP.HCM khoảng 220.000đ": **không còn trên trang**; hiện trang Fresha chỉ còn 2 tiệm, ví dụ CELE'B Spa (Q1) manicure **250.000đ** (đã đọc trang gốc (ngày đọc 25/11/2026)) | [S25][S28][S30][S32] |
+| **Sơn thường** | — | Thuỳ Thỏ Nail Q1 trên Fresha: **100.000đ** ("regular paint"; trước ghi 80.000đ, nay đã đổi) (đã đọc trang gốc (ngày đọc 25/11/2026)) | — | [S30] |
+| **Sơn cứng móng (base cứng)** | **50.000đ/bộ** (Nzim Beauty Q3) (đã đọc trang gốc (ngày đọc 25/11/2026)) | — | — | [S25] |
+| **Đắp gel / gel bền** | — | Khoảng **250.000–400.000đ/bộ** (mytour EN, đã đọc trang gốc (ngày đọc 25/11/2026), bài 2024); BIAB **200.000–250.000đ** (Lina Beauty Room Q3, toplist Q3, đã đọc trang gốc (ngày đọc 25/11/2026)); BIAB **270.000đ** (Thuỳ Thỏ Nail, Fresha, đã đọc trang gốc (ngày đọc 25/11/2026)) | Mức "380.000đ gel nails ở một salon Q1" (mytour EN): **không còn trên trang** | [S25][S30][S32] |
+| **Nối móng (có đắp gel)** | — | **250.000đ** ở Nzim Beauty Q3 và Little Beauty Q3 (toplist Q3) và Queen Nail (toplist nối móng) (đều đã đọc trang gốc (ngày đọc 25/11/2026)); nối móng hoặc thêm kim tuyến **250.000–300.000đ** (mytour EN, đã đọc trang gốc (ngày đọc 25/11/2026), bài 2024) | Gel-X đến **800.000đ** ở Mornington Spa (local-insider, chưa đọc lại). Trên Fresha (đã đọc trang gốc (ngày đọc 25/11/2026)) Mornington Spa (phường An Khánh) ghi "Hard Gel Full Set (trên 5mm)" **850.000đ** | [S25][S26][S32][S33][S30] |
+| **Fill gel / fill móng** | — | **200.000đ** (Nzim Beauty Q3) (đã đọc trang gốc (ngày đọc 25/11/2026)) | — | [S25] |
+| **Úp móng / ốp móng giả** | Cắt da + úp móng + sơn gel **120.000đ** (tin rao Q6, chưa đọc lại) | Nzim Beauty Q3: ốp móng giả keo **100.000đ**, ốp móng giả base (fill lại được) **200.000đ**; Sun Nail Room Q3: úp móng keo 120.000đ, úp móng gel 160.000đ (đã đọc trang gốc (ngày đọc 25/11/2026)) | — | [S28][S25] |
+| **Nail art** | Giá sàn khoảng **25.000đ/ngón** (khảo sát Vietcetera, đã đọc trang gốc (ngày đọc 25/11/2026), **bài đăng 24/7/2022**) | Nzim Beauty Q3 (đã đọc trang gốc (ngày đọc 25/11/2026)): mắt mèo thường **15.000đ/ngón**, mắt mèo kim cương **20.000đ/ngón**, nhũ flash **25.000đ/ngón**, vẽ đơn giản **5.000–30.000đ/ngón**, vẽ cầu kỳ **35.000–150.000đ/ngón**, hạt/đá nhỏ **5.000–20.000đ/viên**, charm 10.000–50.000đ. Lina Beauty Room Q3: tráng gương và mắt mèo **10.000–15.000đ/ngón** (đã đọc trang gốc (ngày đọc 25/11/2026)) | Trọn bộ có nail art trung bình khoảng **900.000đ** ở Cosie Nails Town (Lemon8, **UGC, chưa xác minh**, chưa đọc lại) | [S27][S25][S35] |
+| **Trọn bộ hai tay (tổng hóa đơn)** | Có voucher "full tay 90.000đ" (Vietcetera, đã đọc trang gốc (ngày đọc 25/11/2026), bài 2022) | Trung bình **250.000–400.000đ** (Vietcetera, đã đọc trang gốc (ngày đọc 25/11/2026), bài 2022); combo 200.000–500.000đ (chogia, chưa đọc lại). Toplist Q3 (mục hỏi đáp, đã đọc trang gốc (ngày đọc 25/11/2026)): sơn thường hoặc gel đơn giản **100.000–200.000đ/bộ**, đắp bột/gel **250.000–500.000đ/bộ**, mẫu cầu kỳ **300.000–800.000đ/bộ** | — | [S27][S29][S25] |
+| **Nhặt da / cắt da** | **15.000đ** (tin rao Q6, chưa đọc lại); **30.000đ** cắt da tay (Little Beauty Q3, đã đọc trang gốc (ngày đọc 25/11/2026)) | Nzim Beauty Q3: **40.000đ**/tay hoặc chân khi làm kèm sơn, **80.000đ** khi chỉ làm riêng; Thuỳ Thỏ Nail Q1 (Fresha): **40.000đ** (đều đã đọc trang gốc (ngày đọc 25/11/2026)) | CELE'B Spa Q1 (Fresha): cắt da **100.000đ** (đã đọc trang gốc (ngày đọc 25/11/2026)) | [S28][S25][S30] |
+| **Chăm sóc chân (pedicure)** | — | Fresha TP.HCM: **130.000–390.000đ** (Thuỳ Thỏ Nail sơn chân gel 130.000đ; CELE'B Spa pedicure 390.000đ) (đã đọc trang gốc (ngày đọc 25/11/2026)) | Khách sạn 5 sao (Four Seasons Hội An, không phải TP.HCM): pedicure 60 phút **1.700.000đ** (chưa đọc lại) | [S31][S39] |
+| **Chà gót** | — | **149.000–199.000đ** tùy tình trạng gót (NailHouse Q5, toplist, đã đọc trang gốc (ngày đọc 25/11/2026)); spa gót khoảng **200.000đ/30 phút** (VnExpress, đã đọc trang gốc (ngày đọc 25/11/2026), **bài đăng 9/2/2006, rất cũ**) | — | [S36] |
+| **Tháo gel** | **30.000đ** (Thuỳ Thỏ Nail, Fresha); **30.000đ**/tay hoặc chân (Nzim Beauty Q3) (đều đã đọc trang gốc (ngày đọc 25/11/2026)) | Phá gel cứng hoặc bột cũ (khó): **65.000đ** (Nzim Beauty Q3, đã đọc trang gốc (ngày đọc 25/11/2026)) | Mornington Spa (Fresha): tháo gel **70.000đ** (đã đọc trang gốc (ngày đọc 25/11/2026)) | [S30][S25] |
+| **Manicure spa** | — | Q Spa & Salon Q1: manicure từ **160.000đ** (chưa đọc lại); CELE'B Spa Q1 (Fresha): manicure **250.000đ** (đã đọc trang gốc (ngày đọc 25/11/2026)) | Spa manicure từ **310.000đ** (WhatClinic, chưa đọc lại) | [S34][S30] |
 
-**Đối chiếu Hà Nội (không phải TP.HCM):** nối móng gel kèm sơn gel 400.000đ (khoảng 1 giờ 30 phút), đắp gel 220.000đ [S37].
+**Bảng giá mới hơn tìm được khi kiểm tra (toplist "Top 13 tiệm nail đẹp, uy tín TPHCM", tiêu đề ghi "Cập nhật mới nhất 2026", không ghi ngày cụ thể; đã đọc trang gốc (ngày đọc 25/11/2026)) [S45]:**
+
+| Tiệm | Sơn gel | Nối móng / đắp | Khác |
+|---|---|---|---|
+| Queen Nail | từ 120.000đ; ombre 2 màu từ 220.000đ | nối móng đắp gel/bột từ 250.000đ; nối móng lụa từ 400.000đ | cắt da + dũa từ 40.000đ; tráng gương khoảng 20.000đ/ngón |
+| De Nail | gel Hàn/Nhật từ 120.000đ; sơn thạch từ 130.000đ; mắt mèo từ 180.000đ | nối móng gel từ 250.000đ; nối móng úp từ 150.000đ | tháo gel từ 30.000đ; bảo hành 5 ngày |
+| A+ Nails Studio | từ 150.000đ; mắt mèo từ 170.000đ | nối móng từ 250.000đ; fill gel từ 200.000đ | phá gel từ 20.000đ/bộ; bảo hành 7 ngày |
+| Kolour de Beauty | khoảng 80.000–100.000đ | BIAB/đắp gel từ 200.000đ; nối móng từ 250.000đ | cắt da tay từ 30.000đ |
+| Nailtopia.magic | từ 100.000đ | đắp gel 300.000đ; nối móng bột 350.000đ | sơn cứng 40.000đ; vẽ gel 10.000–60.000đ/ngón |
+| Joli Beauty Room | combo nhặt da + cứng móng + sơn gel **129.000đ** | combo nhặt da + úp móng + sơn gel 229.000đ | combo mắt mèo 159.000đ |
+
+**Đối chiếu Hà Nội (không phải TP.HCM):** mức cũ "nối móng gel kèm sơn gel 400.000đ, đắp gel 220.000đ" **không còn trên trang** Fresha Hà Nội. Hiện trang ghi ví dụ: Tri-Angel Beauty Studio gel cứng móng (Builder Gel/BIAB) **350.000đ** (1 giờ 30 phút), gel pedicure 300.000đ; Lá Spa 65 nối móng + Shellac **825.000đ** (đã đọc trang gốc (ngày đọc 25/11/2026)) [S37].
 
 ### 4.2 Phí ẩn và cách tính giá khách hay thắc mắc
-- Nhiều tiệm **tính riêng sơn gel và sơn cứng móng (base cứng)**, nên tổng hóa đơn cao hơn giá quảng cáo [S27].
-- Có tiệm **tính thêm phí khi sơn trên 3 màu**, phí tháo móng cũ, phí đính đá [S25][S29].
+- Nhiều tiệm **tính riêng sơn gel và sơn cứng móng (base cứng)**, nên tổng hóa đơn cao hơn giá quảng cáo [S27]. Ví dụ trong bài Vietcetera (2022): gỡ móng cũ 30.000đ, làm cứng móng thêm 30.000đ, cắt da 60.000đ [S27].
+- Có tiệm **tính thêm phí khi sơn trên 3 màu** (Little Beauty Q3: +10.000đ/màu), phí tháo móng cũ, phí đính đá theo viên [S25][S29].
 - Gợi ý cho Nailmark (**khuyến nghị, chưa xác minh**): bảng giá rõ ràng nên ghi giá gồm hay chưa gồm nhặt da, tháo gel cũ, base cứng, và nail art tính theo ngón hay theo bộ.
 
 ---
@@ -290,20 +304,21 @@
 - [S44] Nail Knowledge (tiếng Việt) – sơn gel / xu hướng: https://nailknowledge.org/vi/tu-dien-thuat-ngu/son-gel ; https://nailknowledge.org/vi/?p=130731 ; Gel siro Daiso: https://unpa.me/vi-VN/community/beautytip/126737810
 
 **Giá tại VN**
-- [S25] Toplist – Tiệm nail Quận 3: https://toplist.vn/top-list/tiem-lam-nail-dep-va-chat-luong-nhat-quan-3-tp-hcm-36122.htm ; Mytour – Tiệm nail Quận 3: https://mytour.vn/vi/blog/xep-hang/top-9-tiem-nail-quan-3-dep-me-ly-dich-vu-tan-tam-and-gia-ca-phai-chang-mytour.html ; Toplist – Quận 1: https://toplist.vn/top-list/tiem-nail-dep-va-chat-luong-nhat-quan-1-tp-hcm-16773.htm (một số mức giá "một tiệm Q3" chưa xác định được chính xác thuộc tiệm nào)
-- [S26] Toplist – Dịch vụ nối móng đắp gel TPHCM: https://toplist.vn/top-list/dich-vu-noi-mong-dap-gel-chuyen-nghiep-nhat-tphcm-65108.htm
-- [S27] Vietcetera – Những bí mật tiệm nail không bao giờ tiết lộ: https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban
-- [S28] Chợ Tốt – tin rao dịch vụ nail Q6: https://www.chotot.com/dich-vu-quan-6-tp-ho-chi-minh/133597210.htm
-- [S29] Chogia – Bảng giá nail 2026: https://chogia.vn/bang-gia-nail-chuan-moi-nhat-45753/
-- [S30] Fresha – Manicures Hồ Chí Minh: https://www.fresha.com/lp/en/tt/manicures/in/vn-hồ-chí-minh ; https://www.fresha.com/lp/en/tt/manicures/in/vn-thành-phố-hồ-chí-minh
-- [S31] Fresha – Pedicures Hồ Chí Minh: https://www.fresha.com/lp/en/tt/pedicures/in/vn-hồ-chí-minh
-- [S32] Mytour (EN) – Nail prices & 26 salons HCMC: https://mytour.vn/en/blog/bai-viet/nail-prices-and-top-26-affordable-beautiful-and-popular-nail-salons-in-ho-chi-minh-city.html
-- [S33] Local Insider – Best nail salons HCMC: https://local-insider.com/post/best-nail-salons-in-ho-chi-minh-city/620e788499748eb364e6f5a9
-- [S34] WhatClinic – Manicure HCMC: https://www.whatclinic.com/beauty-salons/vietnam/ho-chi-minh-city/manicure
-- [S35] Lemon8 (UGC): https://www.lemon8-app.com/experience/vietnam-beauty-recommendations?region=sg
-- [S36] Toplist – Chà gót chân Quận 5: https://toplist.vn/top-list/dich-vu-cha-got-chan-tai-quan-5-tphcm-chuyen-nghiep-gia-tot-nhat-64113.htm ; VnExpress – Spa cho gót hồng (bài cũ): https://vnexpress.net/spa-cho-got-hong-2329454.html
-- [S37] Fresha – Gel nails Hà Nội: https://www.fresha.com/lp/en/tt/gel-nails/in/vn-hà-nội
-- [S38] Mytour – Tiêu chí tiệm nail đẹp HCM (bảo hành 3–7 ngày): https://mytour.vn/vi/blog/xep-hang/12-tiem-lam-nail-dep-va-chuyen-nghiep-nhat-tai-tphcm-mytour.html ; Toplist Top 13 TPHCM: https://toplist.vn/top-list/tiem-nail-dep-va-uy-tin-nhat-o-tp-ho-chi-minh-10433.htm
+- [S25] Toplist – Top 10 tiệm nail Quận 3 (không ghi ngày đăng; bảng giá từng tiệm ghi "năm 2026"; đọc lại 25/11/2026): https://toplist.vn/top-list/tiem-lam-nail-dep-va-chat-luong-nhat-quan-3-tp-hcm-36122.htm . Các mức trước đây ghi "một tiệm Q3" đều là của **Nzim Beauty Room** trong bài này. Mytour – Top 9 tiệm nail Quận 3 (đăng 01/03/2026, trang ghi "cập nhật gần nhất: 1/11/2026"; **không có bảng giá cụ thể**): https://mytour.vn/vi/blog/xep-hang/top-9-tiem-nail-quan-3-dep-me-ly-dich-vu-tan-tam-and-gia-ca-phai-chang-mytour.html ; Toplist – Tiệm nail Quận 1 (không ghi ngày, nội dung nhắc "năm 2026"; có giá sơn gel từ 49.000đ của Cô Tấm): https://toplist.vn/top-list/tiem-nail-dep-va-chat-luong-nhat-quan-1-tp-hcm-16773.htm
+- [S26] Toplist – Top 6 dịch vụ nối móng đắp gel TPHCM (không ghi ngày; đọc lại 25/11/2026, chỉ có giá Queen Nail 250.000đ): https://toplist.vn/top-list/dich-vu-noi-mong-dap-gel-chuyen-nghiep-nhat-tphcm-65108.htm
+- [S27] Vietcetera – Những bí mật tiệm nail không bao giờ tiết lộ (đăng **24/07/2022**, sửa 25/07/2022; đọc lại 25/11/2026): https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban
+- [S28] Chợ Tốt – tin rao dịch vụ nail Q6 (chưa đọc lại, trang không mở được trong lần kiểm tra 25/11/2026): https://www.chotot.com/dich-vu-quan-6-tp-ho-chi-minh/133597210.htm
+- [S29] Chogia – Bảng giá nail 2026 (chưa đọc lại, trang không mở được trong lần kiểm tra 25/11/2026): https://chogia.vn/bang-gia-nail-chuan-moi-nhat-45753/
+- [S30] Fresha – Manicures Hồ Chí Minh (trang danh sách, không có ngày; đọc lại 25/11/2026, chỉ còn 2 tiệm): https://www.fresha.com/lp/en/tt/manicures/in/vn-hồ-chí-minh ; link thứ hai nay chuyển hướng sang trang "Nail Salons in Thành phố Hồ Chí Minh": https://www.fresha.com/lp/en/tt/manicures/in/vn-thành-phố-hồ-chí-minh ; trang tiệm Thuỳ Thỏ Nail Q1 (bảng giá đầy đủ): https://www.fresha.com/a/thuy-tho-nail-quan-1-ho-chi-minh-218b-nguyen-cu-trinh-w3h29qp9
+- [S31] Fresha – Pedicures Hồ Chí Minh (đọc lại 25/11/2026): https://www.fresha.com/lp/en/tt/pedicures/in/vn-hồ-chí-minh
+- [S32] Mytour (EN) – Nail prices & 26 salons HCMC (đăng **25/02/2024**, sửa 11/06/2024; nội dung dẫn mẫu 2022–2023; đọc lại 25/11/2026): https://mytour.vn/en/blog/bai-viet/nail-prices-and-top-26-affordable-beautiful-and-popular-nail-salons-in-ho-chi-minh-city.html
+- [S33] Local Insider – Best nail salons HCMC (chưa đọc lại): https://local-insider.com/post/best-nail-salons-in-ho-chi-minh-city/620e788499748eb364e6f5a9
+- [S34] WhatClinic – Manicure HCMC (chưa đọc lại): https://www.whatclinic.com/beauty-salons/vietnam/ho-chi-minh-city/manicure
+- [S35] Lemon8 (UGC, chưa đọc lại): https://www.lemon8-app.com/experience/vietnam-beauty-recommendations?region=sg
+- [S36] Toplist – Chà gót chân Quận 5 (không ghi ngày; đọc lại 25/11/2026): https://toplist.vn/top-list/dich-vu-cha-got-chan-tai-quan-5-tphcm-chuyen-nghiep-gia-tot-nhat-64113.htm ; VnExpress – Spa cho gót hồng (đăng **9/2/2006**; đọc lại 25/11/2026): https://vnexpress.net/spa-cho-got-hong-2329454.html
+- [S37] Fresha – Gel nails Hà Nội (đọc lại 25/11/2026): https://www.fresha.com/lp/en/tt/gel-nails/in/vn-hà-nội
+- [S38] Mytour – 12 tiệm làm nail đẹp TPHCM (đăng 26/02/2026; có câu "nhiều tiệm nail tại TPHCM có chế độ bảo hành từ 3–7 ngày"; đọc lại 25/11/2026): https://mytour.vn/vi/blog/xep-hang/12-tiem-lam-nail-dep-va-chuyen-nghiep-nhat-tai-tphcm-mytour.html ; Toplist Top 13 TPHCM: https://toplist.vn/top-list/tiem-nail-dep-va-uy-tin-nhat-o-tp-ho-chi-minh-10433.htm
+- [S45] Toplist – Top 13 tiệm làm nail đẹp, uy tín TPHCM "[Cập nhật mới nhất 2026]" (không ghi ngày cụ thể; bảng giá từng tiệm; đọc lại 25/11/2026): https://toplist.vn/top-list/tiem-nail-dep-va-uy-tin-nhat-o-tp-ho-chi-minh-10433.htm
 - [S39] Four Seasons Hội An – Spa beauty: https://www.fourseasons.com/hoian/spa/beauty/
 
 **Xu hướng**
