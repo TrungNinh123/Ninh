@@ -1,336 +1,322 @@
 <title>Nailmark</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@600;700&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,600;0,700;1,600&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
 <style>
-/* VOICE occasion-meets-work: một tổ chức chuẩn hoá ngành, sang và tự tin
-   IDEA sơn mài Á Đông = nail lacquer: đỏ son, đen sơn, vàng thếp, khảm vỏ trứng; con dấu đỏ là "mark" của chuẩn
-   PICTURE quạt móng: 9 móng sơn xoè như quạt giấy, mở ra khi tải trang, con dấu Nailmark đóng ở góc
-   COLOUR đỏ son #a3161a làm nền hero, đen sơn #17100e, vàng thếp #c9a14a, vỏ trứng #f5eee3; màu móng phụ
-   TYPE Noto Serif Display 700 cho tiêu đề (có dấu tiếng Việt), Be Vietnam Pro cho chữ
-   LAYOUT laptop: hero đỏ son, chữ trái, quạt phải; phía dưới các dải vỏ trứng, đen sơn xen kẽ; điện thoại: chữ, quạt, nút */
-:root{color-scheme:light dark;--son:#a3161a;--son2:#7d0f13;--den:#17100e;--vang:#c9a14a;--trung:#f5eee3;
---bg:light-dark(#fbf7f1,#120c0b);--card:light-dark(#ffffff,#1d1513);--ink:light-dark(#1c1210,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e8dccd,#3a2c26);--accent:light-dark(#a3161a,#ff6b5e);--gold:light-dark(#9c7a2c,#d9b45e)}
+/* VOICE occasion: thương hiệu chuẩn mực cao cấp của ngành nail, ít chữ, nhiều ảnh, có chuyển động
+   IDEA sơn mài Á Đông = nail lacquer: đỏ son, đen sơn, vàng thếp, khảm vỏ trứng; con dấu đỏ là "mark"
+   PICTURE ảnh móng thật trong khung vòm, quạt móng, băng ảnh chạy, thẻ ảnh cho từng tiêu chuẩn
+   COLOUR đỏ son #a3161a, đen sơn #17100e, vàng thếp #c9a14a, vỏ trứng #f5eee3
+   TYPE Noto Serif Display cho tiêu đề, Be Vietnam Pro cho chữ
+   LAYOUT dải đỏ, dải ảnh chạy, dải vỏ trứng, dải đen xen kẽ; mỗi dải một bố cục riêng, chữ ngắn */
+:root{color-scheme:light dark;--son:#a3161a;--son2:#7d0f13;--den:#17100e;--den2:#211714;--vang:#c9a14a;--vang2:#e9c977;--trung:#f5eee3;
+--bg:light-dark(#fbf7f1,#120c0b);--card:light-dark(#ffffff,#1d1513);--ink:light-dark(#1c1210,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e8dccd,#3a2c26);--accent:light-dark(#a3161a,#ff6b5e);--gold:light-dark(#8f6d22,#d9b45e)}
 :root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
 *{box-sizing:border-box;min-width:0}
-html{scroll-behavior:smooth}
-body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.65 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
-.band{padding-block:clamp(40px,6vw,88px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
-.in{max-width:1200px;margin:0 auto}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+img{display:block;max-width:100%}
+.band{padding-block:clamp(48px,7vw,104px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.in{max-width:1220px;margin:0 auto}
 h1,h2{font-family:"Noto Serif Display",Georgia,serif;font-weight:700;letter-spacing:-.015em;margin:0}
-h1{font-size:clamp(40px,6vw,74px);line-height:1.02}
-h2{font-size:clamp(30px,4vw,46px);line-height:1.08;margin-bottom:12px}
-h3{font-size:18px;line-height:1.3;margin:0 0 6px;font-weight:700}
-.lead{font-size:18px;max-width:60ch;margin:0;color:var(--mut)}
-.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:14px;font-weight:600;color:var(--gold);margin-bottom:14px}
-.eyebrow:before{content:"";width:26px;height:2px;background:currentColor}
-a{color:var(--accent)}.src{font-size:13px;color:var(--mut)}.src a{color:var(--mut)}
+h1{font-size:clamp(40px,5.8vw,76px);line-height:1.02}
+h2{font-size:clamp(32px,4.2vw,54px);line-height:1.05}
+h2 em{font-style:italic;font-weight:600}
+h3{font-size:18px;line-height:1.3;margin:0;font-weight:700}
+.nw{white-space:nowrap}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;letter-spacing:.04em;color:var(--gold);margin-bottom:14px}
+.eyebrow:before{content:"";width:26px;height:1.5px;background:currentColor}
+.lead{font-size:18px;color:var(--mut);margin:14px 0 0;max-width:46ch}
+.src{font-size:12px;color:var(--mut)}.src a{color:inherit}
+a{color:var(--accent)}
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:30px}
 
-/* HERO sơn mài */
-.hero{position:relative;background:radial-gradient(120% 90% at 85% 40%,#c0241f 0%,var(--son) 45%,var(--son2) 100%);color:var(--trung);overflow:hidden;margin-top:calc(-1*env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + 20px)}
-.hero .egg{position:absolute;inset:0;width:100%;height:100%;opacity:.13;pointer-events:none}
+/* thanh điều hướng dính */
+.nav{position:sticky;top:0;z-index:50;background:rgba(23,16,14,.86);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:var(--trung);padding:10px max(5vw,16px);padding-top:calc(env(safe-area-inset-top,0px) + 10px);border-bottom:1px solid rgba(201,161,74,.25)}
+.nav .in{display:flex;justify-content:space-between;align-items:center;gap:16px}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Noto Serif Display",serif;font-weight:700;font-size:22px;color:var(--trung);text-decoration:none}
+.links{display:flex;gap:22px;align-items:center}.links a{color:#e9dccb;text-decoration:none;font-size:14px}.links a:hover{color:var(--vang2)}
+.links .cta-s{background:var(--vang);color:var(--den);padding:8px 16px;border-radius:999px;font-weight:700}
+
+/* HERO */
+.hero{position:relative;background:radial-gradient(120% 90% at 80% 40%,#c0241f 0%,var(--son) 45%,var(--son2) 100%);color:var(--trung);overflow:hidden;padding-top:clamp(24px,4vw,48px);padding-bottom:0}
+.egg{position:absolute;inset:0;width:100%;height:100%;opacity:.13;pointer-events:none}
 .hero .in{position:relative}
-nav{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-.logo{display:flex;align-items:center;gap:10px;font-family:"Noto Serif Display",serif;font-weight:700;font-size:24px;letter-spacing:.01em}
-.logo svg{flex:none}
-nav .links{display:flex;flex-wrap:wrap;gap:6px 20px}nav .links a{color:inherit;text-decoration:none;font-size:15px;opacity:.9}nav .links a:hover{opacity:1;text-decoration:underline;text-underline-offset:4px}
-.hgrid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);grid-template-areas:"t f" "s f";gap:0 24px;align-items:center;padding-block:clamp(28px,5vw,64px) clamp(36px,5vw,72px)}
-.hero h1 em{font-style:normal;color:var(--vang)}
-.hero p.sub{font-size:19px;max-width:48ch;margin:18px 0 26px;color:#f7e6d6}
+.hgrid{display:grid;grid-template-columns:minmax(0,1.05fr) minmax(0,1fr);grid-template-areas:"t f" "s f";gap:0 32px;align-items:center;padding-bottom:clamp(36px,5vw,64px)}
+.hero p.sub{font-size:19px;max-width:40ch;margin:22px 0 28px;color:#f7e6d6}
 .btns{display:flex;flex-wrap:wrap;gap:12px}
-.btn{display:inline-flex;align-items:center;gap:8px;background:var(--vang);color:var(--den);border-radius:999px;padding:14px 24px;font-weight:700;text-decoration:none;transition:transform .2s,box-shadow .2s}
-.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.25)}
-.btn.ghost{background:transparent;color:var(--trung);border:1.5px solid rgba(245,238,227,.7)}
-.hphoto{position:relative;width:min(100%,440px);justify-self:center;margin-block:12px 28px}
+.btn{display:inline-flex;align-items:center;gap:8px;background:var(--vang);color:var(--den);border-radius:999px;padding:14px 26px;text-decoration:none;transition:transform .2s,box-shadow .2s;border:0;font:inherit;font-weight:700;cursor:pointer}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 24px rgba(0,0,0,.28)}
+.btn.ghost{background:transparent;color:var(--trung);border:1.5px solid rgba(245,238,227,.6)}
+.hphoto{position:relative;width:min(100%,440px);justify-self:center;margin-block:12px 30px}
 .arch{aspect-ratio:4/5;border-radius:999px 999px 28px 28px;overflow:hidden;border:5px solid var(--vang);box-shadow:0 30px 60px rgba(40,0,0,.45);background:#5a0b0e}
-.arch img{width:100%;height:100%;object-fit:cover;display:block;animation:zoom 9s ease-out both}
-@keyframes zoom{from{transform:scale(1.12)}}
+.arch img{width:100%;height:100%;object-fit:cover;animation:zoom 9s ease-out both}
+@keyframes zoom{from{transform:scale(1.14)}}
 .minifan{position:absolute;left:-22%;bottom:-10%;width:64%;aspect-ratio:600/520;filter:drop-shadow(0 12px 18px rgba(0,0,0,.35))}
 .minifan svg{width:100%;height:100%;overflow:visible}
-.hseal{position:absolute;right:-9%;top:6%;width:30%;animation:press .5s 1.05s cubic-bezier(.3,1.6,.5,1) both;filter:drop-shadow(0 8px 14px rgba(0,0,0,.35))}
 .tip{transform-box:view-box;transform-origin:300px 470px;animation:open 1.1s cubic-bezier(.2,.8,.2,1) both}
 @keyframes open{from{transform:rotate(0deg)}}
+.hseal{position:absolute;right:-9%;top:6%;width:30%;animation:press .55s 1.05s cubic-bezier(.3,1.6,.5,1) both;filter:drop-shadow(0 8px 14px rgba(0,0,0,.35))}
 @keyframes press{from{opacity:0;transform:scale(1.7) rotate(-16deg)}}
-.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:rgba(245,238,227,.25);border-top:1px solid rgba(245,238,227,.25)}
-.facts div{background:var(--son2);padding:16px 18px;font-size:14px;color:#f1d9c8}
-.facts b{display:block;font-family:"Noto Serif Display",serif;font-size:clamp(26px,3vw,36px);color:var(--trung);line-height:1.1}
+.facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid rgba(245,238,227,.25)}
+.facts div{padding:18px;font-size:13px;color:#f1d9c8;border-left:1px solid rgba(245,238,227,.18)}.facts div:first-child{border-left:0}
+.facts b{display:block;font-family:"Noto Serif Display",serif;font-size:clamp(28px,3.2vw,40px);color:var(--trung);line-height:1.1}
 
-/* Dải phát hiện */
-.leak{display:grid;grid-template-columns:minmax(0,.9fr) minmax(0,1.1fr);gap:48px;align-items:center}
-.r{display:grid;grid-template-columns:minmax(0,1fr) 3.6em;gap:6px 12px;align-items:center;padding:8px 0}
+/* băng ảnh chạy */
+.marq{background:var(--den);padding:22px 0;overflow:hidden}
+.track{display:flex;gap:14px;width:max-content;animation:slide 60s linear infinite}
+.track img{width:clamp(150px,15vw,200px);aspect-ratio:3/4;object-fit:cover;border-radius:999px 999px 14px 14px}
+.marq:hover .track{animation-play-state:paused}
+@keyframes slide{to{transform:translateX(-50%)}}
+.ticker{display:flex;gap:28px;width:max-content;margin-top:18px;color:var(--vang2);font-family:"Noto Serif Display",serif;font-size:20px;animation:slide 40s linear infinite reverse;white-space:nowrap}
+.ticker span:after{content:"◆";margin-left:28px;font-size:10px;vertical-align:middle;color:#d4382c}
+
+/* mất khách */
+.leak{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:56px;align-items:center}
+.leak .ph{position:relative}
+.leak .ph img{aspect-ratio:4/5;object-fit:cover;border-radius:999px 999px 24px 24px;width:100%}
+.leak .ph .badge{position:absolute;right:-18px;bottom:24px;background:var(--son);color:var(--trung);border-radius:18px;padding:16px 18px;box-shadow:0 16px 30px rgba(60,0,0,.3);font-size:14px}
+.leak .ph .badge b{display:block;font-family:"Noto Serif Display",serif;font-size:44px;line-height:1}
+.r{display:grid;grid-template-columns:minmax(0,1fr) 3.2em;gap:4px 12px;align-items:center;padding:7px 0}
 .r .n{grid-column:1/-1;font-size:15px}
-.track{height:18px;border-radius:3px 12px 12px 3px;background:var(--line);position:relative;overflow:hidden}
-.track i{position:absolute;inset:0 auto 0 0;border-radius:3px 12px 12px 3px;background:linear-gradient(90deg,var(--son2),var(--accent));box-shadow:inset 0 3px 0 rgba(255,255,255,.25)}
+.tr{height:16px;border-radius:3px 12px 12px 3px;background:var(--line);position:relative;overflow:hidden}
+.tr i{position:absolute;inset:0 auto 0 0;border-radius:3px 12px 12px 3px;background:linear-gradient(90deg,var(--son2),#d4382c);box-shadow:inset 0 3px 0 rgba(255,255,255,.25);transform-origin:left;animation:grow 1.4s cubic-bezier(.2,.8,.2,1) both}
+@keyframes grow{from{transform:scaleX(0)}}
 .r .v{font-family:"Noto Serif Display",serif;font-weight:700;font-size:20px;text-align:right;white-space:nowrap}
-.big-q{font-family:"Noto Serif Display",serif;font-size:clamp(28px,3.4vw,40px);line-height:1.15}
 
-/* Bộ ảnh */
-.gal{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:12px;margin:22px 0 10px}
-.gal figure{margin:0;position:relative;border-radius:18px 18px 10px 10px;overflow:hidden;height:clamp(240px,27vw,350px);background:var(--line)}
-.gal .g1{border-radius:999px 999px 16px 16px}
-.gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
-.gal figure:hover img{transform:scale(1.06)}
-.gal figcaption{position:absolute;inset:auto 0 0 0;padding:40px 12px 12px;background:linear-gradient(transparent,rgba(23,16,14,.88));color:#f5eee3;font-size:13px;line-height:1.4}
-.gal figcaption b{display:block;font-size:15px;color:#e9c977}
-/* Nỗi đau */
-.dark{background:var(--den);color:var(--trung)}
-.dark .lead{color:#cbbcab}.dark .src,.dark .src a{color:#a8998a}
-.pains{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:28px}
-.p{background:#211714;border:1px solid #3a2a24;border-radius:18px;padding:22px;display:flex;flex-direction:column;gap:8px;transition:transform .25s,border-color .25s}
-.p:hover{transform:translateY(-4px);border-color:var(--vang)}
-.p .ic{width:44px;height:44px}
-.p .stat{font-family:"Noto Serif Display",serif;font-size:42px;line-height:1;color:var(--vang)}
-.p .stat small{display:block;font-family:"Be Vietnam Pro",sans-serif;font-size:13px;color:#bba996;margin-top:6px}
-.p p{margin:0;font-size:15px;color:#e6d9ca}.p .fix{border-top:1px solid #3a2a24;padding-top:10px;margin-top:auto}.p .fix b{color:#ff8a7a}
+/* nỗi lo: thẻ ảnh */
+.dark{background:var(--den);color:var(--trung)}.dark .src{color:#a8998a}
+.pains{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pc{position:relative;border-radius:22px;overflow:hidden;min-height:340px;display:flex;flex-direction:column;justify-content:flex-end;padding:22px;color:var(--trung);isolation:isolate}
+.pc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s}
+.pc:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(23,16,14,.05) 20%,rgba(23,16,14,.92) 72%);z-index:-1}
+.pc:hover img{transform:scale(1.08)}
+.pc .stat{font-family:"Noto Serif Display",serif;font-size:56px;line-height:1;color:var(--vang2)}
+.pc .stat small{font-family:"Be Vietnam Pro",sans-serif;font-size:13px;color:#e6d6c2;margin-left:8px}
+.pc h3{font-size:21px;margin:6px 0 10px}
+.pc .fix{font-size:14px;color:#efe2d3;border-top:1px solid rgba(233,201,119,.35);padding-top:10px}
+.pc .fix b{color:var(--vang2);font-weight:600}
+.pc .src{margin-top:6px;color:#bfae9b}
+.why{margin-top:26px;display:flex;flex-wrap:wrap;gap:10px;align-items:center;color:#d9cbbb;font-size:15px}
+.why .chip{border:1px solid rgba(233,201,119,.4);border-radius:999px;padding:6px 14px;color:var(--trung)}
 
-/* Khách phàn nàn */
-.cmp{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
-.c{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
-.c svg{width:100%;height:110px;margin-bottom:10px}.c p{margin:0;font-size:15px}
-
-/* Tiêu chuẩn */
-.seal-head{display:grid;grid-template-columns:auto minmax(0,1fr);gap:28px;align-items:center}
-.seal-head svg{width:150px;height:150px}
-.std{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:14px;margin-top:30px}
-.s{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;display:flex;flex-direction:column;gap:8px;transition:transform .25s,box-shadow .25s}
-.s:hover{transform:translateY(-4px);box-shadow:0 12px 28px rgba(60,20,10,.12)}
-.nt{width:34px;height:46px;border-radius:17px 17px 6px 6px;display:grid;place-items:center;font-weight:700;color:#fff;box-shadow:inset 6px 0 0 rgba(255,255,255,.18)}
-.s .ev{font-size:14px;color:var(--mut);margin:0}.s .vn{font-size:14px;margin:0;border-top:1px dashed var(--line);padding-top:8px}.s .vn b{color:var(--accent)}
-details{margin-top:24px;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:6px 18px}
-details summary{cursor:pointer;font-weight:700;padding:10px 0}
+/* tiêu chuẩn: băng thẻ trượt */
+.tint{background:light-dark(#f3e9dc,#18100e)}
+.sealh{display:flex;gap:22px;align-items:center}.sealh svg{width:110px;height:110px;flex:none}
+.ctrl{display:flex;gap:8px}.ctrl button{width:48px;height:48px;border-radius:50%;border:1.5px solid var(--ink);background:transparent;color:var(--ink);font-size:20px;cursor:pointer;transition:background .2s,color .2s}
+.ctrl button:hover{background:var(--son);border-color:var(--son);color:#fff}
+.rail{display:grid;grid-auto-flow:column;grid-auto-columns:clamp(250px,26vw,300px);gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:14px;scrollbar-width:thin}
+.sc{scroll-snap-align:start;background:var(--card);border-radius:22px;overflow:hidden;border:1px solid var(--line);display:flex;flex-direction:column;transition:transform .3s,box-shadow .3s}
+.sc:hover{transform:translateY(-6px);box-shadow:0 18px 36px rgba(60,20,10,.16)}
+.sc .im{position:relative;aspect-ratio:4/5;overflow:hidden}.sc .im img{width:100%;height:100%;object-fit:cover;transition:transform .8s}.sc:hover .im img{transform:scale(1.06)}
+.sc .nt{position:absolute;left:14px;top:14px;width:36px;height:50px;border-radius:18px 18px 7px 7px;display:grid;place-items:center;font-weight:700;color:#fff;box-shadow:inset 7px 0 0 rgba(255,255,255,.2),0 6px 14px rgba(0,0,0,.3)}
+.sc .bd{padding:16px 18px 18px;display:flex;flex-direction:column;gap:6px}
+.sc .mod{font-size:13px;color:var(--gold);font-weight:600}
+.sc p{margin:0;font-size:14px;color:var(--mut)}
+details{margin-top:22px;border-top:1px solid var(--line);padding-top:6px}
+details summary{cursor:pointer;font-weight:700;padding:10px 0;color:var(--accent)}
 .rk{display:grid;grid-template-columns:minmax(0,12em) minmax(0,1fr) 2.6em;gap:10px;align-items:center;padding:5px 0;font-size:14px}
 .rk .bar{height:12px;border-radius:2px 8px 8px 2px}.b0{background:var(--accent)}.b1{background:#6b2a5c}.b2{background:#8a8f96}
 .key{display:flex;flex-wrap:wrap;gap:14px;font-size:13px;color:var(--mut)}.key i{display:inline-block;width:16px;height:9px;border-radius:2px 6px 6px 2px;margin-right:6px}
-.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;margin-top:10px}th,td{text-align:left;vertical-align:top;padding:8px;border-bottom:1px solid var(--line)}th{color:var(--mut);font-weight:600;font-size:13px}td.num{text-align:right;font-variant-numeric:tabular-nums;white-space:nowrap}
 
-/* Tự chấm */
-.quiz-band{background:linear-gradient(180deg,var(--bg),light-dark(#f3e6d6,#1a120f))}
-.quiz{display:grid;grid-template-columns:minmax(0,1.35fr) minmax(0,1fr);gap:28px;align-items:start;margin-top:22px}
-.q{display:flex;justify-content:space-between;gap:12px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line);font-size:15px;flex-wrap:wrap}
-.seg{display:flex;border:1px solid var(--line);border-radius:999px;overflow:hidden;flex:none;background:var(--card)}
-.seg button{font:inherit;font-size:14px;border:0;background:transparent;color:var(--ink);padding:8px 14px;min-height:42px;cursor:pointer;transition:background .2s}
-.seg button:hover{background:var(--line)}.seg button[aria-pressed=true]{background:var(--son);color:#fff}
-.res{position:sticky;top:16px;background:var(--den);color:var(--trung);border-radius:22px;padding:24px;overflow:hidden}
-.res .score{font-family:"Noto Serif Display",serif;font-size:76px;line-height:1}
-.res .m{color:#cbbcab;font-size:14px}
-.meter{height:18px;border-radius:3px 12px 12px 3px;background:#3a2a24;position:relative;margin:16px 0}
-.meter i{position:absolute;inset:0 auto 0 0;border-radius:3px 12px 12px 3px;background:linear-gradient(90deg,var(--son),#e0473b);transition:width .5s}
-.meter s{position:absolute;left:90%;top:-6px;bottom:-6px;border-left:2px dashed var(--vang)}
-.res .ok{position:absolute;right:-6px;top:-6px;width:120px;height:120px;opacity:0;transition:opacity .4s,transform .4s;transform:scale(1.4) rotate(-20deg)}
-.res .ok.on{opacity:1;transform:scale(1) rotate(-10deg)}
+/* tự chấm: từng câu một */
+.quiz{display:grid;grid-template-columns:minmax(0,.85fr) minmax(0,1.15fr);border-radius:28px;overflow:hidden;background:var(--den);color:var(--trung);box-shadow:0 30px 60px rgba(40,10,5,.25)}
+.quiz .qp{position:relative;min-height:400px}
+.quiz .qp img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.quiz .qp:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,transparent 40%,rgba(23,16,14,.9))}
+.quiz .qp .score{position:absolute;left:24px;bottom:22px;z-index:1;font-family:"Noto Serif Display",serif}
+.quiz .qp .score b{font-size:84px;line-height:1;display:block;text-shadow:0 4px 20px rgba(0,0,0,.4)}
+.quiz .qp .score span{font-family:"Be Vietnam Pro",sans-serif;font-size:14px;color:#f1e2cf}
+.quiz .ok{position:absolute;right:20px;top:20px;width:120px;z-index:1;opacity:0;transform:scale(1.5) rotate(-20deg);transition:opacity .4s,transform .45s cubic-bezier(.3,1.6,.5,1)}
+.quiz .ok.on{opacity:1;transform:scale(1) rotate(-10deg)}
+.qb{padding:clamp(24px,3.5vw,44px);display:flex;flex-direction:column;justify-content:center;gap:20px}
+.dots{display:flex;gap:8px}.dots i{width:16px;height:24px;border-radius:8px 8px 4px 4px;background:#3a2a24;transition:background .3s}.dots i.d1{background:#8a6a2a}.dots i.d2{background:var(--vang)}.dots i.now{outline:2px solid var(--vang2);outline-offset:2px}
+.qn{font-size:13px;color:var(--vang2);font-weight:600}
+.qt{font-family:"Noto Serif Display",serif;font-size:clamp(24px,2.6vw,32px);line-height:1.2;min-height:2.4em}
+.qh{font-size:14px;color:#c9b9a7;margin:0}
+.opts{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+.opts button{font:inherit;font-weight:600;padding:14px 8px;border-radius:14px;border:1.5px solid #4a3a32;background:#241915;color:var(--trung);cursor:pointer;transition:all .2s}
+.opts button:hover{border-color:var(--vang);transform:translateY(-2px)}
+.res{display:none;flex-direction:column;gap:12px}.res.on{display:flex}
+.res h3{font-family:"Noto Serif Display",serif;font-size:30px}
+.res ul{margin:0;padding-left:18px;color:#e7d8c6}
+.link{background:none;border:0;color:var(--vang2);font:inherit;text-decoration:underline;cursor:pointer;padding:0;align-self:flex-start}
 
-/* Cách làm, thư viện */
-.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:26px}
-.way{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px;display:flex;flex-direction:column;gap:10px;position:relative}
-.way.hi{background:var(--son);color:var(--trung);border-color:var(--son)}.way.hi .tag{color:var(--vang)}
-.way .tag{font-size:13px;font-weight:700;color:var(--accent)}.way ul{margin:0;padding-left:18px;font-size:15px}
-.lib{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:24px}
-.lib div{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:20px}.lib p{margin:0;font-size:15px}
-.cal{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:8px;margin-top:14px}
-.cal span{border-radius:14px 14px 6px 6px;padding:12px 6px 10px;font-size:12px;line-height:1.3;text-align:center;color:#fff;min-height:118px;display:flex;flex-direction:column;justify-content:space-between;box-shadow:inset 7px 0 0 rgba(255,255,255,.16)}
-.cal b{font-size:14px}
+/* cách làm */
+.ways{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.wc{position:relative;border-radius:24px;overflow:hidden;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end;padding:24px;color:var(--trung);isolation:isolate}
+.wc img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2;transition:transform .8s}.wc:hover img{transform:scale(1.06)}
+.wc:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent 30%,rgba(23,16,14,.9) 78%);z-index:-1}
+.wc.hi:after{background:linear-gradient(180deg,rgba(163,22,26,.1) 20%,rgba(125,15,19,.95) 75%)}
+.wc .tag{align-self:flex-start;background:var(--vang);color:var(--den);font-size:12px;font-weight:700;border-radius:999px;padding:4px 12px;margin-bottom:auto}
+.wc h3{font-family:"Noto Serif Display",serif;font-size:28px;margin:10px 0 8px}
+.wc ul{margin:0;padding-left:18px;font-size:14px;color:#efe2d3}
 
-/* Về */
-.about{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr);gap:40px;align-items:start}
-.about ol{margin:0;padding-left:20px}.about li{margin-bottom:8px}
-.story{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
-footer{background:var(--den);color:#cbbcab}footer .logo{color:var(--trung)}
+/* thư viện */
+.cal{display:grid;grid-template-columns:repeat(12,minmax(0,1fr));gap:8px;align-items:end}
+.cal span{border-radius:999px 999px 10px 10px;padding:16px 4px 10px;font-size:11px;line-height:1.3;text-align:center;color:#fff;display:flex;flex-direction:column;justify-content:flex-end;box-shadow:inset 7px 0 0 rgba(255,255,255,.16);transition:transform .3s}
+.cal span:hover{transform:translateY(-8px)}
+.cal b{font-size:14px;font-family:"Noto Serif Display",serif}
+.tpl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:28px}
+.tpl div{border:1px solid var(--line);border-radius:18px;padding:18px;background:var(--card)}
+.tpl b{display:block;font-size:13px;color:var(--gold);margin-bottom:6px}.tpl p{margin:0;font-size:15px}
 
-@media(max-width:1000px){.gal{grid-template-columns:repeat(6,minmax(0,1fr))}.gal figure{grid-column:span 2}.gal figure:nth-child(4),.gal figure:nth-child(5){grid-column:span 3}.std{grid-template-columns:repeat(2,minmax(0,1fr))}.pains{grid-template-columns:repeat(2,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}}
-@media(max-width:860px){.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.leak,.quiz,.about{grid-template-columns:1fr}.cmp,.ways,.lib{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.res{position:static}.hphoto{width:min(78%,360px)}}
-@media(max-width:600px){.gal{grid-template-columns:repeat(2,minmax(0,1fr))}.gal figure,.gal figure:nth-child(4),.gal figure:nth-child(5){grid-column:auto}.gal .g1{grid-column:1/-1;border-radius:24px 24px 12px 12px}.pains,.std{grid-template-columns:1fr}.seal-head{grid-template-columns:1fr}.seal-head svg{width:110px;height:110px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}nav .links a{font-size:14px}table{font-size:13px}.hide-s{display:none}}
-@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
+/* về */
+.about{position:relative;color:var(--trung);isolation:isolate;overflow:hidden}
+.about>img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:-2}
+.about:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(23,16,14,.95) 30%,rgba(23,16,14,.55));z-index:-1}
+.about .in{display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);gap:48px;align-items:center}
+.about p{color:#e3d4c2;font-size:18px;max-width:46ch}
+.pr{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.pr div{border:1px solid rgba(233,201,119,.35);border-radius:16px;padding:16px;font-size:14px;background:rgba(23,16,14,.5)}.pr b{display:block;color:var(--vang2);font-family:"Noto Serif Display",serif;font-size:26px;line-height:1;margin-bottom:6px}
+footer{background:var(--den);color:#bcae9f;text-align:center}
+footer .bigseal{width:120px;margin:0 auto 14px;display:block}
+footer .logo{justify-content:center;font-size:30px;margin-bottom:6px}
+footer p{font-size:13px;max-width:70ch;margin:8px auto 0}
+
+@media(max-width:1000px){.pains{grid-template-columns:repeat(2,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}.links a:not(.cta-s){display:none}}
+@media(max-width:860px){.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.hphoto{width:min(78%,360px)}.leak,.quiz,.about .in{grid-template-columns:1fr}.leak .ph{max-width:420px}.ways,.tpl{grid-template-columns:1fr}.wc{min-height:340px}.quiz .qp{min-height:300px}.quiz .qp:after{background:linear-gradient(180deg,transparent 40%,rgba(23,16,14,.9))}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.facts div:nth-child(3){border-left:0}}
+@media(max-width:600px){.pains{grid-template-columns:1fr}.pc{min-height:300px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}.pr{grid-template-columns:1fr}.leak .ph .badge{right:10px}.opts button{padding:12px 4px;font-size:14px}.sealh svg{width:80px;height:80px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
 </style>
 
-<section class="hero band" style="padding-bottom:0">
+<header class=nav><div class=in><a class=logo href="#top"><svg width=26 height=34 viewBox="0 0 30 38" aria-hidden=true><path d="M2 36V15C2 7 8 2 15 2s13 5 13 13v21Z" fill="#c4231f"/><path d="M6 33V16c0-5 4-9 9-9s9 4 9 9v17Z" fill="none" stroke="#f5eee3" stroke-width="1.4"/><text x="15" y="27" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="13" fill="#f5eee3">N</text></svg>Nailmark</a>
+<nav class=links><a href="#van-de">Vấn đề</a><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#lam-cung">Làm cùng</a><a href="#ve">Về Nailmark</a><a class=cta-s href="#tu-cham">Tự chấm điểm</a></nav></div></header>
+
+<section class="hero band" id=top>
 <svg class=egg id=egg aria-hidden=true></svg>
-<div class=in>
-<nav><div class=logo><svg width=30 height=38 viewBox="0 0 30 38" aria-hidden=true><path d="M2 36V15C2 7 8 2 15 2s13 5 13 13v21Z" fill="#f5eee3"/><path d="M6 33V16c0-5 4-9 9-9s9 4 9 9v17Z" fill="none" stroke="#a3161a" stroke-width="1.6"/><text x="15" y="27" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="13" fill="#a3161a">N</text></svg>Nailmark</div>
-<div class=links><a href="#van-de">Vấn đề</a><a href="#tieu-chuan">Tiêu chuẩn</a><a href="#tu-cham">Tự chấm điểm</a><a href="#lam-cung">Làm cùng</a><a href="#ve-chung-toi">Về chúng tôi</a></div></nav>
-<div class=hgrid>
-<div style="grid-area:t;align-self:end"><div class=eyebrow style="color:var(--vang)">Bộ tiêu chuẩn mở cho ngành nail</div>
-<h1>Chuẩn mực thế giới cho tiệm nail Á Đông</h1></div>
-<div style="grid-area:s;align-self:start"><p class=sub>Tay nghề tốt chưa đủ. Khách phải tìm thấy, đặt được và quay lại. Nailmark đúc kết từ 17 chuỗi nail ở 9 nước thành 8 tiêu chuẩn mà tiệm nhỏ làm theo được ngay.</p>
-<div class=btns><a class=btn href="#tu-cham">Tự chấm điểm tiệm · 2 phút</a><a class="btn ghost" href="#van-de">Tiệm nail đang mất khách ở đâu</a></div></div>
-<div class=hphoto style="grid-area:f"><div class=arch><img src="img/hero.jpg" alt="Bàn tay sơn gel đỏ son tại tiệm nail" width=900 height=1125></div><div class=minifan><svg id=fan viewBox="0 0 600 520" aria-hidden=true></svg></div><svg class=hseal id=hseal viewBox="0 0 160 160" aria-hidden=true></svg></div>
+<div class=in><div class=hgrid>
+<div style="grid-area:t;align-self:end"><div class=eyebrow style="color:var(--vang2)">Bộ tiêu chuẩn mở cho ngành nail</div>
+<h1>Chuẩn mực thế giới cho tiệm nail <span class=nw>Á Đông</span></h1></div>
+<div style="grid-area:s;align-self:start"><p class=sub>8 tiêu chuẩn đúc kết từ 17 chuỗi nail ở 9 nước. Tiệm nhỏ làm theo được ngay.</p>
+<div class=btns><a class=btn href="#tu-cham">Tự chấm điểm · 2 phút</a><a class="btn ghost" href="#tieu-chuan">Xem 8 tiêu chuẩn</a></div></div>
+<div class=hphoto style="grid-area:f"><div class=arch><img src="img/hero.jpg" alt="Bàn tay sơn gel đỏ son" width=900 height=1125></div><div class=minifan><svg id=fan viewBox="0 0 600 520" aria-hidden=true></svg></div><svg class=hseal id=hseal viewBox="0 0 160 160" aria-hidden=true></svg></div>
 </div></div>
-<div class=facts><div><b>17</b>chuỗi nail được chấm điểm</div><div><b>9</b>quốc gia</div><div><b>8</b>tiêu chuẩn</div><div><b>0 đ</b>tự chấm điểm và thư viện mẫu</div></div>
+<div class=facts><div><b>17</b>chuỗi nail được chấm</div><div><b>9</b>quốc gia</div><div><b>8</b>tiêu chuẩn</div><div><b>0 đ</b>tự chấm điểm</div></div>
 </section>
 
-<section class=band id=van-de><div class="in leak">
-<div><div class=eyebrow>Dữ liệu Nailmark · 25/11/2026</div>
-<p class=big-q>15 tiệm nail Quận 1 được khách chấm 4,8–5★, vẫn để mất khách ở 6 chỗ.</p>
-<p class=lead style="margin-top:14px">Khám 11 kênh của từng tiệm: Google Maps, website, Facebook, Instagram, TikTok, Zalo, đặt lịch… Tay nghề không phải vấn đề. Đường đi của khách mới là vấn đề.</p></div>
-<div id=leak></div>
-</div></section>
+<div class=marq aria-hidden=true><div class=track id=track></div><div class=ticker id=ticker></div></div>
 
-<section class="band" style="padding-top:0"><div class=in>
-<div class=eyebrow>Chuẩn mực trông như thế nào</div>
-<h2>Năm điều khách nhìn thấy ở một tiệm đạt chuẩn</h2>
-<div class=gal>
-<figure class=g1><img src="img/menu.jpg" alt="Bảng màu sơn xoè như quạt trên bàn tiệm" loading=lazy width=700 height=875><figcaption><b>Menu mẫu đánh số</b>Khách chọn màu và mẫu trước khi ngồi, giá trọn gói.</figcaption></figure>
-<figure><img src="img/vesinh.jpg" alt="Thợ đeo găng tay làm móng cho khách" loading=lazy width=700 height=875><figcaption><b>Vệ sinh thấy được</b>Găng tay, dụng cụ hấp và khui trước mặt khách.</figcaption></figure>
-<figure><img src="img/vangla.jpg" alt="Móng nail art vàng lá" loading=lazy width=700 height=875><figcaption><b>Mẫu của tháng</b>Vàng thếp cho Tết, bộ mẫu mới mỗi tháng.</figcaption></figure>
-<figure><img src="img/gel.jpg" alt="Bàn tay sơn đỏ bên đèn hơ gel" loading=lazy width=700 height=875><figcaption><b>Gel bền khí hậu nóng ẩm</b>Xử lý kỹ da quanh móng, hơ đúng đèn, bảo hành rõ.</figcaption></figure>
-<figure><img src="img/tho.jpg" alt="Thợ đang sơn móng màu nâu đỏ" loading=lazy width=700 height=875><figcaption><b>Thợ có tên tuổi</b>Video quy trình 15–30 giây ghi tên thợ và số mẫu.</figcaption></figure>
-</div>
-<p class=src>Ảnh: Pexels (giấy phép Pexels, dùng miễn phí), chỉ cắt khung, không chỉnh màu móng.</p>
+<section class=band id=van-de><div class="in leak">
+<div class=ph><img src="img/leak.jpg" alt="Bàn tay nail art đen trắng" loading=lazy width=700 height=875><div class=badge><b>15</b>tiệm 4,8–5★<br>Quận 1 được khám</div></div>
+<div><div class=eyebrow>Dữ liệu Nailmark · 25/11/2026</div>
+<h2>Tay nghề 5 sao, vẫn <em>mất khách</em> ở 6 chỗ</h2>
+<div id=leakbars style="margin-top:24px"></div>
+<p class=src>Số tiệm mắc lỗi trên 15 tiệm, khám 11 kênh mỗi tiệm.</p></div>
 </div></section>
 
 <section class="band dark"><div class=in>
-<div class=eyebrow>Chủ tiệm đang vướng gì</div>
-<h2>Sáu nỗi lo của chủ tiệm nail</h2>
-<p class=lead>Mỗi nỗi lo có số liệu, và một cách giải đã có sẵn trong bộ tiêu chuẩn.</p>
+<div class=head><div><div class=eyebrow>Chủ tiệm đang vướng gì</div><h2>Sáu nỗi lo, <em>sáu cách giải</em></h2></div></div>
 <div class=pains id=pains></div>
+<div class=why>Khách bỏ tiệm vì <span class=chip>Vệ sinh dụng cụ</span><span class=chip>Giá phát sinh</span><span class=chip>Làm không giống mẫu</span><span class=src>Nguồn: <a href="https://vnexpress.net/cac-benh-thuong-gap-khi-lam-mong-3276161.html" target=_blank rel=noopener>VnExpress</a>, <a href="https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban" target=_blank rel=noopener>Vietcetera</a></span></div>
 </div></section>
 
-<section class=band><div class=in>
-<div class=eyebrow>Nhìn từ phía khách</div>
-<h2>Ba lý do khách bỏ tiệm</h2>
-<div class=cmp id=cmp></div>
-</div></section>
-
-<section class="band" id=tieu-chuan style="background:light-dark(#f3e9dc,#18100e)"><div class=in>
-<div class=seal-head><svg viewBox="0 0 160 160" aria-hidden=true id=seal1></svg>
-<div><div class=eyebrow>Con dấu Đạt chuẩn Nailmark</div><h2>8 tiêu chuẩn, mỗi tiêu chuẩn có hình mẫu thật</h2>
-<p class=lead>Chọn từ 17 chuỗi ở 9 nước theo 5 tiêu chí đo được: doanh thu, số cửa hàng, hợp khách châu Á, hợp khí hậu Đông Nam Á, hiện diện số. Tiệm đạt đủ 8 tiêu chuẩn được đóng dấu.</p></div></div>
-<div class=std id=std></div>
-<details><summary>Xem bảng xếp hạng 17 chuỗi nail thế giới</summary>
+<section class="band tint" id=tieu-chuan><div class=in>
+<div class=head><div class=sealh><svg viewBox="0 0 160 160" id=seal1 aria-hidden=true></svg><div><div class=eyebrow>Con dấu Đạt chuẩn Nailmark</div><h2>8 tiêu chuẩn</h2></div></div>
+<div class=ctrl><button type=button id=prev aria-label="Lùi">←</button><button type=button id=next aria-label="Tới">→</button></div></div>
+<div class=rail id=rail></div>
+<details><summary>Cách chọn hình mẫu: 17 chuỗi, 9 nước, 5 tiêu chí</summary>
+<p class=src>Doanh thu · số cửa hàng · hợp khách châu Á · hợp khí hậu Đông Nam Á · hiện diện số, mỗi tiêu chí 20 điểm. FASTNAIL: ¥3,25 tỷ ≈ $22 triệu ≈ 560 tỷ đ (FY3/2026). Quy đổi tạm: 1 USD ≈ 150 yên ≈ 26.000 đ.</p>
 <div class=key><span><i class=b0></i>Đông Nam Á</span><span><i class=b1></i>Đông Á</span><span><i class=b2></i>Mỹ, Anh, Trung Đông</span></div>
-<div id=rank style="margin-top:10px"></div>
-<p class=src>Quy đổi tạm: 1 USD ≈ 150 yên ≈ 26.000 đ. Chuỗi nail lớn nhất thế giới có công bố số liệu chỉ thu vài chục triệu USD mỗi năm: ngành phân mảnh, chưa ai đủ lớn để làm chuẩn cho cả ngành.</p>
-<div class=scroll><table><thead><tr><th>Chuỗi</th><th>Nước</th><th class=hide-s>Doanh thu</th><th>Cửa hàng</th><th>Điểm</th></tr></thead><tbody id=tb></tbody></table></div>
-</details>
+<div id=rank style="margin-top:10px"></div></details>
 </div></section>
 
-<section class="band quiz-band" id=tu-cham><div class=in>
-<div class=eyebrow>Miễn phí · không cần để lại thông tin</div>
-<h2>Tiệm của bạn đang ở đâu?</h2>
-<p class=lead>8 câu, mỗi câu ứng với một tiêu chuẩn. Đạt từ 9 điểm là đạt chuẩn.</p>
-<div class=quiz><div id=qs></div>
-<div class=res><svg class=ok id=ok viewBox="0 0 160 160" aria-hidden=true></svg>
-<div class=m>Điểm của tiệm</div><div class=score id=score>0</div><div class=m>trên 10 · chuẩn từ 9</div>
-<div class=meter><i id=fill style="width:0"></i><s></s></div>
-<h3 id=verdict></h3><p id=next class=m style="margin:0"></p></div></div>
+<section class=band id=tu-cham><div class=in>
+<div class=head><div><div class=eyebrow>Miễn phí · 8 câu · không cần để lại thông tin</div><h2>Tiệm của bạn <em>đạt chuẩn</em> chưa?</h2></div></div>
+<div class=quiz>
+<div class=qp><img src="img/quiz.jpg" alt="Bàn tay sơn móng" loading=lazy width=600 height=750><svg class=ok id=ok viewBox="0 0 160 160" aria-hidden=true></svg><div class=score><b id=score>0,0</b><span>trên 10 · đạt chuẩn từ 9</span></div></div>
+<div class=qb>
+<div class=dots id=dots></div>
+<div id=ask><div class=qn id=qn></div><div class=qt id=qt></div><p class=qh id=qh></p></div>
+<div class=opts id=opts><button type=button data-v=0>Chưa</button><button type=button data-v=1>Một phần</button><button type=button data-v=2>Có</button></div>
+<div class=res id=res><h3 id=verdict></h3><p class=qh>Nên bắt đầu từ:</p><ul id=weak></ul><button type=button class=link id=again>Chấm lại</button></div>
+</div></div>
 </div></section>
 
-<section class=band id=lam-cung><div class=in>
-<div class=eyebrow>Làm cùng Nailmark</div>
-<h2>Ba cách, tuỳ thời gian của chủ tiệm</h2>
-<p class=lead>Gói được điều chỉnh theo nhu cầu từng tiệm, có lựa chọn trả theo số lịch hẹn mới.</p>
+<section class=band id=lam-cung style="padding-top:0"><div class=in>
+<div class=head><div><div class=eyebrow>Làm cùng Nailmark</div><h2>Ba cách, <em>tuỳ thời gian</em> của chủ tiệm</h2></div><p class=lead style="margin:0">Gói theo nhu cầu, có thể trả theo số lịch hẹn mới.</p></div>
 <div class=ways>
-<div class=way><span class=tag>Miễn phí</span><h3>Tự làm theo tiêu chuẩn</h3><ul><li>8 tiêu chuẩn và công cụ tự chấm điểm</li><li>Thư viện mẫu: menu, tin Zalo, trả lời đánh giá, lịch mẫu của tháng</li></ul></div>
-<div class="way hi"><span class=tag>Phổ biến nhất</span><h3>Làm sẵn, tiệm chỉ cần duyệt</h3><ul><li>Bản khám 11 kênh có bằng chứng</li><li>Trang đặt lịch, lookbook đánh số, lưới Instagram</li><li>Video ngắn từ clip điện thoại của tiệm</li><li>Báo cáo số lịch hẹn theo kênh</li></ul></div>
-<div class=way><span class=tag>Cho tiệm muốn tự chủ</span><h3>Đào tạo và chuyển giao</h3><ul><li>Hướng dẫn nhân viên làm theo quy trình</li><li>Bộ công cụ AI và mẫu nội dung</li><li>Kiểm tra định kỳ để giữ dấu chuẩn</li></ul></div>
+<div class=wc><img src="img/w1.jpg" alt="" loading=lazy width=560 height=700><span class=tag>Miễn phí</span><h3>Tự làm</h3><ul><li>8 tiêu chuẩn, tự chấm điểm</li><li>Thư viện mẫu dùng ngay</li></ul></div>
+<div class="wc hi"><img src="img/w2.jpg" alt="" loading=lazy width=560 height=700><span class=tag>Phổ biến nhất</span><h3>Làm sẵn</h3><ul><li>Khám 11 kênh có bằng chứng</li><li>Trang đặt lịch, lookbook, video</li><li>Báo cáo lịch hẹn theo kênh</li></ul></div>
+<div class=wc><img src="img/w3.jpg" alt="" loading=lazy width=560 height=700><span class=tag>Tự chủ</span><h3>Chuyển giao</h3><ul><li>Đào tạo nhân viên theo quy trình</li><li>Bộ công cụ AI, giữ dấu chuẩn</li></ul></div>
 </div></div></section>
 
-<section class="band" id=thu-vien style="background:light-dark(#f3e9dc,#18100e)"><div class=in>
-<div class=eyebrow>Thư viện mẫu miễn phí</div>
-<h2>Lịch "mẫu của tháng" cả năm</h2>
-<p class=lead>Mỗi tháng một bộ mẫu theo dịp, đăng ngày 1, nhắc khách cũ qua Zalo. Học từ mô hình "mẫu của tháng" của tiệm nail Hàn.</p>
+<section class="band tint" id=thu-vien><div class=in>
+<div class=head><div><div class=eyebrow>Thư viện mẫu miễn phí</div><h2>12 tháng, <em>12 bộ mẫu</em></h2></div><p class=lead style="margin:0">Học từ "mẫu của tháng" của tiệm nail Hàn.</p></div>
 <div class=cal id=cal></div>
-<div class=lib>
-<div><h3>Menu 3 mức giá cố định</h3><p>Đơn giản 45 phút · Vừa 60 phút · Cầu kỳ 90 phút. Giá gồm tháo gel cũ. Mỗi mẫu một số. Không phát sinh.</p></div>
-<div><h3>Tin Zalo nhắc khách sau 3 tuần</h3><p>"Chào chị, đã 3 tuần từ lần làm móng ở tiệm. Mẫu của tháng đã có, chị chọn số mẫu và đặt lịch ở link này để giữ giờ đẹp nhé."</p></div>
-<div><h3>Chống bùng hẹn</h3><p>Nhắn xác nhận trước 24 giờ và 2 giờ. Giờ cao điểm cọc 50.000 đ, trừ vào hoá đơn.</p></div>
+<div class=tpl>
+<div><b>Menu</b><p>3 mức giá trọn gói: 45 · 60 · 90 phút. Mỗi mẫu một số.</p></div>
+<div><b>Tin Zalo sau 3 tuần</b><p>"Mẫu của tháng đã có, chị chọn số mẫu và giữ giờ đẹp ở link này nhé."</p></div>
+<div><b>Chống bùng hẹn</b><p>Nhắn xác nhận trước 24 giờ và 2 giờ; giờ cao điểm cọc 50.000 đ.</p></div>
 </div></div></section>
 
-<section class=band id=ve-chung-toi><div class="in about">
-<div><div class=eyebrow>Về Nailmark</div><h2>Lacquer: sơn mài và sơn móng là một chữ</h2>
-<p class=lead style="margin-bottom:16px">Tiếng Anh gọi sơn móng là nail lacquer, cũng là chữ của sơn mài. Nailmark lấy đỏ son, đen sơn và vàng thếp của sơn mài Á Đông làm màu thương hiệu: một chuẩn mực sinh ra từ châu Á, cho tiệm nail châu Á.</p>
-<p>Ngành nail ở đâu cũng phân mảnh, chưa ai đủ lớn để làm chuẩn cho cả ngành. Nailmark giúp từng tiệm nhỏ làm việc chuyên nghiệp như chuỗi hàng đầu, bằng công cụ AI với chi phí của tiệm nhỏ. Khởi đầu tại TP.HCM, 2026; tiếp theo là salon tóc và chăm sóc thú cưng.</p></div>
-<div class=story><h3>Bốn nguyên tắc</h3><ol>
-<li>Chốt tiêu chí trước, rồi mới thu số liệu.</li>
-<li>Mỗi con số có nguồn và ngày; không có nguồn thì ghi "không rõ".</li>
-<li>Đo bằng số lịch hẹn thật, không bằng lượt thích.</li>
-<li>Ảnh của tiệm là ảnh thật; AI chỉ chỉnh sáng, không đổi màu móng.</li></ol>
-<p class=src>Số liệu nghiên cứu ngày 25/11/2026; nhiều số lấy từ đoạn trích kết quả tìm kiếm và đang được đối chiếu bản gốc.</p></div>
+<section class="band about" id=ve><img src="img/about.jpg" alt="" loading=lazy width=1400 height=788><div class=in>
+<div><div class=eyebrow style="color:var(--vang2)">Về Nailmark</div><h2>Lacquer: <em>sơn mài</em> và sơn móng là một chữ</h2>
+<p>Nailmark lấy đỏ son, đen sơn và vàng thếp của sơn mài làm màu: một chuẩn mực sinh ra từ châu Á, cho tiệm nail châu Á. Khởi đầu tại TP.HCM, 2026.</p></div>
+<div class=pr><div><b>01</b>Chốt tiêu chí trước, rồi mới thu số liệu</div><div><b>02</b>Mỗi con số có nguồn và ngày</div><div><b>03</b>Đo bằng lịch hẹn thật, không bằng lượt thích</div><div><b>04</b>Ảnh thật, không đổi màu móng</div></div>
 </div></section>
 
-<footer class=band><div class=in><div class=logo>Nailmark</div>
-<p style="font-size:14px">Bản mẫu ngày 25/11/2026 · Kênh liên hệ sẽ được bổ sung. Ảnh: Pexels (cottonbro studio, Leeloo The First và các tác giả khác), giấy phép Pexels. Tên các chuỗi thuộc về chủ sở hữu; Nailmark chỉ dẫn số liệu công khai và không liên kết với các chuỗi này.</p></div></footer>
+<footer class=band><svg class=bigseal id=seal2 viewBox="0 0 160 160" aria-hidden=true></svg><div class=logo>Nailmark</div>
+<p>Chuẩn mực thế giới cho tiệm nail <span class=nw>Á Đông</span> · Bản mẫu 25/11/2026 · Kênh liên hệ sẽ bổ sung.</p>
+<p>Ảnh: Pexels (cottonbro studio, Leeloo The First, Shantanu Kumar và các tác giả khác), giấy phép Pexels, chỉ cắt khung. Số liệu từ báo cáo công ty, báo ngành, khảo sát Phorest, Fresha; nhiều số lấy từ đoạn trích tìm kiếm và đang đối chiếu bản gốc. Tên các chuỗi thuộc chủ sở hữu; Nailmark không liên kết với các chuỗi này.</p></footer>
 
 <script>
 {
 let seed=7;const rnd=()=>(seed=seed*16807%2147483647)/2147483647;
-const NS="http://www.w3.org/2000/svg";
-/* khảm vỏ trứng trên nền hero */
 const egg=document.getElementById("egg");
 const drawEgg=()=>{const W=egg.clientWidth,H=egg.clientHeight;seed=7;let s="";
 for(let i=0;i<320;i++){const x=W*(.4+rnd()*.65),y=H*rnd(),r=3+rnd()*8,n=4+Math.floor(rnd()*3);let pts=[];
 for(let k=0;k<n;k++){const a=k/n*6.283+rnd()*.6,rr=r*(.6+rnd()*.5);pts.push((x+Math.cos(a)*rr).toFixed(1)+","+(y+Math.sin(a)*rr).toFixed(1))}
 s+=`<polygon points="${pts.join(" ")}" fill="#f5eee3" opacity="${(.35+rnd()*.65).toFixed(2)}"/>`}
 egg.setAttribute("viewBox",`0 0 ${W} ${H}`);egg.innerHTML=s;};
-const ro=new ResizeObserver(drawEgg);ro.observe(egg);
-/* quạt móng */
+const eggObs=new ResizeObserver(drawEgg);eggObs.observe(egg);
 const cols=[["#7d0f13","#c4231f"],["#e8b4a6","#f6d9cf"],["#c9a14a","#ecd48f"],["#17100e","#4a3a34"],["#6b2a5c","#a65a92"],["#f2e8da","#ffffff"],["#2f6f68","#6fb0a5"],["#b8324f","#ec7c93"],["#a3161a","#e0473b"]];
 const tipPath="M-36 0V-250C-36-306-18-340 0-340S36-306 36-250V0Z";
-let f=`<defs>${cols.map((c,i)=>`<linearGradient id=g${i} x1=0 x2=1><stop offset=0 stop-color="${c[0]}"/><stop offset=.55 stop-color="${c[1]}"/><stop offset=1 stop-color="${c[0]}"/></linearGradient>`).join("")}</defs>`;
-f+=`<ellipse cx=300 cy=488 rx=270 ry=22 fill="#000" opacity=".18"/>`;
-cols.forEach((c,i)=>{const a=-72+i*18;f+=`<g class=tip style="transform:rotate(${a}deg)"><g transform="translate(300 470)"><path d="${tipPath}" fill="url(#g${i})" stroke="rgba(0,0,0,.18)"/><path d="M-18-60V-250C-18-290-9-314 0-320" fill=none stroke="rgba(255,255,255,.45)" stroke-width=6 stroke-linecap=round /></g></g>`});
+let f=`<defs>${cols.map((c,i)=>`<linearGradient id=g${i} x1=0 x2=1><stop offset=0 stop-color="${c[0]}"/><stop offset=.55 stop-color="${c[1]}"/><stop offset=1 stop-color="${c[0]}"/></linearGradient>`).join("")}</defs><ellipse cx=300 cy=488 rx=270 ry=22 fill="#000" opacity=".18"/>`;
+cols.forEach((c,i)=>{f+=`<g class=tip style="transform:rotate(${-72+i*18}deg)"><g transform="translate(300 470)"><path d="${tipPath}" fill="url(#g${i})" stroke="rgba(0,0,0,.18)"/><path d="M-18-60V-250C-18-290-9-314 0-320" fill=none stroke="rgba(255,255,255,.45)" stroke-width=6 stroke-linecap=round /></g></g>`});
 f+=`<circle cx=300 cy=470 r=26 fill="#c9a14a" stroke="#7a5a1c" stroke-width=3 /><circle cx=300 cy=470 r=9 fill="#7a5a1c"/>`;
-const seal=(cx,cy,s,c)=>`<g transform="translate(${cx} ${cy}) scale(${s}) rotate(-8)"><rect x=-62 y=-62 width=124 height=124 rx=14 fill="${c}"/><rect x=-52 y=-52 width=104 height=104 rx=8 fill=none stroke="#f5eee3" stroke-width=3 /><path d="M-18 30V-6C-18-24-9-34 0-34S18-24 18-6V30Z" fill="#f5eee3"/><text x=0 y=-38 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=13 fill="#f5eee3" letter-spacing="2">NAILMARK</text><text x=0 y=48 text-anchor=middle font-family="Be Vietnam Pro,sans-serif" font-weight=700 font-size=12 fill="#f5eee3">ĐẠT CHUẨN</text><text x=0 y=14 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=22 fill="${c}">N</text></g>`;
 document.getElementById("fan").innerHTML=f;
-document.getElementById("seal1").innerHTML=seal(80,80,1.1,"#a3161a");
-document.getElementById("hseal").innerHTML=seal(80,80,1.15,"#c4231f");
-document.getElementById("ok").innerHTML=seal(80,80,1.05,"#c4231f");
-/* rò rỉ khách */
-const L=[["Không có kênh chăm khách cũ (Zalo, thẻ thành viên)",14],["Khách không đặt lịch online được",10],["Google Maps không gắn website riêng",10],["Không có TikTok",9],["Không có bảng giá công khai",6],["Instagram nhiều bài, ít người theo dõi",5]];
-document.getElementById("leak").innerHTML=L.map(l=>`<div class=r><div class=n>${l[0]}</div><div class=track><i style="width:${l[1]/15*100}%"></i></div><div class=v>${l[1]}/15</div></div>`).join("")+`<p class=src style="margin-top:8px">Số tiệm mắc lỗi trên 15 tiệm đã khám.</p>`;
-/* biểu tượng nỗi đau */
-const I={
-back:`<path d="M10 22a12 12 0 1 1 3 8" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round /><path d="M8 30l5 1 1-5" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round stroke-linejoin=round />`,
-hand:`<path d="M14 36V18m6 18V12m6 24V14m6 22V20" stroke="#c9a14a" stroke-width="3" stroke-linecap=round /><path d="M10 34c4 6 26 6 28-6" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round />`,
-shop:`<path d="M6 18h32l-3-8H9Z" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linejoin=round /><path d="M9 18v18h26V18M18 36v-9h8v9" fill=none stroke="#c9a14a" stroke-width="2.5" />`,
-cal:`<rect x=7 y=10 width=30 height=26 rx=4 fill=none stroke="#c9a14a" stroke-width="2.5"/><path d="M7 17h30M14 6v8M30 6v8M16 24l12 8M28 24l-12 8" stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round />`,
-clock:`<circle cx=22 cy=22 r=15 fill=none stroke="#c9a14a" stroke-width="2.5"/><path d="M22 13v9l7 5" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round />`,
-doc:`<path d="M11 6h16l7 7v25H11Z" fill=none stroke="#c9a14a" stroke-width="2.5" stroke-linejoin=round /><path d="M16 20h13M16 26h13M16 32h8" stroke="#c9a14a" stroke-width="2.5" stroke-linecap=round />`};
-const P=[
-["back","29%","khách mới quay lại","Khách mới đến một lần rồi thôi","Chỉ 29% khách mới đặt lịch lần hai. Ở Quận 1, 14/15 tiệm không có kênh chăm khách cũ.","Tin Zalo nhắc sau 3 tuần, mẫu của tháng, thẻ 10 lần có điều khoản rõ.",[["Phorest","https://professionalbeauty.co.uk/only-29-percent-new-salon-clients-rebook-phorest-research"]]],
-["hand","48%","chủ salon chọn là khó nhất","Giữ thợ","48% chủ salon nói quản lý nhân viên là việc khó nhất. Ở Việt Nam, thợ ra mở tiệm riêng có thể kiếm gấp 3–5 lần làm thuê.","Quy trình và menu chuẩn để thợ mới làm đúng ngay; video ghi tên thợ để thợ có tên tuổi tại tiệm.",[["Professional Beauty","https://professionalbeauty.co.uk/site/newsdetails/Managing-staff-is-the-biggest-challenge-of-running-a-salon"],["VnExpress","https://vnexpress.net/luu-y-khi-chon-nghe-nail-4067693.html"]]],
-["shop","3–5","tiệm trên một con phố","Cạnh tranh giá","Có phố đi vài bước gặp 3–5 tiệm nail; tiệm nhỏ khó giải thích vì sao giá mình cao hơn.","Khác biệt bằng chuẩn: tiệt trùng có niêm phong, bảo hành 10–14 ngày, giá trọn gói.",[["Toplist","https://toplist.vn/top-list/kinh-nghiem-de-thanh-cong-khi-mo-tiem-nail-33499.htm"]]],
-["cal","92%","từng gặp khách bùng hẹn","Khách bùng hẹn","92% doanh nghiệp làm đẹp ở Anh từng gặp khách bùng hẹn; ở tiệm nail tỷ lệ tăng từ 1% lên 4% trong một năm.","Nhắn xác nhận trước 24 giờ và 2 giờ; cọc nhỏ cho giờ cao điểm.",[["Fresha","https://www.fresha.com/blog/cancellations-cost-study"],["Zenoti","https://www.zenoti.com/thecheckin/no-show-revenue-calculator"]]],
-["clock","3 giờ","khách chờ dịp Tết","Đông dồn, vắng ngày thường","Cận Tết tiệm mở xuyên đêm, khách chờ 3 tiếng; ngày thường lại trống ghế.","Đặt lịch theo khung giờ, mở đặt trước Tết từ tháng 12, ưu đãi giờ vắng.",[["Lao Động","https://news.laodong.vn/kinh-doanh/tiem-nail-sang-den-den-khuya-ngay-giap-tet-khach-cho-3-tieng-moi-duoc-vao-lam-1656405.ldo"]]],
-["doc","2026","bỏ thuế khoán","Không còn thời gian cho marketing","Từ 1/1/2026 hộ kinh doanh tự kê khai thuế; hộ doanh thu từ 1 tỷ/năm dùng hoá đơn điện tử từ máy tính tiền.","Nailmark làm sẵn phần marketing để chủ tiệm tập trung vào tay nghề và vận hành.",[["VOH","https://voh.com.vn/kinh-te/tu-112026-chinh-thuc-bo-thue-khoan-chuyen-sang-ke-khai-thue-642709.html"],["Thời báo Tài chính","https://thoibaotaichinhvietnam.vn/chinh-thuc-quy-dinh-ho-kinh-doanh-co-doanh-thu-1-ty-dong-tro-len-phai-ap-dung-hoa-don-dien-tu-193181.html"]]]];
-document.getElementById("pains").innerHTML=P.map(p=>`<div class=p><svg class=ic viewBox="0 0 44 44" aria-hidden=true>${I[p[0]]}</svg><div class=stat>${p[1]}<small>${p[2]}</small></div><h3>${p[3]}</h3><p>${p[4]}</p><p class=fix><b>Cách giải:</b> ${p[5]}</p><p class=src>${p[6].map(s=>`<a href="${s[1]}" target=_blank rel=noopener>${s[0]}</a>`).join(" · ")}</p></div>`).join("");
-/* khách phàn nàn, mỗi ô một hình vẽ */
-const draws=[
-`<g transform="translate(150 58)"><path d="M-52-44h104v92h-104Z" fill="#f5eee3" stroke="#c9a14a" stroke-width=2 /><path d="M-52-44l8-8 8 8 8-8 8 8 8-8 8 8 8-8 8 8 8-8 8 8 8-8 8 8 8-8" fill=none stroke="#c9a14a" stroke-width=2 /><g stroke="#8a9198" stroke-width=5 stroke-linecap=round fill=none><path d="M-22 30L-4-20"/><path d="M-2 30L-20-20"/><circle cx=-12 cy=4 r=3 fill="#8a9198"/></g><path d="M12-22h28M12-10h22M12 2h26" stroke="#e6d6c2" stroke-width=4 stroke-linecap=round /><circle cx=38 cy=30 r=15 fill="#a3161a"/><path d="M31 30l5 5 9-10" stroke="#fff" stroke-width=3.5 fill=none stroke-linecap=round stroke-linejoin=round /></g>`,
-`<g transform="translate(150 56)"><rect x=-60 y=-42 width=120 height=84 rx=8 fill="var(--card)" stroke="var(--line)" stroke-width=2 /><path d="M-44-24h56M-44-10h40" stroke="var(--line)" stroke-width=6 stroke-linecap=round /><text x=-44 y=24 font-size=15 font-weight=700 fill="var(--ink)">250.000 đ</text><text x=-44 y=38 font-size=11 fill="var(--accent)">+ phí vẽ? + phí gel?</text><circle cx=46 cy=-28 r=15 fill="#a3161a"/><path d="M39-28h14" stroke="#fff" stroke-width=4 stroke-linecap=round /></g>`,
-`<g transform="translate(150 54)">${[-1,1].map(s=>`<g transform="translate(${s*44} 0)"><path d="M-18 40V-10C-18-30-8-40 0-40S18-30 18-10V40Z" fill="${s<0?"#e8b4a6":"#c9a14a"}"/><path d="M-8 30V-8C-8-20-3-28 0-30" stroke="rgba(255,255,255,.5)" stroke-width=4 fill=none stroke-linecap=round /></g>`).join("")}<text x=0 y=6 text-anchor=middle font-size=22 font-weight=700 fill="var(--accent)">≠</text><text x=-44 y=58 text-anchor=middle font-size=11 fill="var(--mut)">ảnh mẫu</text><text x=44 y=58 text-anchor=middle font-size=11 fill="var(--mut)">thực tế</text></g>`];
-const CM=[["Vệ sinh dụng cụ","Dùng chung kềm có thể gây nấm móng, chín mé, viêm gan. Quên khử trùng \"vẫn thường xảy ra\".",[["VnExpress","https://vnexpress.net/cac-benh-thuong-gap-khi-lam-mong-3276161.html"],["Vietcetera","https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban"]]],
-["Giá phát sinh, chèo kéo","Giá vẽ báo \"cảm tính\", tách giá gel và sơn để đội hoá đơn; ép làm thêm dịch vụ.",[["Vietcetera","https://vietcetera.com/vn/nhung-bi-mat-tiem-nail-khong-bao-gio-tiet-lo-voi-ban"],["Mothership","https://mothership.sg/2021/12/nail-palace-elderly-woman-hard-selling"]]],
-["Không giống mẫu, gel bong","Tay nghề không đều giữa các thợ; gel bong sau vài ngày; dịp Tết chờ 3 tiếng.",[["Lao Động","https://news.laodong.vn/kinh-doanh/tiem-nail-sang-den-den-khuya-ngay-giap-tet-khach-cho-3-tieng-moi-duoc-vao-lam-1656405.ldo"],["VnEconomy","https://vneconomy.vn/son-gel-co-gi-hot.htm"]]]];
-document.getElementById("cmp").innerHTML=CM.map((c,i)=>`<div class=c><svg viewBox="0 0 300 120" aria-hidden=true>${draws[i]}</svg><h3>${c[0]}</h3><p>${c[1]}</p><p class=src>${c[2].map(s=>`<a href="${s[1]}" target=_blank rel=noopener>${s[0]}</a>`).join(" · ")}</p></div>`).join("");
-/* 8 tiêu chuẩn */
+const seal=c=>`<g transform="translate(80 80) scale(1.1) rotate(-8)"><rect x=-62 y=-62 width=124 height=124 rx=14 fill="${c}"/><rect x=-52 y=-52 width=104 height=104 rx=8 fill=none stroke="#f5eee3" stroke-width=3 /><path d="M-18 30V-6C-18-24-9-34 0-34S18-24 18-6V30Z" fill="#f5eee3"/><text x=0 y=-38 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=13 fill="#f5eee3" letter-spacing="2">NAILMARK</text><text x=0 y=48 text-anchor=middle font-family="Be Vietnam Pro,sans-serif" font-weight=700 font-size=12 fill="#f5eee3">ĐẠT CHUẨN</text><text x=0 y=14 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=22 fill="${c}">N</text></g>`;
+["hseal","seal1","ok","seal2"].forEach(id=>document.getElementById(id).innerHTML=seal(id=="seal1"?"#a3161a":"#c4231f"));
+const m=[0,1,2,3,4,5,6,7,8,9].map(i=>`<img src="img/m${i}.jpg" alt="" width=330 height=440>`).join("");
+document.getElementById("track").innerHTML=m+m;
+const tk=["Menu mẫu đánh số","Một nút đặt lịch","Mẫu của tháng","Thành viên minh bạch","Đánh giá Google dày","Video quy trình","Chuẩn hoá để nhân bản","Vệ sinh thấy được"].map(t=>`<span>${t}</span>`).join("");
+document.getElementById("ticker").innerHTML=tk+tk;
+const L=[["Không chăm khách cũ (Zalo, thẻ thành viên)",14],["Không đặt lịch online",10],["Google Maps không gắn web riêng",10],["Không có TikTok",9],["Không có bảng giá công khai",6],["Instagram nhiều bài, ít người theo dõi",5]];
+document.getElementById("leakbars").innerHTML=L.map((l,i)=>`<div class=r><div class=n>${l[0]}</div><div class=tr><i style="width:${l[1]/15*100}%;animation-delay:${i*.12}s"></i></div><div class=v>${l[1]}/15</div></div>`).join("");
+const P=[["p1","29%","khách mới quay lại","Khách đến một lần rồi thôi","Zalo nhắc sau 3 tuần, mẫu của tháng",[["Phorest","https://professionalbeauty.co.uk/only-29-percent-new-salon-clients-rebook-phorest-research"]]],
+["p2","48%","chủ salon chọn","Giữ thợ khó nhất","Quy trình chuẩn, thợ có tên trên video",[["Professional Beauty","https://professionalbeauty.co.uk/site/newsdetails/Managing-staff-is-the-biggest-challenge-of-running-a-salon"]]],
+["p3","3–5","tiệm một con phố","Cạnh tranh giá","Khác biệt bằng chuẩn, không bằng giá",[["Toplist","https://toplist.vn/top-list/kinh-nghiem-de-thanh-cong-khi-mo-tiem-nail-33499.htm"]]],
+["p4","92%","từng gặp","Khách bùng hẹn","Nhắn xác nhận 24 giờ và 2 giờ, cọc nhỏ",[["Fresha","https://www.fresha.com/blog/cancellations-cost-study"]]],
+["p5","3 giờ","chờ dịp Tết","Đông dồn, vắng ngày thường","Đặt lịch theo khung, mở đặt Tết từ tháng 12",[["Lao Động","https://news.laodong.vn/kinh-doanh/tiem-nail-sang-den-den-khuya-ngay-giap-tet-khach-cho-3-tieng-moi-duoc-vao-lam-1656405.ldo"]]],
+["p6","2026","bỏ thuế khoán","Không còn thời gian cho marketing","Nailmark làm sẵn, chủ tiệm lo tay nghề",[["VOH","https://voh.com.vn/kinh-te/tu-112026-chinh-thuc-bo-thue-khoan-chuyen-sang-ke-khai-thue-642709.html"]]]];
+document.getElementById("pains").innerHTML=P.map(p=>`<article class=pc><img src="img/${p[0]}.jpg" alt="" loading=lazy width=600 height=450><div class=stat>${p[1]}<small>${p[2]}</small></div><h3>${p[3]}</h3><div class=fix><b>Cách giải:</b> ${p[4]}</div><div class=src>Nguồn: ${p[5].map(s=>`<a href="${s[1]}" target=_blank rel=noopener>${s[0]}</a>`).join(", ")}</div></article>`).join("");
 const tc=["#a3161a","#c9a14a","#6b2a5c","#2f6f68","#b8324f","#17100e","#7d0f13","#8a6a2a"];
-const S=[
-["Menu mẫu đánh số, giá cố định","FASTNAIL (Nhật, 73 cửa hàng, ~$22 triệu/năm): 500–700 mẫu, giá cố định gồm tháo gel cũ. Heart Nail (hơn 280 cửa hàng): mọi mẫu đồng giá, xong trong 60 phút.","Lookbook 30–60 mẫu đánh số, 3 mức giá kèm số phút.","Menu của bạn có mẫu đánh số và giá trọn gói?"],
-["Một nút đặt lịch cho mọi kênh","Townhouse (Anh, 44 cửa hàng): một hệ đặt lịch cho app, web và Instagram. Heart Nail: hơn 80.000 lượt đặt mỗi tháng.","Một trang đặt lịch gắn vào Google Maps, Facebook, Instagram, TikTok, Zalo.","Khách đặt lịch online được mà không cần nhắn hỏi?"],
-["Mẫu của tháng","Tiệm nail Hàn: \"이달의 아트\", bộ mẫu mới mỗi tháng, đặt qua Naver và Kakao. FASTNAIL: màu giới hạn theo mùa.","6–9 mẫu mới mỗi tháng theo dịp, nhắc khách cũ qua Zalo.","Mỗi tháng bạn có bộ mẫu mới để báo khách?"],
-["Thành viên minh bạch","Frenchies (Mỹ): Polish Pass từ $50/tháng, tiền chưa dùng được cộng dồn. Bài học ngược: Nail Palace (Singapore) bị cảnh cáo vì ép bán gói.","Thẻ 10 lần có điều khoản hoàn tiền rõ, không ép mua.","Bạn có thẻ thành viên hoặc gift card với điều khoản rõ?"],
-["Đánh giá Google dày","Lisa Nail & Spa (TP.HCM): 4,9★ với 9.141 đánh giá Google, đứng đầu khi tìm tiệm nail Quận 1.","Mã QR xin đánh giá ở quầy, trả lời mọi đánh giá trong 24 giờ.","Bạn trả lời mọi đánh giá Google trong 24 giờ?"],
-["Video ngắn quay quy trình","Ở Nhật, xu hướng chuyển từ móng đẹp trên ảnh sang đẹp trên video. Đây là định dạng nên theo; chưa chuỗi lớn nào công bố số liệu video.","3 video/tuần, 15–30 giây, quay dọc, ghi tên thợ và số mẫu.","Bạn đăng video ngắn đều mỗi tuần?"],
-["Chuẩn hoá để nhân bản","Heart Nail mở 100 tiệm nhượng quyền trong 12 tháng. Nails Dot Glow (Philippines) hơn 100 chi nhánh. MiniLuxe: doanh thu trung bình $1,3 triệu mỗi studio.","Quy trình, menu, ảnh và giá giống nhau ở mọi thợ, mọi chi nhánh.","Mọi thợ (và chi nhánh) dùng chung menu, giá và cách chụp ảnh?"],
-["Chuẩn khí hậu Đông Nam Á","Bộ Y tế Singapore yêu cầu khử trùng hoặc hấp autoclave dụng cụ sau mỗi khách. Ở vùng nóng ẩm, gel bền 2–3 tuần nhờ xử lý kỹ da quanh móng.","Khui túi dụng cụ đã hấp trước mặt khách, bảo hành 10–14 ngày, combo tay và chân.","Bạn cho khách thấy dụng cụ đã tiệt trùng?"]];
-document.getElementById("std").innerHTML=S.map((s,i)=>`<div class=s><div class=nt style="background:${tc[i]}">${i+1}</div><h3>${s[0]}</h3><p class=ev>${s[1]}</p><p class=vn><b>Tiệm Việt làm:</b> ${s[2]}</p></div>`).join("");
-const R=[["FASTNAIL","Nhật",1,"¥3,25 tỷ ≈ $22 triệu ≈ 560 tỷ đ (FY3/2026)",73,64],["Nails Dot Glow","Philippines",0,"không rõ",100,56],["Nail Palace","Singapore",0,"không rõ",23,56],["Nail-a-holics","Philippines",0,"không rõ",63,52],["Lisa Nail & Spa","Việt Nam",0,"không rõ",6,52],["Heart Nail","Nhật",1,"không rõ",280,48],["Townhouse","Anh",2,"£19,4 triệu ≈ $25 triệu ≈ 650 tỷ đ (2025)",44,48],["N.I.C Nail Salon","Thái Lan",0,"không rõ",25,48],["Shimmer & Shine","Singapore",0,"không rõ",9,48],["Nail Room – Mit's House","Việt Nam",0,"không rõ",15,48],["Qiaoxiang","Trung Quốc",1,"không rõ (tự nhận 1.000+ tiệm)",1000,44],["Nail Quick","Nhật",1,"không rõ",50,40],["Frenchies","Mỹ",2,"~$21 triệu ≈ 550 tỷ đ (ước tính)",26,40],["MiniLuxe","Mỹ",2,"~$28 triệu ≈ 730 tỷ đ (FY2025)",24,36],["Regal Nails","Mỹ",2,"không rõ",584,36],["Tips & Toes","UAE",2,"không rõ",35,32],["DaVi Nails","Mỹ",2,"không rõ",399,24]];
-document.getElementById("rank").innerHTML=R.map(r=>`<div class=rk><div>${r[0]} <span class=src>${r[1]}</span></div><div class="bar b${r[2]}" style="width:${r[5]}%"></div><div><b>${r[5]}</b></div></div>`).join("");
-document.getElementById("tb").innerHTML=R.map(r=>`<tr><td>${r[0]}</td><td>${r[1]}</td><td class=hide-s>${r[3]}</td><td class=num>${r[4].toLocaleString("vi-VN")}</td><td class=num><b>${r[5]}</b></td></tr>`).join("");
-/* tự chấm */
-const ans=S.map(()=>-1);const lab=["Chưa","Một phần","Có"];const qs=document.getElementById("qs");
-qs.innerHTML=S.map((s,i)=>`<div class=q><span>${i+1}. ${s[3]}</span><div class=seg role=group aria-label="Câu ${i+1}">${lab.map((l,j)=>`<button type=button id=q${i}a${j} data-i=${i} data-j=${j} aria-pressed=false>${l}</button>`).join("")}</div></div>`).join("");
-const draw=()=>{const done=ans.filter(a=>a>=0).length;const sc=ans.reduce((t,a)=>t+Math.max(a,0),0)/16*10;
-document.getElementById("score").textContent=sc.toFixed(1).replace(".",",");document.getElementById("fill").style.width=sc*10+"%";
-document.getElementById("ok").classList.toggle("on",sc>=9);
-const v=document.getElementById("verdict"),n=document.getElementById("next");
-if(!done){v.textContent="Chọn câu trả lời bên trái";n.textContent="";return}
-const weak=ans.map((a,i)=>[a,i]).filter(x=>x[0]>=0&&x[0]<2).slice(0,2).map(x=>S[x[1]][0]);
-v.textContent=sc>=9?"Đạt chuẩn Nailmark":sc>=6?"Khá, còn khoảng cách tới chuẩn 9":"Còn nhiều việc dễ làm ngay";
-n.textContent=(weak.length?"Bắt đầu từ: "+weak.join("; ")+". ":"")+(done<8?`Đã trả lời ${done}/8 câu.`:"");};
-qs.addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;const i=+b.dataset.i,j=+b.dataset.j;ans[i]=j;qs.querySelectorAll(`button[data-i="${i}"]`).forEach(x=>x.setAttribute("aria-pressed",x===b));draw();});
-draw();
-/* lịch mẫu của tháng: mỗi tháng một móng màu */
-const C=[["Th1","Tết đỏ – vàng","#a3161a"],["Th2","Valentine","#b8324f"],["Th3","8/3, xuân","#e08a9a"],["Th4","Pastel tốt nghiệp","#9c8fc4"],["Th5","Hè, biển","#2f8fa0"],["Th6","Chân sandal","#d9884a"],["Th7","Mắt mèo","#4a3a34"],["Th8","Vu lan","#c9a14a"],["Th9","Mùa cưới","#c7a7a0"],["Th10","20/10","#6b2a5c"],["Th11","20/11","#2f6f68"],["Th12","Noel","#7d0f13"]];
-document.getElementById("cal").innerHTML=C.map(c=>`<span style="background:${c[2]}"><b>${c[0]}</b>${c[1]}</span>`).join("");
+const S=[["Menu mẫu đánh số","FASTNAIL · Nhật · 73 cửa hàng","500–700 mẫu, giá cố định gồm tháo gel","Menu của bạn có mẫu đánh số và giá trọn gói?"],
+["Một nút đặt lịch","Townhouse · Anh · 44 cửa hàng","Một hệ đặt lịch cho app, web, Instagram","Khách đặt lịch online được, không cần nhắn hỏi?"],
+["Mẫu của tháng","Tiệm nail Hàn · 이달의 아트","Bộ mẫu mới mỗi tháng, giá ưu đãi","Mỗi tháng bạn có bộ mẫu mới để báo khách?"],
+["Thành viên minh bạch","Frenchies · Mỹ · từ $50/tháng","Tiền chưa dùng được cộng dồn, không ép mua","Bạn có thẻ thành viên với điều khoản rõ?"],
+["Đánh giá Google dày","Lisa Nail & Spa · TP.HCM","4,9★ với 9.141 đánh giá Google","Bạn trả lời mọi đánh giá trong 24 giờ?"],
+["Video quy trình","Xu hướng Nhật · từ ảnh sang video","15–30 giây, quay dọc, ghi tên thợ","Bạn đăng video ngắn đều mỗi tuần?"],
+["Chuẩn hoá để nhân bản","Heart Nail · Nhật · 280+ cửa hàng","100 tiệm nhượng quyền trong 12 tháng","Mọi thợ dùng chung menu, giá, cách chụp ảnh?"],
+["Vệ sinh thấy được","Bộ Y tế Singapore · Đông Nam Á","Hấp dụng cụ sau mỗi khách, bảo hành rõ","Bạn khui dụng cụ đã tiệt trùng trước mặt khách?"]];
+document.getElementById("rail").innerHTML=S.map((s,i)=>`<article class=sc><div class=im><img src="img/s${i+1}.jpg" alt="" loading=lazy width=560 height=700><span class=nt style="background:${tc[i]}">${i+1}</span></div><div class=bd><h3>${s[0]}</h3><span class=mod>${s[1]}</span><p>${s[2]}</p></div></article>`).join("");
+const rail=document.getElementById("rail");
+document.getElementById("prev").onclick=()=>rail.scrollBy({left:-rail.clientWidth*.8,behavior:"smooth"});
+document.getElementById("next").onclick=()=>rail.scrollBy({left:rail.clientWidth*.8,behavior:"smooth"});
+const R=[["FASTNAIL","Nhật",1,64],["Nails Dot Glow","Philippines",0,56],["Nail Palace","Singapore",0,56],["Nail-a-holics","Philippines",0,52],["Lisa Nail & Spa","Việt Nam",0,52],["Heart Nail","Nhật",1,48],["Townhouse","Anh",2,48],["N.I.C Nail Salon","Thái Lan",0,48],["Shimmer & Shine","Singapore",0,48],["Nail Room – Mit's House","Việt Nam",0,48],["Qiaoxiang","Trung Quốc",1,44],["Nail Quick","Nhật",1,40],["Frenchies","Mỹ",2,40],["MiniLuxe","Mỹ",2,36],["Regal Nails","Mỹ",2,36],["Tips & Toes","UAE",2,32],["DaVi Nails","Mỹ",2,24]];
+document.getElementById("rank").innerHTML=R.map(r=>`<div class=rk><div>${r[0]} <span class=src>${r[1]}</span></div><div class="bar b${r[2]}" style="width:${r[3]}%"></div><div><b>${r[3]}</b></div></div>`).join("");
+let cur=0;const ans=S.map(()=>-1);
+const dots=document.getElementById("dots");
+const show=()=>{dots.innerHTML=S.map((s,i)=>`<i class="${ans[i]>=0?"d"+Math.max(ans[i],1):""} ${i==cur&&cur<8?"now":""}"></i>`).join("");
+const sc=ans.reduce((t,a)=>t+Math.max(a,0),0)/16*10;document.getElementById("score").textContent=sc.toFixed(1).replace(".",",");
+const done=cur>=8;document.getElementById("ask").hidden=done;document.getElementById("opts").hidden=done;document.getElementById("res").classList.toggle("on",done);
+document.getElementById("ok").classList.toggle("on",done&&sc>=9);
+if(!done){document.getElementById("qn").textContent=`Câu ${cur+1}/8 · ${S[cur][0]}`;document.getElementById("qt").textContent=S[cur][3];document.getElementById("qh").textContent="Hình mẫu: "+S[cur][1];}
+else{document.getElementById("verdict").textContent=sc>=9?"Đạt chuẩn Nailmark":sc>=6?"Khá, còn cách chuẩn 9 một đoạn":"Còn nhiều việc dễ làm ngay";
+const w=ans.map((a,i)=>[a,i]).filter(x=>x[0]<2).slice(0,3);document.getElementById("weak").innerHTML=w.length?w.map(x=>`<li>${S[x[1]][0]}: ${S[x[1]][2]}</li>`).join(""):"<li>Giữ nhịp và đo số lịch hẹn mỗi tuần</li>";}};
+document.getElementById("opts").addEventListener("click",e=>{const b=e.target.closest("button");if(!b)return;ans[cur]=+b.dataset.v;cur++;show();});
+document.getElementById("again").onclick=()=>{ans.fill(-1);cur=0;show();};
+show();
+const C=[["Th1","Tết đỏ vàng","#a3161a",150],["Th2","Valentine","#b8324f",120],["Th3","8/3","#e08a9a",135],["Th4","Pastel","#9c8fc4",110],["Th5","Biển","#2f8fa0",125],["Th6","Sandal","#d9884a",105],["Th7","Mắt mèo","#4a3a34",140],["Th8","Vu lan","#c9a14a",115],["Th9","Cưới","#c7a7a0",145],["Th10","20/10","#6b2a5c",130],["Th11","20/11","#2f6f68",120],["Th12","Noel","#7d0f13",155]];
+document.getElementById("cal").innerHTML=C.map(c=>`<span style="background:${c[2]};height:${c[3]}px"><b>${c[0]}</b>${c[1]}</span>`).join("");
 }
 </script>
