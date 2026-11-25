@@ -73,7 +73,7 @@ def tao(slug):
     dv_html = dv
     cam_ket = CAM_KET.replace("{dv}", dv_html) if t.get("cam_ket") is True else ""
     rv = (f'<div class=rv><b>{e(t["sao"])}★</b><span>{e(t["danh_gia"])} đánh giá Google</span></div>' if t["sao"] else
-          '<div class=rv><b>★</b><span>Số sao và đánh giá Google của tiệm hiển thị ở đây</span></div>')
+          ('<div class=rv><b>★</b><span>Số sao và đánh giá Google của tiệm hiển thị ở đây</span></div>' if t.get("cam_ket") is True and not t.get("anh") else ""))
     return f"""<title>{e(t['ten'])}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,700;1,600&family=Be+Vietnam+Pro:wght@400;600;700&display=swap">

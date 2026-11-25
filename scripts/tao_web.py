@@ -52,44 +52,33 @@ def doc_gia(path):
     return ds
 
 
-def main():
-    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
-    ap.add_argument("--maps", help="tên tiệm + quận, hoặc link Google Maps (tốn 1 lượt Places)")
-    ap.add_argument("--ten"); ap.add_argument("--dia-chi", default=""); ap.add_argument("--gio", default="Giờ mở cửa: tiệm bổ sung")
-    ap.add_argument("--anh", required=True, help="thư mục ảnh móng thật của tiệm")
-    ap.add_argument("--gia", required=True, help="file bảng giá")
-    ap.add_argument("--zalo", required=True)
-    ap.add_argument("--demo", action="store_true", help="ghi dải 'bản demo' ở đầu trang")
-    ap.add_argument("--cam-ket", action="store_true", help="chỉ bật khi tiệm XÁC NHẬN đúng: giá trọn gói, hấp tiệt trùng, bảo hành 10 ngày")
-    g = ap.parse_args()
+def tao_qr(out, so, url=None):
+    """QR in quầy. Chưa có link web thì QR mở thẳng Zalo của tiệm (zalo.me/<số>), dùng được ngay."""
+    import segno
+    dich = url or f"https://zalo.me/{so}"
+    segno.make(dich, error="m").save(out / "qr-dat-lich.svg", scale=10, border=2, dark="#17100e")
+    return dich
 
-    so = re.sub(r"\D", "", g.zalo)
+
+def tao_tu_dau(t, anh, gia, so, demo=False, cam_ket=False, url=None):
+    """Lõi dùng chung: t = thông tin tiệm, anh = danh sách file ảnh, gia = [(tên, giá)], so = số Zalo 10 chữ số."""
     if len(so) != 10:
-        raise SystemExit("Số Zalo cần đúng 10 chữ số.")
-    anh = sorted(p for p in Path(g.anh).iterdir() if p.suffix.lower() in DUOI)[:12]
+        raise ValueError("Số Zalo cần đúng 10 chữ số.")
     if len(anh) < 4:
-        raise SystemExit(f"Cần ít nhất 4 ảnh móng (khuyên dùng 12), mới có {len(anh)}.")
-
-    if g.maps:
-        from tu_dong_demo import cau_hinh, tim, truy_van
-        t = cau_hinh(tim(truy_van(g.maps)))
-    elif g.ten:
-        t = dict(ten=g.ten, khau_hieu="Móng đẹp chuẩn Nailmark", dia_chi=[g.dia_chi], gio=g.gio, sao="", danh_gia="",
-                 maps="", dich_vu=["Sơn gel", "Nail art", "Đắp gel, nối móng", "Chăm sóc tay chân"], ghi_chu="")
-    else:
-        raise SystemExit("Cần --maps hoặc --ten.")
+        raise ValueError(f"Cần ít nhất 4 ảnh móng (khuyên dùng 12), mới có {len(anh)}.")
+    if not gia:
+        raise ValueError("Bảng giá trống.")
+    t = dict(t)
     t["zalo"] = f"{so[:4]} {so[4:7]} {so[7:]}"
-    t["gia"] = doc_gia(g.gia)
+    t["gia"] = gia
     t["nguon_anh"] = "Ảnh móng: của tiệm"
-    t["cam_ket"] = True if g.cam_ket else False
-    t["ghi_chu"] = "Bản demo Nailmark, chưa phải trang chính thức." if g.demo else ""
-
-    slug = re.sub(r"[^a-z0-9]+", "-", khong_dau(t["ten"])).strip("-")[:40]
+    t["cam_ket"] = bool(cam_ket)
+    t["ghi_chu"] = "Bản demo Nailmark, chưa phải trang chính thức." if demo else ""
+    slug = re.sub(r"[^a-z0-9]+", "-", khong_dau(t["ten"])).strip("-")[:40] or "tiem"
     out = ROOT / "nailmark" / "tiem" / slug
     (out / "img").mkdir(parents=True, exist_ok=True)
-    he_so = []
-    t["anh"] = []
-    for i, p in enumerate(anh, 1):
+    he_so, t["anh"] = [], []
+    for i, p in enumerate(anh[:12], 1):
         ten = f"img/mau-{i:02d}.jpg"
         he_so.append(chinh_anh(p, out / ten))
         t["anh"].append(ten)
@@ -99,8 +88,40 @@ def main():
     if not t["ghi_chu"]:
         html = html.replace("<div class=note></div>\n", "")
     (out / "index.html").write_text(html, encoding="utf-8")
-    print(f"Đã tạo {out.relative_to(ROOT)}/index.html · {len(anh)} ảnh · {len(t['gia'])} dòng giá · "
-          f"hệ số sáng {min(he_so):.2f}–{max(he_so):.2f}")
+    qr = tao_qr(out, so, url)
+    return dict(slug=slug, thu_muc=str(out.relative_to(ROOT)), so_anh=len(t["anh"]), so_gia=len(gia),
+                he_so=(round(min(he_so), 2), round(max(he_so), 2)), qr=qr)
+
+
+def main():
+    ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
+    ap.add_argument("--maps", help="tên tiệm + quận, hoặc link Google Maps (tốn 1 lượt Places)")
+    ap.add_argument("--ten"); ap.add_argument("--dia-chi", default=""); ap.add_argument("--gio", default="Giờ mở cửa: tiệm bổ sung")
+    ap.add_argument("--anh", required=True, help="thư mục ảnh móng thật của tiệm")
+    ap.add_argument("--gia", required=True, help="file bảng giá")
+    ap.add_argument("--zalo", required=True)
+    ap.add_argument("--demo", action="store_true", help="ghi dải 'bản demo' ở đầu trang")
+    ap.add_argument("--url", help="link web của tiệm khi đã có hosting; chưa có thì QR mở Zalo")
+    ap.add_argument("--cam-ket", action="store_true", help="chỉ bật khi tiệm XÁC NHẬN đúng: giá trọn gói, hấp tiệt trùng, bảo hành 10 ngày")
+    g = ap.parse_args()
+
+    so = re.sub(r"\D", "", g.zalo)
+    anh = sorted(p for p in Path(g.anh).iterdir() if p.suffix.lower() in DUOI)[:12]
+
+    if g.maps:
+        from tu_dong_demo import cau_hinh, tim, truy_van
+        t = cau_hinh(tim(truy_van(g.maps)))
+    elif g.ten:
+        t = dict(ten=g.ten, khau_hieu="Móng đẹp chuẩn Nailmark", dia_chi=[g.dia_chi], gio=g.gio, sao="", danh_gia="",
+                 maps="", dich_vu=["Sơn gel", "Nail art", "Đắp gel, nối móng", "Chăm sóc tay chân"], ghi_chu="")
+    else:
+        raise SystemExit("Cần --maps hoặc --ten.")
+    try:
+        kq = tao_tu_dau(t, anh, doc_gia(g.gia), so, demo=g.demo, cam_ket=g.cam_ket, url=g.url)
+    except ValueError as loi:
+        raise SystemExit(str(loi))
+    print(f"Đã tạo {kq['thu_muc']}/index.html · {kq['so_anh']} ảnh · {kq['so_gia']} dòng giá · "
+          f"hệ số sáng {kq['he_so'][0]}–{kq['he_so'][1]} · QR -> {kq['qr']}")
 
 
 if __name__ == "__main__":
