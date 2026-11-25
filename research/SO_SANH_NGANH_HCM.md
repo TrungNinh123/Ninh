@@ -51,3 +51,35 @@
 - Số liệu web lấy từ đoạn trích kết quả tìm kiếm. Mạng chặn mở nhiều trang gốc.
 - Chưa có số tiệm nail riêng của TP.HCM. Thuế TP.HCM quản lý 361.879 hộ kinh doanh (17/9/2025, [nguồn](https://www.sggp.org.vn/thue-tphcm-va-viettel-tphcm-hop-tac-ho-tro-ho-kinh-doanh-post814850.html)).
 - Bước tiếp theo để có số thật: đếm mẫu bằng Google Places ở vài phường (ngốn lượt tìm hằng ngày, làm sau khi xong việc gấp).
+
+---
+
+# Bản 2 (25/11/2026, chiều): thêm 2 tiêu chí anh Ninh nêu
+
+Bản 1 chưa tính đủ 2 rủi ro: (1) khách cắt chi hoặc tự làm khi kinh tế khó; (2) biên lợi nhuận mỏng của chủ tiệm. Thêm cột **"Chịu được kinh tế khó"** (1–5, 5 = khó bị thay thế, ít bị cắt chi).
+
+| Ngành | Tổng bản 1 /40 | Chịu được kinh tế khó | Bằng chứng | Tổng mới /45 |
+|---|---|---|---|---|
+| Nail | 31 | 2 | Mỹ 2009: doanh thu tiệm nail giảm 25% (Mintel, Time); Hàn 2025: tiệm ở Mapo giảm hơn nửa vì tự làm; Trung Quốc 2025: móng úp tăng 89% | **33** |
+| Thú cưng (cắt tỉa, khám) | 30 | 3 | Mỹ 2025: chi cho cắt tỉa ở tiệm giảm, 51% chủ tự cắt tỉa tại nhà (APPA qua Vertical IQ); khám thú y bền nhất (Morgan Stanley). VN: tăng 11–14%/năm (nhiều nguồn, lệch nhau) | **33** |
+| Salon tóc nữ / barber | 29 | 4 | Mỹ 2008–09: ngành salon chỉ giảm 0,1% số cơ sở (PBA, hồ sơ Thượng viện); nhuộm, uốn khó tự làm | **33** |
+| Gara / rửa xe | 28 | 4 | Bảo dưỡng xe là bắt buộc, khó tự làm (ước tính, chưa có nguồn) | **32** |
+| Spa nhỏ | 28 | 2 | Dịch vụ thư giãn, dễ cắt | 30 |
+| Gym / pilates | 28 | 2 | Chuỗi đóng cửa ở TP.HCM (Fit24) | 30 |
+| Tiệm bánh / hoa | 27 | 3 | Theo dịp | 30 |
+| Nha khoa | 26 | 4 | Thị trường VN 2,36 tỷ USD (2024), tăng ~3,9%/năm (IMARC); vướng luật quảng cáo y tế | 30 |
+| Quán ăn / cà phê | 23 | 3 | Nền tảng giao đồ ăn nắm ~90% | 26 |
+| Tiếng Anh / kỹ năng | 22 | 4 | Ước tính | 26 |
+
+**Kết luận bản 2:** nail, thú cưng, salon tóc nữ **ngang nhau (33)**, gara sát sau (32). Nail **không vượt trội** như bản 1.
+
+**Lý do vẫn bắt đầu bằng nail (không phải vì điểm cao hơn):** tài sản đã có (100 tiệm Quận 1 đã quét, 15 bản khám, 6 demo, bộ tiêu chuẩn Nailmark), sản phẩm thuần hình ảnh hợp AI, đo bằng lịch hẹn, không vướng pháp lý.
+
+**Cách giảm rủi ro:**
+1. Song song thử **salon tóc nữ** (bền nhất khi kinh tế khó, số lượng lớn nhất) với 5–10 tiệm cùng khung 7 hạng mục.
+2. Nhắm tiệm nail làm dịch vụ khó tự làm (đắp gel, nail art, chà gót, gội đầu) và khách ít nhạy giá (du lịch, cô dâu, văn phòng).
+3. Thu tiền gắn kết quả (theo lịch hẹn mới).
+4. Thiết kế hệ thống không phụ thuộc ngành: 7 hạng mục dùng cho mọi ngành đặt lịch.
+5. **Mốc quyết định:** sau Tết 2027 (cuối tháng 2), so chi phí ra 1 lịch hẹn và tỷ lệ chủ tiệm trả tiền giữa nail và tóc. Ngành nào tốt hơn thì dồn lực. Lưu ý: số liệu mùa Tết bị đẩy cao, phải so với nhóm đối chứng.
+
+Nguồn mới: https://content.time.com/time/specials/packages/article/0,28804,1911974_1911972_1911963,00.html · https://verticaliq.com/product/pet-care-services · https://morganstanley.com/insights/articles/pet-industry-growth-outlook-2026 · https://finance.senate.gov/download/professional-beauty-association-2&download=1 · https://www.imarcgroup.com/report/vi/vietnam-dental-services-market · https://vneconomy.vn/viet-nam-trong-lan-song-tang-truong-kinh-te-thu-cung.htm · https://www.vagaro.com/learn/nail-salon-profit-margins
