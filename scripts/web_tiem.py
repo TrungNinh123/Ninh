@@ -20,9 +20,9 @@ TIEM = {
                            gio="10:00–20:00 mỗi ngày", zalo="0333 947 341", sao="5,0", danh_gia="1.113",
                            maps="https://maps.google.com/?cid=", dich_vu=["Nail", "Gội đầu dưỡng sinh", "Nối mi", "Massage"],
                            ghi_chu="Bản demo Nailmark dựng riêng cho tiệm, chưa phải trang chính thức."),
-    # Đợt 1 TP.HCM (25/11/2026). Số liệu lấy từ Google Places, giờ mở cửa chưa xác minh nên để trống.
+    # Đợt 1 TP.HCM (25/11/2026). Số liệu lấy từ Google Places. Giờ mở cửa ELIZ và Charming lấy từ Places; các tiệm khác chưa có.
     "eliz": dict(ten="ELIZ Nail Beauty", khau_hieu="2.374 khách chấm 4,9 sao, tiệm được đánh giá nhiều nhất trong danh sách của Nailmark",
-                 dia_chi=["47b Hẻm 69 Nguyễn Gia Trí, Thạnh Mỹ Tây (Bình Thạnh cũ)"], gio="Giờ mở cửa: tiệm bổ sung",
+                 dia_chi=["47b Hẻm 69 Nguyễn Gia Trí, Thạnh Mỹ Tây (Bình Thạnh cũ)"], gio="09:30–20:30 mỗi ngày",
                  zalo="0388 767 096", sao="4,9", danh_gia="2.374", maps="https://maps.google.com/?cid=4031066148165843456",
                  dich_vu=["Sơn gel", "Nail art", "Đắp gel, nối móng", "Chăm sóc tay chân"],
                  ghi_chu="Bản demo Nailmark dựng riêng cho tiệm, chưa phải trang chính thức."),
@@ -38,7 +38,7 @@ TIEM = {
                  dich_vu=["Vẽ nail art", "Sơn gel", "Đắp gel, nối móng", "Chăm sóc tay chân"],
                  ghi_chu="Bản demo Nailmark dựng riêng cho tiệm, chưa phải trang chính thức."),
     "charming": dict(ten="Charming Nail Studio", khau_hieu="1.025 khách chấm 5,0 sao tại Bình Thạnh",
-                     dia_chi=["30 Mai Xuân Thưởng, Bình Lợi Trung (Bình Thạnh cũ)"], gio="Giờ mở cửa: tiệm bổ sung",
+                     dia_chi=["30 Mai Xuân Thưởng, Bình Lợi Trung (Bình Thạnh cũ)"], gio="09:00–21:00 mỗi ngày",
                      zalo="0867 546 247", sao="5,0", danh_gia="1.025", maps="https://maps.google.com/?cid=17816716868794614151",
                      dich_vu=["Sơn gel", "Nail art", "Đắp gel, nối móng", "Chăm sóc tay chân"],
                      ghi_chu="Bản demo Nailmark dựng riêng cho tiệm, chưa phải trang chính thức."),
@@ -49,7 +49,8 @@ LOOK = ["s1", "m0", "m1", "m2", "m3", "m4", "m5", "m6", "m7", "m8", "s3", "s4"]
 
 
 def tao(slug):
-    t = TIEM[slug]
+    """slug là khoá trong TIEM, hoặc truyền thẳng một dict cùng cấu trúc (dùng cho scripts/tu_dong_demo.py)."""
+    t = slug if isinstance(slug, dict) else TIEM[slug]
     dv = "".join(f"<li>{e(x)}</li>" for x in t["dich_vu"])
     dc = "".join(f"<p><b>Cơ sở {i}</b><br>{e(x)}</p>" for i, x in enumerate(t["dia_chi"], 1))
     bst = "".join(f'<figure><img src="img/bst-{k}.jpg" alt="Bộ móng {e(n)}" loading=lazy width=720 height=900><figcaption>{e(n)}</figcaption></figure>' for k, n in DIP)

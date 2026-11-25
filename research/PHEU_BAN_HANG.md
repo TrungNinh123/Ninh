@@ -77,7 +77,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2d. Đây là giá ra mắt, sẽ nâng giá nhiều lần (anh Ninh chốt 25/11/2026)
 Mọi mức giá ở trên là **giá khởi đầu**. Khi làm tốt, có bằng chứng thì nâng giá nhiều lần.
 
-**Đề xuất lộ trình nâng giá theo mốc bằng chứng, không theo ngày (chờ anh duyệt):**
+**Lộ trình nâng giá theo mốc bằng chứng, không theo ngày (anh Ninh đã duyệt 25/11/2026):**
 
 | Giai đoạn | Điều kiện để chuyển | Hướng giá |
 |---|---|---|
@@ -97,6 +97,7 @@ Mọi mức giá ở trên là **giá khởi đầu**. Khi làm tốt, có bằn
    - Nhắn danh sách 455 tiệm đã quét (chỉ khi anh duyệt kênh và nội dung tin).
 2. **Nam châm.** Bài tự chấm 8 tiêu chuẩn (đã có trên Nailmark). Chấm xong hiện nút "Xem web mẫu cho tiệm của bạn".
 3. **Demo tự động.** Chủ tiệm dán link Google Maps. Hệ thống lấy tên, địa chỉ, số sao, số đánh giá qua Places API (đã có) rồi tạo trang demo bằng `scripts/web_tiem.py` trong vài phút. Trang demo chỉ gửi riêng cho chủ tiệm, không đăng công khai.
+   - **Đã có công cụ (25/11/2026):** `python scripts/tu_dong_demo.py "<tên tiệm + quận hoặc link Google Maps>"`. Công cụ lấy tên, địa chỉ, số sao, số đánh giá, SĐT, **giờ mở cửa thật**, link Maps, rồi tạo `nailmark/tiem-<slug>.html` trong khoảng 5 giây, tốn 1 lượt Places API. Đã thử với ELIZ (nhập tên) và Charming (nhập link Maps). Còn thiếu: ô nhập trên web và chỗ đăng trang (hosting).
 4. **Mua.** Bảng 3 gói cùng mã VietQR. Tiền vào là hệ thống tự xác nhận (payOS hoặc dịch vụ tương đương, cần kiểm phí trước khi chọn: [plugin payOS](https://wordpress.org/plugins/payos/)).
 5. **Bàn giao: 1 form, 1 lần duyệt, 1 lần bàn giao.**
    - Form nhận: 8–12 ảnh móng thật, ảnh chụp bảng giá (AI đọc thành chữ), số Zalo, giờ mở cửa, xác nhận quyền dùng ảnh.
