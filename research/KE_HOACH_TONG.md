@@ -7,6 +7,11 @@
 - Gói nào có công cụ chạy thật mới mở bán gói đó.
 - Không liên hệ tiệm nào khi anh chưa duyệt.
 
+## 0. Cập nhật 25/11 tối: rút ngắn theo câu hỏi của anh "tại sao không xong ngay ngày mai"
+- **Phần kỹ thuật đã xong ngay trong tối 25/11:** QR tự động; App v1 tự làm 4 bước chạy thật (khoảng 4 giây từ lúc bấm xuất bản đến khi có web và QR).
+- **Phần còn lại không nằm trong tay team:** tiệm trả lời và gửi ảnh, xét duyệt tài khoản Zalo OA và payOS, anh mở hosting và tên miền.
+- **Vì vậy: anh duyệt tin nhắn trong ngày 26/11 thì nhắn 5 tiệm luôn ngày 26/11.** Tiệm gửi ảnh ngày nào thì web thật lên ngày đó. Có hosting thì đưa lên mạng trong ngày.
+
 ## 1. Bảy mốc
 
 | # | Thời gian | Mốc | Em làm (AI) | Anh làm | Đạt khi |

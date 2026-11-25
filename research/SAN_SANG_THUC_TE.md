@@ -16,11 +16,11 @@
 | Web với **ảnh thật và bảng giá thật** của tiệm (web phiên bản 2) | **Làm tay được** | `scripts/tao_web.py` (mới, 25/11). Đã thử với tiệm mẫu: 12 ảnh, 5 dòng giá. Người của Nailmark phải chạy lệnh |
 | Chỉnh sáng ảnh, **không đổi màu móng** | **Chạy được** | Trong `tao_web.py`: nhân một hệ số chung cho cả 3 kênh màu. Đo được: sắc độ trước 16,8°, sau 16,6° |
 | AI đọc bảng giá từ ảnh chụp | **Chưa có** | Chưa kiểm thử. Cần Kyma API key. Hiện bảng giá phải gõ vào file |
-| App tự làm 4 bước (khách tự tải ảnh, tự xuất bản) | **Chưa có** | `nailmark/tu-lam.html` mới là giao diện chạy thử, chưa lưu, chưa xuất bản. Cần máy chủ và hosting |
+| App tự làm 4 bước (khách tự tải ảnh, tự xuất bản) | **Chạy được trên máy chạy thử** (25/11) | `scripts/app_tu_lam.py` và `nailmark/app.html`. Đã thử đầu-cuối: gõ tên → 12 ảnh → giá → Zalo → web + QR trong khoảng 4 giây. Còn thiếu: hosting công khai, đăng nhập, thanh toán |
 | Đường dẫn web cho tiệm (hosting) | **Chưa có** | Chưa chọn nơi đăng. Web phiên bản 2 đã là thư mục tĩnh, đăng là chạy |
 | Tên miền riêng tự gắn | **Chưa có** | Cần tài khoản nhà đăng ký tên miền. Trước mắt có thể làm tay |
 | Đặt lịch qua Zalo trên web | **Chạy được (một phần)** | Nút tạo sẵn tin nhắn để khách tự gửi Zalo. Chưa tự động gửi vào Zalo của tiệm |
-| Mã QR in để ở quầy | **Làm tay được** | Tạo QR khi có link web. Chưa tự động |
+| Mã QR in để ở quầy | **Chạy được** (25/11) | Tự tạo khi xuất bản. Khi chưa có hosting, QR mở thẳng Zalo của tiệm (zalo.me/số) |
 | Bộ sưu tập 8 dịp | **Chạy được** (ảnh mẫu Nailmark) | Ảnh ghép bằng `anh_tang_khach.py` từ ảnh Pexels. Chưa dùng ảnh thật của tiệm |
 | Bộ Tết 2027 (nội dung, lịch 10 tuần, tin Zalo) | **Chạy được** (nội dung) | Artifact bộ Tết. Tiệm phải tự đăng |
 | Ảnh quà tặng AI cho khách | **Làm tay được** | `anh_tang_khach.py` chạy bằng lệnh. Chất lượng chưa đều (từng bị mờ viền tay; có cơ chế dự phòng). Cần khách đồng ý |
@@ -49,6 +49,7 @@
 **Quy tắc:** trang bán hàng chỉ ghi giá cho gói mà phiên bản tương ứng đã chạy thật. Các gói khác ghi rõ **"Sắp mở"**.
 
 ## 3. Việc em làm tiếp (không cần anh)
+- Đã xong 25/11: QR tự động; App v1 chạy thật trên máy chạy thử.
 1. Tạo QR tự động trong `tao_web.py`.
 2. Viết khung máy chủ cho App v1, dùng lại `tao_web.py`.
 3. Chạy thử Web v2 cho 5 tiệm đợt 1 khi tiệm gửi ảnh thật (chỉ sau khi anh duyệt nhắn tin).
