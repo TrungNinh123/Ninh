@@ -61,6 +61,20 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 - Mức Khởi đầu giữ những tiệm nhỏ, ít tiền vẫn ở lại trong phễu thay vì bỏ đi.
 - Cả 3 mức đều tự thanh toán và tự bàn giao. Anh Ninh không phải bán đơn nào.
 
+### 2c. Nguyên tắc: muốn có web hoàn chỉnh thì chỉ có hai đường
+1. **Chuyển giao (tự làm).** Nailmark trao video hướng dẫn chi tiết, mẫu và công cụ AI. Tiệm tự hoàn thiện, không có nhân sự hỗ trợ. Đây là gói Khởi đầu.
+2. **Trả nhiều tiền hơn (làm trọn).** Nailmark làm toàn bộ. Đây là các gói Chuẩn, Đẳng cấp và Đồng hành AI.
+
+**Không có đường thứ ba** kiểu trả giá thấp mà vẫn được người làm hộ. Mọi yêu cầu nằm ngoài gói đều được trả lời bằng một trong hai lựa chọn trên. Trợ lý AI và trang bán hàng ghi sẵn câu trả lời này.
+
+**Đề xuất thêm, chờ anh duyệt: gói Chuyển giao cho nhân viên.** Khoảng 4.990.000 đ (≈ $192) một lần. Gồm:
+- Khoá video để một nhân viên của tiệm tự làm nội dung hằng tháng: ảnh, bài đăng, trả lời đánh giá, bộ sưu tập theo mùa.
+- Bộ mẫu và câu lệnh AI dùng sẵn.
+- Bài kiểm tra do AI chấm.
+- Đạt yêu cầu thì tiệm được dùng dấu "Đạt chuẩn Nailmark".
+
+Gói này vẫn không có người hỗ trợ trực tiếp. Gói dành cho tiệm muốn tự chủ, thay vì trả Đồng hành AI hằng tháng.
+
 ## 3. Phễu 6 bước (tự động từ đầu đến cuối)
 1. **Thu hút.**
    - Nội dung cho **chủ tiệm** (không phải cho khách làm móng): "Tiệm bạn đang mất khách ở đâu", "Chuẩn của 17 chuỗi ở 9 quốc gia". Đăng ở TikTok, Facebook và các nhóm chủ tiệm nail.
