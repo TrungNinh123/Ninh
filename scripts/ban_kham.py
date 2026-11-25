@@ -3,6 +3,8 @@
 Đầu vào: crm/leads_q1_nail.json (Google Maps) + crm/kham_nail_v1.json (khám kênh: link, người theo dõi, truy vấn đã dùng).
 Chạy:   python scripts/ban_kham.py Q1S098   ->  reports/ban_kham_Q1S098.html
 Thang chấm từng kênh được in ngay trong bản khám để chủ tiệm thấy vì sao có điểm đó.
+Bản v3 (25/11/2026): thêm hình mẫu thế giới + cách tiệm áp dụng (lấy từ scripts/demo.py) và link bộ demo dựng sẵn.
+Thứ tự: hiện trạng có bằng chứng → tiệm dẫn đầu VN → hình mẫu thế giới → demo của tiệm → lộ trình → chi phí.
 """
 import html
 import json
@@ -15,6 +17,18 @@ ROOT = Path(__file__).resolve().parent.parent
 LEADS = {x["id"]: x for x in json.loads((ROOT / "crm/leads_q1_nail.json").read_text(encoding="utf-8"))}
 KHAM = {x["id"]: x for x in json.loads((ROOT / "crm/kham_nail_v1.json").read_text(encoding="utf-8"))}
 HOA_DON_TB = 250_000
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from demo import DEMO, HINH_MAU  # noqa: E402
+# Bộ demo đã đăng (riêng tư, anh Ninh bật Share mới gửi được cho tiệm)
+DEMO_URL = {"Q1S044": "https://claude.ai/artifact/3dF4dvsVfCnHYRUcuAsGY4",
+            "Q1S079": "https://claude.ai/artifact/6iV6VWindYVAAYc6f9zaU8",
+            "Q1S041": "https://claude.ai/artifact/MHUX7cf7xqhqFnbkYFwmeZ",
+            "Q1S051": "https://claude.ai/artifact/AVzrt9QhUKBkAw8XVtGzvR",
+            "Q1S042": "https://claude.ai/artifact/TD5Uo12RyVBDx4TGxnHwTD"}
+AP_DUNG_CHUNG = ["Lookbook theo mùa đánh số, giá trọn gói", "Bảng giá 3 cấp độ, không phát sinh",
+                 "Thẻ 10 lần, gift card theo dịp", "Mỗi dịch vụ ghi giá và số phút"]
+NOI_BAT_DEMO = {"Q1S044": ["Trang mở trong 1 giây thay cho website đang lỗi", "Lookbook Noel – Tết đánh số, giá trọn gói",
+                           "Mọi kênh dẫn về một nút đặt lịch"]}
 _AW = ROOT / "crm/audit_web_v1.json"
 AUDIT_WEB = {x["id"]: x for x in json.loads(_AW.read_text(encoding="utf-8"))} if _AW.exists() else {}
 TEN_KENH = {"website": "Website", "facebook": "Facebook", "instagram": "Instagram", "tiktok": "TikTok",
@@ -111,6 +125,19 @@ def main(pid):
               f"mà là <b>gắn nút đặt lịch vào {TEN_KENH[kenh_manh]}</b> để biến người xem thành lịch hẹn.") if kenh[kenh_manh][0] >= 5 else \
              "Việc đầu tiên là làm cho khách tìm thấy tiệm ở đúng nơi khách nail tìm mẫu: Instagram, TikTok, Pinterest, Google Maps — tất cả dẫn về một trang đặt lịch."
     hv = 3_000_000 // HOA_DON_TB
+    ap = DEMO[pid]["ap_dung"] if pid in DEMO else AP_DUNG_CHUNG
+    rows_tg = "".join(f'<tr><td><a href="{u}" target="_blank" rel="noopener">{e(n)}</a><br><span class=s>{e(noi)}</span></td><td>{e(lam)}</td><td>{e(a)}</td></tr>'
+                      for (n, u, noi, lam), a in zip(HINH_MAU, ap))
+    sec_tg = f"""<section><h2>Hình mẫu thế giới và cách anh chị áp dụng</h2>
+<div class=wrap><table><tr><th>Tiệm dẫn đầu</th><th>Họ làm gì</th><th>{e(ten)} áp dụng</th></tr>{rows_tg}</table></div>
+<p class=m>Nguồn: website các thương hiệu (tra cứu 25/11/2026). MREAL học cách làm, không sao chép thiết kế. Quy luật chung: một phông nền và một nguồn sáng cho mọi ảnh; một nút đặt lịch ở mọi nơi; video quy trình 15–30 giây quay dọc.</p></section>"""
+    sec_demo = ""
+    if pid in DEMO_URL:
+        noi_bat = NOI_BAT_DEMO.get(pid) or [b for _, b in DEMO[pid]["so_sanh"][:3]]
+        sec_demo = f"""<section class=cta><h2>Bản demo MREAL đã dựng sẵn cho {e(ten)}</h2>
+<p>Landing page, lưới Instagram 9 ô, bảng Pinterest, dựng từ thông tin thật của tiệm:</p><ul>{''.join(f'<li>{e(x)}</li>' for x in noi_bat)}</ul>
+<p><a href="{DEMO_URL[pid]}" target="_blank" rel="noopener"><b>Xem bản demo</b></a></p>
+<p class=m>Khung ảnh sẽ dùng ảnh thật của tiệm; giá điền theo bảng giá của tiệm.</p></section>"""
     page = f"""<title>Bản khám {e(ten)}</title>
 <meta name="claude:viewport-fit-sides" content="cover">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600&family=Lexend:wght@500;600&display=swap">
@@ -136,7 +163,7 @@ ul,ol{{margin:0;padding-left:20px}}li{{margin:4px 0}}
 .pk .p{{font:600 18px var(--d);color:var(--accent)}}.cta{{background:var(--soft);border-color:transparent}}
 </style>
 <main>
-<header><div class=k>Bản khám sức khoẻ marketing · MREAL</div><h1>{e(ten)}</h1>
+<header><div class=k>Bản khám sức khoẻ marketing · MREAL · v3</div><h1>{e(ten)}</h1>
 <p class=m>{e(l['dia_chi'])} · Khám ngày 25/11/2026 · {so_truy_van} lượt tìm kiếm trên {len(TEN_KENH)} kênh + dữ liệu Google Maps</p></header>
 
 <section><h2>Kết luận</h2><div class=big><div>{tong}/10<span>Hiện tại (theo trọng số ngành nail)</span></div>
@@ -155,10 +182,14 @@ ul,ol{{margin:0;padding-left:20px}}li{{margin:4px 0}}
 <section><h2>Bảng điểm theo hạng mục ngành nail</h2>
 <div class=wrap><table><tr><th>Hạng mục</th><th>Anh chị</th><th>Dẫn đầu</th><th>Sau MREAL</th><th>Trọng số</th></tr>{rows_h}</table></div></section>
 
-<section><h2>Tiệm lớn đang làm gì — và chỗ họ vẫn để hở</h2><ul>
+<section><h2>Tiệm dẫn đầu Việt Nam đang làm gì — và chỗ họ vẫn để hở</h2><ul>
 <li>Tiệm dẫn đầu nhận đặt lịch qua mọi kênh và có website viết bài cho khách du lịch — nhưng thông tin giữa các kênh hay lệch nhau, khách vẫn phải nhắn từng chi nhánh.</li>
 <li>Video "quá trình làm một bộ móng" là dạng được xem và lưu nhiều nhất, nhưng phần lớn tiệm top Quận 1 MREAL khảo sát chưa có TikTok thương hiệu đều đặn.</li>
 <li>Chỉ 1/100 tiệm làm đẹp Quận 1 có bài mô tả trên Google Maps.</li></ul></section>
+
+{sec_tg}
+
+{sec_demo}
 
 <section><h2>Lộ trình</h2><div class=road>
 <div><b>3 ngày đầu</b><br>Thống nhất thông tin mọi kênh, gắn website/trang đặt lịch lên Google Maps, Instagram, Facebook, TikTok; bài mô tả Maps; mã QR xin đánh giá.</div>

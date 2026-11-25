@@ -1,0 +1,62 @@
+<title>Demo A+ Nail Studio</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Be+Vietnam+Pro:wght@400;500;600&display=swap">
+<style>
+/* Bộ demo: 1) landing page trong khung điện thoại 2) lưới Instagram 3) bảng Pinterest 4) học từ thế giới */
+:root{--bg:#f5f1ee;--card:#fff;--fg:#2a2220;--muted:#776b66;--line:#e7dfda;--rose:#c4566f;--blush:#f6e3e6;--nude:#e9d6c8;--gold:#b08a4a;
+--ser:"Fraunces",Georgia,serif;--sans:"Be Vietnam Pro",system-ui,sans-serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#171312;--card:#211b19;--fg:#f2e9e5;--muted:#b5a7a1;--line:#3a312e;--rose:#e88aa0;--blush:#3a2228;--nude:#4a3a31;--gold:#d8b273;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#171312;--card:#211b19;--fg:#f2e9e5;--muted:#b5a7a1;--line:#3a312e;--rose:#e88aa0;--blush:#3a2228;--nude:#4a3a31;--gold:#d8b273;color-scheme:dark}
+*{box-sizing:border-box}body{background:var(--bg);color:var(--fg);font:15px/1.6 var(--sans);padding-block:24px 56px;
+padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+main{max-width:980px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+h1{font:600 30px/1.2 var(--ser);margin:0;text-wrap:balance}h2{font:600 22px var(--ser);margin:0 0 6px}h3{font:600 17px var(--ser);margin:0}
+.k{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--rose);font-weight:600}.m{color:var(--muted);font-size:14px}
+.two{display:grid;grid-template-columns:minmax(0,380px) minmax(0,1fr);gap:28px;align-items:start}
+@media (max-width:760px){.two{grid-template-columns:1fr}}
+.phone{border:10px solid #1d1716;border-radius:34px;overflow:hidden;background:var(--card);max-width:380px;width:100%}
+.ph{padding:14px;display:flex;flex-direction:column;gap:12px}
+.hero{border-radius:18px;aspect-ratio:4/5;background:linear-gradient(160deg,var(--blush),var(--nude));display:flex;flex-direction:column;justify-content:flex-end;padding:16px;position:relative}
+.ph-tag{position:absolute;top:12px;left:12px;font-size:11px;background:rgba(255,255,255,.75);color:#5a4a44;padding:3px 8px;border-radius:99px}
+.hero h3{font-size:24px}.stars{font-size:13px;color:var(--fg)}
+.btns{display:grid;grid-template-columns:1fr 1fr;gap:8px}.btn{border-radius:12px;padding:11px;text-align:center;font-weight:600;font-size:14px;border:1px solid var(--line)}
+.btn.main{background:var(--rose);color:#fff;border-color:var(--rose);grid-column:1/-1}
+.look{display:grid;grid-template-columns:repeat(3,1fr);gap:6px}.look div{aspect-ratio:1;border-radius:10px;background:var(--nude);font-size:11px;padding:6px;display:flex;flex-direction:column;justify-content:space-between}
+.look b{font-family:var(--ser);font-size:15px}
+.tier{display:grid;gap:6px}.tier div{display:flex;justify-content:space-between;border-bottom:1px dashed var(--line);padding:4px 0;font-size:14px}
+.note{background:var(--blush);border-radius:10px;padding:8px 10px;font-size:13px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px;min-width:0}
+.ig{display:grid;grid-template-columns:repeat(3,1fr);gap:4px;max-width:420px}.ig div{aspect-ratio:1;background:var(--nude);display:flex;align-items:flex-end;padding:6px;font-size:11px;line-height:1.3}
+.ig div:nth-child(3n+2){background:var(--blush)}.ig div:nth-child(4){background:#e3cfc3}
+.pins{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:12px}.pin{border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.pin .cov{display:grid;grid-template-columns:2fr 1fr;grid-template-rows:1fr 1fr;gap:3px;aspect-ratio:3/2}.pin .cov i{background:var(--nude)}.pin .cov i:first-child{grid-row:1/3;background:var(--blush)}
+.pin p{margin:8px 10px 10px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px;min-width:560px}td,th{border-bottom:1px solid var(--line);padding:8px 6px;text-align:left;vertical-align:top}th{font-size:12px;color:var(--muted)}
+.wrap{overflow-x:auto}a{color:var(--rose)}
+</style>
+<main>
+<header><div class=k>Bản demo MREAL dựng riêng cho</div><h1>A+ Nail Studio — 55/8 Lê Thị Hồng Gấm, Quận 1</h1>
+<p class=m>Ngày 25/11/2026, A+ có 4,8★ với 705 đánh giá Google, khoảng 11.000 người theo dõi Facebook, và đứng số 3 trong một danh sách top tiệm nail TP.HCM. Website hiện là trang WordPress miễn phí: không có giá, nút gọi/Zalo hay bản đồ; tên Instagram ghi hai kiểu khác nhau. Đây là bản xem trước nếu MREAL làm lại: mọi khung ảnh sẽ dùng <b>ảnh thật của tiệm</b> (chỉ chỉnh sáng bằng AI, không đổi màu móng); mọi giá điền theo bảng giá của tiệm.</p></header>
+<section class=two>
+<div class=phone><div class=ph>
+  <div class=hero><span class=ph-tag>Ảnh thật của tiệm · Y2K đính đá</span>
+    <div class=stars>★ 4,8 Google · 705 đánh giá</div>
+    <h3>Làm 1 kèm 1, theo trend</h3><div class=m style="color:#5a4a44">Nail · nối mi · chân mày · Quận 1 và Bình Thạnh · 9h–21h</div></div>
+  <div class=btns><div class="btn main">Giữ giờ làm 1 kèm 1</div><div class=btn>Instagram</div><div class=btn>Zalo · 0565 195 109</div></div>
+  <div><h3>Y2K &amp; Holiday Lookbook</h3><p class=m style="margin:2px 0 8px">Chọn mẫu theo số, chọn thợ, giữ giờ trước.</p>
+  <div class=look><div>Ảnh thật<b>01</b></div><div>Ảnh thật<b>02</b></div><div>Ảnh thật<b>03</b></div><div>Ảnh thật<b>04</b></div><div>Ảnh thật<b>05</b></div><div>Ảnh thật<b>06</b></div></div></div>
+  <div><h3>Bảng giá</h3><div class=tier><div><span>Nail trơn</span><span>giá của tiệm</span></div><div><span>Y2K đính đá / charm</span><span>180–350k</span></div><div><span>Nail + mi</span><span>giá của tiệm</span></div></div></div>
+  <div class=note>Giá Y2K theo bài Threads của tiệm (04/2026). Làm 1 kèm 1 nên giữ giờ trước, nhắc lịch qua Zalo.</div>
+  <div class=m>CN1: 55/8 Lê Thị Hồng Gấm, Bến Thành · CN2: 69/7 Nguyễn Gia Trí, Bình Thạnh · Chỉ đường</div>
+</div></div>
+<div class=panel><h2>Landing page này khác gì hiện tại</h2>
+<div class=wrap><table><tr><th>Hiện tại (bằng chứng, khám 25/11/2026)</th><th>Bản demo</th></tr><tr><td>Website WordPress miễn phí: không giá, không nút gọi/Zalo, không bản đồ</td><td>Trang riêng có giá, nút Zalo và bản đồ hai chi nhánh</td></tr><tr><td>Hai tên Instagram: @acongnails và @acong.nail.studio</td><td>Một tên duy nhất trên mọi kênh</td></tr><tr><td>Instagram 4.327 người theo dõi dù 621 bài; chưa thấy TikTok</td><td>Video ngắn theo trend, đăng đều theo lịch</td></tr><tr><td>Bảo hành ghi 7 ngày ở nơi này, 5 ngày ở nơi khác</td><td>Chính sách bảo hành ghi một lần, rõ ràng</td></tr><tr><td>Làm 1 kèm 1 nhưng phải nhắn hỏi giờ trống</td><td>Chọn thợ và giờ trống ngay trên trang</td></tr></table></div>
+<p class=m>Chi phí dựng: nằm trong gói Khởi động 500.000đ (landing page). Website đầy đủ nằm trong gói Hệ thống.</p></div>
+</section>
+<section class=panel><h2>Lưới Instagram 9 ô đầu tiên (kế hoạch)</h2><p class=m>Một nền, một nguồn sáng cho mọi ảnh, để lưới đồng bộ như các tiệm dẫn đầu thế giới.</p>
+<div class=ig><div>Video 20s: đính đá Y2K</div><div>Mẫu Noel 02 · giá trọn gói</div><div>Khách thật · 705 đánh giá</div><div>Bảng giá 3 mức</div><div>Nối mi tự nhiên</div><div>Video: làm 1 kèm 1 là gì</div><div>Thợ của tiệm</div><div>Mẫu Tết</div><div>Hai chi nhánh</div></div></section>
+<section class=panel><h2>Bảng Pinterest cho khách chọn mẫu trước khi đến</h2><div class=pins><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Y2K Nails Saigon</b><br>Đính đá, charm, xà cừ</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Christmas Nails – A+</b><br>Mẫu Noel</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Lunar New Year Nails</b><br>Tết đỏ – vàng</p></div><div class=pin><div class=cov><i></i><i></i><i></i></div><p><b>Natural Lashes</b><br>Mi tự nhiên</p></div></div></section>
+<section class=panel><h2>Học từ tiệm nail dẫn đầu thế giới, áp dụng với chi phí thấp</h2><div class=wrap><table>
+<tr><th>Hình mẫu</th><th>Họ làm gì</th><th>A+ Nail Studio áp dụng</th></tr><tr><td><a href="https://paint-box.com" target="_blank" rel="noopener">Paintbox</a> (New York)</td><td>Menu mẫu theo mùa, giá trọn gói; nút &quot;Book a Manicure&quot; và gift card ngay trang chủ</td><td>Lookbook theo trend đánh số</td></tr><tr><td><a href="https://vanityprojectsnyc.com" target="_blank" rel="noopener">Vanity Projects</a> (New York, Miami)</td><td>Nail art 3 cấp theo thời gian (60/90/120 phút), phụ phí ghi rõ</td><td>Bảng giá 3 mức theo độ cầu kỳ</td></tr><tr><td><a href="https://chillhouse.com" target="_blank" rel="noopener">Chillhouse</a> (New York)</td><td>Gói thành viên hằng tháng, gift card dùng 5 năm</td><td>Thẻ 10 lần, gift card</td></tr><tr><td><a href="https://dearsundays.com" target="_blank" rel="noopener">Sundays</a> (New York)</td><td>Dịch vụ ghi rõ giá và thời lượng, đặt lịch online</td><td>Chọn thợ, ghi giá và số phút</td></tr>
+</table></div><p class=m>Nguồn: website các thương hiệu và bài tổng hợp (tra cứu 25/11/2026). MREAL học cách làm, không sao chép thiết kế.</p></section>
+</main>
