@@ -11,7 +11,7 @@
 | Hạng mục | Khởi đầu 999k | Chuẩn 1,99 tr | Đẳng cấp 2,99 tr | Làm hộ trọn gói 9,9 tr |
 |---|---|---|---|---|
 | **Ai làm** | Tiệm tự làm theo video | Tiệm tự làm theo video | Tiệm tự làm theo video | **Đội Nailmark làm hết** |
-| **Thời gian tự làm** | ~30 phút | ~30 phút | ~45 phút | 7 ngày làm việc (đội làm) |
+| **Thời gian tự làm** | 1–2 buổi | 1–2 buổi | 1–2 buổi | 7 ngày làm việc (đội làm) |
 | **AI điền sẵn từ Google Maps** (tên, địa chỉ, giờ, sao, SĐT) | Có | Có | Có | Có |
 | **Ảnh lookbook** (AI tự cắt khung, chỉnh sáng khi tải lên, không đổi màu móng) | 12 | 12 | 24 | 24, đội chọn |
 | **Bộ sưu tập 8 dịp** (ảnh mẫu Nailmark) | Không | Có | Có | Có, ưu tiên ảnh thật |
@@ -24,7 +24,7 @@
 | **Chỉnh sửa** | Tự sửa qua form | Tự sửa qua form | Tự sửa qua form | Đội sửa trong 30 ngày |
 | **Bộ Tết 2027 + công cụ ảnh quà tặng AI** | Không | Không | Có. Tiệm tự chạy theo video, tối đa 30 khách | 1 mùa, đội làm |
 | **Người hỗ trợ** | **Không** | **Không** | **Không** | Có, 30 ngày |
-| **Video + trợ lý AI 24/7** | Có | Có | Có | Có |
+| **Video tạo web (nhóm A, 7 video) + video đưa web ra ngoài (nhóm B, 5 video) + trợ lý AI 24/7** | Có | Có | Có | Có |
 | **Duy trì từ năm 2** | 499k/năm | 990k/năm | 990k/năm + phí tên miền theo nhà cung cấp | 990k/năm + phí tên miền theo nhà cung cấp |
 
 ## 2. Các gói khác

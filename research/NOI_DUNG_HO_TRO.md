@@ -2,6 +2,23 @@
 
 **Mục đích:** cả 3 gói tự làm (999k, 1,99 tr, 2,99 tr) tự vận hành bằng video và trợ lý AI, **không có người làm hộ**. AI soạn toàn bộ tài liệu này. Video là quay màn hình kèm giọng đọc AI, mỗi video 2–4 phút.
 
+## A0. Bộ video tạo web (anh Ninh bổ sung 25/11/2026)
+Ngoài 8 video vận hành ở mục A, có thêm **nhóm video hướng dẫn tạo web từ đầu**. Thời gian thực tế để tạo xong web là **1–2 buổi tự làm**, không phải 30 phút.
+
+| # | Video tạo web | Dài | Buổi |
+|---|---|---|---|
+| A1 | Mở tài khoản, dán link Google Maps của tiệm | 2 phút | Buổi 1 |
+| A2 | Kiểm và sửa thông tin AI đã điền sẵn (tên, địa chỉ, giờ, SĐT) | 3 phút | Buổi 1 |
+| A3 | Chụp 12 ảnh móng đúng chuẩn (chính là video 1 ở mục A) | 3 phút | Buổi 1 |
+| A4 | Tải ảnh, đánh số lookbook, chọn mức Đơn giản / Vừa / Cầu kỳ | 3 phút | Buổi 1 |
+| A5 | Bảng giá: gõ tay, hoặc chụp ảnh để AI đọc rồi kiểm lại | 3 phút | Buổi 2 |
+| A6 | Gắn Zalo, bấm thử nút đặt lịch | 2 phút | Buổi 2 |
+| A7 | Xem trước trên điện thoại, sửa lỗi, bấm "Xuất bản" | 3 phút | Buổi 2 |
+
+- **Buổi 1 (khoảng 1–2 giờ, phần lớn là chụp ảnh):** có web nháp với ảnh thật.
+- **Buổi 2 (khoảng 1 giờ):** web hoàn chỉnh, xuất bản, có mã QR.
+- **Sau khi xuất bản:** làm tiếp 5 video đưa web ra ngoài (nhóm B), là các video 5–8 ở mục A cộng video trả lời đánh giá. Phần này làm dần, không bắt buộc ngay.
+
 ## A. Kịch bản 8 video
 
 | # | Video | Dài | Các bước trong video | Kết quả chủ tiệm có được |
@@ -53,7 +70,7 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
 **Câu hỏi gốc:** với giá đến 2,99 triệu thì không ai có thời gian hỗ trợ. Vậy phải thiết kế để việc tự làm **khó làm sai**, **nhanh xong** và **có người nhắc** (là máy).
 
 1. **AI điền sẵn 80% trước khi tiệm bắt đầu.** Từ link Google Maps, hệ thống đã điền tên, địa chỉ, giờ mở cửa, số sao, SĐT (đã chạy được với `scripts/tu_dong_demo.py`). Tiệm chỉ còn làm 3 việc: tải ảnh, kiểm bảng giá, gắn Zalo.
-2. **Lộ trình 5 bước, khoảng 30 phút, làm trên điện thoại:**
+2. **Lộ trình 5 bước, chia làm 1–2 buổi, làm trên điện thoại** (thời gian từng bước dưới đây chỉ tính lúc thao tác, chưa tính chụp ảnh và chuẩn bị):
 
    | Bước | Việc | Video | Thời gian |
    |---|---|---|---|
@@ -71,4 +88,4 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
    - Chỉ tiêu: **≥ 80% tiệm tự xuất bản web trong 7 ngày.**
    - Nếu tỷ lệ thấp, xem tiệm hay kẹt ở bước nào rồi sửa video hoặc công cụ của bước đó. Không giải quyết bằng cách thêm người hỗ trợ.
 
-**Chạy thử với 5 tiệm đợt 1:** quan sát tiệm tự làm từ đầu đến cuối, bấm giờ từng bước, ghi lại chỗ bị kẹt. Không làm hộ. Đây là cách duy nhất để biết con số "30 phút" có đúng không.
+**Chạy thử với 5 tiệm đợt 1:** quan sát tiệm tự làm từ đầu đến cuối, bấm giờ từng bước, ghi lại chỗ bị kẹt. Không làm hộ. Đây là cách duy nhất để biết con số "1–2 buổi" có đúng không.
