@@ -1,6 +1,6 @@
 # Nailmark – Nội dung hỗ trợ tự phục vụ (25/11/2026)
 
-**Mục đích:** gói Khởi đầu (999k) tự vận hành bằng video và trợ lý AI, **không có người làm hộ**. AI soạn toàn bộ tài liệu này. Video là quay màn hình kèm giọng đọc AI, mỗi video 2–4 phút.
+**Mục đích:** cả 3 gói tự làm (999k, 1,99 tr, 2,99 tr) tự vận hành bằng video và trợ lý AI, **không có người làm hộ**. AI soạn toàn bộ tài liệu này. Video là quay màn hình kèm giọng đọc AI, mỗi video 2–4 phút.
 
 ## A. Kịch bản 8 video
 
@@ -48,3 +48,27 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
 ## D. Còn cần anh quyết hoặc cung cấp
 - Zalo OA của Nailmark, để gắn trợ lý AI.
 - Giọng đọc cho video: giọng AI nữ miền Nam (đề xuất, hợp với khách TP.HCM) hay giọng miền Bắc?
+
+## E. Làm sao để chủ tiệm **tự làm được** mà không cần người hỗ trợ
+**Câu hỏi gốc:** với giá đến 2,99 triệu thì không ai có thời gian hỗ trợ. Vậy phải thiết kế để việc tự làm **khó làm sai**, **nhanh xong** và **có người nhắc** (là máy).
+
+1. **AI điền sẵn 80% trước khi tiệm bắt đầu.** Từ link Google Maps, hệ thống đã điền tên, địa chỉ, giờ mở cửa, số sao, SĐT (đã chạy được với `scripts/tu_dong_demo.py`). Tiệm chỉ còn làm 3 việc: tải ảnh, kiểm bảng giá, gắn Zalo.
+2. **Lộ trình 5 bước, khoảng 30 phút, làm trên điện thoại:**
+
+   | Bước | Việc | Video | Thời gian |
+   |---|---|---|---|
+   | 1 | Kiểm thông tin AI đã điền | (không cần video) | 2 phút |
+   | 2 | Chụp và tải 12 ảnh móng | Video 1, 2 | 12 phút |
+   | 3 | Bảng giá: gõ, hoặc chụp ảnh để AI đọc | Video 3 | 5 phút |
+   | 4 | Gắn Zalo, bấm thử đặt lịch | Video 4 | 3 phút |
+   | 5 | Bấm "Xuất bản", tải mã QR | Video 5 | 3 phút |
+
+   Mỗi bước có **thanh tiến độ** và **điểm hoàn thiện 0–100%**. Video nằm ngay trong bước đang làm, không phải đi tìm.
+3. **Khó làm sai.** Giao diện cố định, không kéo thả tự do. Ảnh tải lên được AI tự cắt khung và chỉnh sáng, không đổi màu móng. Ô nào bắt buộc mà còn trống thì chưa cho xuất bản. Bấm "Xem trước" là thấy ngay trên điện thoại.
+4. **Máy nhắc thay người.** Nếu tiệm bỏ dở, Zalo OA tự nhắc vào ngày 1, ngày 3 và ngày 7. Mỗi lần chỉ nhắc đúng bước còn thiếu, kèm link video của bước đó.
+5. **Trợ lý AI 24/7.** Câu hỏi nào cũng được trả lời bằng đúng video và đúng bước (mục B). Nếu tiệm muốn có người làm, trợ lý trả lời thẳng: gói Làm hộ trọn gói 9,9 triệu.
+6. **Đo để sửa công cụ, không thêm người.**
+   - Chỉ tiêu: **≥ 80% tiệm tự xuất bản web trong 7 ngày.**
+   - Nếu tỷ lệ thấp, xem tiệm hay kẹt ở bước nào rồi sửa video hoặc công cụ của bước đó. Không giải quyết bằng cách thêm người hỗ trợ.
+
+**Chạy thử với 5 tiệm đợt 1:** quan sát tiệm tự làm từ đầu đến cuối, bấm giờ từng bước, ghi lại chỗ bị kẹt. Không làm hộ. Đây là cách duy nhất để biết con số "30 phút" có đúng không.

@@ -63,7 +63,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 
 ### 2c. Nguyên tắc: có nội dung hỗ trợ, nhưng làm hộ phải từ 5 triệu (anh Ninh chốt 25/11/2026)
 - **Mọi gói đều có nội dung hỗ trợ:** video hướng dẫn chi tiết, mẫu dùng sẵn, trợ lý AI trả lời câu hỏi.
-- **Gói 999k, 1,99 triệu, 2,99 triệu:** AI dựng web, AI sửa qua form, tiệm tự hoàn thiện theo video. **Không có người làm hộ.**
+- **Gói 999k, 1,99 triệu, 2,99 triệu:** tiệm **tự làm theo video**, công cụ AI điền sẵn. **Không có người làm hộ, không có người hỗ trợ.** Ba gói chỉ khác nhau về tính năng (xem `research/PHAM_VI_DICH_VU.md`).
 - **Làm hộ trọn gói (có người làm): 9.900.000 đ (≈ $380). Anh Ninh chốt 25/11/2026.** Ngưỡng tối thiểu cho mọi việc có người làm hộ là 5 triệu. Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
   - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền, tối ưu Google Maps, chỉnh sửa trong 30 ngày.
   - Phạm vi cụ thể chờ anh duyệt.
