@@ -85,8 +85,8 @@ def diem_maps(l):
     return d
 
 
-def main(pid):
-    e = html.escape
+def tinh_diem(pid):
+    """Trả về (tên tiệm, điểm từng kênh, điểm Maps, hạng mục [(tên, hiện tại, dẫn đầu, sau MREAL, trọng số)], tổng)."""
     l, k = LEADS[pid], KHAM[pid]
     ten = l["ten"].split("|")[0].split(" - ")[0].replace("(chuỗi)", "").strip()
     kenh = {c: cham_kenh(c, k["kenh"].get(c), l["website"], pid) for c in TEN_KENH}
@@ -106,6 +106,13 @@ def main(pid):
     ]
     tong = round(sum(a * w for _, a, _, _, w in hang_muc) / 100, 1)
     hang_muc = [(a, b, c, max(b, m), w) for a, b, c, m, w in hang_muc]
+    return ten, kenh, dm, hang_muc, tong
+
+
+def main(pid):
+    e = html.escape
+    l, k = LEADS[pid], KHAM[pid]
+    ten, kenh, dm, hang_muc, tong = tinh_diem(pid)
     sau = round(sum(m * w for _, _, _, m, w in hang_muc) / 100, 1)
 
     rows_k = ""
