@@ -26,7 +26,7 @@
 7. **Máy nhắc thay người.** Zalo OA nhắc vào ngày 1, ngày 3 và ngày 7, kèm đúng video của bước còn thiếu.
 8. **Kẹt thì có ba chỗ hỏi, theo thứ tự:** xem lại video, hỏi trợ lý AI, rồi mang câu hỏi vào buổi hỏi đáp hằng tuần.
 
-**Đề xuất chờ anh duyệt:** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, tên miền, số ảnh, số cơ sở và bộ Tết.
+**Anh Ninh đã duyệt (25/11/2026):** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, tên miền, số ảnh, số cơ sở và bộ Tết.
 
 **Sau khi web lên:** các video đưa web ra ngoài (mã QR, Google Maps, đánh giá, bộ sưu tập mùa lễ) là phần làm thêm, không bắt buộc.
 
