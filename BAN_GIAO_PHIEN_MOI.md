@@ -1,4 +1,4 @@
-# 10.000DN-1M-2027-TEAM SƯ TỬ – Bàn giao sang hội thoại mới (cập nhật 25/11/2026, chiều)
+# 10.000DN-1M-2027-TEAM SƯ TỬ – Bàn giao sang hội thoại mới (cập nhật 25/11/2026, 15h30)
 
 Tên dự án và tên hội thoại: **10.000DN-1M-2027-TEAM SƯ TỬ**
 
@@ -63,16 +63,31 @@ Thư mục Google Drive: **10.000DN-1M-2027-TEAM SƯ TỬ** – https://drive.go
 
 **Chưa gửi tin cho tiệm nào.**
 
+**Làm thêm chiều 25/11 (phiên mới)**
+- Anh Ninh nêu tầm nhìn 2027: lợi nhuận 1–2 triệu USD, doanh thu đến 5 triệu USD, 10.000 doanh nghiệp nhỏ. **Trước mắt chỉ làm nail ở TP.HCM**, chưa mở rộng tỉnh/ngành (`MUC_TIEU_2027.md`).
+- So sánh 10 ngành ở TP.HCM: nail đứng đầu (31/40) nhưng sát thú cưng (30) và salon tóc nữ (29). Đề xuất: giữ nail, nhắm tiệm từ 3 thợ hoặc 2 chi nhánh (`research/SO_SANH_NGANH_HCM.md`).
+- **Ther Nail còn hoạt động**: Google Places báo OPERATIONAL, đang mở cửa; website vẫn lỗi (`crm/xac_minh_ther_nail.json`).
+- Dựng demo (`scripts/demo.py`) và bản khám v3 (`scripts/ban_kham.py`: thêm hình mẫu thế giới và link demo):
+
+  | Tiệm | Demo | Bản khám v3 |
+  |---|---|---|
+  | My Doris | https://claude.ai/artifact/3dF4dvsVfCnHYRUcuAsGY4 | https://claude.ai/artifact/KkjLZgk3rXwmq2kKMJNfbj |
+  | Ther Nail | https://claude.ai/artifact/Ji14aEPrUPMnFfByVkTdW3 | https://claude.ai/artifact/XCLT17NEjh2sEUkN1WtxGM |
+  | Dami | https://claude.ai/artifact/6iV6VWindYVAAYc6f9zaU8 | https://claude.ai/artifact/E7rVX43ufJJZzUAWVDkytf |
+  | February | https://claude.ai/artifact/MHUX7cf7xqhqFnbkYFwmeZ | https://claude.ai/artifact/9waQJgmEqxNXbkmkdqPodt |
+  | Nail Districts | https://claude.ai/artifact/AVzrt9QhUKBkAw8XVtGzvR | https://claude.ai/artifact/JxRKs66L3dvvNYrkB121Bj |
+  | A+ | https://claude.ai/artifact/TD5Uo12RyVBDx4TGxnHwTD | https://claude.ai/artifact/XA1v6ddVKcbGrXXYZcPtdj |
+
 ## 2. ĐANG LÀM (dừng ở đây)
 
-- **Chờ anh Ninh duyệt bộ demo My Doris**: hướng thiết kế, nội dung, giá.
-- Bản khám v2 của 15 tiệm đã có điểm website thật. **Chưa ghép phần "hình mẫu thế giới + demo"** vào bản khám (bản khám v3).
+- **Chờ anh Ninh duyệt 6 bộ demo + 6 bản khám v3** (bảng trên): hướng thiết kế, nội dung, giá. Duyệt xong anh bật Share.
+- Khung ảnh trong demo đang là ô "Ảnh thật": cần lấy ảnh thật của tiệm (Google Places Photos hoặc người chụp màn hình Instagram).
 
 ## 3. SẮP LÀM (theo thứ tự)
 
-1. **Ther Nail:** kiểm tra tiệm còn hoạt động không (website lỗi, có video "bóc phốt", một nguồn ghi đã đóng cửa). Nếu đã đóng thì loại.
-2. **Dựng bộ demo** cho các tiệm còn lại trong vùng 2–5 điểm: Nail Districts, February, Dami, A+ (rồi Zeni, Fleur, DANY nếu cần). Ảnh phải là ảnh thật của tiệm; giá lấy theo bảng giá của tiệm.
-3. **Bản khám v3** gồm hiện trạng có bằng chứng, hình mẫu thế giới, demo của tiệm, lộ trình và giá (sửa `scripts/ban_kham.py`).
+1. ~~Ther Nail~~ (xong: còn hoạt động). ~~Demo 4 tiệm~~ (xong). ~~Bản khám v3~~ (xong).
+2. Đưa ảnh thật của tiệm vào demo; demo cho Zeni, Fleur, DANY nếu cần.
+3. Chọn 5–7 tiệm gửi vòng 1 trong 6 tiệm đã có demo (ưu tiên tiệm từ 3 thợ hoặc 2 chi nhánh).
 4. **Kênh mạng xã hội:** chấm chất lượng bài đăng (tần suất, ảnh, tương tác). Cần người mở tay trên điện thoại (khoảng 3 phút/tiệm) hoặc Claude in Chrome.
 5. Anh Ninh duyệt và bật Share. **Gửi vòng 1 cho 5–7 tiệm**: Zalo do người gửi, email do AI.
 6. Theo dõi phản hồi trong CRM. Sau 7–14 ngày, chạy vòng học: so dự đoán v1/v2 với kết quả thật, chỉnh thang điểm.
