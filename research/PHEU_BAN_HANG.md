@@ -70,9 +70,9 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 - **Đồng hành AI (2,49 triệu/tháng):** trả trước theo quý là 7,47 triệu, nên mỗi lần thu vẫn trên ngưỡng 5 triệu.
 - **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì gói làm hộ từ 5 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
 
-**Đề xuất thêm, chờ anh duyệt: gói Chuyển giao cho nhân viên, khoảng 4.990.000 đ.**
+**Gói Chuyển giao cho nhân viên: 4.990.000 đ (≈ $192), trả một lần. Anh Ninh đã duyệt 25/11/2026.**
 - Gồm: khoá video cho một nhân viên của tiệm, bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm, dấu "Đạt chuẩn Nailmark".
-- Đây là đào tạo, không phải làm hộ. Nếu anh muốn giữ đúng ngưỡng 5 triệu thì đặt giá 5.000.000 đ.
+- Đây là đào tạo, không phải làm hộ, và không có người hỗ trợ trực tiếp. Gói dành cho tiệm muốn tự chủ, thay vì trả Đồng hành AI hằng tháng.
 
 ## 3. Phễu 6 bước (tự động từ đầu đến cuối)
 1. **Thu hút.**
