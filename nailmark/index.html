@@ -40,12 +40,16 @@ nav .links{display:flex;flex-wrap:wrap;gap:6px 20px}nav .links a{color:inherit;t
 .btn{display:inline-flex;align-items:center;gap:8px;background:var(--vang);color:var(--den);border-radius:999px;padding:14px 24px;font-weight:700;text-decoration:none;transition:transform .2s,box-shadow .2s}
 .btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px rgba(0,0,0,.25)}
 .btn.ghost{background:transparent;color:var(--trung);border:1.5px solid rgba(245,238,227,.7)}
-.fan{position:relative;aspect-ratio:1/.82;width:100%;margin-block:8px}
-.fan svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+.hphoto{position:relative;width:min(100%,440px);justify-self:center;margin-block:12px 28px}
+.arch{aspect-ratio:4/5;border-radius:999px 999px 28px 28px;overflow:hidden;border:5px solid var(--vang);box-shadow:0 30px 60px rgba(40,0,0,.45);background:#5a0b0e}
+.arch img{width:100%;height:100%;object-fit:cover;display:block;animation:zoom 9s ease-out both}
+@keyframes zoom{from{transform:scale(1.12)}}
+.minifan{position:absolute;left:-22%;bottom:-10%;width:64%;aspect-ratio:600/520;filter:drop-shadow(0 12px 18px rgba(0,0,0,.35))}
+.minifan svg{width:100%;height:100%;overflow:visible}
+.hseal{position:absolute;right:-9%;top:6%;width:30%;animation:press .5s 1.05s cubic-bezier(.3,1.6,.5,1) both;filter:drop-shadow(0 8px 14px rgba(0,0,0,.35))}
 .tip{transform-box:view-box;transform-origin:300px 470px;animation:open 1.1s cubic-bezier(.2,.8,.2,1) both}
 @keyframes open{from{transform:rotate(0deg)}}
-.stamp{animation:press .5s 1.05s cubic-bezier(.3,1.6,.5,1) both;transform-box:fill-box;transform-origin:center}
-@keyframes press{from{opacity:0;transform:scale(1.6) rotate(-14deg)}}
+@keyframes press{from{opacity:0;transform:scale(1.7) rotate(-16deg)}}
 .facts{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:1px;background:rgba(245,238,227,.25);border-top:1px solid rgba(245,238,227,.25)}
 .facts div{background:var(--son2);padding:16px 18px;font-size:14px;color:#f1d9c8}
 .facts b{display:block;font-family:"Noto Serif Display",serif;font-size:clamp(26px,3vw,36px);color:var(--trung);line-height:1.1}
@@ -59,6 +63,14 @@ nav .links{display:flex;flex-wrap:wrap;gap:6px 20px}nav .links a{color:inherit;t
 .r .v{font-family:"Noto Serif Display",serif;font-weight:700;font-size:20px;text-align:right;white-space:nowrap}
 .big-q{font-family:"Noto Serif Display",serif;font-size:clamp(28px,3.4vw,40px);line-height:1.15}
 
+/* Bộ ảnh */
+.gal{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr 1fr;gap:12px;margin:22px 0 10px}
+.gal figure{margin:0;position:relative;border-radius:18px 18px 10px 10px;overflow:hidden;height:clamp(240px,27vw,350px);background:var(--line)}
+.gal .g1{border-radius:999px 999px 16px 16px}
+.gal img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .6s}
+.gal figure:hover img{transform:scale(1.06)}
+.gal figcaption{position:absolute;inset:auto 0 0 0;padding:40px 12px 12px;background:linear-gradient(transparent,rgba(23,16,14,.88));color:#f5eee3;font-size:13px;line-height:1.4}
+.gal figcaption b{display:block;font-size:15px;color:#e9c977}
 /* Nỗi đau */
 .dark{background:var(--den);color:var(--trung)}
 .dark .lead{color:#cbbcab}.dark .src,.dark .src a{color:#a8998a}
@@ -123,9 +135,9 @@ details summary{cursor:pointer;font-weight:700;padding:10px 0}
 .story{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:24px}
 footer{background:var(--den);color:#cbbcab}footer .logo{color:var(--trung)}
 
-@media(max-width:1000px){.std{grid-template-columns:repeat(2,minmax(0,1fr))}.pains{grid-template-columns:repeat(2,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}}
-@media(max-width:860px){.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.leak,.quiz,.about{grid-template-columns:1fr}.cmp,.ways,.lib{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.res{position:static}.fan{max-width:520px;margin:0 auto}}
-@media(max-width:600px){.pains,.std{grid-template-columns:1fr}.seal-head{grid-template-columns:1fr}.seal-head svg{width:110px;height:110px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}nav .links a{font-size:14px}table{font-size:13px}.hide-s{display:none}}
+@media(max-width:1000px){.gal{grid-template-columns:repeat(6,minmax(0,1fr))}.gal figure{grid-column:span 2}.gal figure:nth-child(4),.gal figure:nth-child(5){grid-column:span 3}.std{grid-template-columns:repeat(2,minmax(0,1fr))}.pains{grid-template-columns:repeat(2,minmax(0,1fr))}.cal{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:860px){.hgrid{grid-template-columns:1fr;grid-template-areas:"t" "f" "s"}.leak,.quiz,.about{grid-template-columns:1fr}.cmp,.ways,.lib{grid-template-columns:1fr}.facts{grid-template-columns:repeat(2,minmax(0,1fr))}.res{position:static}.hphoto{width:min(78%,360px)}}
+@media(max-width:600px){.gal{grid-template-columns:repeat(2,minmax(0,1fr))}.gal figure,.gal figure:nth-child(4),.gal figure:nth-child(5){grid-column:auto}.gal .g1{grid-column:1/-1;border-radius:24px 24px 12px 12px}.pains,.std{grid-template-columns:1fr}.seal-head{grid-template-columns:1fr}.seal-head svg{width:110px;height:110px}.cal{grid-template-columns:repeat(4,minmax(0,1fr))}.rk{grid-template-columns:minmax(0,7.5em) minmax(0,1fr) 2.4em}nav .links a{font-size:14px}table{font-size:13px}.hide-s{display:none}}
 @media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}html{scroll-behavior:auto}}
 </style>
 
@@ -139,7 +151,7 @@ footer{background:var(--den);color:#cbbcab}footer .logo{color:var(--trung)}
 <h1>Chuẩn mực thế giới cho tiệm nail Á Đông</h1></div>
 <div style="grid-area:s;align-self:start"><p class=sub>Tay nghề tốt chưa đủ. Khách phải tìm thấy, đặt được và quay lại. Nailmark đúc kết từ 17 chuỗi nail ở 9 nước thành 8 tiêu chuẩn mà tiệm nhỏ làm theo được ngay.</p>
 <div class=btns><a class=btn href="#tu-cham">Tự chấm điểm tiệm · 2 phút</a><a class="btn ghost" href="#van-de">Tiệm nail đang mất khách ở đâu</a></div></div>
-<div class=fan style="grid-area:f"><svg id=fan viewBox="0 0 600 520" role=img aria-label="Chín móng sơn xoè như chiếc quạt, kèm con dấu Nailmark"></svg></div>
+<div class=hphoto style="grid-area:f"><div class=arch><img src="img/hero.jpg" alt="Bàn tay sơn gel đỏ son tại tiệm nail" width=900 height=1125></div><div class=minifan><svg id=fan viewBox="0 0 600 520" aria-hidden=true></svg></div><svg class=hseal id=hseal viewBox="0 0 160 160" aria-hidden=true></svg></div>
 </div></div>
 <div class=facts><div><b>17</b>chuỗi nail được chấm điểm</div><div><b>9</b>quốc gia</div><div><b>8</b>tiêu chuẩn</div><div><b>0 đ</b>tự chấm điểm và thư viện mẫu</div></div>
 </section>
@@ -149,6 +161,19 @@ footer{background:var(--den);color:#cbbcab}footer .logo{color:var(--trung)}
 <p class=big-q>15 tiệm nail Quận 1 được khách chấm 4,8–5★, vẫn để mất khách ở 6 chỗ.</p>
 <p class=lead style="margin-top:14px">Khám 11 kênh của từng tiệm: Google Maps, website, Facebook, Instagram, TikTok, Zalo, đặt lịch… Tay nghề không phải vấn đề. Đường đi của khách mới là vấn đề.</p></div>
 <div id=leak></div>
+</div></section>
+
+<section class="band" style="padding-top:0"><div class=in>
+<div class=eyebrow>Chuẩn mực trông như thế nào</div>
+<h2>Năm điều khách nhìn thấy ở một tiệm đạt chuẩn</h2>
+<div class=gal>
+<figure class=g1><img src="img/menu.jpg" alt="Bảng màu sơn xoè như quạt trên bàn tiệm" loading=lazy width=700 height=875><figcaption><b>Menu mẫu đánh số</b>Khách chọn màu và mẫu trước khi ngồi, giá trọn gói.</figcaption></figure>
+<figure><img src="img/vesinh.jpg" alt="Thợ đeo găng tay làm móng cho khách" loading=lazy width=700 height=875><figcaption><b>Vệ sinh thấy được</b>Găng tay, dụng cụ hấp và khui trước mặt khách.</figcaption></figure>
+<figure><img src="img/vangla.jpg" alt="Móng nail art vàng lá" loading=lazy width=700 height=875><figcaption><b>Mẫu của tháng</b>Vàng thếp cho Tết, bộ mẫu mới mỗi tháng.</figcaption></figure>
+<figure><img src="img/gel.jpg" alt="Bàn tay sơn đỏ bên đèn hơ gel" loading=lazy width=700 height=875><figcaption><b>Gel bền khí hậu nóng ẩm</b>Xử lý kỹ da quanh móng, hơ đúng đèn, bảo hành rõ.</figcaption></figure>
+<figure><img src="img/tho.jpg" alt="Thợ đang sơn móng màu nâu đỏ" loading=lazy width=700 height=875><figcaption><b>Thợ có tên tuổi</b>Video quy trình 15–30 giây ghi tên thợ và số mẫu.</figcaption></figure>
+</div>
+<p class=src>Ảnh: Pexels (giấy phép Pexels, dùng miễn phí), chỉ cắt khung, không chỉnh màu móng.</p>
 </div></section>
 
 <section class="band dark"><div class=in>
@@ -222,7 +247,7 @@ footer{background:var(--den);color:#cbbcab}footer .logo{color:var(--trung)}
 </div></section>
 
 <footer class=band><div class=in><div class=logo>Nailmark</div>
-<p style="font-size:14px">Bản mẫu ngày 25/11/2026 · Kênh liên hệ sẽ được bổ sung. Tên các chuỗi thuộc về chủ sở hữu; Nailmark chỉ dẫn số liệu công khai và không liên kết với các chuỗi này.</p></div></footer>
+<p style="font-size:14px">Bản mẫu ngày 25/11/2026 · Kênh liên hệ sẽ được bổ sung. Ảnh: Pexels (cottonbro studio, Leeloo The First và các tác giả khác), giấy phép Pexels. Tên các chuỗi thuộc về chủ sở hữu; Nailmark chỉ dẫn số liệu công khai và không liên kết với các chuỗi này.</p></div></footer>
 
 <script>
 {
@@ -244,9 +269,9 @@ f+=`<ellipse cx=300 cy=488 rx=270 ry=22 fill="#000" opacity=".18"/>`;
 cols.forEach((c,i)=>{const a=-72+i*18;f+=`<g class=tip style="transform:rotate(${a}deg)"><g transform="translate(300 470)"><path d="${tipPath}" fill="url(#g${i})" stroke="rgba(0,0,0,.18)"/><path d="M-18-60V-250C-18-290-9-314 0-320" fill=none stroke="rgba(255,255,255,.45)" stroke-width=6 stroke-linecap=round /></g></g>`});
 f+=`<circle cx=300 cy=470 r=26 fill="#c9a14a" stroke="#7a5a1c" stroke-width=3 /><circle cx=300 cy=470 r=9 fill="#7a5a1c"/>`;
 const seal=(cx,cy,s,c)=>`<g transform="translate(${cx} ${cy}) scale(${s}) rotate(-8)"><rect x=-62 y=-62 width=124 height=124 rx=14 fill="${c}"/><rect x=-52 y=-52 width=104 height=104 rx=8 fill=none stroke="#f5eee3" stroke-width=3 /><path d="M-18 30V-6C-18-24-9-34 0-34S18-24 18-6V30Z" fill="#f5eee3"/><text x=0 y=-38 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=13 fill="#f5eee3" letter-spacing="2">NAILMARK</text><text x=0 y=48 text-anchor=middle font-family="Be Vietnam Pro,sans-serif" font-weight=700 font-size=12 fill="#f5eee3">ĐẠT CHUẨN</text><text x=0 y=14 text-anchor=middle font-family="Georgia,serif" font-weight=700 font-size=22 fill="${c}">N</text></g>`;
-f+=`<g class=stamp>${seal(520,92,.82,"#c4231f")}</g>`;
 document.getElementById("fan").innerHTML=f;
 document.getElementById("seal1").innerHTML=seal(80,80,1.1,"#a3161a");
+document.getElementById("hseal").innerHTML=seal(80,80,1.15,"#c4231f");
 document.getElementById("ok").innerHTML=seal(80,80,1.05,"#c4231f");
 /* rò rỉ khách */
 const L=[["Không có kênh chăm khách cũ (Zalo, thẻ thành viên)",14],["Khách không đặt lịch online được",10],["Google Maps không gắn website riêng",10],["Không có TikTok",9],["Không có bảng giá công khai",6],["Instagram nhiều bài, ít người theo dõi",5]];
