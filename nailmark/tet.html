@@ -1,0 +1,180 @@
+<title>Chiến dịch Tết 2027</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,600;0,700;1,600&family=Be+Vietnam+Pro:wght@400;500;600;700&display=swap">
+<style>
+/* VOICE occasion: bộ công cụ chiến dịch Tết cho chủ tiệm nail, sang và dùng được ngay
+   IDEA lịch đếm ngược Tết bằng sơn mài: mỗi mốc là một móng sơn trên dải đỏ son tiến về mùng 1
+   PICTURE dải thời gian 73 ngày với 6 móng mốc, thẻ quà tặng "lì xì móng", ảnh tặng khách
+   COLOUR đỏ son, đen sơn, vàng thếp, vỏ trứng (thương hiệu Nailmark)
+   TYPE Noto Serif Display + Be Vietnam Pro
+   LAYOUT hero đỏ: tiêu đề + số ngày; dải thời gian toàn chiều rộng; các phần công cụ xen kẽ nền */
+:root{color-scheme:light dark;--son:#a3161a;--son2:#7d0f13;--den:#17100e;--vang:#c9a14a;--vang2:#e9c977;--trung:#f5eee3;
+--bg:light-dark(#fbf7f1,#120c0b);--card:light-dark(#ffffff,#1d1513);--ink:light-dark(#1c1210,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e8dccd,#3a2c26);--accent:light-dark(#a3161a,#ff6b5e);--gold:light-dark(#8f6d22,#d9b45e);--tint:light-dark(#f3e9dc,#18100e)}
+:root[data-theme=light]{color-scheme:light}:root[data-theme=dark]{color-scheme:dark}
+*{box-sizing:border-box;min-width:0}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif;overflow-x:clip}
+img{display:block;max-width:100%}
+.band{padding-block:clamp(44px,6vw,90px);padding-left:max(5vw,16px,env(safe-area-inset-left,0px));padding-right:max(5vw,16px,env(safe-area-inset-right,0px))}
+.in{max-width:1200px;margin:0 auto}
+h1,h2{font-family:"Noto Serif Display",Georgia,serif;font-weight:700;letter-spacing:-.015em;margin:0}
+h1{font-size:clamp(38px,5.6vw,70px);line-height:1.03}h2{font-size:clamp(30px,3.8vw,48px);line-height:1.08}
+h2 em{font-style:italic;font-weight:600}h3{margin:0;font-size:18px;line-height:1.3}
+.eyebrow{display:inline-flex;align-items:center;gap:10px;font-size:13px;font-weight:600;color:var(--gold);margin-bottom:12px}.eyebrow:before{content:"";width:26px;height:1.5px;background:currentColor}
+.lead{font-size:18px;color:var(--mut);margin:12px 0 0;max-width:52ch}
+.src{font-size:12px;color:var(--mut)}.src a{color:inherit}
+.tint{background:var(--tint)}
+.head{display:flex;justify-content:space-between;align-items:end;gap:24px;flex-wrap:wrap;margin-bottom:28px}
+
+.hero{background:radial-gradient(110% 90% at 80% 30%,#c4231f,var(--son) 45%,var(--son2));color:var(--trung);margin-top:calc(-1*env(safe-area-inset-top,0px));padding-top:calc(env(safe-area-inset-top,0px) + clamp(36px,5vw,72px));position:relative;overflow:hidden}
+.hero .in{display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:32px;align-items:center}
+.logo{display:flex;align-items:center;gap:10px;font-family:"Noto Serif Display",serif;font-weight:700;font-size:20px;margin-bottom:28px}
+.hero p{font-size:19px;color:#f7e6d6;max-width:44ch}
+.count{justify-self:center;text-align:center;position:relative}
+.count .num{font-family:"Noto Serif Display",serif;font-size:clamp(110px,15vw,190px);line-height:.9;color:var(--vang2);text-shadow:0 10px 40px rgba(0,0,0,.35)}
+.count span{display:block;font-size:16px;color:#f7e6d6}
+.count .date{display:inline-block;margin-top:14px;border:1.5px solid var(--vang);border-radius:999px;padding:8px 18px;font-weight:600}
+.petal{position:absolute;width:14px;height:14px;border-radius:50%;background:var(--vang2);opacity:.7;animation:fall linear infinite}
+@keyframes fall{from{transform:translateY(-40px) rotate(0)}to{transform:translateY(110vh) rotate(360deg)}}
+
+/* dải thời gian */
+.tl{position:relative;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;padding-top:30px}
+.tl:before{content:"";position:absolute;left:0;right:0;top:56px;height:6px;border-radius:6px;background:linear-gradient(90deg,var(--vang),var(--son))}
+.st{position:relative;display:flex;flex-direction:column;gap:8px;align-items:flex-start}
+.st .tip{width:40px;height:56px;border-radius:20px 20px 8px 8px;display:grid;place-items:center;color:#fff;font-weight:700;box-shadow:inset 7px 0 0 rgba(255,255,255,.2),0 8px 16px rgba(60,10,5,.25);z-index:1}
+.st .d{font-size:13px;font-weight:700;color:var(--accent)}
+.st p{margin:0;font-size:14px;color:var(--mut)}
+
+/* lookbook */
+.lb{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px}
+.lb figure{margin:0;position:relative;border-radius:999px 999px 14px 14px;overflow:hidden;aspect-ratio:3/4;background:var(--line)}
+.lb img{width:100%;height:100%;object-fit:cover;transition:transform .6s}.lb figure:hover img{transform:scale(1.07)}
+.lb figcaption{position:absolute;left:0;right:0;bottom:0;padding:24px 10px 10px;background:linear-gradient(transparent,rgba(23,16,14,.85));color:var(--trung);font-size:13px;display:flex;justify-content:space-between}
+.lb b{font-family:"Noto Serif Display",serif;color:var(--vang2);font-size:18px}
+.price{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin-top:18px}
+.price div{border:1px solid var(--line);border-radius:16px;padding:14px 16px;background:var(--card);display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.price b{font-family:"Noto Serif Display",serif;font-size:22px;color:var(--accent);white-space:nowrap}
+
+/* thẻ quà tặng */
+.gift{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center}
+.cards{position:relative;height:340px}
+.gc{position:absolute;width:min(72%,380px);aspect-ratio:1.6/1;border-radius:20px;padding:22px;color:var(--trung);background:linear-gradient(135deg,#c4231f,var(--son2));box-shadow:0 24px 50px rgba(60,10,5,.35);overflow:hidden;transition:transform .4s}
+.gc:nth-child(1){left:0;top:0;transform:rotate(-8deg)}.gc:nth-child(2){left:12%;top:60px;transform:rotate(2deg);background:linear-gradient(135deg,#2a1d19,var(--den))}.gc:nth-child(3){left:26%;top:120px;transform:rotate(9deg);background:linear-gradient(135deg,#d9b45e,#9c7a2c);color:var(--den)}
+.cards:hover .gc:nth-child(1){transform:rotate(-12deg) translateX(-10px)}.cards:hover .gc:nth-child(3){transform:rotate(13deg) translateX(10px)}
+.gc .v{font-family:"Noto Serif Display",serif;font-size:40px;line-height:1}.gc .t{font-size:13px;opacity:.85}
+.gc .sl{position:absolute;right:18px;bottom:16px;width:62px;height:62px;border-radius:12px;border:3px solid currentColor;display:grid;place-items:center;font-family:"Noto Serif Display",serif;font-size:26px;transform:rotate(-8deg)}
+.gc:before{content:"";position:absolute;right:-40px;top:-40px;width:150px;height:150px;border-radius:50%;border:2px solid rgba(233,201,119,.5)}
+ul.k{margin:14px 0 0;padding-left:18px}ul.k li{margin:6px 0}
+
+/* ảnh tặng khách */
+.photo{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:48px;align-items:center}
+.photo img{border-radius:22px;box-shadow:0 30px 60px rgba(40,10,5,.3);width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}
+.poses{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin:20px 0}
+.poses div{border:1px solid var(--line);border-radius:16px;padding:12px 8px;text-align:center;font-size:13px;background:var(--card)}
+.poses svg{width:56px;height:56px;margin:0 auto 6px;display:block}
+.steps{counter-reset:s;display:grid;gap:10px;margin:0;padding:0;list-style:none}
+.steps li{counter-increment:s;display:flex;gap:12px;align-items:baseline}.steps li:before{content:counter(s);flex:none;width:28px;height:28px;border-radius:50%;background:var(--son);color:#fff;display:grid;place-items:center;font-weight:700;font-size:14px}
+.consent{margin-top:18px;border-left:3px solid var(--vang);padding:10px 16px;background:var(--card);border-radius:0 12px 12px 0;font-size:14px}
+
+/* zalo + lịch nội dung */
+.zl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px}
+.bub{background:var(--card);border:1px solid var(--line);border-radius:18px 18px 18px 4px;padding:16px;font-size:15px;position:relative}
+.bub small{display:block;color:var(--gold);font-weight:700;margin-bottom:6px}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:14px;min-width:720px}th,td{text-align:left;vertical-align:top;padding:10px 8px;border-bottom:1px solid var(--line)}th{font-size:13px;color:var(--mut)}
+td:first-child{white-space:nowrap;font-weight:700;color:var(--accent)}
+
+.kpi{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.kpi div{background:var(--den);color:var(--trung);border-radius:18px;padding:18px}.kpi b{display:block;font-family:"Noto Serif Display",serif;font-size:30px;color:var(--vang2);line-height:1.1}
+.cta{background:var(--den);color:var(--trung);text-align:center}.cta p{color:#cbbcab;max-width:56ch;margin:12px auto 0}
+.btn{display:inline-block;margin-top:22px;background:var(--vang);color:var(--den);border-radius:999px;padding:14px 26px;font-weight:700;text-decoration:none}
+
+@media(max-width:900px){.hero .in,.gift,.photo{grid-template-columns:1fr}.tl{grid-template-columns:repeat(2,minmax(0,1fr));row-gap:28px}.tl:before{display:none}.lb{grid-template-columns:repeat(3,minmax(0,1fr))}.price,.zl{grid-template-columns:1fr}.kpi{grid-template-columns:repeat(2,minmax(0,1fr))}.cards{height:300px}.poses{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+
+<section class="band hero" id=petals>
+<div class=in>
+<div><div class=logo><svg width=24 height=32 viewBox="0 0 30 38" aria-hidden=true><path d="M2 36V15C2 7 8 2 15 2s13 5 13 13v21Z" fill="#f5eee3"/><text x="15" y="27" text-anchor="middle" font-family="Georgia,serif" font-weight="700" font-size="13" fill="#a3161a">N</text></svg>Nailmark</div>
+<div class=eyebrow style="color:var(--vang2)">Bộ chiến dịch cho tiệm nail</div>
+<h1>Tết Đinh Mùi: kín lịch từ trước, không chờ cận Tết</h1>
+<p>Lịch 73 ngày, bộ mẫu Tết đánh số, thẻ quà tặng bán trước, bộ ảnh tặng khách và tin Zalo viết sẵn. Tiệm làm theo là dùng được ngay.</p></div>
+<div class=count><div class=num id=days>73</div><span>ngày đến mùng 1 Tết</span><div class=date>Thứ Bảy, 6/2/2027</div></div>
+</div></section>
+
+<section class=band><div class=in>
+<div class=head><div><div class=eyebrow>Lịch chiến dịch</div><h2>Sáu mốc, <em>73 ngày</em></h2></div><p class=lead style="margin:0">Năm nay không có 30 Tết: giao thừa là tối 29 tháng Chạp (5/2/2027).</p></div>
+<div class=tl id=tl></div>
+<p class=src style="margin-top:20px">Ngày Tết: <a href="https://thuvienphapluat.vn/hoi-dap-phap-luat/tet-2027-vao-ngay-nao-tet-2027-nam-con-gi-138079418.html" target=_blank rel=noopener>Thư viện Pháp luật</a>. Valentine 14/2/2027 rơi vào mùng 9 Tết: nối chiến dịch ngay sau Tết.</p>
+</div></section>
+
+<section class="band tint"><div class=in>
+<div class=head><div><div class=eyebrow>Lookbook Tết</div><h2>12 mẫu, <em>đánh số, giá trọn gói</em></h2></div><p class=lead style="margin:0">Khách chọn số khi đặt lịch, không phải nhắn hỏi. Ảnh dưới là khung mẫu: thay bằng ảnh thật của tiệm.</p></div>
+<div class=lb id=lb></div>
+<div class=price><div><span>Đơn giản · 45 phút</span><b>giá của tiệm</b></div><div><span>Vừa · 60 phút</span><b>giá của tiệm</b></div><div><span>Cầu kỳ · 90 phút</span><b>giá của tiệm</b></div></div>
+</div></section>
+
+<section class=band><div class="in gift">
+<div class=cards aria-hidden=true>
+<div class=gc><div class=t>LÌ XÌ MÓNG · TẾT 2027</div><div class=v>300.000đ</div><div class=t>Tặng một bộ móng Tết</div><div class=sl>N</div></div>
+<div class=gc><div class=t>LÌ XÌ MÓNG · TẾT 2027</div><div class=v>500.000đ</div><div class=t>Tay + chân, chọn mẫu Tết</div><div class=sl>N</div></div>
+<div class=gc><div class=t>THẺ 10 LẦN · XUÂN 2027</div><div class=v>Mua 10 tặng 1</div><div class=t>Dùng cả năm, hoàn tiền rõ ràng</div><div class=sl>N</div></div>
+</div>
+<div><div class=eyebrow>Thẻ quà tặng</div><h2>Bán trước Tết, <em>có tiền trước Tết</em></h2>
+<p class=lead>Người mua là người tặng: chồng, người yêu, sếp, đồng nghiệp. Tiệm nhận tiền từ tháng 12, khách dùng sau Tết, đúng lúc vắng.</p>
+<ul class=k><li>Mở bán 1/12, đẩy mạnh tuần tiệc cuối năm.</li><li>Gói quà sẵn trong bao lì xì đỏ có con dấu tiệm.</li><li>Ghi rõ hạn dùng và điều khoản hoàn tiền: không ép mua.</li></ul>
+<p class=src>Bài học: Nail Palace (Singapore) bị cơ quan bảo vệ người tiêu dùng cảnh cáo vì ép bán gói trả trước (<a href="https://mothership.sg/2021/12/nail-palace-elderly-woman-hard-selling" target=_blank rel=noopener>Mothership</a>).</p></div>
+</div></section>
+
+<section class="band tint"><div class="in photo">
+<img src="img/bst-tet.jpg" alt="Ảnh tặng khách: bàn tay sơn đỏ trong khung vòm Tết" width=720 height=900 loading=lazy>
+<div><div class=eyebrow>Bộ ảnh tặng khách</div><h2>Khách mang về <em>một bộ ảnh Tết</em></h2>
+<p class=lead>Chụp 30 giây sau khi làm xong. Mười phút sau khách nhận ảnh qua Zalo, đã ghép bối cảnh Tết và con dấu tiệm. Khách đăng lên mạng, bạn bè hỏi "làm ở đâu".</p>
+<div class=poses id=poses></div>
+<ol class=steps><li>Khách đồng ý chụp (mẫu bên dưới).</li><li>Chụp nửa người trước tường trơn, tay khoe móng.</li><li>Nailmark tách nền, ghép bối cảnh, gửi lại qua Zalo trong 10 phút.</li><li>Kèm mã giảm giá cho bạn bè của khách: đo được khách mới.</li></ol>
+<div class=consent><b>Mẫu đồng ý:</b> "Em đồng ý để tiệm chụp ảnh tay và gương mặt, ghép bối cảnh để gửi tặng em. Tiệm chỉ đăng ảnh lên kênh của tiệm khi em đồng ý thêm." Không đổi gương mặt, không đổi màu móng.</div>
+</div></div></section>
+
+<section class=band><div class=in>
+<div class=head><div><div class=eyebrow>Tin Zalo viết sẵn</div><h2>Ba tin, <em>đúng ba thời điểm</em></h2></div></div>
+<div class=zl>
+<div class=bub><small>1/12 · Mở đặt lịch Tết</small>Chị ơi, bộ mẫu Tết Đinh Mùi của tiệm đã có 12 mẫu đánh số. Năm nay Tết sớm (6/2), chị giữ giờ trước để khỏi chờ nha. Chọn số mẫu và giờ ở link này ạ.</div>
+<div class=bub><small>3 tuần sau lần làm · Nhắc dặm</small>Đã 3 tuần từ lần chị làm móng ở tiệm. Mẫu Tết số 03 đang được đặt nhiều nhất, chị muốn giữ giờ trước 25/1 không ạ?</div>
+<div class=bub><small>Mùng 8 · Cảm ơn và Valentine</small>Cảm ơn chị đã đón Tết cùng tiệm! Valentine là mùng 9 rồi, tiệm có bộ mẫu tình nhân và thẻ quà tặng cho người thương của chị ạ.</div>
+</div></div></section>
+
+<section class="band tint"><div class=in>
+<div class=head><div><div class=eyebrow>Lịch nội dung</div><h2>10 tuần, <em>mỗi tuần một chủ đề</em></h2></div></div>
+<div class=scroll><table><thead><tr><th>Tuần</th><th>Chủ đề</th><th>Video ngắn (TikTok, Reels)</th><th>Facebook, Instagram</th><th>Zalo</th></tr></thead><tbody id=cal></tbody></table></div>
+</div></section>
+
+<section class=band><div class=in>
+<div class=head><div><div class=eyebrow>Đo bằng con số</div><h2>Bốn chỉ số <em>mỗi tuần</em></h2></div></div>
+<div class=kpi><div><b>Lịch hẹn</b>đặt trước Tết, theo từng kênh</div><div><b>Thẻ quà</b>số thẻ bán và tiền thu trước</div><div><b>Khách mới</b>đến từ mã của ảnh tặng</div><div><b>Đánh giá</b>số đánh giá Google mới</div></div>
+</div></section>
+
+<section class="band cta"><div class=in>
+<h2>Nailmark làm sẵn <em>trọn bộ</em> cho tiệm</h2>
+<p>Lookbook bằng ảnh thật của tiệm, thẻ quà tặng in sẵn, bộ ảnh tặng khách, lịch đăng bài và tin Zalo. Gói theo nhu cầu, có thể trả theo số lịch hẹn mới.</p>
+<a class=btn href="https://claude.ai/artifact/PKfZSjUNBkiZv5fcvnVq6H" target=_blank rel=noopener>Xem bộ tiêu chuẩn Nailmark</a>
+<p class=src style="color:#a8998a">Ảnh minh hoạ: Pexels, giấy phép Pexels, đã ghép bối cảnh bằng công cụ Nailmark.</p>
+</div></section>
+
+<script>
+{
+const T=[["#c9a14a","25/11–15/12","Chuẩn bị","Chụp 12 mẫu Tết, chốt giá trọn gói, dựng trang đặt lịch."],
+["#b8324f","1/12","Mở bán quà","Thẻ quà tặng Tết, bao lì xì có con dấu tiệm."],
+["#2f6f68","15–31/12","Cuối năm","Noel, tiệc tất niên: bộ sưu tập cuối năm."],
+["#6b2a5c","1–25/1","Giữ giờ Tết","Mở đặt theo khung giờ, cọc nhỏ, nhắc khách cũ."],
+["#a3161a","26/1–5/2","Cận Tết","Ca tối, đúng giờ hẹn, tặng bộ ảnh Tết."],
+["#7d0f13","6–14/2","Sau Tết","Cảm ơn khách, nối Valentine mùng 9."]];
+document.getElementById("tl").innerHTML=T.map((t,i)=>`<div class=st><div class=tip style="background:${t[0]}">${i+1}</div><span class=d>${t[1]}</span><h3>${t[2]}</h3><p>${t[3]}</p></div>`).join("");
+const I=["bst-tet","m7","hero","m6","p5","s5","m3","s3","m1","m4","m9","s4"];
+const N=["Son đỏ","Đỏ rượu","Đỏ son bóng","Vàng thếp","Đỏ mắt mèo","Đỏ cổ điển","Đen vàng","Nhũ vàng","Hồng đào","Nude ánh kim","Lì xì","Tuyết mai"];
+document.getElementById("lb").innerHTML=I.map((f,i)=>`<figure><img src="img/${f}.jpg" alt="Mẫu Tết số ${i+1}" loading=lazy><figcaption><b>${String(i+1).padStart(2,"0")}</b><span>${N[i]}</span></figcaption></figure>`).join("");
+const P=[["Chạm ngực","M28 14c-6 0-10 6-10 14v20h20V28c0-8-4-14-10-14Z M22 30h12"],["Che môi","M28 10a9 9 0 1 1 0 18a9 9 0 1 1 0-18Z M20 26h16v6H20Z"],["Cầm lì xì","M18 18h20v26H18Z M18 24h20 M28 21v6"],["Tay trên lụa","M8 40c10-8 20 8 40-2 M18 32V22 M24 32V18 M30 32V20 M36 32V24"]];
+document.getElementById("poses").innerHTML=P.map(p=>`<div><svg viewBox="0 0 56 56" aria-hidden=true><path d="${p[1]}" fill=none stroke="#a3161a" stroke-width=2.5 stroke-linecap=round stroke-linejoin=round /></svg>${p[0]}</div>`).join("");
+const C=[["25/11","Ra mắt bộ mẫu Tết","Quá trình làm mẫu số 01","Lookbook 12 mẫu đánh số",""],["2/12","Thẻ quà tặng Tết","Mở bao lì xì móng","Ảnh thẻ quà, cách mua","Tin 1: mở đặt Tết"],["9/12","Mẫu cho tiệc cuối năm","Đỏ rượu dưới đèn tiệc","Bộ sưu tập cuối năm",""],["16/12","Noel","Mẫu tuyết mai","Ảnh khách thật",""],["23/12","Quà cho sếp và đồng nghiệp","Gói quà trong 15 giây","Thẻ quà cho doanh nghiệp","Nhắc dặm 3 tuần"],["30/12","Đón năm mới","Top 3 mẫu được đặt nhiều","Lịch còn trống tháng 1",""],["6/1","Giữ giờ Tết","Một ngày ở tiệm trước Tết","Khung giờ còn trống","Tin giữ giờ"],["13/1","Vệ sinh và bảo hành","Khui túi dụng cụ đã hấp","Chính sách bảo hành 10 ngày",""],["20/1","Bộ ảnh Tết","Trước và sau khi ghép ảnh","Ảnh khách đồng ý đăng","Nhắc lịch hẹn"],["27/1","Cận Tết","Ca tối, đèn Tết trong tiệm","Lời chúc từ thợ","Nhắc 24 giờ và 2 giờ"]];
+document.getElementById("cal").innerHTML=C.map(c=>`<tr>${c.map(v=>`<td>${v||"–"}</td>`).join("")}</tr>`).join("");
+const now=new Date(),tet=new Date(2027,1,6);const d=Math.ceil((tet-now)/864e5);if(d>0&&d<400)document.getElementById("days").textContent=d;
+if(!matchMedia("(prefers-reduced-motion: reduce)").matches){const h=document.getElementById("petals");for(let i=0;i<14;i++){const p=document.createElement("i");p.className="petal";p.style.left=Math.random()*100+"%";p.style.animationDuration=8+Math.random()*10+"s";p.style.animationDelay=-Math.random()*15+"s";p.style.transform=`scale(${.5+Math.random()})`;h.appendChild(p);}}
+}
+</script>
