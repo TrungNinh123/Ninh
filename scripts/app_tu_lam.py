@@ -115,5 +115,107 @@ def xuat_ban():
     return jsonify(kq)
 
 
+
+# ---------------- Thanh toán và giao hàng tự động ----------------
+import os  # noqa: E402
+import threading  # noqa: E402
+
+import thanh_toan as tt  # noqa: E402
+
+
+@app.get("/mua")
+def trang_mua():
+    return send_from_directory(ROOT / "nailmark", "mua.html")
+
+
+@app.post("/api/don")
+def api_tao_don():
+    j = request.json or {}
+    so = re.sub(r"\D", "", j.get("zalo", ""))
+    if len((j.get("ten") or "").strip()) < 2 or len(so) != 10:
+        return jsonify(loi="Cần tên tiệm và số Zalo 10 chữ số."), 400
+    try:
+        don = tt.tao_don(j.get("goi", ""), j["ten"].strip(), so, j.get("ma_giam", ""))
+    except ValueError as e:
+        return jsonify(loi=str(e)), 400
+    return jsonify(don_cong_khai(don))
+
+
+def don_cong_khai(don):
+    tk = tt.tai_khoan()
+    return dict(ma=don["ma"], goi=don["goi"], ten_goi=don["ten_goi"], so_tien=don["so_tien"], giam=don["giam"],
+                trang_thai=don["trang_thai"], giao=don.get("giao"), xac_minh=don["xac_minh"], qr=f"/api/don/{don['ma']}/qr.svg",
+                ngan_hang=dict(stk=tk["stk"], ten=tk["ten"], mau=tk["mau"]), dev=os.environ.get("NAILMARK_DEV") == "1")
+
+
+@app.get("/api/don/<ma>")
+def api_don(ma):
+    don = tt.lay_don(ma)
+    return (jsonify(don_cong_khai(don)) if don else (jsonify(loi="Không có đơn."), 404))
+
+
+@app.get("/api/don/<ma>/qr.svg")
+def api_qr(ma):
+    import segno
+    don = tt.lay_don(ma)
+    if not don:
+        return "", 404
+    import io
+    b = io.BytesIO(); segno.make(don["qr"], error="m").save(b, kind="svg", scale=8, border=2, dark="#17100e")
+    return app.response_class(b.getvalue(), mimetype="image/svg+xml")
+
+
+def giao_hang(don):
+    """Giao ngay khi tiền vào. Bộ 99k: tạo bộ ảnh; gói web: mở app tạo web (điền sẵn tên tiệm)."""
+    ma = don["ma"]
+    if don["trang_thai"] != "da_tra":
+        return
+    if don["goi"] == "bo-tet-99k":
+        tt.cap_nhat(ma, giao_trang_thai="dang_tao")
+        from bo_99k import tao
+        out = tao(dict(ten=don["ten_tiem"]), don["zalo"], [("Sơn gel trơn", "150.000đ"), ("Sơn gel + vẽ Tết", "190.000đ"),
+                                                          ("Đắp gel, nối móng", "350.000đ"), ("Chăm sóc chân", "120.000đ")])
+        tt.cap_nhat(ma, giao=f"/bo99/{out.name}/", giao_trang_thai="xong")
+    elif don["goi"] in ("khoi-dau", "chuan", "dang-cap"):
+        from urllib.parse import quote
+        tt.cap_nhat(ma, giao=f"/?don={ma}&q={quote(don['ten_tiem'])}", giao_trang_thai="xong")
+    else:
+        tt.cap_nhat(ma, giao_trang_thai="cho_bat_dau")
+
+
+@app.post("/api/webhook/sepay")
+def webhook_sepay():
+    """Tin báo tiền vào từ SePay. Trường dữ liệu theo tài liệu SePay (content, transferAmount, transferType, id) –
+    ĐỐI CHIẾU lại tài liệu chính thức khi mở tài khoản."""
+    khoa = os.environ.get("SEPAY_API_KEY")
+    if not khoa or request.headers.get("Authorization", "") != f"Apikey {khoa}":
+        return jsonify(success=False), 401
+    j = request.json or {}
+    if j.get("transferType", "in") != "in":
+        return jsonify(success=True)
+    don = tt.ghi_nhan_tien(j.get("content", ""), j.get("transferAmount", 0), j.get("id"))
+    if don:
+        threading.Thread(target=giao_hang, args=(don,), daemon=True).start()
+    return jsonify(success=True)
+
+
+@app.post("/api/gia-lap/<ma>")
+def gia_lap(ma):
+    if os.environ.get("NAILMARK_DEV") != "1":
+        return "", 404
+    don = tt.lay_don(ma)
+    if not don:
+        return jsonify(loi="Không có đơn."), 404
+    d = tt.ghi_nhan_tien(ma, don["so_tien"], f"GIALAP-{ma}")
+    if d:
+        threading.Thread(target=giao_hang, args=(d,), daemon=True).start()
+    return jsonify(ok=True)
+
+
+@app.get("/bo99/<slug>/")
+@app.get("/bo99/<slug>/<path:p>")
+def bo99(slug, p="index.html"):
+    return send_from_directory(ROOT / "nailmark" / "bo99" / slug, p)
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080)

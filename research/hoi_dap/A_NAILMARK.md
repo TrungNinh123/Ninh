@@ -59,6 +59,9 @@ Hiện chỉ làm cho tiệm nail. Các ngành khác sẽ xem xét sau.
 
 Đây là giá ra mắt.
 
+### [P] Có gói nào nhỏ để thử trước không?
+Có. **Bộ Tết mang tên tiệm 99.000đ**: 3 poster, 3 story, 2 thẻ quà tặng (300k, 500k) để tiệm bán cho khách, bảng giá Tết in quầy, thẻ QR đặt lịch, 10 câu đăng bài và lịch đăng 4 tuần. Trả tiền xong là nhận ngay, khoảng 15 giây. Khi lên gói web, nhập mã **KHAUTRU99** để trừ lại 99.000đ.
+
 ### [P] Gói 999k được những gì?
 Đủ để tiệm có **web đặt lịch riêng, chạy ngay**:
 - Web 1 trang, 12 ảnh mẫu đánh số, bảng giá, nút đặt lịch Zalo, mã QR in để ở quầy.
