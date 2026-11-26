@@ -291,7 +291,7 @@ Chưa có số liệu chung. Bộ đếm lượt bấm đặt lịch chưa có. 
 
 **Được phép, chỉ trong đợt chạy thử:** miễn phí, chỉ áp dụng cho các tiệm được chọn.
 
-**Đã duyệt (26/11/2026) – giới thiệu:** đơn đến 5.000.000đ người giới thiệu nhận 15%, đơn trên 5.000.000đ nhận 20%; tiệm mua qua link giới thiệu giảm 5%. Kỳ trả hoa hồng: **[CHỜ DUYỆT]**.
+**Đã duyệt (26/11/2026) – giới thiệu:** đơn đến 5.000.000đ người giới thiệu nhận 15%, đơn trên 5.000.000đ nhận 20%; tiệm mua qua link giới thiệu giảm 5%. Hoa hồng tự chuyển từng đơn sau 7 ngày. Khách quen mua đơn tiếp theo giảm 10% (không cộng với 5%).
 
 ### [P] Giới thiệu tiệm khác có được hoa hồng không?
 Có. Sau khi thanh toán bất kỳ gói nào, chị nhận một link giới thiệu riêng.
@@ -302,8 +302,13 @@ Có. Sau khi thanh toán bất kỳ gói nào, chị nhận một link giới th
 | Trên 5.000.000đ | 20% |
 
 - Tiệm bạn mua qua link của chị được **giảm 5%**.
-- Hoa hồng tính trên số tiền tiệm bạn thực trả, ghi nhận khi đơn đã thanh toán.
-- Chị xem số đơn và hoa hồng của mình ở trang Giới thiệu, nhập mã là thấy.
+- Hoa hồng tính trên số tiền tiệm bạn thực trả. 7 ngày sau khi tiệm bạn thanh toán, tiền **tự chuyển** vào tài khoản chị đăng ký, từng đơn một, không chờ cuối tháng, không có mức tối thiểu.
+- Tiệm bạn đã mua qua link của chị thì thuộc về chị 12 tháng: gia hạn, lên gói, mua thêm trong 12 tháng vẫn tính cho chị, kể cả khi họ quên mở lại link.
+- Chị là cộng tác viên độc lập, tự kê khai thuế thu nhập của mình. Nailmark chỉ chuyển tiền.
+- Chị xem từng đơn, ngày dự kiến nhận và mã giao dịch ở link quản lý riêng (có ở trang cảm ơn sau khi thanh toán).
+
+### [P] Đã mua rồi, mua thêm có được giảm không?
+Có. Tiệm đã có đơn thanh toán với Nailmark, từ đơn tiếp theo được **giảm 10%**, máy tự nhận theo số Zalo, chị không cần nhập mã. Mức 10% không cộng thêm với 5% của link giới thiệu (lấy mức cao hơn). Nếu chị đã mua bộ 99k, mã KHAUTRU99 vẫn trừ 99.000đ trước, rồi mới giảm 10%.
 - Ví dụ: tiệm bạn mua gói Khởi đầu qua link, trả 949.000đ, chị nhận 142.350đ.
 
 ### "Bớt chút được không em?"

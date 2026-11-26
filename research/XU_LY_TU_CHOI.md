@@ -278,7 +278,7 @@
 
 ### 9.2 "Chị giới thiệu thêm tiệm khác thì có giảm không?"
 - **Ý thật:** muốn đổi giới thiệu lấy ưu đãi.
-- **Trả lời mẫu:** "Dạ có chị. Sau khi thanh toán, chị có link giới thiệu riêng. Tiệm bạn mua qua link được giảm 5%, còn chị nhận 15% với đơn đến 5 triệu, 20% với đơn trên 5 triệu. Chị xem hoa hồng ở trang Giới thiệu, nhập mã là thấy."
+- **Trả lời mẫu:** "Dạ có chị. Sau khi thanh toán, chị có link giới thiệu riêng. Tiệm bạn mua qua link được giảm 5%, còn chị nhận 15% với đơn đến 5 triệu, 20% với đơn trên 5 triệu. Tiền tự chuyển vào tài khoản chị sau 7 ngày, từng đơn, chị không phải báo ai."
 - **Bước tiếp:** gửi link quà để chuyển tiếp.
 - **Không được nói:** "Giới thiệu được tặng 1 tháng" (**[CHỜ DUYỆT]**).
 

@@ -108,7 +108,7 @@ Mọi mức giá ở trên là **giá khởi đầu**. Khi làm tốt, có bằn
 6. **Mở rộng.**
    - Trước mỗi mùa lễ 6 tuần, hệ thống tự chào Gói Mùa.
    - Tiệm có số lịch hẹn tăng thì được chào Đồng hành AI.
-   - **Giới thiệu (anh duyệt 26/11/2026):** mỗi tiệm đã trả tiền có link riêng. Đơn đến 5 triệu: người giới thiệu nhận 15%; đơn trên 5 triệu: nhận 20%. Tiệm mua qua link giảm 5%. Đã chạy trong `thanh_toan.py`, tra cứu tại `/gioi-thieu`. Kỳ trả hoa hồng **[CHỜ DUYỆT]**.
+   - **Giới thiệu (anh duyệt 26/11/2026):** mỗi tiệm đã trả tiền có link riêng. Đơn đến 5 triệu: người giới thiệu nhận 15%; đơn trên 5 triệu: nhận 20%. Tiệm mua qua link giảm 5%. Đã chạy trong `thanh_toan.py`, tra cứu tại `/gioi-thieu`. Chi tự động qua payOS Payouts sau 7 ngày, chi tiết trong `CHINH_SACH_GIOI_THIEU.md`. Khách quen giảm 10% đơn tiếp theo.
 
 **Quy tắc phục vụ (để không bị kéo vào việc lặt vặt):**
 - **Không gọi điện.** Mọi hỗ trợ đi qua Zalo OA, trợ lý AI trả lời trước. Người chỉ xử lý ngoại lệ, trong vòng 24 giờ.

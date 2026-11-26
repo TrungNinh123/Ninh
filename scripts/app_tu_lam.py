@@ -120,6 +120,7 @@ def xuat_ban():
 import os  # noqa: E402
 import threading  # noqa: E402
 
+import hoa_hong as hh  # noqa: E402
 import thanh_toan as tt  # noqa: E402
 
 
@@ -145,7 +146,10 @@ def don_cong_khai(don):
     tk = tt.tai_khoan()
     return dict(ma=don["ma"], goi=don["goi"], ten_goi=don["ten_goi"], so_tien=don["so_tien"], giam=don["giam"],
                 trang_thai=don["trang_thai"], giao=don.get("giao"), xac_minh=don["xac_minh"], giam_gt=don.get("giam_gt", 0),
-                ma_gt_cua_toi=tt.ma_gioi_thieu(don["zalo"]) if don["trang_thai"] in ("da_tra", "cho_xac_minh") else None, qr=f"/api/don/{don['ma']}/qr.svg",
+                giam_khach_quen=don.get("giam_khach_quen", 0),
+                ma_gt_cua_toi=tt.ma_gioi_thieu(don["zalo"]) if don["trang_thai"] in ("da_tra", "cho_xac_minh") else None,
+                khoa_gt=hh.khoa_ctv(tt.ma_gioi_thieu(don["zalo"])) if don["trang_thai"] in ("da_tra", "cho_xac_minh") else None,
+                qr=f"/api/don/{don['ma']}/qr.svg",
                 ngan_hang=dict(stk=tk["stk"], ten=tk["ten"], mau=tk["mau"]), dev=os.environ.get("NAILMARK_DEV") == "1")
 
 
@@ -186,8 +190,38 @@ def giao_hang(don):
 
 @app.get("/api/gioi-thieu/<ma>")
 def api_gioi_thieu(ma):
-    tk = tt.thong_ke_gt(ma)
+    tk = hh.bao_cao(ma, request.args.get("k"))
     return jsonify(tk) if tk else (jsonify(loi="Mã giới thiệu chưa có hoặc chưa kích hoạt."), 404)
+
+
+@app.post("/api/gioi-thieu/<ma>/tai-khoan")
+def api_tk_nhan(ma):
+    j = request.json or {}
+    try:
+        kq = hh.dang_ky_tai_khoan(ma, j.get("k"), j.get("bin"), j.get("stk"), j.get("ten_tk"), j.get("dong_y"))
+    except ValueError as e:
+        return jsonify(loi=str(e)), 400
+    threading.Thread(target=hh.chay_chi, daemon=True).start()  # chi ngay các đơn đã đủ điều kiện
+    return jsonify(kq)
+
+
+def vong_chi_tu_dong():
+    """Mỗi giờ tự kiểm tra và chi hoa hồng. Không cần người bấm."""
+    import time as _t
+    while True:
+        try:
+            hh.chay_chi()
+        except Exception:
+            app.logger.exception("chay_chi")
+        _t.sleep(int(os.environ.get("HH_CHU_KY_GIAY", "3600")))
+
+
+@app.post("/api/dev/chay-chi")
+def dev_chay_chi():
+    if os.environ.get("NAILMARK_DEV") != "1":
+        return "", 404
+    import time as _t
+    return jsonify(da_chi=hh.chay_chi(now=_t.time() + float(request.args.get("them_ngay", 0)) * 86400))
 
 
 @app.get("/gioi-thieu")
@@ -230,4 +264,5 @@ def bo99(slug, p="index.html"):
     return send_from_directory(ROOT / "nailmark" / "bo99" / slug, p)
 
 if __name__ == "__main__":
+    threading.Thread(target=vong_chi_tu_dong, daemon=True).start()
     app.run(host="0.0.0.0", port=8080)

@@ -9,24 +9,51 @@
 h1{font-family:"Noto Serif Display",serif;font-size:clamp(28px,7vw,38px);line-height:1.1;margin:12px 0 6px}.logo{font-family:"Noto Serif Display",serif;font-size:22px}
 .card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:14px}
 .rule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rule div{background:#17100e;color:#f5eee3;border-radius:14px;padding:14px}.rule b{display:block;font-family:"Noto Serif Display",serif;font-size:30px;color:#e9c977}
-input{font:inherit;font-size:17px;width:100%;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-transform:uppercase}
+input{font:inherit;font-size:17px;width:100%;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);}
+#ma{text-transform:uppercase}select{font:inherit;font-size:17px;width:100%;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)}
+label{display:block;margin:10px 0 4px;font-weight:600}.st{display:inline-block;border-radius:999px;padding:2px 10px;font-size:13px;font-weight:700;background:light-dark(#efe4d4,#2b211d)}.st.ok{background:#1f7a4a;color:#fff}.st.huy{background:light-dark(#ddd,#444)}
+.don{border-top:1px solid var(--line);padding:10px 0;display:grid;grid-template-columns:1fr auto;gap:2px 12px}.don .hh{font-weight:700;text-align:right}.don .ct{grid-column:1/-1}
+.steps{margin:6px 0;padding-left:20px}.ok2{color:#1f7a4a;font-weight:700}
 button{font:inherit;font-weight:700;border:0;border-radius:999px;padding:13px;width:100%;margin-top:10px;background:#a3161a;color:#fff;cursor:pointer}
 .big{font-family:"Noto Serif Display",serif;font-size:40px;color:var(--acc)}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 4px;text-align:left}td:nth-child(n+3),th:nth-child(n+3){text-align:right;white-space:nowrap}
 .mut{color:var(--mut);font-size:14px}[hidden]{display:none!important}
 </style></head><body><div class=w>
 <div class=logo>Nailmark</div><h1>Giới thiệu tiệm bạn, nhận hoa hồng</h1>
 <div class=rule><div><b>15%</b>đơn từ 5 triệu trở xuống</div><div><b>20%</b>đơn trên 5 triệu</div></div>
-<p class=mut>Tiệm bạn mua qua link của chị được giảm 5%. Hoa hồng tính trên số tiền tiệm bạn thực trả, ghi nhận khi đơn đã thanh toán. Chi trả: <b>[CHỜ DUYỆT]</b> kỳ chi trả, mức tối thiểu và cách nhận tiền.</p>
-<form class=card id=f><label for=ma><b>Mã giới thiệu của chị</b></label><input id=ma placeholder="Ví dụ GT1A2B3C" maxlength=12><button>Xem hoa hồng</button><p class=mut id=loi hidden></p></form>
-<div class=card id=kq hidden><div class=mut id=chu></div><div class=big id=tong></div><div class=mut id=sodon></div>
-<div class=scroll><table><thead><tr><th>Ngày</th><th>Gói</th><th>Tiệm trả</th><th>Hoa hồng</th></tr></thead><tbody id=ds></tbody></table></div></div>
+<div class=card><b>Việc của chị chỉ là gửi link</b><ol class=steps>
+<li>Gửi link giới thiệu của chị cho tiệm bạn (Zalo, Facebook, nhóm chủ tiệm).</li>
+<li>Tiệm bạn mua qua link được <b>giảm 5%</b>.</li>
+<li>7 ngày sau khi tiệm bạn thanh toán, hoa hồng <b>tự chuyển</b> vào tài khoản của chị. Từng đơn một, không chờ cuối tháng, không có mức tối thiểu.</li></ol>
+<p class=mut style="margin:6px 0 0"><b>Quyền lợi của chị được giữ:</b> tiệm bạn đã mua qua link của chị thì thuộc về chị 12 tháng. Gia hạn, lên gói hay mua thêm trong 12 tháng vẫn tính hoa hồng cho chị, kể cả khi tiệm bạn quên mở lại link. Link được nhớ trên máy tiệm bạn 60 ngày, và tiệm bạn cũng có thể tự gõ mã của chị khi thanh toán.</p></div>
+<form class=card id=f><label for=ma>Mã giới thiệu của chị</label><input id=ma placeholder="Ví dụ GT1A2B3C" maxlength=12><button>Xem hoa hồng</button><p class=mut id=loi hidden></p></form>
+<div class=card id=kq hidden><div class=mut id=chu></div><div class=big id=tong></div><div class=mut id=sodon></div><div id=danhan class=ok2></div>
+<p class=mut id=chicong hidden>Đây là bản xem công khai. Chi tiết từng đơn và tài khoản nhận chỉ hiện khi chị mở link quản lý riêng ở trang cảm ơn.</p>
+<div id=ql hidden><div id=ds></div></div></div>
+<form class=card id=tkf hidden><b>Tài khoản nhận hoa hồng</b><p class=mut id=tkcu style="margin:4px 0"></p>
+<label for=bin>Ngân hàng</label><select id=bin required><option value="">Chọn ngân hàng</option></select>
+<label for=stk>Số tài khoản</label><input id=stk inputmode=numeric required>
+<label for=ten>Tên chủ tài khoản (không dấu)</label><input id=ten required style="text-transform:uppercase">
+<label style="font-weight:400;display:flex;gap:8px;align-items:flex-start"><input type=checkbox id=dy style="width:auto;margin-top:5px"><span class=mut id=dk></span></label>
+<button>Lưu tài khoản</button><p class=mut id=tkloi hidden></p></form>
 </div>
 <script>
-{const $=id=>document.getElementById(id),vnd=n=>n.toLocaleString("vi-VN")+"đ";
-async function xem(ma){$("loi").hidden=true;try{const r=await fetch("/api/gioi-thieu/"+encodeURIComponent(ma.trim()));const d=await r.json();if(!r.ok)throw new Error(d.loi);
+{const $=id=>document.getElementById(id),vnd=n=>n.toLocaleString("vi-VN")+"đ",u=new URLSearchParams(location.search),K=u.get("k")||"";
+const NH=[["970436","Vietcombank"],["970415","VietinBank"],["970418","BIDV"],["970405","Agribank"],["970407","Techcombank"],["970422","MB Bank"],["970416","ACB"],["970432","VPBank"],["970403","Sacombank"],["970423","TPBank"],["970441","VIB"],["970437","HDBank"],["970443","SHB"],["970448","OCB"],["970426","MSB"],["970431","Eximbank"],["970440","SeABank"],["970449","LPBank"]];
+NH.forEach(([b,t])=>{const o=document.createElement("option");o.value=b;o.textContent=t;$("bin").append(o);});
+let MA="";
+async function xem(ma){MA=ma.trim().toUpperCase();$("loi").hidden=true;try{const r=await fetch(`/api/gioi-thieu/${encodeURIComponent(MA)}?k=${encodeURIComponent(K)}`);const d=await r.json();if(!r.ok)throw new Error(d.loi);
  $("chu").textContent=`${d.ten_tiem} · mã ${d.ma_gt}`;$("tong").textContent=vnd(d.tong_hoa_hong);$("sodon").textContent=`${d.so_don} đơn qua link của chị`;
- $("ds").innerHTML="";d.don.forEach(x=>{const tr=document.createElement("tr");[x.ngay,x.goi,vnd(x.so_tien),vnd(x.hoa_hong)].forEach(v=>{const td=document.createElement("td");td.textContent=v;tr.append(td);});$("ds").append(tr);});$("kq").hidden=false;
+ $("danhan").textContent=d.da_nhan?`Đã chuyển vào tài khoản: ${vnd(d.da_nhan)}`:"";$("dk").textContent=d.dieu_khoan;
+ $("chicong").hidden=d.quan_ly;$("ql").hidden=!d.quan_ly;$("tkf").hidden=!d.quan_ly;
+ if(d.quan_ly){$("ds").innerHTML="";d.don.forEach(x=>{const r=document.createElement("div");r.className="don";
+   const a=document.createElement("div");a.textContent=`${x.goi} · ${x.ngay}`;const h=document.createElement("div");h.className="hh";h.textContent=vnd(x.hoa_hong);
+   const c=document.createElement("div");c.className="ct";const b=document.createElement("span");b.className="st"+(x.trang_thai==="da_chi"?" ok":x.trang_thai==="huy"?" huy":"");b.textContent=x.nhan;
+   const m=document.createElement("span");m.className="mut";m.textContent=" "+(x.trang_thai==="da_chi"?`Mã GD ${x.ma_gd}`:[x.ly_do,x.du_kien&&("Dự kiến "+x.du_kien)].filter(Boolean).join(" · "));
+   c.append(b,m);r.append(a,h,c);$("ds").append(r);});
+  const t=d.tai_khoan;$("tkcu").textContent=t.stk?`Đang nhận vào: ${(NH.find(n=>n[0]===t.bin)||[,t.bin])[1]} ${t.stk} · ${t.ten_tk}. Đổi tài khoản thì 3 ngày sau mới chi vào tài khoản mới, để an toàn cho chị.`:"Chưa có tài khoản nhận. Nhập một lần, các đơn đủ điều kiện sẽ được chuyển ngay.";}
+ $("kq").hidden=false;
 }catch(e){$("loi").textContent=e.message||"Có lỗi.";$("loi").hidden=false;}}
 $("f").addEventListener("submit",e=>{e.preventDefault();xem($("ma").value);});
-const m=new URLSearchParams(location.search).get("ma");if(m){$("ma").value=m;xem(m);}}
+$("tkf").addEventListener("submit",async e=>{e.preventDefault();$("tkloi").hidden=true;try{const r=await fetch(`/api/gioi-thieu/${MA}/tai-khoan`,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({k:K,bin:$("bin").value,stk:$("stk").value,ten_tk:$("ten").value,dong_y:$("dy").checked})});const d=await r.json();if(!r.ok)throw new Error(d.loi);$("stk").value="";setTimeout(()=>xem(MA),800);}catch(err){$("tkloi").textContent=err.message;$("tkloi").hidden=false;}});
+const m=u.get("ma");if(m){$("ma").value=m;xem(m);}}
 </script></body></html>
