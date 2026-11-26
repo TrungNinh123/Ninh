@@ -41,6 +41,7 @@ input{font:inherit;font-size:17px;width:100%;padding:13px;border-radius:14px;bor
   <form id=f class=card>
     <label for=ten>Tên tiệm</label><input id=ten required maxlength=60 placeholder="Ví dụ: Sơn Mài Nail">
     <label for=zalo>Số Zalo nhận khách</label><input id=zalo type=tel inputmode=numeric required placeholder="10 chữ số">
+    <p class=mau id=gtinfo hidden></p>
     <div id=khung-ma hidden><label for=ma>Mã giảm (nếu có)</label><input id=ma placeholder="KHAUTRU99"></div>
     <p class=err id=loi hidden></p>
     <button class=btn type=submit>Tạo mã QR thanh toán</button>
@@ -67,6 +68,10 @@ input{font:inherit;font-size:17px;width:100%;padding:13px;border-radius:14px;bor
   <a class=btn id=nhan hidden>Mở sản phẩm của tiệm</a>
   <p class=wait id=dangtao hidden><span class=dot></span>Đang chuẩn bị sản phẩm, khoảng 15 giây…</p>
   <div class=card><b>Bước tiếp theo</b><ol class=steps id=tiep></ol></div>
+  <div class=sp id=gtbox hidden style="text-align:left"><b>Giới thiệu tiệm bạn, nhận hoa hồng</b>
+    <p style="margin:6px 0">Tiệm bạn mua qua link của chị được <b>giảm 5%</b>. Chị nhận <b>15%</b> giá trị đơn (đơn từ 5 triệu trở xuống) hoặc <b>20%</b> (đơn trên 5 triệu).</p>
+    <p style="margin:6px 0;word-break:break-all" id=gtlink></p>
+    <a class=btn id=gtxem style="margin-top:8px">Xem hoa hồng của tôi</a></div>
 </section>
 </div>
 <script>
@@ -78,23 +83,27 @@ const SP={
  "khoi-dau":{t:"Web Khởi đầu",g:999000,c:["Web đặt lịch 1 trang, chạy ngay trên đường dẫn Nailmark","12 ảnh mẫu đánh số, bảng giá, nút Zalo, mã QR","Thả ảnh, Word, Excel, PDF là máy tự điền","Giá đã gồm năm đầu · từ năm 2: 499.000đ/năm"],
    tiep:["Bấm \"Mở sản phẩm\" để vào app tạo web (thông tin tiệm đã điền sẵn)","Thả ảnh móng và file bảng giá, kiểm lại từng số","Nhập số Zalo, bấm Xuất bản, in mã QR"]},
  "chuan":{t:"Web Chuẩn",g:1990000,c:["Tất cả của Khởi đầu","Bộ sưu tập 8 dịp lễ","Mô tả Google Maps + 10 mẫu trả lời đánh giá","Từ năm 2: 990.000đ/năm"],tiep:["Mở app tạo web","Thả ảnh và file bảng giá","Xuất bản, gắn link vào Google Maps"]},
+ "chuyen-giao":{t:"Chuyển giao cho nhân viên",g:4990000,c:["Khoá video cho 1 nhân viên của tiệm","Bộ mẫu và câu lệnh AI","Bài kiểm tra AI chấm, dấu Đạt chuẩn Nailmark 12 tháng"],tiep:["Nailmark gọi xác minh trong 24 giờ","Nhân viên nhận khoá học qua Zalo","Làm bài kiểm tra để nhận dấu Đạt chuẩn"]},
+ "lam-ho":{t:"Làm hộ trọn gói",g:9990000,c:["Đội Nailmark làm toàn bộ web và nội dung","Kết nối tên miền riêng của tiệm","Kèm cặp chuyển giao 1–2 tháng, sau đó tiệm tự vận hành"],tiep:["Nailmark gọi xác minh trong 24 giờ","Gửi ảnh và bảng giá qua Zalo","Nhận web sau khoảng 7 ngày làm việc, bắt đầu kèm cặp"]},
  "dang-cap":{t:"Web Đẳng cấp",g:2990000,c:["Tất cả của Chuẩn","24 ảnh mẫu, dùng cho 2 cơ sở","Bộ Tết 2027 + ảnh quà tặng AI cho 30 khách","Từ năm 2: 990.000đ/năm"],tiep:["Mở app tạo web","Thả ảnh và file bảng giá cho từng cơ sở","Xuất bản, chạy bộ Tết"]}};
 const q=new URLSearchParams(location.search),goi=SP[q.get("goi")]?q.get("goi"):"bo-tet-99k",sp=SP[goi];
 const vnd=n=>n.toLocaleString("vi-VN")+"đ";
 $("tieude").textContent=sp.t;$("mota").innerHTML='<div class=gia></div><ul></ul>';$("mota").querySelector(".gia").textContent=vnd(sp.g);
 sp.c.forEach(x=>{const li=document.createElement("li");li.textContent=x;$("mota").querySelector("ul").append(li);});
 $("khung-ma").hidden=goi==="bo-tet-99k";if(q.get("ten"))$("ten").value=q.get("ten");if(q.get("zalo"))$("zalo").value=q.get("zalo");if(q.get("ma"))$("ma").value=q.get("ma");
+if(q.get("gt")){$("gtinfo").textContent="Chị đến qua link giới thiệu: được giảm 5% khi thanh toán.";$("gtinfo").hidden=false;}
 let ma=null,timer=null;
 $("f").addEventListener("submit",async e=>{e.preventDefault();$("loi").hidden=true;
- try{const r=await fetch("/api/don",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({goi,ten:$("ten").value,zalo:$("zalo").value,ma_giam:$("ma").value})});
+ try{const r=await fetch("/api/don",{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify({goi,ten:$("ten").value,zalo:$("zalo").value,ma_giam:$("ma").value,gt:q.get("gt")||""})});
   const d=await r.json();if(!r.ok)throw new Error(d.loi);ma=d.ma;
-  $("qr").src=d.qr;$("tien").textContent=vnd(d.so_tien)+(d.giam?` (đã trừ ${vnd(d.giam)})`:"");$("nd").textContent=d.ma;$("tk").textContent=`${d.ngan_hang.stk} · ${d.ngan_hang.ten}`;
+  $("qr").src=d.qr;$("tien").textContent=vnd(d.so_tien)+(d.giam?` (đã giảm ${vnd(d.giam)}${d.giam_gt?", gồm 5% nhờ link giới thiệu":""})`:"");$("nd").textContent=d.ma;$("tk").textContent=`${d.ngan_hang.stk} · ${d.ngan_hang.ten}`;
   $("mau").hidden=!d.ngan_hang.mau;$("gialap").hidden=!d.dev;$("s1").hidden=true;$("s2").hidden=false;scrollTo(0,0);timer=setInterval(kiem,2500);
  }catch(err){$("loi").textContent=err.message||"Có lỗi, chị thử lại.";$("loi").hidden=false;}});
 async function kiem(){if(!ma)return;try{const d=await(await fetch("/api/don/"+ma)).json();
  if(d.trang_thai==="da_tra"||d.trang_thai==="cho_xac_minh"){$("s2").hidden=true;$("s3").hidden=false;
   $("camon").textContent=d.trang_thai==="cho_xac_minh"?`Nailmark đã nhận ${vnd(d.so_tien)} cho ${d.ten_goi}. Với đơn từ 3 triệu, Nailmark gọi xác minh trong 24 giờ trước khi bắt đầu.`:`Nailmark đã nhận ${vnd(d.so_tien)} cho ${d.ten_goi}. Mã đơn ${d.ma}.`;
   $("tiep").innerHTML="";sp.tiep.forEach(x=>{const li=document.createElement("li");li.textContent=x;$("tiep").append(li);});
+  if(d.ma_gt_cua_toi){const l=`${location.origin}/mua?goi=bo-tet-99k&gt=${d.ma_gt_cua_toi}`;$("gtlink").textContent=l;$("gtxem").href="/gioi-thieu?ma="+d.ma_gt_cua_toi;$("gtbox").hidden=false;}
   if(d.giao){$("nhan").href=d.giao;$("nhan").hidden=false;$("dangtao").hidden=true;clearInterval(timer);}else{$("dangtao").hidden=d.trang_thai!=="da_tra";}
  }else if(d.trang_thai==="thieu_tien"){$("tien").textContent="Số tiền nhận chưa đủ, Nailmark sẽ liên hệ hoàn lại hoặc bù.";}}catch(e){}}
 $("gialap").onclick=()=>fetch("/api/gia-lap/"+ma,{method:"POST"});

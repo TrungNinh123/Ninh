@@ -135,7 +135,7 @@ def api_tao_don():
     if len((j.get("ten") or "").strip()) < 2 or len(so) != 10:
         return jsonify(loi="Cần tên tiệm và số Zalo 10 chữ số."), 400
     try:
-        don = tt.tao_don(j.get("goi", ""), j["ten"].strip(), so, j.get("ma_giam", ""))
+        don = tt.tao_don(j.get("goi", ""), j["ten"].strip(), so, j.get("ma_giam", ""), ma_gt=j.get("gt", ""))
     except ValueError as e:
         return jsonify(loi=str(e)), 400
     return jsonify(don_cong_khai(don))
@@ -144,7 +144,8 @@ def api_tao_don():
 def don_cong_khai(don):
     tk = tt.tai_khoan()
     return dict(ma=don["ma"], goi=don["goi"], ten_goi=don["ten_goi"], so_tien=don["so_tien"], giam=don["giam"],
-                trang_thai=don["trang_thai"], giao=don.get("giao"), xac_minh=don["xac_minh"], qr=f"/api/don/{don['ma']}/qr.svg",
+                trang_thai=don["trang_thai"], giao=don.get("giao"), xac_minh=don["xac_minh"], giam_gt=don.get("giam_gt", 0),
+                ma_gt_cua_toi=tt.ma_gioi_thieu(don["zalo"]) if don["trang_thai"] in ("da_tra", "cho_xac_minh") else None, qr=f"/api/don/{don['ma']}/qr.svg",
                 ngan_hang=dict(stk=tk["stk"], ten=tk["ten"], mau=tk["mau"]), dev=os.environ.get("NAILMARK_DEV") == "1")
 
 
@@ -181,6 +182,17 @@ def giao_hang(don):
         tt.cap_nhat(ma, giao=f"/?don={ma}&q={quote(don['ten_tiem'])}", giao_trang_thai="xong")
     else:
         tt.cap_nhat(ma, giao_trang_thai="cho_bat_dau")
+
+
+@app.get("/api/gioi-thieu/<ma>")
+def api_gioi_thieu(ma):
+    tk = tt.thong_ke_gt(ma)
+    return jsonify(tk) if tk else (jsonify(loi="Mã giới thiệu chưa có hoặc chưa kích hoạt."), 404)
+
+
+@app.get("/gioi-thieu")
+def trang_gioi_thieu():
+    return send_from_directory(ROOT / "nailmark", "gioi-thieu.html")
 
 
 @app.post("/api/webhook/sepay")

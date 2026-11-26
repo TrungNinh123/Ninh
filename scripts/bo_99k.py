@@ -107,7 +107,7 @@ figure{{margin:0;background:var(--card);border:1px solid var(--line);border-radi
 <h2>4. 10 câu đăng bài (chép là dùng)</h2><div class=box><ol>{caps}</ol></div>
 <h2>5. Lịch đăng 4 tuần trước Tết ({TET})</h2><div class=box><ul>{lich}</ul></div>
 <h2>Bước tiếp theo (nếu chị muốn)</h2><div class=box><p>Có web đặt lịch riêng để khách chọn mẫu và nhắn Zalo: gói Khởi đầu <b>999.000đ</b>. Nhập mã <span class=code>KHAUTRU99</span> để <b>trừ 99.000đ đã trả</b>, chỉ còn 900.000đ.</p>
-<p>Giới thiệu một tiệm bạn: tiệm bạn nhận bộ quà miễn phí, chị được cảm ơn bằng một bộ ảnh mùa lễ kế tiếp.</p></div></div></html>"""
+<p><b>Giới thiệu tiệm bạn, chị nhận hoa hồng:</b> 15% với đơn đến 5 triệu, 20% với đơn trên 5 triệu. Tiệm bạn dùng link của chị được giảm 5%. Link và mã của chị nằm ở trang cảm ơn sau khi thanh toán; xem hoa hồng tại trang Giới thiệu.</p></div></div></html>"""
 
 
 def tao(t, so, gia, anh_tiem=None):

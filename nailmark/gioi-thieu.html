@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="vi"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Nailmark Giới thiệu</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wght@700&family=Be+Vietnam+Pro:wght@400;600;700&display=swap">
+<style>
+:root{color-scheme:light dark;--bg:light-dark(#f5eee3,#120c0b);--card:light-dark(#fff,#1d1513);--ink:light-dark(#17100e,#f3eadf);--mut:light-dark(#6f6259,#bcae9f);--line:light-dark(#e3d5c3,#3a2c26);--acc:light-dark(#a3161a,#ff6b5e)}
+*{box-sizing:border-box;min-width:0}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 "Be Vietnam Pro",system-ui,sans-serif}
+.w{max-width:620px;margin:0 auto;padding:20px max(16px,env(safe-area-inset-left,0px)) 48px max(16px,env(safe-area-inset-right,0px))}
+h1{font-family:"Noto Serif Display",serif;font-size:clamp(28px,7vw,38px);line-height:1.1;margin:12px 0 6px}.logo{font-family:"Noto Serif Display",serif;font-size:22px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:18px;margin-top:14px}
+.rule{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.rule div{background:#17100e;color:#f5eee3;border-radius:14px;padding:14px}.rule b{display:block;font-family:"Noto Serif Display",serif;font-size:30px;color:#e9c977}
+input{font:inherit;font-size:17px;width:100%;padding:12px;border-radius:12px;border:1.5px solid var(--line);background:var(--card);color:var(--ink);text-transform:uppercase}
+button{font:inherit;font-weight:700;border:0;border-radius:999px;padding:13px;width:100%;margin-top:10px;background:#a3161a;color:#fff;cursor:pointer}
+.big{font-family:"Noto Serif Display",serif;font-size:40px;color:var(--acc)}.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%;font-size:15px}td,th{border-bottom:1px solid var(--line);padding:8px 4px;text-align:left}td:nth-child(n+3),th:nth-child(n+3){text-align:right;white-space:nowrap}
+.mut{color:var(--mut);font-size:14px}[hidden]{display:none!important}
+</style></head><body><div class=w>
+<div class=logo>Nailmark</div><h1>Giới thiệu tiệm bạn, nhận hoa hồng</h1>
+<div class=rule><div><b>15%</b>đơn từ 5 triệu trở xuống</div><div><b>20%</b>đơn trên 5 triệu</div></div>
+<p class=mut>Tiệm bạn mua qua link của chị được giảm 5%. Hoa hồng tính trên số tiền tiệm bạn thực trả, ghi nhận khi đơn đã thanh toán. Chi trả: <b>[CHỜ DUYỆT]</b> kỳ chi trả, mức tối thiểu và cách nhận tiền.</p>
+<form class=card id=f><label for=ma><b>Mã giới thiệu của chị</b></label><input id=ma placeholder="Ví dụ GT1A2B3C" maxlength=12><button>Xem hoa hồng</button><p class=mut id=loi hidden></p></form>
+<div class=card id=kq hidden><div class=mut id=chu></div><div class=big id=tong></div><div class=mut id=sodon></div>
+<div class=scroll><table><thead><tr><th>Ngày</th><th>Gói</th><th>Tiệm trả</th><th>Hoa hồng</th></tr></thead><tbody id=ds></tbody></table></div></div>
+</div>
+<script>
+{const $=id=>document.getElementById(id),vnd=n=>n.toLocaleString("vi-VN")+"đ";
+async function xem(ma){$("loi").hidden=true;try{const r=await fetch("/api/gioi-thieu/"+encodeURIComponent(ma.trim()));const d=await r.json();if(!r.ok)throw new Error(d.loi);
+ $("chu").textContent=`${d.ten_tiem} · mã ${d.ma_gt}`;$("tong").textContent=vnd(d.tong_hoa_hong);$("sodon").textContent=`${d.so_don} đơn qua link của chị`;
+ $("ds").innerHTML="";d.don.forEach(x=>{const tr=document.createElement("tr");[x.ngay,x.goi,vnd(x.so_tien),vnd(x.hoa_hong)].forEach(v=>{const td=document.createElement("td");td.textContent=v;tr.append(td);});$("ds").append(tr);});$("kq").hidden=false;
+}catch(e){$("loi").textContent=e.message||"Có lỗi.";$("loi").hidden=false;}}
+$("f").addEventListener("submit",e=>{e.preventDefault();xem($("ma").value);});
+const m=new URLSearchParams(location.search).get("ma");if(m){$("ma").value=m;xem(m);}}
+</script></body></html>

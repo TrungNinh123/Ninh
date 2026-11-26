@@ -35,6 +35,11 @@ SAN_PHAM = {
 }
 MA_GIAM = {"KHAUTRU99": dict(tru=99_000, ap_dung={"khoi-dau", "chuan", "dang-cap"})}
 NGUONG_XAC_MINH = 3_000_000
+# Giới thiệu (affiliate) – anh Ninh chốt 26/11/2026:
+#   đơn ≤ 5.000.000đ: người giới thiệu nhận 15%; đơn > 5.000.000đ: nhận 20%; tiệm dùng link giới thiệu giảm 5%.
+#   Hoa hồng tính trên số tiền tiệm thực trả. Chỉ ghi nhận khi đơn đã trả tiền. Không tự giới thiệu chính mình.
+NGUONG_HH = 5_000_000
+HH_THAP, HH_CAO, GIAM_GT = 0.15, 0.20, 0.05
 
 
 def _doc():
@@ -77,17 +82,24 @@ def tai_khoan():
                 mau="NAILMARK_BANK_ACC" not in os.environ)
 
 
-def tao_don(goi, ten_tiem, zalo, ma_giam="", them=None):
+def tao_don(goi, ten_tiem, zalo, ma_giam="", them=None, ma_gt=""):
     if goi not in SAN_PHAM:
         raise ValueError("Gói không có.")
     gia = SAN_PHAM[goi]["gia"]
     mg = MA_GIAM.get((ma_giam or "").strip().upper())
-    tru = mg["tru"] if mg and goi in mg["ap_dung"] else 0
+    # KHAUTRU99 chỉ dành cho tiệm (theo số Zalo) đã mua và trả tiền bộ 99k
+    da_mua_99 = any(x.get("goi") == "bo-tet-99k" and x.get("zalo") == zalo and x.get("trang_thai") == "da_tra" for x in _doc().values())
+    tru = mg["tru"] if mg and goi in mg["ap_dung"] and da_mua_99 else 0
     ma = "NM" + "".join(random.choices(string.digits, k=6))
     tk = tai_khoan()
-    don = dict(ma=ma, goi=goi, ten_goi=SAN_PHAM[goi]["ten"], so_tien=gia - tru, giam=tru, ten_tiem=ten_tiem, zalo=zalo,
-               trang_thai="cho_thanh_toan", tao_luc=int(time.time()), xac_minh=gia - tru >= NGUONG_XAC_MINH,
-               qr=vietqr(tk["bin"], tk["stk"], gia - tru, ma), them=them or {})
+    nguoi_gt = tim_nguoi_gt(ma_gt, zalo)
+    giam_gt = round((gia - tru) * GIAM_GT / 1000) * 1000 if nguoi_gt else 0
+    tien = gia - tru - giam_gt
+    don = dict(ma=ma, goi=goi, ten_goi=SAN_PHAM[goi]["ten"], so_tien=tien, giam=tru + giam_gt, giam_gt=giam_gt,
+               ma_gt=nguoi_gt["ma_gt"] if nguoi_gt else "", ten_tiem=ten_tiem, zalo=zalo,
+               trang_thai="cho_thanh_toan", tao_luc=int(time.time()), xac_minh=tien >= NGUONG_XAC_MINH,
+               hoa_hong=round(tien * (HH_CAO if tien > NGUONG_HH else HH_THAP)) if nguoi_gt else 0,
+               qr=vietqr(tk["bin"], tk["stk"], tien, ma), them=them or {})
     with KHOA:
         d = _doc(); d[ma] = don; _ghi(d)
     return don
@@ -121,3 +133,34 @@ def cap_nhat(ma, **kv):
         if ma in d:
             d[ma].update(kv); _ghi(d)
             return d[ma]
+
+
+# ---------------- Giới thiệu (affiliate) ----------------
+def ma_gioi_thieu(zalo):
+    """Mỗi tiệm (theo số Zalo) có một mã giới thiệu cố định, cấp khi đã có ít nhất một đơn trả tiền."""
+    import hashlib
+    return "GT" + hashlib.sha256(("nailmark-gt-" + zalo).encode()).hexdigest()[:6].upper()
+
+
+def tim_nguoi_gt(ma_gt, zalo_nguoi_mua):
+    ma_gt = (ma_gt or "").strip().upper()
+    if not ma_gt:
+        return None
+    for don in _doc().values():
+        if don.get("trang_thai") in ("da_tra", "cho_xac_minh") and ma_gioi_thieu(don["zalo"]) == ma_gt:
+            if don["zalo"] == zalo_nguoi_mua:
+                return None  # không tự giới thiệu chính mình
+            return dict(ma_gt=ma_gt, zalo=don["zalo"], ten_tiem=don["ten_tiem"])
+    return None
+
+
+def thong_ke_gt(ma_gt):
+    ma_gt = (ma_gt or "").upper()
+    d = _doc()
+    chu = next((x for x in d.values() if x.get("trang_thai") in ("da_tra", "cho_xac_minh") and ma_gioi_thieu(x["zalo"]) == ma_gt), None)
+    if not chu:
+        return None
+    don_gt = [x for x in d.values() if x.get("ma_gt") == ma_gt and x.get("trang_thai") in ("da_tra", "cho_xac_minh")]
+    return dict(ma_gt=ma_gt, ten_tiem=chu["ten_tiem"], so_don=len(don_gt), tong_hoa_hong=sum(x["hoa_hong"] for x in don_gt),
+                don=[dict(ngay=time.strftime("%d/%m/%Y", time.localtime(x["tra_luc"])), goi=x["ten_goi"], so_tien=x["so_tien"],
+                          hoa_hong=x["hoa_hong"]) for x in sorted(don_gt, key=lambda x: x["tra_luc"], reverse=True)])

@@ -291,7 +291,20 @@ Chưa có số liệu chung. Bộ đếm lượt bấm đặt lịch chưa có. 
 
 **Được phép, chỉ trong đợt chạy thử:** miễn phí, chỉ áp dụng cho các tiệm được chọn.
 
-**[CHỜ DUYỆT]** Giới thiệu được một tiệm khác thì tặng 1 tháng hoặc gia hạn.
+**Đã duyệt (26/11/2026) – giới thiệu:** đơn đến 5.000.000đ người giới thiệu nhận 15%, đơn trên 5.000.000đ nhận 20%; tiệm mua qua link giới thiệu giảm 5%. Kỳ trả hoa hồng: **[CHỜ DUYỆT]**.
+
+### [P] Giới thiệu tiệm khác có được hoa hồng không?
+Có. Sau khi thanh toán bất kỳ gói nào, chị nhận một link giới thiệu riêng.
+
+| Giá trị đơn tiệm bạn trả | Chị nhận |
+|---|---|
+| Đến 5.000.000đ | 15% |
+| Trên 5.000.000đ | 20% |
+
+- Tiệm bạn mua qua link của chị được **giảm 5%**.
+- Hoa hồng tính trên số tiền tiệm bạn thực trả, ghi nhận khi đơn đã thanh toán.
+- Chị xem số đơn và hoa hồng của mình ở trang Giới thiệu, nhập mã là thấy.
+- Ví dụ: tiệm bạn mua gói Khởi đầu qua link, trả 949.000đ, chị nhận 142.350đ.
 
 ### "Bớt chút được không em?"
 Dạ, đây đã là giá ra mắt, thấp hơn nhiều so với làm web riêng, nên Nailmark giữ giá giống nhau cho mọi tiệm. Nếu chị muốn tiết kiệm, gói Khởi đầu 999k đủ để có web đặt lịch. Sau này chị lên gói chỉ trả phần chênh lệch.

@@ -11,7 +11,7 @@
 4. **Không hứa số khách, doanh thu, thứ hạng Google.** Chỉ nói: Nailmark đo số lượt bấm đặt lịch và báo cho tiệm.
 5. **Không nói tính năng chưa có như đã có.** Hiện **chưa có**: thanh toán, đăng nhập, chỗ đăng web công khai, AI đọc bảng giá từ ảnh, bộ video hướng dẫn đầy đủ (mới có 1 video tổng quan 4 bước quay từ app thật; các video từng bước mới có kịch bản), Zalo OA, nhắc lịch, nhận cọc, tự xác nhận lịch, báo cáo lịch hẹn, tên miền tự gắn, buổi hỏi đáp hằng tuần (chưa chốt giờ), khoá Chuyển giao. **Đồng hành AI: sắp mở, chưa nhận đăng ký.**
 6. **Trạng thái hiện tại:** Nailmark đang chạy thử, **sắp mở đăng ký**, chưa thu tiền của tiệm nào. Câu chuẩn khi khách muốn mua: "Dạ, Nailmark đang chạy thử với các tiệm đầu tiên và sắp mở đăng ký. Nailmark chỉ mở từng gói khi công cụ của gói đó đã chạy thật, nên hiện chưa nhận tiền. Trong lúc chờ, chị nhận bộ quà miễn phí dùng được ngay."
-7. **Mục [CHỜ DUYỆT] giữ nguyên nhãn và không dùng để hứa:** pháp nhân, văn phòng, số điện thoại và email liên hệ cho bước xác minh; mẫu hợp đồng; chính sách hoàn tiền; xuất hoá đơn; trả góp; thưởng giới thiệu tiệm khác; gói Làm hộ có gồm chụp ảnh tại tiệm hay không; giá cho nhân viên thứ hai của gói Chuyển giao. Gặp các câu này: nói thật là "chưa chốt", không đoán.
+7. **Mục [CHỜ DUYỆT] giữ nguyên nhãn và không dùng để hứa:** pháp nhân, văn phòng, số điện thoại và email liên hệ cho bước xác minh; mẫu hợp đồng; chính sách hoàn tiền; xuất hoá đơn; trả góp; kỳ trả hoa hồng giới thiệu; gói Làm hộ có gồm chụp ảnh tại tiệm hay không; giá cho nhân viên thứ hai của gói Chuyển giao. Gặp các câu này: nói thật là "chưa chốt", không đoán.
 8. **Ba gói dưới 3 triệu = tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến chung mỗi tuần, **không có người làm hộ hay hỗ trợ riêng**. Muốn có người làm: **chỉ có** Làm hộ trọn gói 9,99 triệu.
 9. **Không chê đối thủ**, không chê phần mềm POS. Nailmark là **bổ sung**.
 10. **Không tư vấn thuế, pháp lý chắc chắn.** Luôn kèm "chị hỏi lại cán bộ thuế hoặc kế toán".
@@ -278,7 +278,7 @@
 
 ### 9.2 "Chị giới thiệu thêm tiệm khác thì có giảm không?"
 - **Ý thật:** muốn đổi giới thiệu lấy ưu đãi.
-- **Trả lời mẫu:** "Dạ cảm ơn chị. Chương trình thưởng khi giới thiệu tiệm khác Nailmark đang xem xét, chưa chốt, nên em chưa hứa được. Bộ quà thì tiệm nào cũng nhận miễn phí, chị cứ gửi link cho bạn."
+- **Trả lời mẫu:** "Dạ có chị. Sau khi thanh toán, chị có link giới thiệu riêng. Tiệm bạn mua qua link được giảm 5%, còn chị nhận 15% với đơn đến 5 triệu, 20% với đơn trên 5 triệu. Chị xem hoa hồng ở trang Giới thiệu, nhập mã là thấy."
 - **Bước tiếp:** gửi link quà để chuyển tiếp.
 - **Không được nói:** "Giới thiệu được tặng 1 tháng" (**[CHỜ DUYỆT]**).
 

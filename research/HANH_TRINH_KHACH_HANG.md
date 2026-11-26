@@ -23,7 +23,7 @@
 | **4. Tin hơn** | "Có lừa không?" | Ghi rõ cái gì chạy được, cái gì chưa; bảng phạm vi; 17 câu hỏi đáp; AI nhận mình là AI | Minh bạch, cho trước, không hứa số khách | Trang chính, ngân hàng 168 câu | Chạy được |
 | **5. Trả 99k** | "Ít tiền, thử luôn" | QR VietQR → tiền vào → giao bộ Tết sau ~13 giây → trang cảm ơn kèm 3 bước tiếp | Giao ngay, đúng như mô tả | `mua.html`, `thanh_toan.py`, `bo_99k.py` | **Chạy được trên máy thử** (giả lập cổng) |
 | **6. Lên 999k trở lên** | "Đáng tiền, làm web luôn" | Mã KHAUTRU99 trừ 99k → mở app tạo web điền sẵn → thả file là tự điền → xuất bản → kiểm 8 mục | Không phải làm kỹ thuật; trừ tiền đã trả | `app_tu_lam.py`, `doc_tep.py`, `kiem_tra_web.py` | **Chạy được trên máy thử** |
-| **7. Ở lại và giới thiệu** | "Giới thiệu cho tiệm bạn" | Nhắc mùa lễ, Gói Mùa; tiệm bạn nhận quà miễn phí, người giới thiệu được tặng bộ ảnh mùa kế tiếp | Phí năm sau giữ nguyên | Zalo OA | Chưa có Zalo OA. Thưởng giới thiệu **[CHỜ DUYỆT]** |
+| **7. Ở lại và giới thiệu** | "Giới thiệu cho tiệm bạn" | Nhắc mùa lễ, Gói Mùa; link giới thiệu riêng: đơn ≤5tr nhận 15%, >5tr nhận 20%, tiệm bạn giảm 5% | Phí năm sau giữ nguyên | Zalo OA, trang Giới thiệu | Chưa có Zalo OA. Kỳ trả hoa hồng **[CHỜ DUYỆT]** |
 
 ## 3. Sau khi trả tiền: cảm ơn và bước tiếp theo (tự động)
 - **Trên màn hình, ngay khi tiền vào:**
@@ -51,4 +51,4 @@
 1. **Chốt bậc 99k** (giá, nội dung, mã trừ 99k).
 2. **Cổng thanh toán:** SePay hoặc payOS, kèm tài khoản ngân hàng nhận tiền. Code đã sẵn sàng, chỉ cần điền khoá xác thực.
 3. **Hosting, Zalo OA, pháp nhân và số liên hệ để xác minh.**
-4. **Thưởng giới thiệu và dòng chữ "Thiết kế bởi Nailmark"** trên ấn phẩm.
+4. **Kỳ trả hoa hồng giới thiệu (chu kỳ, mức tối thiểu, khấu trừ thuế TNCN) và dòng chữ "Thiết kế bởi Nailmark"** trên ấn phẩm.

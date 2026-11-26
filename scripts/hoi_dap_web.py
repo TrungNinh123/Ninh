@@ -9,7 +9,7 @@ from html import escape as e
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-THU_TU = ["Nailmark là gì", "gói nào, giá", "gói nào nhỏ", "999k được", "Thanh toán xong", "mua tên miền", "đã có tên miền", "người làm hộ", "Tự làm web mất", "Các bước",
+THU_TU = ["Nailmark là gì", "gói nào, giá", "gói nào nhỏ", "999k được", "Thanh toán xong", "hoa hồng", "mua tên miền", "đã có tên miền", "người làm hộ", "Tự làm web mất", "Các bước",
           "Năm sau", "Giá có tăng", "tập trung làm", "Đổi giá", "Mã QR", "tăng khách", "lấy thông tin", "người thật hay AI"]
 
 
