@@ -15,7 +15,7 @@
 | Web của tiệm theo chuẩn Nailmark, xem tốt trên điện thoại | **Chạy được** (web phiên bản 1, ảnh mẫu) | `scripts/web_tiem.py`. Đã kiểm 390px và 1280px, không tràn |
 | Web với **ảnh thật và bảng giá thật** của tiệm (web phiên bản 2) | **Làm tay được** | `scripts/tao_web.py` (mới, 25/11). Đã thử với tiệm mẫu: 12 ảnh, 5 dòng giá. Người của Nailmark phải chạy lệnh |
 | Chỉnh sáng ảnh, **không đổi màu móng** | **Chạy được** | Trong `tao_web.py`: nhân một hệ số chung cho cả 3 kênh màu. Đo được: sắc độ trước 16,8°, sau 16,6° |
-| AI đọc bảng giá từ ảnh chụp | **Chưa có** | Chưa kiểm thử. Cần Kyma API key. Hiện bảng giá phải gõ vào file |
+| Đọc bảng giá và thông tin tiệm từ ảnh, Word, Excel, PDF, CSV, TXT | **Chạy được** (26/11) | `scripts/doc_tep.py`: đọc chữ tiếng Việt ngay trên máy chủ Nailmark, không gửi ra ngoài. Đã thử 12 loại file. Ảnh mờ có thể đọc nhầm số (thử thật: 350.000đ thành 250.000đ), nên bước 3 bắt tiệm kiểm lại |
 | App tự làm 4 bước (khách tự tải ảnh, tự xuất bản) | **Chạy được trên máy chạy thử** (25/11) | `scripts/app_tu_lam.py` và `nailmark/app.html`. Đã thử đầu-cuối: gõ tên → 12 ảnh → giá → Zalo → web + QR trong khoảng 4 giây. Còn thiếu: hosting công khai, đăng nhập, thanh toán |
 | Đường dẫn web cho tiệm (hosting) | **Chưa có** | Chưa chọn nơi đăng. Web phiên bản 2 đã là thư mục tĩnh, đăng là chạy |
 | Tên miền riêng tự gắn | **Chưa có** | Chỉ cần cho gói Làm hộ 9,99tr (3 gói tự làm dùng đường dẫn Nailmark, anh Ninh chốt 25/11). Đội cài tay, chưa cần gắn tự động |
