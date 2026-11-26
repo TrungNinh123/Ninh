@@ -28,6 +28,17 @@ def trang_chu():
     return send_from_directory(ROOT / "nailmark", "app.html")
 
 
+@app.get("/huong-dan.html")
+def huong_dan():
+    return send_from_directory(ROOT / "nailmark", "huong-dan.html")
+
+
+@app.get("/huong-dan-4-buoc.mp4")
+@app.get("/huong-dan-bia.jpg")
+def huong_dan_tep():
+    return send_from_directory(ROOT / "nailmark", request.path.lstrip("/"))
+
+
 @app.get("/img/<path:p>")
 def anh_chung(p):
     return send_from_directory(ROOT / "nailmark" / "img", p)

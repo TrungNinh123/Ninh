@@ -139,6 +139,18 @@ Quét mã QR chuyển khoản, hệ thống tự xác nhận. **Tình trạng:**
 
 ## A3. Quy trình tự làm web
 
+### [P] Thanh toán xong tôi làm gì tiếp?
+Màn hình hiện ngay nút **Bắt đầu tạo web**, thông tin tiệm đã điền sẵn từ Google Maps. Sau đó chị làm 4 bước:
+1. Xem lại thông tin tiệm (1 phút).
+2. Chọn 4–12 ảnh móng đẹp nhất (máy tự cắt khung, chỉnh sáng).
+3. Ghi bảng giá (5 phút).
+4. Nhập số Zalo, bấm Xuất bản.
+
+Web chạy ngay, kèm mã QR. Việc tiếp theo: in QR đặt ở quầy, dán link lên Facebook và Zalo, gắn link vào Google Maps (có hướng dẫn từng bước).
+
+### [P] Có phải mua tên miền, cài đặt hay kết nối gì không?
+Không. Nailmark lo toàn bộ phần kỹ thuật: chỗ đặt web, đường dẫn, mã QR. Chị không phải mua tên miền, không thuê hosting, không kết nối hay chép nội dung từ chỗ khác sang. Bấm Xuất bản là web chạy.
+
 ### [P] Tự làm web mất bao lâu?
 Khoảng 1–2 buổi. Phần lớn thời gian là chụp ảnh móng. Các bước còn lại chỉ vài phút.
 
