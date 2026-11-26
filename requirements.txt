@@ -1,5 +1,10 @@
 flask==3.0.3
 segno==1.6.1
 pillow-heif==0.18.0
+python-docx==1.1.2
+pytesseract==0.3.13
+openpyxl
+pypdf
 Pillow
 numpy
+# hệ thống: apt-get install tesseract-ocr tesseract-ocr-vie poppler-utils ffmpeg

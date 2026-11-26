@@ -66,6 +66,21 @@ def tra_cuu():
     return jsonify(t)
 
 
+@app.post("/api/doc-tep")
+def doc_tep_api():
+    """Nhận mọi file (ảnh, Word, Excel, PDF, CSV, TXT), trả về loại và nội dung đã đọc, theo đúng thứ tự gửi lên."""
+    from doc_tep import phan_loai
+    out = []
+    with tempfile.TemporaryDirectory() as tmp:
+        for i, fs in enumerate(request.files.getlist("tep")[:30]):
+            p = Path(tmp) / f"{i:02d}{Path(fs.filename or '').suffix.lower()}"
+            fs.save(p)
+            kq = phan_loai(p)
+            kq["ten_tep"] = fs.filename
+            out.append(kq)
+    return jsonify(out)
+
+
 @app.post("/api/xuat-ban")
 def xuat_ban():
     f = request.form

@@ -18,7 +18,7 @@
 | AI đọc bảng giá từ ảnh chụp | **Chưa có** | Chưa kiểm thử. Cần Kyma API key. Hiện bảng giá phải gõ vào file |
 | App tự làm 4 bước (khách tự tải ảnh, tự xuất bản) | **Chạy được trên máy chạy thử** (25/11) | `scripts/app_tu_lam.py` và `nailmark/app.html`. Đã thử đầu-cuối: gõ tên → 12 ảnh → giá → Zalo → web + QR trong khoảng 4 giây. Còn thiếu: hosting công khai, đăng nhập, thanh toán |
 | Đường dẫn web cho tiệm (hosting) | **Chưa có** | Chưa chọn nơi đăng. Web phiên bản 2 đã là thư mục tĩnh, đăng là chạy |
-| Tên miền riêng tự gắn | **Chưa có** | Chỉ cần cho gói Làm hộ 9,9tr (3 gói tự làm dùng đường dẫn Nailmark, anh Ninh chốt 25/11). Đội cài tay, chưa cần gắn tự động |
+| Tên miền riêng tự gắn | **Chưa có** | Chỉ cần cho gói Làm hộ 9,99tr (3 gói tự làm dùng đường dẫn Nailmark, anh Ninh chốt 25/11). Đội cài tay, chưa cần gắn tự động |
 | Đặt lịch qua Zalo trên web | **Chạy được (một phần)** | Nút tạo sẵn tin nhắn để khách tự gửi Zalo. Chưa tự động gửi vào Zalo của tiệm |
 | Mã QR in để ở quầy | **Chạy được** (25/11) | Tự tạo khi xuất bản. Khi chưa có hosting, QR mở thẳng Zalo của tiệm (zalo.me/số) |
 | Bộ sưu tập 8 dịp | **Chạy được** (ảnh mẫu Nailmark) | Ảnh ghép bằng `anh_tang_khach.py` từ ảnh Pexels. Chưa dùng ảnh thật của tiệm |
@@ -35,7 +35,7 @@
 | Tự sửa web qua form | **Chưa có** | Cần app và máy chủ |
 | Đồng hành AI: báo cáo lịch hẹn theo kênh | **Chưa có** | Chưa có cách đo lượt đặt lịch. Cần gắn mã theo dõi vào nút Zalo |
 | Chuyển giao: khoá video và bài kiểm tra AI chấm | **Chưa có** | Mới là đề xuất |
-| Làm hộ trọn gói 9,9 triệu | **Làm tay được** | Có đủ công cụ cho người làm. Cần người thật và thời gian |
+| Làm hộ trọn gói 9,99 triệu | **Làm tay được** | Có đủ công cụ cho người làm. Cần người thật và thời gian |
 | Mục "Cam kết của tiệm" trên web | **Đã sửa 25/11** | Trước đây hiện sẵn trên mọi web, tức là **hứa thay tiệm**. Nay chỉ hiện khi tiệm xác nhận. Đã tắt ở 5 web demo đợt 1 |
 
 **Kết luận thật:** hôm nay Nailmark **chưa bán tự phục vụ được**. Thứ làm được ngay là **người của Nailmark dùng công cụ để tạo web cho tiệm** (mức "Làm tay được"). Cách này phù hợp để **chạy thử miễn phí với 5 tiệm đợt 1**, chưa phù hợp để thu 999k từ số đông.

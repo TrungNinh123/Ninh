@@ -54,7 +54,7 @@ Hiện chỉ làm cho tiệm nail. Các ngành khác sẽ xem xét sau.
 | Gói Mùa | 1.490.000đ mỗi mùa |
 | Đồng hành AI | 2.490.000đ/tháng, tối thiểu 3 tháng |
 | Chuyển giao cho nhân viên | 4.990.000đ, trả một lần |
-| Làm hộ trọn gói | 9.900.000đ |
+| Làm hộ trọn gói | 9.990.000đ |
 | Chuỗi từ 3 cơ sở | Báo giá riêng |
 
 Đây là giá ra mắt.
@@ -82,7 +82,7 @@ Web vẫn dùng đường dẫn Nailmark như hai gói kia.
 Chị vẫn tự làm theo video.
 
 ### [P] Có người làm hộ không?
-Có, ở gói **Làm hộ trọn gói 9.900.000đ**: đội Nailmark làm toàn bộ, kèm tên miền riêng của tiệm. Ba gói còn lại chị làm theo video 1–2 buổi là xong, có trợ lý AI và buổi hỏi đáp mỗi tuần.
+Có, ở gói **Làm hộ trọn gói 9.990.000đ**: đội Nailmark làm toàn bộ, kết nối tên miền riêng, rồi kèm cặp 1–2 tháng để tiệm tự vận hành vững. Ba gói còn lại chị làm theo video 1–2 buổi là xong, có trợ lý AI và buổi hỏi đáp mỗi tuần.
 
 ### Vì sao không có người hỗ trợ riêng ở gói rẻ?
 Để giữ giá dưới 3 triệu. Hỗ trợ riêng từng tiệm cần nhiều thời gian của người, mà giá gói rẻ không đủ trả cho thời gian đó. Thay vào đó, Nailmark làm video thật dễ hiểu và có buổi hỏi đáp chung mỗi tuần.
@@ -115,8 +115,8 @@ Gói Mùa là bộ nội dung cho một dịp lễ: bộ sưu tập 4–8 mẫu 
 ### Gói Chuyển giao là gì?
 Khoá video giúp 1 nhân viên của tiệm tự làm nội dung hằng tháng: ảnh, bài đăng, trả lời đánh giá, bộ sưu tập theo mùa. Kèm bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm. Đạt thì tiệm được dùng dấu "Đạt chuẩn Nailmark" 12 tháng. Giá 4,99 triệu, trả một lần. Gói này là đào tạo, không phải làm hộ.
 
-### Gói Làm hộ 9,9 triệu gồm gì?
-- **Gồm:** đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, sửa web trong 30 ngày, tặng 1 Gói Mùa.
+### Gói Làm hộ 9,99 triệu gồm gì?
+- **Gồm:** đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, kèm cặp chuyển giao 1–2 tháng để tiệm tự vận hành; sau đó tiệm tự làm, Nailmark không bảo trì hay vận hành thường xuyên, tặng 1 Gói Mùa.
 - **Thời gian:** khoảng 7 ngày làm việc.
 - **[CHỜ DUYỆT]** Có gồm chụp ảnh tại tiệm hay không: chưa chốt.
 
@@ -203,8 +203,10 @@ Chị hỏi theo thứ tự:
 - Chị gửi câu hỏi trước qua form.
 - Buổi họp không sửa riêng web của từng tiệm.
 
-### Web có tên miền riêng không?
-Ba gói Khởi đầu, Chuẩn và Đẳng cấp đều dùng đường dẫn của Nailmark. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu: gồm năm đầu, từ năm thứ hai 990.000đ/năm cộng phí tên miền theo nhà cung cấp. Lý do: tên miền tốn khoảng 300–500 nghìn/năm và thời gian cài tay, không đáng ở mức giá các gói tự làm.
+### [P] Tôi đã có tên miền riêng, dùng được không?
+Được. Chị tự **chuyển hướng** tên miền về web Nailmark ngay tại nơi đã mua tên miền (iNET, Mắt Bão…): thêm bản ghi tên **@**, loại **URL Redirect**, giá trị là link web của tiệm. Hướng dẫn 5 phút có trong trang Hướng dẫn. Không có tên miền thì web vẫn chạy đầy đủ qua đường dẫn Nailmark.
+
+Ở 3 gói tự làm, Nailmark **không nhận kết nối tên miền**. Muốn Nailmark làm giúp thì có gói Làm hộ trọn gói 9.990.000đ: kết nối tên miền, làm toàn bộ web, rồi kèm cặp 1–2 tháng để tiệm tự vận hành.
 
 ### [P] Mã QR dùng thế nào?
 In mã QR, đặt ở quầy, gương hoặc bàn làm móng. Khách quét bằng camera điện thoại là mở trang đặt lịch, hoặc mở Zalo của tiệm.

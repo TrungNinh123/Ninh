@@ -24,7 +24,7 @@
 | Giá trị đơn | Cách mua | Người có tham gia không |
 |---|---|---|
 | **Dưới 3 triệu**: Khởi đầu 999k, Chuẩn 1,99 tr, Đẳng cấp 2,99 tr, Gói Mùa 1,49 tr | Tự xem, tự quét QR thanh toán, hệ thống tự xác nhận và bàn giao | **Không**, trừ khi có lỗi |
-| **Từ 3 triệu**: Chuyển giao 4,99 tr, Làm hộ 9,9 tr, Đồng hành AI theo quý 7,47 tr, Chuỗi | Thanh toán xong (hoặc trước khi làm), Nailmark **gọi xác minh**; tiệm có **số điện thoại và email liên hệ** để gọi lại khi cần | Có, một lần xác minh |
+| **Từ 3 triệu**: Chuyển giao 4,99 tr, Làm hộ 9,99 tr, Đồng hành AI theo quý 7,47 tr, Chuỗi | Thanh toán xong (hoặc trước khi làm), Nailmark **gọi xác minh**; tiệm có **số điện thoại và email liên hệ** để gọi lại khi cần | Có, một lần xác minh |
 
 **[CHỜ DUYỆT]** Số điện thoại, email liên hệ và pháp nhân của Nailmark cho bước xác minh. Chưa có thì chưa mở bán các gói từ 3 triệu.
 

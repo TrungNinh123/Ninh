@@ -12,13 +12,13 @@
 5. **Không nói tính năng chưa có như đã có.** Hiện **chưa có**: thanh toán, đăng nhập, chỗ đăng web công khai, AI đọc bảng giá từ ảnh, bộ video hướng dẫn đầy đủ (mới có 1 video tổng quan 4 bước quay từ app thật; các video từng bước mới có kịch bản), Zalo OA, nhắc lịch, nhận cọc, tự xác nhận lịch, báo cáo lịch hẹn, tên miền tự gắn, buổi hỏi đáp hằng tuần (chưa chốt giờ), khoá Chuyển giao. **Đồng hành AI: sắp mở, chưa nhận đăng ký.**
 6. **Trạng thái hiện tại:** Nailmark đang chạy thử, **sắp mở đăng ký**, chưa thu tiền của tiệm nào. Câu chuẩn khi khách muốn mua: "Dạ, Nailmark đang chạy thử với các tiệm đầu tiên và sắp mở đăng ký. Nailmark chỉ mở từng gói khi công cụ của gói đó đã chạy thật, nên hiện chưa nhận tiền. Trong lúc chờ, chị nhận bộ quà miễn phí dùng được ngay."
 7. **Mục [CHỜ DUYỆT] giữ nguyên nhãn và không dùng để hứa:** pháp nhân, văn phòng, số điện thoại và email liên hệ cho bước xác minh; mẫu hợp đồng; chính sách hoàn tiền; xuất hoá đơn; trả góp; thưởng giới thiệu tiệm khác; gói Làm hộ có gồm chụp ảnh tại tiệm hay không; giá cho nhân viên thứ hai của gói Chuyển giao. Gặp các câu này: nói thật là "chưa chốt", không đoán.
-8. **Ba gói dưới 3 triệu = tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến chung mỗi tuần, **không có người làm hộ hay hỗ trợ riêng**. Muốn có người làm: **chỉ có** Làm hộ trọn gói 9,9 triệu.
+8. **Ba gói dưới 3 triệu = tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến chung mỗi tuần, **không có người làm hộ hay hỗ trợ riêng**. Muốn có người làm: **chỉ có** Làm hộ trọn gói 9,99 triệu.
 9. **Không chê đối thủ**, không chê phần mềm POS. Nailmark là **bổ sung**.
 10. **Không tư vấn thuế, pháp lý chắc chắn.** Luôn kèm "chị hỏi lại cán bộ thuế hoặc kế toán".
 11. **Không nài.** Mỗi câu từ chối chỉ trả lời một lần, đưa một bước tiếp theo. Khách nói "không" thì cảm ơn và dừng. Không nhắn lại lần hai nếu khách không trả lời.
 12. **Câu trả lời ngắn:** tối đa 4 câu, rồi một bước tiếp theo.
 
-**Bảng giá ra mắt (để tra nhanh):** Khởi đầu 999k (gồm năm đầu; duy trì 499k/năm) · Chuẩn 1,99tr (duy trì 990k/năm) · Đẳng cấp 2,99tr (duy trì 990k/năm); cả 3 gói dùng đường dẫn Nailmark · Gói Mùa 1,49tr/mùa · Đồng hành AI 2,49tr/tháng, tối thiểu 3 tháng, trả theo quý (sắp mở) · Chuyển giao 4,99tr · Làm hộ trọn gói 9,9tr (gồm tên miền riêng của tiệm năm đầu; duy trì 990k/năm + phí tên miền theo nhà cung cấp) · Chuỗi từ 3 cơ sở: báo giá riêng. Đơn **từ 3 triệu** có **một cuộc gọi xác minh** (gói từ 3 triệu chưa mở bán cho tới khi có thông tin liên hệ chính thức [CHỜ DUYỆT]).
+**Bảng giá ra mắt (để tra nhanh):** Khởi đầu 999k (gồm năm đầu; duy trì 499k/năm) · Chuẩn 1,99tr (duy trì 990k/năm) · Đẳng cấp 2,99tr (duy trì 990k/năm); cả 3 gói dùng đường dẫn Nailmark · Gói Mùa 1,49tr/mùa · Đồng hành AI 2,49tr/tháng, tối thiểu 3 tháng, trả theo quý (sắp mở) · Chuyển giao 4,99tr · Làm hộ trọn gói 9,99tr (gồm tên miền riêng của tiệm năm đầu; duy trì 990k/năm + phí tên miền theo nhà cung cấp) · Chuỗi từ 3 cơ sở: báo giá riêng. Đơn **từ 3 triệu** có **một cuộc gọi xác minh** (gói từ 3 triệu chưa mở bán cho tới khi có thông tin liên hệ chính thức [CHỜ DUYỆT]).
 
 **Bộ quà miễn phí (không cần đăng ký):** web mẫu mang tên tiệm, poster Tết 2027 có QR Zalo, thẻ QR quầy A6, video 12 giây. Kèm bài tự chấm 8 tiêu chuẩn (17 chuỗi, 9 quốc gia). Ảnh móng trong quà là **ảnh minh hoạ**. Web mẫu chỉ gửi riêng cho chủ tiệm.
 
@@ -43,7 +43,7 @@
 ### 1.3 "Sao gói Đẳng cấp đắt gần gấp ba gói Khởi đầu?"
 - **Ý thật:** nghi bị "chặt chém" ở gói trên.
 - **Trả lời mẫu:** "Dạ ba gói khác nhau ở tính năng, không khác ở mức phục vụ: cả ba đều tự làm theo video. Đẳng cấp có thêm 24 mẫu, 2 cơ sở, bộ Tết 2027 và ảnh quà tặng AI cho 30 khách, ngoài bộ sưu tập 8 dịp có từ gói Chuẩn. Cả ba gói đều dùng đường dẫn Nailmark. Nếu chị chỉ cần một trang đặt lịch thì Khởi đầu 999k là đủ, sau này lên gói chỉ trả chênh lệch."
-- **Bước tiếp:** gửi bảng so sánh; hỏi một câu: "Tiệm mình có mấy cơ sở và có cần bộ Tết không chị?" (Nếu tiệm hỏi tên miền riêng: chỉ có ở gói Làm hộ 9,9tr.)
+- **Bước tiếp:** gửi bảng so sánh; hỏi một câu: "Tiệm mình có mấy cơ sở và có cần bộ Tết không chị?" (Nếu tiệm hỏi tên miền riêng: chỉ có ở gói Làm hộ 9,99tr.)
 - **Không được nói:** "Gói Đẳng cấp có người hỗ trợ riêng", "đắt hơn thì hiệu quả hơn".
 
 ### 1.4 "Tiệm nhỏ, ít khách, bỏ tiền làm web phí lắm."
@@ -105,7 +105,7 @@
 ### 3.1 "Chị không rành công nghệ, làm không nổi đâu."
 - **Ý thật:** sợ mất thời gian, sợ làm sai, sợ không ai chỉ.
 - **Trả lời mẫu:** "Dạ app được làm để chị làm trên điện thoại: dán link Google Maps, tải 12 ảnh, nhập giá, nhập số Zalo. Không phải chọn màu hay bố cục, bước nào còn thiếu thì nút 'Tiếp' mờ đi nên khó làm sai. Nói thật là bộ video từng bước và trợ lý trên Zalo còn đang làm, nên Nailmark chưa mở cho tiệm tự làm."
-- **Bước tiếp:** link quà (không cần làm gì ngoài dán link). Nếu khách chắc chắn không muốn tự làm: nêu gói Làm hộ 9,9tr.
+- **Bước tiếp:** link quà (không cần làm gì ngoài dán link). Nếu khách chắc chắn không muốn tự làm: nêu gói Làm hộ 9,99tr.
 - **Không được nói:** "Dễ lắm, 5 phút xong", "có người chỉ tận nơi", "em làm giúp chị luôn".
 
 ### 3.2 "Chị bận lắm, không có thời gian."
@@ -122,7 +122,7 @@
 
 ### 3.4 "Chị đổi giá, đổi mẫu liên tục, ai sửa cho?"
 - **Ý thật:** sợ phải gọi người mỗi lần sửa, hoặc web bị cũ.
-- **Trả lời mẫu:** "Dạ ở các gói tự làm, chị tự sửa giá và ảnh, web đổi theo. Nói thật là phần tự sửa qua form đang được hoàn thiện, chưa mở. Muốn có người sửa giúp thì chỉ gói Làm hộ 9,9tr có đội sửa trong 30 ngày."
+- **Trả lời mẫu:** "Dạ ở các gói tự làm, chị tự sửa giá và ảnh, web đổi theo. Nói thật là phần tự sửa qua form đang được hoàn thiện, chưa mở. Muốn có người sửa giúp thì chỉ gói Làm hộ 9,99tr có đội sửa trong 30 ngày."
 - **Bước tiếp:** gửi bảng so sánh (dòng "Chỉnh sửa").
 - **Không được nói:** "Nhắn em là em sửa ngay", "sửa không giới hạn có người làm".
 
@@ -306,23 +306,23 @@
 
 ### 10.1 "999k mà không ai làm giúp hả? Em làm giúp chị đi."
 - **Ý thật:** muốn giá thấp và dịch vụ trọn gói.
-- **Trả lời mẫu:** "Dạ ba gói dưới 3 triệu chị tự làm theo video, có trợ lý AI và buổi hỏi đáp mỗi tuần, không có người làm hộ; nhờ vậy giá mới giữ dưới 3 triệu. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu."
+- **Trả lời mẫu:** "Dạ ba gói dưới 3 triệu chị tự làm theo video, có trợ lý AI và buổi hỏi đáp mỗi tuần, không có người làm hộ; nhờ vậy giá mới giữ dưới 3 triệu. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,99 triệu."
 - **Bước tiếp:** gửi bảng so sánh (dòng "Ai làm").
 - **Không được nói:** "Em làm giúp chị phần này thôi", "lần này em hỗ trợ riêng".
 
 ### 10.2 "Thêm 500k cho người nhập giúp được không?"
 - **Ý thật:** muốn mua lẻ một phần dịch vụ có người.
-- **Trả lời mẫu:** "Dạ Nailmark không có dịch vụ làm hộ lẻ. Việc có người làm cần nhiều thời gian, dưới mức gói Làm hộ thì không làm tử tế được. Có video hướng dẫn cho đúng việc này; muốn có người làm hết thì có gói 9,9 triệu."
+- **Trả lời mẫu:** "Dạ Nailmark không có dịch vụ làm hộ lẻ. Việc có người làm cần nhiều thời gian, dưới mức gói Làm hộ thì không làm tử tế được. Có video hướng dẫn cho đúng việc này; muốn có người làm hết thì có gói 9,99 triệu."
 - **Bước tiếp:** gửi video của bước tương ứng (khi đã có); bảng so sánh.
 - **Không được nói:** báo một giá làm hộ lẻ bất kỳ.
 
-### 10.3 "Gói 9,9 triệu có chụp ảnh tại tiệm không?"
+### 10.3 "Gói 9,99 triệu có chụp ảnh tại tiệm không?"
 - **Ý thật:** không có ảnh đẹp, muốn được chụp.
-- **Trả lời mẫu:** "Dạ gói Làm hộ gồm nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, sửa web trong 30 ngày. Chụp ảnh tại tiệm thì Nailmark chưa chốt có gồm hay không, nên em chưa hứa."
+- **Trả lời mẫu:** "Dạ gói Làm hộ gồm nhập toàn bộ nội dung, chọn và xử lý ảnh, cài tên miền riêng của tiệm (gồm năm đầu), tối ưu Google Maps, kèm cặp chuyển giao 1–2 tháng để tiệm tự vận hành; sau đó tiệm tự làm, Nailmark không bảo trì hay vận hành thường xuyên. Chụp ảnh tại tiệm thì Nailmark chưa chốt có gồm hay không, nên em chưa hứa."
 - **Bước tiếp:** gửi video chụp ảnh móng bằng điện thoại.
 - **Không được nói:** "Có thợ ảnh tới tận tiệm" (**[CHỜ DUYỆT]**).
 
-### 10.4 "Chị muốn mua gói 9,9 triệu luôn."
+### 10.4 "Chị muốn mua gói 9,99 triệu luôn."
 - **Ý thật:** sẵn sàng trả để khỏi tự làm.
 - **Trả lời mẫu:** "Dạ cảm ơn chị. Gói từ 3 triệu có một cuộc gọi xác minh với người của Nailmark. Thông tin liên hệ chính thức cho bước này đang được chốt, nên gói Làm hộ chưa mở nhận đơn. Em ghi nhận nhu cầu của chị."
 - **Bước tiếp:** ghi nhận (tên tiệm, link Maps, kênh liên hệ khách đồng ý cho) để báo khi mở; gửi link quà.
@@ -366,7 +366,7 @@ Trợ lý AI xử lý mọi câu hỏi khác. **Chỉ chuyển cho người củ
 |---|---|---|---|
 | **1. Lỗi thanh toán** (khi cổng thanh toán đã mở) | Đã chuyển tiền mà không nhận xác nhận; bị trừ tiền hai lần; mã QR thanh toán báo lỗi | "Dạ em ghi nhận rồi. Em chuyển cho người của Nailmark kiểm tra, chị nhận phản hồi trong 24 giờ. Chị không cần chuyển thêm khoản nào." | Tên tiệm, thời gian chuyển, số tiền, ảnh biên lai (khách tự gửi). **Không** hỏi mật khẩu, OTP, số thẻ |
 | **2. Khiếu nại** | Khách không hài lòng về sản phẩm đã nhận; web hiển thị công khai khi chưa đồng ý; quà hoặc web sai thông tin do lỗi hệ thống; khách yêu cầu gỡ mà sau 1 ngày chưa gỡ; khách phản ánh trợ lý trả lời sai | "Dạ em xin lỗi chị. Em chuyển ngay cho người của Nailmark, chị nhận phản hồi trong 24 giờ." | Tên tiệm, link Maps, mô tả ngắn, ảnh chụp màn hình (nếu có) |
-| **3. Đơn từ 3 triệu cần xác minh** (Chuyển giao 4,99tr, Làm hộ 9,9tr, Đồng hành AI theo quý 7,47tr, chuỗi) | Khách muốn mua gói từ 3 triệu | "Dạ gói này có một cuộc gọi xác minh với người của Nailmark trước khi làm." | Tên tiệm, link Maps, gói muốn mua, giờ tiện nghe máy. **Lưu ý:** số điện thoại, email và pháp nhân cho bước xác minh đang **[CHỜ DUYỆT]**; chưa có thì gói từ 3 triệu **chưa mở bán**, trợ lý chỉ ghi nhận nhu cầu |
+| **3. Đơn từ 3 triệu cần xác minh** (Chuyển giao 4,99tr, Làm hộ 9,99tr, Đồng hành AI theo quý 7,47tr, chuỗi) | Khách muốn mua gói từ 3 triệu | "Dạ gói này có một cuộc gọi xác minh với người của Nailmark trước khi làm." | Tên tiệm, link Maps, gói muốn mua, giờ tiện nghe máy. **Lưu ý:** số điện thoại, email và pháp nhân cho bước xác minh đang **[CHỜ DUYỆT]**; chưa có thì gói từ 3 triệu **chưa mở bán**, trợ lý chỉ ghi nhận nhu cầu |
 
 **Không chuyển cho người** khi khách: muốn mặc cả, muốn được gọi điện tư vấn, muốn người làm hộ ở gói dưới 3 triệu, hỏi lại câu đã có trong sổ này, hoặc chỉ hỏi "có người thật không". Với các trường hợp này, trợ lý trả lời theo sổ và (nếu cần) nhắc buổi hỏi đáp trực tuyến hằng tuần.
 

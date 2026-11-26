@@ -6,7 +6,7 @@
 - Số liệu lấy từ WebSearch ngày 25/11/2026. WebFetch bị chặn (wix.com, fresha.com không truy cập được), nên phần lớn số liệu là **đoạn trích kết quả tìm kiếm**. Cần mở bản gốc trước khi đưa cho khách hoặc nhà đầu tư.
 - Số nào không chắc được ghi **"chưa xác minh"**. Mọi chỉ tiêu ở cổng là **giả định**, đo ở TP.HCM rồi chỉnh lại.
 - Quy đổi theo giá bán ra Vietcombank 25/11/2026 (`research/ty_gia_vcb.json`): 1 USD = 26.020 đ; 1 EUR = 28.989,55 đ; 1 GBP = 34.311,11 đ; 1 CAD = 18.376,62 đ; 1 AUD = 17.246,07 đ; 1 JPY = 166,70 đ; 1 SGD = 20.336,22 đ. Bảng Vietcombank không có CZK, nên giá cho Séc niêm yết bằng EUR.
-- Bối cảnh: `MUC_TIEU_2027.md` (10.000 doanh nghiệp, lợi nhuận 1 triệu USD), `research/PHEU_BAN_HANG.md` (giá ra mắt 999k / 1,99tr / 2,99tr / 9,9tr), `research/KE_HOACH_TONG.md` (Cổng 1 ngày 22/12, Cổng 2 tháng 2/2027), `research/NGUYEN_TAC_AI_TU_PHUC_VU.md` (chỉ số "mua không cần hỏi" ≥ 80%).
+- Bối cảnh: `MUC_TIEU_2027.md` (10.000 doanh nghiệp, lợi nhuận 1 triệu USD), `research/PHEU_BAN_HANG.md` (giá ra mắt 999k / 1,99tr / 2,99tr / 9,99tr), `research/KE_HOACH_TONG.md` (Cổng 1 ngày 22/12, Cổng 2 tháng 2/2027), `research/NGUYEN_TAC_AI_TU_PHUC_VU.md` (chỉ số "mua không cần hỏi" ≥ 80%).
 
 ---
 
@@ -277,7 +277,7 @@ Hệ thống tự chào Gói Mùa **trước 6 tuần** (theo `PHEU_BAN_HANG.md`
 | Đẳng cấp | 2.990.000 đ | **$699** ≈ 18.187.980 đ | A$1.049 ≈ 18.091.127 đ | C$949 ≈ 17.439.412 đ | £529 ≈ 18.150.577 đ | €599 ≈ 17.364.740 đ |
 | Duy trì từ năm thứ 2 | 499k – 990k đ/năm | $99/năm ≈ 2.575.980 đ | Theo tỷ lệ tương đương | – | – | – |
 | Gói Mùa | 1.490.000 đ | $149 ≈ 3.876.980 đ | A$229 ≈ 3.949.350 đ | – | – | €139 ≈ 4.029.547 đ |
-| Làm hộ trọn gói | 9.900.000 đ | $1.490 ≈ 38.769.800 đ | – | – | – | – |
+| Làm hộ trọn gói | 9.990.000 đ | $1.490 ≈ 38.769.800 đ | – | – | – | – |
 | Đồng hành AI | 2.490.000 đ/tháng | $199/tháng ≈ 5.177.980 đ | – | – | – | – |
 
 - **Giá đã gồm thuế hay chưa:** do bên bán thay tính theo từng nước. Trên trang bán hàng ghi "chưa gồm thuế bán hàng hoặc VAT".

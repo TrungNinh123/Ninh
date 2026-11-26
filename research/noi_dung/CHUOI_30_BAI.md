@@ -308,7 +308,7 @@
   >
   > Cả 3 gói dùng chung đường dẫn Nailmark.
   >
-  > Cả 3 gói: **chị tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến mỗi tuần. **Không có người làm hộ.** Muốn đội Nailmark làm hết thì có gói Làm hộ trọn gói 9,9tr, gói duy nhất có tên miền riêng của tiệm.
+  > Cả 3 gói: **chị tự làm theo video**, có trợ lý AI và 1 buổi hỏi đáp trực tuyến mỗi tuần. **Không có người làm hộ.** Muốn đội Nailmark làm hết thì có gói Làm hộ trọn gói 9,99tr, gói duy nhất có tên miền riêng của tiệm.
   >
   > Không gói nào hứa số khách hay chạy quảng cáo.
   >
@@ -402,7 +402,7 @@
   >
   > **Không có** người làm hộ hay người hỗ trợ riêng cho từng tiệm. Đó là lý do giá giữ được dưới 3 triệu.
   >
-  > Chị bận quá, muốn có người làm hết? Có gói Làm hộ trọn gói 9,9tr, đội Nailmark làm khoảng 7 ngày làm việc.
+  > Chị bận quá, muốn có người làm hết? Có gói Làm hộ trọn gói 9,99tr, đội Nailmark làm khoảng 7 ngày làm việc.
   >
   > Thời gian tự làm khoảng 1–2 buổi, phần lớn là chụp ảnh móng.
   >
@@ -778,7 +778,7 @@
 | 0–3 | 3 thẻ giá có nhãn "Tự làm" | "Ba gói dưới 3 triệu đều ghi chữ: Tự làm." | Khởi đầu 999k · Chuẩn 1,99tr · Đẳng cấp 2,99tr |
 | 3–10 | Biểu tượng video, trợ lý AI, lịch hỏi đáp | "Có video từng bước, trợ lý AI, một buổi hỏi đáp mỗi tuần." | Video · Trợ lý AI · Hỏi đáp 1 buổi/tuần |
 | 10–15 | Gạch chéo biểu tượng người | "Không có người làm hộ. Đó là lý do giá thấp." | Không có người làm hộ |
-| 15–20 | Thẻ "Làm hộ trọn gói 9,9tr" | "Muốn có người làm hết thì có gói 9,9 triệu." | Làm hộ: 9,9tr |
+| 15–20 | Thẻ "Làm hộ trọn gói 9,99tr" | "Muốn có người làm hết thì có gói 9,99 triệu." | Làm hộ: 9,99tr |
 | 20–25 | Chữ cảnh cuối | "Giá ra mắt, sắp mở đăng ký. Giờ thì nhận quà trước." | Sắp mở đăng ký · [CTA chuẩn] |
 
 ### Kịch bản 10: "Còn 3 tuần tới Tết" (20 giây) – dùng cho Bài 30

@@ -26,14 +26,14 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2a. Website (trả một lần, đã gồm năm đầu)
 | Mức | Giá | ≈ USD | Gồm | Số lần người chạm |
 |---|---|---|---|---|
-| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Web nằm ở đường dẫn của Nailmark (cả 3 gói tự làm đều dùng đường dẫn Nailmark). **Nội dung chỉ có hướng dẫn chi tiết qua video:** chủ tiệm tự hoàn thiện, **không có nhân sự hỗ trợ**. **Không gồm:** bộ sưu tập theo dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá. Muốn đội Nailmark làm trọn thì chọn gói Làm hộ 9,9 triệu | 0 |
+| **Khởi đầu** | **999.000 đ** | $38 | Web 1 trang, lookbook 12 mẫu đánh số, bảng giá, đặt lịch qua Zalo, QR in quầy. Web nằm ở đường dẫn của Nailmark (cả 3 gói tự làm đều dùng đường dẫn Nailmark). **Nội dung chỉ có hướng dẫn chi tiết qua video:** chủ tiệm tự hoàn thiện, **không có nhân sự hỗ trợ**. **Không gồm:** bộ sưu tập theo dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá. Muốn đội Nailmark làm trọn thì chọn gói Làm hộ 9,99 triệu | 0 |
 | **Chuẩn** (phổ biến nhất) | **1.990.000 đ** | $76 | Như Khởi đầu, thêm: bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, 10 mẫu trả lời đánh giá | 0 |
 | **Đẳng cấp** | **2.990.000 đ** | $115 | Như Chuẩn, thêm: 24 ảnh mẫu, dùng cho 2 cơ sở, bộ Tết 2027, ảnh quà tặng AI cho 30 khách | 0 |
 
 - **Duy trì từ năm thứ 2:**
   - Khởi đầu: **499.000 đ/năm (≈ $19)**. Không thêm nội dung khác; muốn thêm thì lên gói.
   - Chuẩn và Đẳng cấp: 990.000 đ/năm (≈ $38).
-  - Cả 3 gói tự làm dùng đường dẫn Nailmark, không có tên miền riêng. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp).
+  - Cả 3 gói tự làm dùng đường dẫn Nailmark, không có tên miền riêng. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,99 triệu (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp).
 - **Bộ video tự làm cho gói Khởi đầu** (AI soạn kịch bản, quay màn hình, mỗi video 2–4 phút):
   1. Chụp ảnh móng đẹp bằng điện thoại.
   2. Tải ảnh và đánh số mẫu cho lookbook.
@@ -45,7 +45,7 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
   8. Tự làm bộ sưu tập cho mùa lễ.
 
   Câu hỏi ngoài video: trợ lý AI trả lời. Không có người hỗ trợ.
-- **Sửa ngoài gói:** tiệm tự sửa theo video. Muốn có người làm hộ thì dùng gói Làm hộ trọn gói, 9,9 triệu.
+- **Sửa ngoài gói:** tiệm tự sửa theo video. Muốn có người làm hộ thì dùng gói Làm hộ trọn gói, 9,99 triệu.
 - **Lên mức cao hơn:** chỉ trả phần chênh lệch.
 
 ### 2b. Gói bán thêm
@@ -65,11 +65,11 @@ Quy đổi theo giá bán ra Vietcombank 25/11/2026: 1 USD = 26.020 đ (`researc
 ### 2c. Nguyên tắc: có nội dung hỗ trợ, nhưng làm hộ phải từ 5 triệu (anh Ninh chốt 25/11/2026)
 - **Mọi gói đều có nội dung hỗ trợ:** video hướng dẫn chi tiết, mẫu dùng sẵn, trợ lý AI trả lời câu hỏi.
 - **Gói 999k, 1,99 triệu, 2,99 triệu:** tiệm **tự làm theo video**, công cụ AI điền sẵn. **Không có người làm hộ, không có người hỗ trợ.** Ba gói chỉ khác nhau về tính năng (xem `research/PHAM_VI_DICH_VU.md`).
-- **Làm hộ trọn gói (có người làm): 9.900.000 đ (≈ $380). Anh Ninh chốt 25/11/2026.** Ngưỡng tối thiểu cho mọi việc có người làm hộ là 5 triệu. Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
-  - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền riêng của tiệm (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp), tối ưu Google Maps, chỉnh sửa trong 30 ngày.
+- **Làm hộ trọn gói (có người làm): 9.990.000 đ (≈ $384). Anh Ninh chốt 25/11/2026.** Ngưỡng tối thiểu cho mọi việc có người làm hộ là 5 triệu. Lý do: dưới mức này, không cá nhân nào làm trọn một web được mà vẫn có lãi.
+  - Gồm: đội Nailmark nhập toàn bộ nội dung, chọn và xử lý ảnh, viết bài, cài tên miền riêng của tiệm (gồm năm đầu; từ năm thứ hai 990.000 đ/năm + phí tên miền theo nhà cung cấp), tối ưu Google Maps, kèm cặp chuyển giao 1–2 tháng để tiệm tự vận hành; sau đó tiệm tự làm, Nailmark không bảo trì hay vận hành thường xuyên.
   - Phạm vi cụ thể chờ anh duyệt.
 - **Đồng hành AI (2,49 triệu/tháng):** trả trước theo quý là 7,47 triệu, nên mỗi lần thu vẫn trên ngưỡng 5 triệu.
-- **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
+- **Mọi yêu cầu làm hộ từ khách gói thấp** đều được trả lời một câu: "Có video hướng dẫn cho việc này. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,99 triệu." Trợ lý AI và trang bán hàng ghi sẵn câu này.
 
 **Gói Chuyển giao cho nhân viên: 4.990.000 đ (≈ $192), trả một lần. Anh Ninh đã duyệt 25/11/2026.**
 - Gồm: khoá video cho một nhân viên của tiệm, bộ mẫu và câu lệnh AI, bài kiểm tra do AI chấm, dấu "Đạt chuẩn Nailmark".
@@ -82,7 +82,7 @@ Mọi mức giá ở trên là **giá khởi đầu**. Khi làm tốt, có bằn
 
 | Giai đoạn | Điều kiện để chuyển | Hướng giá |
 |---|---|---|
-| 1. Ra mắt (hiện tại) | Chưa có số liệu thật | Khởi đầu 999k · Chuẩn 1,99 tr · Đẳng cấp 2,99 tr · Làm hộ 9,9 tr |
+| 1. Ra mắt (hiện tại) | Chưa có số liệu thật | Khởi đầu 999k · Chuẩn 1,99 tr · Đẳng cấp 2,99 tr · Làm hộ 9,99 tr |
 | 2. Có bằng chứng | 10 tiệm có số liệu trước và sau (lịch hẹn, đánh giá Google) | Tăng khoảng 1,5–2 lần |
 | 3. Có thương hiệu | 100 tiệm dùng, dấu "Đạt chuẩn Nailmark" được khách nhận ra | Tăng khoảng 2–3 lần so với giá ra mắt |
 | 4. Chuẩn quốc tế | Ra nước ngoài, so với mốc $2.000 của agency | Định giá theo thị trường từng nước |

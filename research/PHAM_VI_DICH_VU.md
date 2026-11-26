@@ -6,25 +6,25 @@
 **Nguyên tắc (anh Ninh chốt 25/11/2026):**
 - Ba gói 999k, 1,99 triệu và 2,99 triệu **không có người làm hộ, không có người hỗ trợ riêng**. Có video hướng dẫn, công cụ AI điền sẵn, trợ lý AI, và **1 buổi hỏi đáp trực tuyến chung mỗi tuần** (anh Ninh bổ sung 25/11/2026).
 - Ba gói này khác nhau ở **tính năng và công cụ**, không khác ở mức phục vụ.
-- Muốn có người làm thì **chỉ có** gói Làm hộ trọn gói 9,9 triệu.
+- Muốn có người làm thì **chỉ có** gói Làm hộ trọn gói 9,99 triệu.
 
-| Hạng mục | Khởi đầu 999k | Chuẩn 1,99 tr | Đẳng cấp 2,99 tr | Làm hộ trọn gói 9,9 tr |
+| Hạng mục | Khởi đầu 999k | Chuẩn 1,99 tr | Đẳng cấp 2,99 tr | Làm hộ trọn gói 9,99 tr |
 |---|---|---|---|---|
 | **Ai làm** | Tiệm tự làm theo video | Tiệm tự làm theo video | Tiệm tự làm theo video | **Đội Nailmark làm hết** |
 | **Thời gian tự làm** | 1–2 buổi | 1–2 buổi | 1–2 buổi | 7 ngày làm việc (đội làm) |
 | **AI điền sẵn từ Google Maps** (tên, địa chỉ, giờ, sao, SĐT) | Có | Có | Có | Có |
 | **Ảnh lookbook** (AI tự cắt khung, chỉnh sáng khi tải lên, không đổi màu móng) | 12 | 12 | 24 | 24, đội chọn |
 | **Bộ sưu tập 8 dịp** (ảnh mẫu Nailmark) | Không | Có | Có | Có, ưu tiên ảnh thật |
-| **Bảng giá** (anh Ninh duyệt 25/11: AI đọc ảnh cho cả 3 gói) | Gõ theo mẫu. AI đọc ảnh: **sắp có** (chờ Kyma) | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Gõ theo mẫu. AI đọc ảnh: **sắp có** | Đội nhập |
+| **Bảng giá** (cả 3 gói) | Gửi ảnh, Word, Excel, PDF hoặc gõ: máy tự đọc, tiệm kiểm lại | như Khởi đầu | như Khởi đầu | Đội nhập |
 | **Đặt lịch Zalo + QR quầy** | Có | Có | Có | Có |
 | **Mô tả Google Maps** | Không | AI viết sẵn, tiệm tự dán | AI viết sẵn, tiệm tự dán | Đội cập nhật (tiệm cấp quyền) |
 | **Mẫu trả lời đánh giá** | Không | 10 | 10 | 10 |
 | **Địa chỉ web** (anh Ninh chốt 25/11: tên miền tốn khoảng 300–500k/năm và thời gian cài tay, không đáng ở mức giá 3 gói tự làm) | Đường dẫn Nailmark | Đường dẫn Nailmark | Đường dẫn Nailmark | **Tên miền riêng của tiệm**, gồm năm đầu. Đội cài |
 | **Số cơ sở** | 1 | 1 | 2 | 2 |
-| **Chỉnh sửa** | Tự sửa không giới hạn | Tự sửa không giới hạn | Tự sửa không giới hạn | Đội sửa trong 30 ngày |
+| **Chỉnh sửa** | Tự sửa không giới hạn | Tự sửa không giới hạn | Tự sửa không giới hạn | Đội sửa trong thời gian chuyển giao 1–2 tháng |
 | **Bộ Tết 2027 + công cụ ảnh quà tặng AI** | Không | Không | Có. Tiệm tự chạy theo video, tối đa 30 khách | 1 mùa, đội làm |
 | **Hỏi đáp trực tuyến (nhóm, chung mọi tiệm)** | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần | 1 buổi/tuần |
-| **Người làm riêng cho tiệm** | **Không** | **Không** | **Không** | Có, 30 ngày |
+| **Người làm riêng cho tiệm** | **Không** | **Không** | **Không** | Có, trong 1–2 tháng chuyển giao; sau đó tiệm tự vận hành |
 | **Video tạo web (nhóm A, 7 video) + video đưa web ra ngoài (nhóm B, 5 video) + trợ lý AI 24/7** | Có | Có | Có | Có |
 | **Duy trì từ năm 2** | 499k/năm | 990k/năm | 990k/năm | 990k/năm + phí tên miền theo nhà cung cấp |
 
@@ -54,6 +54,6 @@
 5. **Tin xác nhận đơn** gửi qua Zalo và email, nhắc lại 3 dòng: gồm gì, không gồm gì, nếu muốn hơn thì chọn gói nào.
 
 ## 5. Cần anh quyết
-- Gói Làm hộ 9,9 triệu có gồm chụp ảnh tại tiệm không? Nếu có, giới hạn bao nhiêu buổi, bao nhiêu ảnh?
+- Gói Làm hộ 9,99 triệu có gồm chụp ảnh tại tiệm không? Nếu có, giới hạn bao nhiêu buổi, bao nhiêu ảnh?
 - Chính sách hoàn tiền. Đề xuất: hoàn 100% nếu tiệm chưa gửi tài liệu và yêu cầu trong 7 ngày. Không hoàn sau khi đã bàn giao web.
 - Giá cho nhân viên thứ hai của gói Chuyển giao.

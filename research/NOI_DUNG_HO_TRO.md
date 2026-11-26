@@ -26,7 +26,7 @@
 7. **Máy nhắc thay người.** Zalo OA nhắc vào ngày 1, ngày 3 và ngày 7, kèm đúng video của bước còn thiếu.
 8. **Kẹt thì có ba chỗ hỏi, theo thứ tự:** xem lại video, hỏi trợ lý AI, rồi mang câu hỏi vào buổi hỏi đáp hằng tuần.
 
-**Anh Ninh đã duyệt (25/11/2026):** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. (Tính năng AI đọc bảng giá từ ảnh: sắp có.) Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá, số ảnh, số cơ sở, bộ Tết và ảnh quà tặng AI. Cả 3 gói dùng chung đường dẫn Nailmark; tên miền riêng chỉ có ở gói Làm hộ 9,9 triệu.
+**Anh Ninh đã duyệt (25/11/2026):** cho **cả 3 gói** đều được chụp bảng giá để AI đọc, kể cả gói Khởi đầu. Trước đây gói Khởi đầu phải tự gõ bảng giá. Gõ tay là bước khách dễ bỏ dở nhất, nên đơn giản quan trọng hơn việc tạo khác biệt giữa các gói. (Tính năng AI đọc bảng giá từ ảnh: sắp có.) Các gói vẫn khác nhau ở bộ sưu tập 8 dịp, mô tả Google Maps viết sẵn, mẫu trả lời đánh giá, số ảnh, số cơ sở, bộ Tết và ảnh quà tặng AI. Cả 3 gói dùng chung đường dẫn Nailmark; tên miền riêng chỉ có ở gói Làm hộ 9,99 triệu.
 
 **Sau khi web lên:** các video đưa web ra ngoài (mã QR, Google Maps, đánh giá, bộ sưu tập mùa lễ) là phần làm thêm, không bắt buộc.
 
@@ -43,7 +43,7 @@
 | 7 | **Trả lời đánh giá theo mẫu** | 3 phút | 3 mẫu trả lời: đánh giá 5 sao, đánh giá 3–4 sao, đánh giá 1–2 sao (xin lỗi, mời quay lại, không tranh cãi) → mục tiêu trả lời trong 24 giờ | Nhiều đánh giá mới, khách thấy tiệm có trách nhiệm |
 | 8 | **Tự làm bộ sưu tập mùa lễ** | 4 phút | Chọn dịp (Tết, 8/3, 20/10…) → chọn 4–8 mẫu móng hợp màu của dịp → đặt tên bộ sưu tập → đăng lên web và Zalo 4 tuần trước dịp | Có chiến dịch theo mùa mà không cần mua Gói Mùa |
 
-**Cuối mỗi video** đều có một câu chuẩn: *"Nếu chị muốn Nailmark làm hộ toàn bộ, có gói Làm hộ trọn gói 9,9 triệu. Nếu muốn nhân viên của tiệm tự làm thành thạo, có gói Chuyển giao 4,99 triệu."*
+**Cuối mỗi video** đều có một câu chuẩn: *"Nếu chị muốn Nailmark làm hộ toàn bộ, có gói Làm hộ trọn gói 9,99 triệu. Nếu muốn nhân viên của tiệm tự làm thành thạo, có gói Chuyển giao 4,99 triệu."*
 
 Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo lợi nhuận chính, nên video này phải cho thấy tự làm thì được, nhưng tốn thời gian.
 
@@ -57,9 +57,9 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
 
 | Khách hỏi | Trợ lý AI trả lời |
 |---|---|
-| "Em làm giúp chị phần ảnh được không?" | "Dạ, video số 1 hướng dẫn chụp và video số 2 hướng dẫn tải ảnh, mỗi video 2–3 phút ạ [link]. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,9 triệu ạ." |
+| "Em làm giúp chị phần ảnh được không?" | "Dạ, video số 1 hướng dẫn chụp và video số 2 hướng dẫn tải ảnh, mỗi video 2–3 phút ạ [link]. Nếu chị muốn Nailmark làm hộ toàn bộ thì có gói Làm hộ trọn gói 9,99 triệu ạ." |
 | "Chị muốn đổi giá." | "Dạ, chị làm theo video số 3 [link]. Web tự cập nhật ngay sau khi chị lưu ạ." |
-| "Có tên miền riêng không em?" | "Dạ, cả 3 gói Khởi đầu, Chuẩn, Đẳng cấp đều dùng đường dẫn của Nailmark. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,9 triệu ạ." |
+| "Có tên miền riêng không em?" | "Dạ, cả 3 gói Khởi đầu, Chuẩn, Đẳng cấp đều dùng đường dẫn của Nailmark. Tên miền riêng của tiệm chỉ có ở gói Làm hộ trọn gói 9,99 triệu ạ." |
 | "Sao web chưa có bộ sưu tập Tết?" | "Dạ, chị có thể tự làm theo video số 8 [link], hoặc mua Gói Mùa Tết 1,49 triệu để Nailmark làm sẵn, kèm ảnh quà tặng cho 30 khách ạ." |
 | "Gọi điện cho chị được không?" | "Dạ, Nailmark hỗ trợ qua tin nhắn để trả lời nhanh và lưu lại hướng dẫn cho chị. Chị cần làm phần nào ạ? Em gửi đúng video ngay." |
 | "Năm sau gia hạn bao nhiêu?" | "Dạ, gói Khởi đầu duy trì 499.000đ/năm. Giá này giữ nguyên cho chị kể cả khi Nailmark tăng giá sau này ạ." |
@@ -94,7 +94,7 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
    Mỗi bước có **thanh tiến độ** và **điểm hoàn thiện 0–100%**. Video nằm ngay trong bước đang làm, không phải đi tìm.
 3. **Khó làm sai.** Giao diện cố định, không kéo thả tự do. Ảnh tải lên được AI tự cắt khung và chỉnh sáng, không đổi màu móng. Ô nào bắt buộc mà còn trống thì chưa cho xuất bản. Bấm "Xem trước" là thấy ngay trên điện thoại.
 4. **Máy nhắc thay người.** Nếu tiệm bỏ dở, Zalo OA tự nhắc vào ngày 1, ngày 3 và ngày 7. Mỗi lần chỉ nhắc đúng bước còn thiếu, kèm link video của bước đó.
-5. **Trợ lý AI 24/7.** Câu hỏi nào cũng được trả lời bằng đúng video và đúng bước (mục B). Nếu tiệm muốn có người làm, trợ lý trả lời thẳng: gói Làm hộ trọn gói 9,9 triệu.
+5. **Trợ lý AI 24/7.** Câu hỏi nào cũng được trả lời bằng đúng video và đúng bước (mục B). Nếu tiệm muốn có người làm, trợ lý trả lời thẳng: gói Làm hộ trọn gói 9,99 triệu.
 6. **Đo để sửa công cụ, không thêm người.**
    - Chỉ tiêu: **≥ 80% tiệm tự xuất bản web trong 7 ngày.**
    - Nếu tỷ lệ thấp, xem tiệm hay kẹt ở bước nào rồi sửa video hoặc công cụ của bước đó. Không giải quyết bằng cách thêm người hỗ trợ.
@@ -112,7 +112,7 @@ Riêng **video 8** dẫn sang **Gói Mùa (1,49 triệu)**. Đây là gói tạo
   - 10 phút: điểm tin, ví dụ tính năng mới hoặc mùa lễ sắp tới.
   - 40 phút: trả lời câu hỏi, chia sẻ màn hình để làm mẫu.
   - 10 phút: hỏi tự do.
-  - Không xử lý riêng web của từng tiệm. Việc đó thuộc gói Làm hộ 9,9 triệu.
+  - Không xử lý riêng web của từng tiệm. Việc đó thuộc gói Làm hộ 9,99 triệu.
 - **Ghi hình.** AI cắt mỗi câu trả lời thành video ngắn rồi thêm vào thư viện. Câu hỏi càng lặp lại nhiều thì buổi họp càng ngắn dần.
 - **Đo:** số tiệm tham gia, số câu hỏi, số câu hỏi mới chưa có video. Mục tiêu là số câu hỏi mới giảm theo từng tuần.
 - **Bán thêm:** cuối buổi giới thiệu ngắn Gói Mùa sắp tới, hoặc gói Chuyển giao cho tiệm muốn tự chủ.

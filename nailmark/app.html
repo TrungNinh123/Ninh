@@ -50,6 +50,7 @@ td input{width:120px;text-align:right;padding:8px;font-size:16px}
 .step{display:none}.step.on{display:block;animation:in .35s ease}
 @keyframes in{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
 @media (prefers-reduced-motion:reduce){.step.on{animation:none}}
+.nhan{list-style:none;padding:0;margin:10px 0 0;display:grid;gap:6px}.nhan li{display:flex;justify-content:space-between;gap:10px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:8px 12px;font-size:14px}.nhan b{font-weight:700}.nhan button{font:inherit;font-size:13px;border:1px solid var(--line);background:transparent;color:var(--accent);border-radius:999px;padding:4px 10px;cursor:pointer;white-space:nowrap}
 .note{background:var(--vang2);color:var(--den);font-size:12.5px;text-align:center;padding:6px 12px}
 </style>
 </head>
@@ -78,14 +79,16 @@ td input{width:120px;text-align:right;padding:8px;font-size:16px}
 </section>
 
 <section class="step" data-s=2>
-  <h1>Chụp 12 ảnh móng đẹp nhất</h1>
-  <p class=lead>Gần cửa sổ, nền vải trơn, không flash, không bộ lọc. AI tự chỉnh sáng, không đổi màu móng.</p>
+  <h1>Thả ảnh và file chị đang có</h1>
+  <p class=lead>Ảnh móng, ảnh chụp bảng giá, file Word, Excel, PDF… Máy tự nhận từng file là gì và đưa vào đúng chỗ. Không phải gõ lại.</p>
   <div class=video><img src="img/m6.jpg" alt=""><div class=pl><b>▶</b><span>Video 2 · 3 phút</span></div></div>
-  <label class=pick>📷 Chụp hoặc chọn ảnh<input type=file id=imgs accept="image/*" multiple></label>
+  <label class=pick>📎 Chọn ảnh hoặc file<input type=file id=imgs accept="image/*,.heic,.pdf,.docx,.xlsx,.csv,.txt" multiple></label>
+  <p class=hint id=dang hidden>Máy đang đọc file…</p>
+  <ul class=nhan id=nhan></ul>
   <div class=grid id=grid></div>
-  <p class=hint id=cnt>0/12 ảnh</p>
-  <button class=btn id=b2 disabled>Đủ ảnh rồi, tiếp</button>
-  <p class=hint>Cần ít nhất 4 ảnh, đẹp nhất là 12.</p>
+  <p class=hint id=cnt>0/12 ảnh móng</p>
+  <button class=btn id=b2 disabled>Tiếp</button>
+  <p class=hint>Cần ít nhất 4 ảnh móng, đẹp nhất là 12. Bảng giá và thông tin tiệm sẽ tự điền ở bước sau.</p>
 </section>
 
 <section class="step" data-s=3>
@@ -94,7 +97,7 @@ td input{width:120px;text-align:right;padding:8px;font-size:16px}
   <div class=video><img src="img/m1.jpg" alt=""><div class=pl><b>▶</b><span>Video 3 · 1 phút</span></div></div>
   <textarea id=gia rows=6 style="font:inherit;font-size:16px;width:100%;padding:12px;border-radius:14px;border:1.5px solid var(--line);background:var(--card);color:var(--ink)" aria-label="Bảng giá">Sơn gel trơn | 150.000đ
 Đắp gel, nối móng | 350.000đ</textarea>
-  <p class=hint>Chụp ảnh bảng giá để AI đọc: <b>sắp có</b>.</p>
+  <p class=hint id=giahint>Gửi ảnh chụp bảng giá hoặc file Word, Excel, PDF ở bước 2 là máy tự điền vào đây. <b>Kiểm lại từng số</b>: máy đọc ảnh mờ có thể nhầm.</p>
   <button class=btn id=b3>Giá đúng rồi, tiếp</button>
 </section>
 
@@ -140,8 +143,24 @@ td input{width:120px;text-align:right;padding:8px;font-size:16px}
   const draw=()=>{grid.innerHTML="";for(let i=0;i<12;i++){const d=document.createElement("div");
     if(files[i]){const im=new Image();im.src=URL.createObjectURL(files[i]);im.alt="Mẫu "+(i+1);d.appendChild(im);}
     const em=document.createElement("em");em.textContent=String(i+1).padStart(2,"0");d.appendChild(em);grid.appendChild(d);}
-    $("cnt").textContent=`${Math.min(files.length,12)}/12 ảnh`;$("b2").disabled=files.length<4;};
-  draw();$("imgs").addEventListener("change",e=>{files=[...files,...e.target.files].slice(0,12);draw();});
+    $("cnt").textContent=`${Math.min(files.length,12)}/12 ảnh móng`;$("b2").disabled=files.length<4;};
+  const LOAI={anh_mong:"Ảnh móng",bang_gia:"Bảng giá",thong_tin:"Thông tin tiệm",khong_ro:"Chưa đọc được"};let recs=[];
+  const giaRows=()=>{const seen=new Set();return recs.filter(r=>r.loai==="bang_gia").flatMap(r=>r.gia).filter(g=>{const k=g[0].toLowerCase().replace(/\s+/g," ").trim();if(seen.has(k))return false;seen.add(k);return true;}).map(g=>g[0]+" | "+g[1]);};
+  const ve=()=>{files=recs.filter(r=>r.loai==="anh_mong").map(r=>r.file).slice(0,12);draw();
+    $("nhan").innerHTML="";recs.forEach((r,i)=>{const li=document.createElement("li");const t=document.createElement("span");
+      t.innerHTML="<b></b> · ";t.querySelector("b").textContent=LOAI[r.loai];t.append(r.file.name+(r.loai==="bang_gia"?` (${r.gia.length} dòng giá)`:r.ly_do?` (${r.ly_do})`:""));li.append(t);
+      if(r.anh&&(r.loai==="anh_mong"||r.loai==="bang_gia")){const bt=document.createElement("button");bt.type="button";bt.textContent=r.loai==="anh_mong"?"Đây là bảng giá":"Đây là ảnh móng";
+        bt.onclick=()=>{r.loai=r.loai==="anh_mong"?"bang_gia":"anh_mong";if(r.loai==="anh_mong")r.gia=[];ve();dienGia();};li.append(bt);}
+      $("nhan").append(li);});};
+  const dienGia=()=>{const g=giaRows();if(g.length)$("gia").value=g.join("\n");};
+  $("imgs").addEventListener("change",async e=>{const fs=[...e.target.files];if(!fs.length)return;$("dang").hidden=false;
+    const fd=new FormData();fs.forEach(f=>fd.append("tep",f));
+    try{const r=await fetch("/api/doc-tep",{method:"POST",body:fd});const d=await r.json();
+      d.forEach((x,i)=>{recs.push({file:fs[i],loai:x.loai,gia:x.gia||[],ly_do:x.ly_do,anh:/^image\//.test(fs[i].type)||/\.(heic|heif)$/i.test(fs[i].name)});
+        const tt=x.thong_tin||{};if(tt.zalo&&!$("zalo").value)$("zalo").value=tt.zalo;if(tt.gio&&!$("gio").value)$("gio").value=tt.gio;if(tt.dia_chi&&!$("dc").value)$("dc").value=tt.dia_chi;});
+    }catch(err){fs.forEach(f=>recs.push({file:f,loai:/^image/.test(f.type)?"anh_mong":"khong_ro",gia:[],anh:/^image/.test(f.type),ly_do:"máy chưa đọc được, thử lại"}));}
+    $("dang").hidden=true;e.target.value="";ve();dienGia();$("zalo").dispatchEvent(new Event("input"));});
+  draw();
   $("b2").onclick=()=>show(3);$("b3").onclick=()=>show(4);
   $("zalo").addEventListener("input",e=>{$("b4").disabled=e.target.value.replace(/\D/g,"").length!==10;});
   $("b4").onclick=async()=>{$("b4").disabled=true;$("b4").textContent="Đang tạo web…";
